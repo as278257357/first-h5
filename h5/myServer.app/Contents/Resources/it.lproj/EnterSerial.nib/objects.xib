@@ -1,0 +1,110 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="10" name="allObjects">
+    <object class="IBCarbonEditText" id="254">
+      <ostype name="controlSignature">REGI</ostype>
+      <int name="controlID">1</int>
+      <boolean name="isUnicode">TRUE</boolean>
+      <boolean name="isSingleLine">TRUE</boolean>
+      <string name="viewFrame">125 91 349 16 </string>
+      <string name="bounds">91 125 107 474 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="182">
+      <string name="viewFrame">0 0 497 170 </string>
+      <array count="8" name="subviews">
+        <object class="IBCarbonStaticText" id="250">
+          <string name="title">Immettere per cortesia il nome e il numero di serie nel box</string>
+          <string name="viewFrame">17 20 457 18 </string>
+          <string name="bounds">20 17 38 474 </string>
+        </object>
+        <object class="IBCarbonEditText" id="253">
+          <ostype name="controlSignature">REGI</ostype>
+          <boolean name="isUnicode">TRUE</boolean>
+          <boolean name="isSingleLine">TRUE</boolean>
+          <string name="viewFrame">125 61 349 16 </string>
+          <string name="bounds">61 125 77 474 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="251">
+          <string name="title">Nome</string>
+          <string name="viewFrame">77 60 37 16 </string>
+          <string name="bounds">60 77 76 114 </string>
+        </object>
+        <reference idRef="254"/>
+        <object class="IBCarbonStaticText" id="252">
+          <string name="title">Numero di serie</string>
+          <string name="viewFrame">17 90 101 16 </string>
+          <string name="bounds">90 17 106 118 </string>
+        </object>
+        <object class="IBCarbonButton" id="249">
+          <ostype name="command">not!</ostype>
+          <int name="buttonType">2</int>
+          <string name="title">Annulla</string>
+          <string name="viewFrame">307 130 79 20 </string>
+          <string name="bounds">130 307 150 386 </string>
+        </object>
+        <object class="IBCarbonButton" id="248">
+          <ostype name="command">ok  </ostype>
+          <int name="buttonType">1</int>
+          <string name="title">Valida</string>
+          <string name="viewFrame">398 130 79 20 </string>
+          <string name="bounds">130 398 150 477 </string>
+        </object>
+        <object class="IBCarbonButton" id="255">
+          <ostype name="command">RECV</ostype>
+          <string name="helpTagText">Hai perso il Nome o il Numero di serie? Premi qui per recuperarli</string>
+          <int name="buttonType">2</int>
+          <string name="title">Informazioni perse</string>
+          <string name="viewFrame">122 130 143 20 </string>
+          <string name="bounds">130 122 150 265 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 170 497 </string>
+    </object>
+    <reference idRef="252"/>
+    <object class="IBCarbonWindow" id="180">
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="themeBrush">5</int>
+      <int name="windowPosition">1</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Registra</string>
+      <reference name="rootControl" idRef="182"/>
+      <string name="windowRect">262 248 432 745 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="249"/>
+    <reference idRef="253"/>
+    <reference idRef="251"/>
+    <reference idRef="250"/>
+    <reference idRef="248"/>
+    <reference idRef="255"/>
+  </array>
+  <array count="10" name="allParents">
+    <reference idRef="182"/>
+    <reference idRef="180"/>
+    <reference idRef="182"/>
+    <reference idRef="1"/>
+    <reference idRef="182"/>
+    <reference idRef="182"/>
+    <reference idRef="182"/>
+    <reference idRef="182"/>
+    <reference idRef="182"/>
+    <reference idRef="182"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>EnterSerial</string>
+    <reference idRef="180"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">256</unsigned_int>
+</object>

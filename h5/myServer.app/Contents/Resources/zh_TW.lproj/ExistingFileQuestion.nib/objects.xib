@@ -1,0 +1,1732 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="159" name="allObjects">
+    <object class="IBCarbonStaticText" id="329">
+      <boolean name="hidden">TRUE</boolean>
+      <int name="controlSize">1</int>
+      <string name="title">(即將被傳輸)</string>
+      <string name="viewFrame">664 406 136 13 </string>
+      <string name="bounds">406 664 419 800 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="424">
+      <int name="controlSize">1</int>
+      <string name="title">(即將被傳輸)</string>
+      <string name="viewFrame">572 236 136 13 </string>
+      <string name="bounds">236 572 249 708 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="445">
+      <ostype name="controlSignature">ASK </ostype>
+      <int name="controlID">8</int>
+      <int name="controlSize">1</int>
+      <string name="helpTagText">是否套用您的選擇到其他已經存在的檔案</string>
+      <string name="title">套用選擇到剩餘的檔案</string>
+      <string name="viewFrame">484 111 206 14 </string>
+      <string name="bounds">111 484 125 690 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="343">
+      <ostype name="controlSignature">ASK </ostype>
+      <int name="fontStyle">-3</int>
+      <int name="controlSize">1</int>
+      <string name="title">本地檔案 :</string>
+      <string name="viewFrame">478 180 56 13 </string>
+      <string name="bounds">180 478 193 534 </string>
+    </object>
+    <object class="IBCarbonButton" id="450">
+      <ostype name="controlSignature">ASK </ostype>
+      <int name="controlID">15</int>
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <string name="helpTagText">比較一個檔案的本地和遠程的副本，並顯示其不同。（需要已安裝 BBEdit 或 TextWrangler)</string>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingBottomKind">2</int>
+        <int name="bindingRightKind">2</int>
+      </object>
+      <int name="buttonType">2</int>
+      <string name="title">比較</string>
+      <string name="viewFrame">20 280 70 20 </string>
+      <string name="bounds">280 20 300 90 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="415">
+      <ostype name="controlSignature">ASK </ostype>
+      <int name="fontStyle">-3</int>
+      <int name="controlSize">1</int>
+      <string name="title">本地檔案 :</string>
+      <string name="viewFrame">508 174 56 13 </string>
+      <string name="bounds">174 508 187 564 </string>
+    </object>
+    <object class="IBCarbonRoundButton" id="381">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">4</int>
+      <ostype name="command">UPON</ostype>
+      <string name="helpTagText">目錄曏上</string>
+      <string name="viewFrame">-20678 -1207 0 0 </string>
+      <string name="bounds">-1207 -20678 -1207 -20678 </string>
+    </object>
+    <object class="IBCarbonWindow" id="412">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="themeBrush">53</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title"></string>
+      <object name="rootControl" class="IBCarbonRootControl" id="413">
+        <string name="viewFrame">0 0 474 187 </string>
+        <array count="24" name="subviews">
+          <object class="IBCarbonStaticText" id="447">
+            <string name="title">伺服器檔案可能已被修改（自您最後一次上傳以後）&#10;&#10;您可以取代伺服器檔案，或用編輯器編輯它</string>
+            <string name="viewFrame">19 15 435 51 </string>
+            <string name="bounds">15 19 66 454 </string>
+          </object>
+          <object class="IBCarbonIcon" id="422">
+            <ostype name="controlSignature">ASK </ostype>
+            <int name="controlID">13</int>
+            <string name="helpTagText">標明傳輸方向</string>
+            <int name="contentType">132</int>
+            <int name="contentResID">1145851716</int>
+            <int name="creator">558257232</int>
+            <string name="viewFrame">478 15 64 64 </string>
+            <string name="bounds">15 478 79 542 </string>
+          </object>
+          <reference idRef="415"/>
+          <object class="IBCarbonStaticText" id="429">
+            <int name="controlSize">1</int>
+            <string name="title">大    小:</string>
+            <string name="viewFrame">520 195 38 13 </string>
+            <string name="bounds">195 520 208 558 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="442">
+            <ostype name="controlSignature">ASK </ostype>
+            <int name="controlID">2</int>
+            <int name="controlSize">1</int>
+            <string name="title">狀態文字</string>
+            <string name="viewFrame">570 195 315 13 </string>
+            <string name="bounds">195 570 208 885 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="419">
+            <int name="controlSize">1</int>
+            <string name="title">修改日期:</string>
+            <string name="viewFrame">512 215 48 13 </string>
+            <string name="bounds">215 512 228 560 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="426">
+            <ostype name="controlSignature">ASK </ostype>
+            <int name="controlID">3</int>
+            <int name="controlSize">1</int>
+            <string name="title">狀態文字</string>
+            <string name="viewFrame">572 215 315 13 </string>
+            <string name="bounds">215 572 228 887 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="441">
+            <ostype name="controlSignature">ASK </ostype>
+            <int name="controlID">14</int>
+            <string name="title">下載</string>
+            <string name="viewFrame">496 79 28 16 </string>
+            <string name="bounds">79 496 95 524 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="448">
+            <int name="controlSize">1</int>
+            <string name="title">名    稱:</string>
+            <string name="viewFrame">14 82 44 13 </string>
+            <string name="bounds">82 14 95 58 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="443">
+            <ostype name="controlSignature">ASK </ostype>
+            <int name="controlID">5</int>
+            <int name="controlSize">1</int>
+            <string name="title">狀態文字</string>
+            <string name="viewFrame">67 82 387 15 </string>
+            <string name="bounds">82 67 97 454 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="428">
+            <int name="controlSize">1</int>
+            <string name="title">大    小:</string>
+            <string name="viewFrame">14 96 40 13 </string>
+            <string name="bounds">96 14 109 54 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="425">
+            <ostype name="controlSignature">ASK </ostype>
+            <int name="controlID">6</int>
+            <int name="controlSize">1</int>
+            <string name="title">狀態文字</string>
+            <string name="viewFrame">67 96 387 15 </string>
+            <string name="bounds">96 67 111 454 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="446">
+            <int name="controlSize">1</int>
+            <string name="title">修改日期:</string>
+            <string name="viewFrame">7 110 53 13 </string>
+            <string name="bounds">110 7 123 60 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="444">
+            <ostype name="controlSignature">ASK </ostype>
+            <int name="controlID">7</int>
+            <int name="controlSize">1</int>
+            <string name="title">狀態文字</string>
+            <string name="viewFrame">67 110 387 15 </string>
+            <string name="bounds">110 67 125 454 </string>
+          </object>
+          <reference idRef="445"/>
+          <object class="IBCarbonButton" id="427">
+            <ostype name="controlSignature">ASK </ostype>
+            <int name="controlID">10</int>
+            <ostype name="command">SKIP</ostype>
+            <string name="helpTagText">忽略此檔案並繼續傳輸</string>
+            <string name="title">跳過</string>
+            <string name="viewFrame">484 140 89 20 </string>
+            <string name="bounds">140 484 160 573 </string>
+          </object>
+          <object class="IBCarbonButton" id="432">
+            <ostype name="controlSignature">ASK </ostype>
+            <int name="controlID">9</int>
+            <ostype name="command">not!</ostype>
+            <string name="helpTagText">停止上傳</string>
+            <int name="buttonType">2</int>
+            <string name="title">取消</string>
+            <string name="viewFrame">162 145 89 20 </string>
+            <string name="bounds">145 162 165 251 </string>
+          </object>
+          <object class="IBCarbonButton" id="433">
+            <ostype name="controlSignature">ASK </ostype>
+            <int name="controlID">12</int>
+            <ostype name="command">ok  </ostype>
+            <string name="helpTagText">覆蓋已存在檔案</string>
+            <string name="title">取代</string>
+            <string name="viewFrame">263 145 89 20 </string>
+            <string name="bounds">145 263 165 352 </string>
+          </object>
+          <object class="IBCarbonButton" id="417">
+            <ostype name="controlSignature">ASK </ostype>
+            <int name="controlID">11</int>
+            <ostype name="command">RESU</ostype>
+            <string name="helpTagText">為伺服器檔案打開一個新編輯</string>
+            <int name="buttonType">1</int>
+            <string name="title">編輯</string>
+            <string name="viewFrame">364 145 90 20 </string>
+            <string name="bounds">145 364 165 454 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="431">
+            <ostype name="controlSignature">ASK </ostype>
+            <int name="controlID">4</int>
+            <int name="fontStyle">-3</int>
+            <int name="controlSize">1</int>
+            <string name="title">伺服器檔案 :</string>
+            <string name="viewFrame">497 235 65 13 </string>
+            <string name="bounds">235 497 248 562 </string>
+          </object>
+          <reference idRef="424"/>
+          <object class="IBCarbonStaticText" id="414">
+            <int name="controlSize">1</int>
+            <string name="title">名    稱:</string>
+            <string name="viewFrame">520 256 38 13 </string>
+            <string name="bounds">256 520 269 558 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="423">
+            <ostype name="controlSignature">ASK </ostype>
+            <int name="controlID">1</int>
+            <int name="controlSize">1</int>
+            <string name="title">狀態文字</string>
+            <string name="viewFrame">572 257 315 13 </string>
+            <string name="bounds">257 572 270 887 </string>
+          </object>
+          <object class="IBCarbonButton" id="453">
+            <ostype name="controlSignature">ASK </ostype>
+            <int name="controlID">15</int>
+            <ostype name="command">DIFF</ostype>
+            <string name="helpTagText">比較一個檔案的本地和遠程的副本，並顯示其不同。（需要已安裝 BBEdit 或 TextWrangler)</string>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingBottomKind">2</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <string name="title">比較</string>
+            <string name="viewFrame">19 147 70 20 </string>
+            <string name="bounds">147 19 167 89 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 187 474 </string>
+      </object>
+      <string name="windowRect">489 94 676 568 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <object class="IBCarbonButton" id="399">
+      <ostype name="controlSignature">ASK </ostype>
+      <int name="controlID">12</int>
+      <ostype name="command">ok  </ostype>
+      <string name="helpTagText">覆蓋已存在檔案</string>
+      <string name="title">取代</string>
+      <string name="viewFrame">324 105 89 20 </string>
+      <string name="bounds">105 324 125 413 </string>
+    </object>
+    <object class="IBCarbonIcon" id="597">
+      <ostype name="controlSignature">ASK </ostype>
+      <int name="controlID">1000</int>
+      <string name="helpTagText">Indicates the direction of transfer</string>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingLeftKind">1</int>
+      </object>
+      <int name="contentType">132</int>
+      <int name="contentResID">1734635363</int>
+      <int name="creator">0</int>
+      <string name="viewFrame">20 52 64 64 </string>
+      <string name="bounds">52 20 116 84 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="319">
+      <int name="controlSize">1</int>
+      <string name="title">修改日期:</string>
+      <string name="viewFrame">92 103 48 13 </string>
+      <string name="bounds">103 92 116 140 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="370">
+      <int name="controlSize">1</int>
+      <string name="title">名    稱:</string>
+      <string name="viewFrame">490 198 38 13 </string>
+      <string name="bounds">198 490 211 528 </string>
+    </object>
+    <object class="IBCarbonRoundButton" id="281">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">7</int>
+      <ostype name="command">CLLI</ostype>
+      <string name="helpTagText">切換分欄/列表檢視</string>
+      <string name="viewFrame">-20678 -7 0 0 </string>
+      <string name="bounds">-7 -20678 -7 -20678 </string>
+    </object>
+    <object class="IBCarbonButton" id="332">
+      <ostype name="controlSignature">ASK </ostype>
+      <int name="controlID">10</int>
+      <ostype name="command">SKIP</ostype>
+      <string name="helpTagText">忽略此檔案並繼續傳輸</string>
+      <string name="title">跳過</string>
+      <string name="viewFrame">20 280 89 20 </string>
+      <string name="bounds">280 20 300 109 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="398">
+      <ostype name="controlSignature">ASK </ostype>
+      <int name="controlID">6</int>
+      <int name="controlSize">1</int>
+      <string name="title">狀態文字</string>
+      <string name="viewFrame">98 67 315 15 </string>
+      <string name="bounds">67 98 82 413 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="368">
+      <ostype name="controlSignature">ASK </ostype>
+      <int name="controlID">2</int>
+      <int name="controlSize">1</int>
+      <string name="title">狀態文字</string>
+      <string name="viewFrame">542 211 315 13 </string>
+      <string name="bounds">211 542 224 857 </string>
+    </object>
+    <reference idRef="441"/>
+    <object class="IBCarbonStaticText" id="323">
+      <ostype name="controlSignature">ASK </ostype>
+      <int name="controlID">1</int>
+      <int name="controlSize">1</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingLeftKind">1</int>
+        <int name="bindingRightKind">2</int>
+      </object>
+      <string name="title">狀態文字</string>
+      <string name="viewFrame">150 75 207 13 </string>
+      <string name="bounds">75 150 88 357 </string>
+    </object>
+    <object class="IBCarbonRoundButton" id="277">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">2</int>
+      <ostype name="command">REFR</ostype>
+      <string name="helpTagText">刷新目錄</string>
+      <string name="viewFrame">31425 2237 0 0 </string>
+      <string name="bounds">2237 31425 2237 31425 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="390">
+      <int name="controlSize">1</int>
+      <string name="title">大    小:</string>
+      <string name="viewFrame">42 67 41 13 </string>
+      <string name="bounds">67 42 80 83 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="357">
+      <int name="controlSize">1</int>
+      <string name="title">大    小:</string>
+      <string name="viewFrame">490 210 38 13 </string>
+      <string name="bounds">210 490 223 528 </string>
+    </object>
+    <object class="IBCarbonPopupButton" id="402">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">1</int>
+      <int name="controlSize">1</int>
+      <ostype name="command">PATH</ostype>
+      <string name="helpTagText">目錄選擇</string>
+      <object name="menu" class="IBCarbonMenu" id="410">
+        <string name="title">彈出:</string>
+        <array count="1" name="items">
+          <object class="IBCarbonMenuItem" id="376">
+            <string name="title">&lt;未知&gt;</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+        </array>
+      </object>
+      <int name="titleJustification">-2</int>
+      <string name="viewFrame">31297 -1366 0 0 </string>
+      <string name="bounds">-1366 31297 -1366 31297 </string>
+    </object>
+    <object class="IBCarbonRoundButton" id="396">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">2</int>
+      <ostype name="command">REFR</ostype>
+      <string name="helpTagText">刷新目錄</string>
+      <string name="viewFrame">31427 1111 0 0 </string>
+      <string name="bounds">1111 31427 1111 31427 </string>
+    </object>
+    <reference idRef="428"/>
+    <object class="IBCarbonStaticText" id="391">
+      <ostype name="controlSignature">ASK </ostype>
+      <int name="controlID">1</int>
+      <int name="controlSize">1</int>
+      <string name="title">狀態文字</string>
+      <string name="viewFrame">542 198 315 13 </string>
+      <string name="bounds">198 542 211 857 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="317">
+      <int name="controlSize">1</int>
+      <string name="title">位置:</string>
+      <string name="viewFrame">114 76 26 13 </string>
+      <string name="bounds">76 114 89 140 </string>
+    </object>
+    <reference idRef="432"/>
+    <object class="IBCarbonMenuItem" id="440">
+      <string name="title">&lt;未知&gt;</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <object class="IBCarbonStaticText" id="325">
+      <ostype name="controlSignature">ASK </ostype>
+      <int name="controlID">3</int>
+      <int name="controlSize">1</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingLeftKind">1</int>
+        <int name="bindingRightKind">2</int>
+      </object>
+      <string name="title">狀態文字</string>
+      <string name="viewFrame">150 103 220 13 </string>
+      <string name="bounds">103 150 116 370 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="380">
+      <ostype name="controlSignature">ASK </ostype>
+      <int name="controlID">8</int>
+      <int name="controlSize">1</int>
+      <string name="helpTagText">是否套用您的選擇到其他已經存在的檔案</string>
+      <string name="title">套用選擇到剩餘的檔案</string>
+      <string name="viewFrame">484 111 206 14 </string>
+      <string name="bounds">111 484 125 690 </string>
+    </object>
+    <object class="IBCarbonDBListView" id="420">
+      <ostype name="controlSignature">SESS</ostype>
+      <string name="helpTagText">FTP 列表</string>
+      <array count="4" name="listViewColumns">
+        <object class="IBCarbonDBListViewColumn">
+          <int name="sortOrder">1</int>
+        </object>
+        <object class="IBCarbonDBListViewColumn">
+          <int name="sortOrder">1</int>
+        </object>
+        <object class="IBCarbonDBListViewColumn">
+          <int name="sortOrder">1</int>
+        </object>
+        <object class="IBCarbonDBListViewColumn">
+          <int name="sortOrder">1</int>
+        </object>
+      </array>
+      <string name="viewFrame">-20798 1192 0 0 </string>
+      <string name="bounds">1192 -20798 1192 -20798 </string>
+    </object>
+    <reference idRef="429"/>
+    <object class="IBCarbonButton" id="367">
+      <ostype name="controlSignature">ASK </ostype>
+      <int name="controlID">10</int>
+      <ostype name="command">SKIP</ostype>
+      <string name="helpTagText">忽略此檔案並繼續傳輸</string>
+      <string name="title">跳過</string>
+      <string name="viewFrame">484 140 89 20 </string>
+      <string name="bounds">140 484 160 573 </string>
+    </object>
+    <object class="IBCarbonRoundButton" id="288">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">5</int>
+      <ostype name="command">TRAN</ostype>
+      <string name="helpTagText">顯示/隱藏 FTP 終端</string>
+      <string name="viewFrame">-20678 -1383 0 0 </string>
+      <string name="bounds">-1383 -20678 -1383 -20678 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="316">
+      <ostype name="controlSignature">ASK </ostype>
+      <int name="controlID">4</int>
+      <int name="fontStyle">4</int>
+      <int name="controlSize">1</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingLeftKind">1</int>
+        <int name="bindingRightKind">2</int>
+      </object>
+      <string name="title">伺服器檔案 :</string>
+      <string name="viewFrame">92 52 265 16 </string>
+      <string name="bounds">52 92 68 357 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="322">
+      <int name="controlSize">1</int>
+      <string name="title">修改日期:</string>
+      <string name="viewFrame">92 212 48 13 </string>
+      <string name="bounds">212 92 225 140 </string>
+    </object>
+    <object class="IBCarbonButton" id="358">
+      <ostype name="controlSignature">ASK </ostype>
+      <int name="controlID">12</int>
+      <ostype name="command">ok  </ostype>
+      <string name="helpTagText">覆蓋已存在檔案</string>
+      <string name="title">取代</string>
+      <string name="viewFrame">324 105 89 20 </string>
+      <string name="bounds">105 324 125 413 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="406">
+      <ostype name="controlSignature">ASK </ostype>
+      <int name="controlID">2</int>
+      <int name="controlSize">1</int>
+      <string name="title">狀態文字</string>
+      <string name="viewFrame">542 210 315 13 </string>
+      <string name="bounds">210 542 223 857 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="348">
+      <ostype name="controlSignature">ASK </ostype>
+      <int name="controlID">7</int>
+      <int name="controlSize">1</int>
+      <string name="title">狀態文字</string>
+      <string name="viewFrame">98 81 315 15 </string>
+      <string name="bounds">81 98 96 413 </string>
+    </object>
+    <reference idRef="419"/>
+    <reference idRef="376"/>
+    <reference idRef="431"/>
+    <object class="IBCarbonStaticText" id="326">
+      <ostype name="controlSignature">ASK </ostype>
+      <int name="controlID">5</int>
+      <int name="controlSize">1</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingLeftKind">1</int>
+        <int name="bindingRightKind">2</int>
+      </object>
+      <string name="title">狀態文字</string>
+      <string name="viewFrame">150 184 207 13 </string>
+      <string name="bounds">184 150 197 357 </string>
+    </object>
+    <reference idRef="413"/>
+    <reference idRef="425"/>
+    <object class="IBCarbonChasingArrows" id="355">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">6</int>
+      <string name="viewFrame">18014 -15586 16 16 </string>
+      <string name="bounds">-15586 18014 -15570 18030 </string>
+    </object>
+    <object class="IBCarbonRoundButton" id="377">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">5</int>
+      <ostype name="command">TRAN</ostype>
+      <string name="helpTagText">顯示/隱藏 FTP 終端</string>
+      <string name="viewFrame">-20678 -7 0 0 </string>
+      <string name="bounds">-7 -20678 -7 -20678 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="315">
+      <ostype name="controlSignature">ASK </ostype>
+      <int name="fontStyle">4</int>
+      <int name="controlSize">1</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingLeftKind">1</int>
+        <int name="bindingRightKind">2</int>
+      </object>
+      <string name="title">本地檔案 :</string>
+      <string name="viewFrame">92 160 257 16 </string>
+      <string name="bounds">160 92 176 349 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="330">
+      <ostype name="controlSignature">ASK </ostype>
+      <int name="controlID">8</int>
+      <int name="controlSize">1</int>
+      <ostype name="command">ASKK</ostype>
+      <string name="helpTagText">是否套用您的選擇到其他已經存在的檔案</string>
+      <string name="title">套用選擇到剩餘的檔案</string>
+      <string name="viewFrame">20 251 206 14 </string>
+      <string name="bounds">251 20 265 226 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="338">
+      <ostype name="controlSignature">ASK </ostype>
+      <int name="controlID">14</int>
+      <string name="title">下載</string>
+      <string name="viewFrame">497 78 29 16 </string>
+      <string name="bounds">78 497 94 526 </string>
+    </object>
+    <object class="IBCarbonDBListView" id="430">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">8</int>
+      <boolean name="hidden">TRUE</boolean>
+      <string name="helpTagText">FTP 列表</string>
+      <array count="4" name="listViewColumns">
+        <object class="IBCarbonDBListViewColumn">
+          <int name="sortOrder">1</int>
+        </object>
+        <object class="IBCarbonDBListViewColumn">
+          <int name="sortOrder">1</int>
+        </object>
+        <object class="IBCarbonDBListViewColumn">
+          <int name="sortOrder">1</int>
+        </object>
+        <object class="IBCarbonDBListViewColumn">
+          <int name="sortOrder">1</int>
+        </object>
+      </array>
+      <string name="viewFrame">31297 1192 0 0 </string>
+      <string name="bounds">1192 31297 1192 31297 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="320">
+      <int name="controlSize">1</int>
+      <string name="title">位置:</string>
+      <string name="viewFrame">114 184 26 13 </string>
+      <string name="bounds">184 114 197 140 </string>
+    </object>
+    <object class="IBCarbonRoundButton" id="278">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">3</int>
+      <ostype name="command">GOTO</ostype>
+      <string name="helpTagText">轉到目錄</string>
+      <string name="viewFrame">-27392 -1367 0 0 </string>
+      <string name="bounds">-1367 -27392 -1367 -27392 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="383">
+      <ostype name="controlSignature">ASK </ostype>
+      <int name="controlID">4</int>
+      <int name="fontStyle">-3</int>
+      <int name="controlSize">1</int>
+      <string name="title">伺服器檔案 :</string>
+      <string name="viewFrame">20 38 70 13 </string>
+      <string name="bounds">38 20 51 90 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="385">
+      <ostype name="controlSignature">ASK </ostype>
+      <int name="controlID">14</int>
+      <string name="title">下載</string>
+      <string name="viewFrame">496 78 28 16 </string>
+      <string name="bounds">78 496 94 524 </string>
+    </object>
+    <object class="IBCarbonIcon" id="387">
+      <ostype name="controlSignature">ASK </ostype>
+      <int name="controlID">13</int>
+      <string name="helpTagText">標明傳輸方向</string>
+      <int name="contentType">132</int>
+      <int name="contentResID">1145851716</int>
+      <int name="creator">558257232</int>
+      <string name="viewFrame">478 15 64 64 </string>
+      <string name="bounds">15 478 79 542 </string>
+    </object>
+    <reference idRef="422"/>
+    <reference idRef="447"/>
+    <reference idRef="453"/>
+    <object class="IBCarbonStaticText" id="407">
+      <int name="controlSize">1</int>
+      <string name="title">名    稱:</string>
+      <string name="viewFrame">490 198 38 13 </string>
+      <string name="bounds">198 490 211 528 </string>
+    </object>
+    <reference idRef="433"/>
+    <object class="IBCarbonIcon" id="593">
+      <ostype name="controlSignature">ASK </ostype>
+      <int name="controlID">13</int>
+      <string name="helpTagText">Indicates the direction of transfer</string>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingRightKind">2</int>
+      </object>
+      <int name="contentType">132</int>
+      <int name="contentResID">1145851716</int>
+      <int name="creator">558257232</int>
+      <string name="viewFrame">365 115 48 48 </string>
+      <string name="bounds">115 365 163 413 </string>
+    </object>
+    <object class="IBCarbonChasingArrows" id="416">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">6</int>
+      <string name="viewFrame">2685 -15542 16 16 </string>
+      <string name="bounds">-15542 2685 -15526 2701 </string>
+    </object>
+    <object class="IBCarbonDBListView" id="285">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">8</int>
+      <boolean name="hidden">TRUE</boolean>
+      <string name="helpTagText">FTP 列表</string>
+      <array count="4" name="listViewColumns">
+        <object class="IBCarbonDBListViewColumn">
+          <int name="sortOrder">1</int>
+        </object>
+        <object class="IBCarbonDBListViewColumn">
+          <int name="sortOrder">1</int>
+        </object>
+        <object class="IBCarbonDBListViewColumn">
+          <int name="sortOrder">1</int>
+        </object>
+        <object class="IBCarbonDBListViewColumn">
+          <int name="sortOrder">1</int>
+        </object>
+      </array>
+      <string name="viewFrame">31295 -162 0 0 </string>
+      <string name="bounds">-162 31295 -162 31295 </string>
+    </object>
+    <object class="IBCarbonRoundButton" id="374">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">9</int>
+      <ostype name="command">QUEW</ostype>
+      <string name="helpTagText">顯示/隱藏佇列</string>
+      <string name="viewFrame">-20678 -7 0 0 </string>
+      <string name="bounds">-7 -20678 -7 -20678 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="523">
+      <ostype name="controlSignature">ASK </ostype>
+      <int name="controlID">17</int>
+      <boolean name="hidden">TRUE</boolean>
+      <int name="controlSize">1</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingRightKind">2</int>
+      </object>
+      <string name="title">“替換”跳過相同項目</string>
+      <string name="viewFrame">297 250 123 16 </string>
+      <string name="bounds">250 297 266 420 </string>
+    </object>
+    <object class="IBCarbonWindow" id="405">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="themeBrush">53</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title"></string>
+      <object name="rootControl" class="IBCarbonRootControl" id="379">
+        <string name="viewFrame">0 0 433 145 </string>
+        <array count="24" name="subviews">
+          <object class="IBCarbonStaticText" id="375">
+            <string name="title">新增的檔案將覆蓋已存在檔案!</string>
+            <string name="viewFrame">20 15 393 19 </string>
+            <string name="bounds">15 20 34 413 </string>
+          </object>
+          <reference idRef="387"/>
+          <reference idRef="383"/>
+          <object class="IBCarbonStaticText" id="400">
+            <int name="controlSize">1</int>
+            <string name="title">名    稱:</string>
+            <string name="viewFrame">42 53 44 13 </string>
+            <string name="bounds">53 42 66 86 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="403">
+            <ostype name="controlSignature">ASK </ostype>
+            <int name="controlID">5</int>
+            <int name="controlSize">1</int>
+            <string name="title">狀態文字</string>
+            <string name="viewFrame">98 53 315 15 </string>
+            <string name="bounds">53 98 68 413 </string>
+          </object>
+          <reference idRef="390"/>
+          <reference idRef="398"/>
+          <reference idRef="385"/>
+          <object class="IBCarbonStaticText" id="411">
+            <int name="controlSize">1</int>
+            <string name="title">修改日期:</string>
+            <string name="viewFrame">34 81 52 13 </string>
+            <string name="bounds">81 34 94 86 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="394">
+            <ostype name="controlSignature">ASK </ostype>
+            <int name="controlID">7</int>
+            <int name="controlSize">1</int>
+            <string name="title">狀態文字</string>
+            <string name="viewFrame">98 81 315 15 </string>
+            <string name="bounds">81 98 96 413 </string>
+          </object>
+          <object class="IBCarbonButton" id="395">
+            <ostype name="controlSignature">ASK </ostype>
+            <int name="controlID">9</int>
+            <ostype name="command">not!</ostype>
+            <string name="helpTagText">停止上傳</string>
+            <int name="buttonType">1</int>
+            <string name="title">取消</string>
+            <string name="viewFrame">223 105 89 20 </string>
+            <string name="bounds">105 223 125 312 </string>
+          </object>
+          <reference idRef="399"/>
+          <reference idRef="380"/>
+          <object class="IBCarbonButton" id="401">
+            <ostype name="controlSignature">ASK </ostype>
+            <int name="controlID">10</int>
+            <ostype name="command">SKIP</ostype>
+            <string name="helpTagText">忽略此檔案並繼續傳輸</string>
+            <string name="title">跳過</string>
+            <string name="viewFrame">484 140 89 20 </string>
+            <string name="bounds">140 484 160 573 </string>
+          </object>
+          <object class="IBCarbonButton" id="393">
+            <ostype name="controlSignature">ASK </ostype>
+            <int name="controlID">11</int>
+            <ostype name="command">RESU</ostype>
+            <string name="helpTagText">嘗試完成不完整的傳輸任務</string>
+            <string name="title">續傳</string>
+            <string name="viewFrame">585 140 90 20 </string>
+            <string name="bounds">140 585 160 675 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="384">
+            <ostype name="controlSignature">ASK </ostype>
+            <int name="fontStyle">-3</int>
+            <int name="controlSize">1</int>
+            <string name="title">本地檔案 :</string>
+            <string name="viewFrame">478 180 56 13 </string>
+            <string name="bounds">180 478 193 534 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="382">
+            <int name="controlSize">1</int>
+            <string name="title">(即將被傳輸)</string>
+            <string name="viewFrame">536 180 136 13 </string>
+            <string name="bounds">180 536 193 672 </string>
+          </object>
+          <reference idRef="407"/>
+          <reference idRef="391"/>
+          <object class="IBCarbonStaticText" id="386">
+            <int name="controlSize">1</int>
+            <string name="title">大    小:</string>
+            <string name="viewFrame">490 210 48 13 </string>
+            <string name="bounds">210 490 223 538 </string>
+          </object>
+          <reference idRef="406"/>
+          <object class="IBCarbonStaticText" id="378">
+            <int name="controlSize">1</int>
+            <string name="title">修改日期:</string>
+            <string name="viewFrame">482 222 54 13 </string>
+            <string name="bounds">222 482 235 536 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="409">
+            <ostype name="controlSignature">ASK </ostype>
+            <int name="controlID">3</int>
+            <int name="controlSize">1</int>
+            <string name="title">狀態文字</string>
+            <string name="viewFrame">542 222 315 13 </string>
+            <string name="bounds">222 542 235 857 </string>
+          </object>
+          <object class="IBCarbonButton" id="452">
+            <ostype name="controlSignature">ASK </ostype>
+            <int name="controlID">15</int>
+            <ostype name="command">DIFF</ostype>
+            <string name="helpTagText">比較一個檔案的本地和遠程的副本，並顯示其不同。（需要已安裝 BBEdit 或 TextWrangler)</string>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingBottomKind">2</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <string name="title">比較</string>
+            <string name="viewFrame">20 105 70 20 </string>
+            <string name="bounds">105 20 125 90 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 145 433 </string>
+      </object>
+      <string name="windowRect">602 350 747 783 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <object class="IBCarbonButton" id="351">
+      <ostype name="controlSignature">ASK </ostype>
+      <int name="controlID">9</int>
+      <ostype name="command">not!</ostype>
+      <string name="helpTagText">停止創建</string>
+      <int name="buttonType">1</int>
+      <string name="title">取消</string>
+      <string name="viewFrame">223 105 89 20 </string>
+      <string name="bounds">105 223 125 312 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="282">
+      <string name="title">&lt;未知&gt;</string>
+    </object>
+    <object class="IBCarbonRoundButton" id="371">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">4</int>
+      <ostype name="command">UPON</ostype>
+      <string name="helpTagText">目錄曏上</string>
+      <string name="viewFrame">-20678 -7 0 0 </string>
+      <string name="bounds">-7 -20678 -7 -20678 </string>
+    </object>
+    <reference idRef="409"/>
+    <object class="IBCarbonMenu" id="347">
+      <string name="title">彈出:</string>
+      <array count="1" name="items">
+        <object class="IBCarbonMenuItem" id="363">
+          <string name="title">&lt;未知&gt;</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+      </array>
+    </object>
+    <object class="IBCarbonRootControl" id="229">
+      <string name="viewFrame">0 0 433 320 </string>
+      <array count="31" name="subviews">
+        <reference idRef="450"/>
+        <object class="IBCarbonStaticText" id="337">
+          <ostype name="controlSignature">ASK </ostype>
+          <int name="controlID">14</int>
+          <boolean name="hidden">TRUE</boolean>
+          <string name="title">下載</string>
+          <int name="justification">1</int>
+          <string name="viewFrame">632 384 210 14 </string>
+          <string name="bounds">384 632 398 842 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="314">
+          <int name="fontStyle">4</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingLeftKind">1</int>
+            <int name="bindingRightKind">2</int>
+          </object>
+          <string name="title">要傳輸的檔案已經存在!</string>
+          <int name="justification">1</int>
+          <string name="viewFrame">20 20 393 16 </string>
+          <string name="bounds">20 20 36 413 </string>
+        </object>
+        <reference idRef="315"/>
+        <reference idRef="329"/>
+        <reference idRef="317"/>
+        <reference idRef="323"/>
+        <object class="IBCarbonStaticText" id="318">
+          <int name="controlSize">1</int>
+          <string name="title">大    小:</string>
+          <string name="viewFrame">100 89 40 13 </string>
+          <string name="bounds">89 100 102 140 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="324">
+          <ostype name="controlSignature">ASK </ostype>
+          <int name="controlID">2</int>
+          <int name="controlSize">1</int>
+          <string name="title">狀態文字</string>
+          <string name="viewFrame">150 89 207 13 </string>
+          <string name="bounds">89 150 102 357 </string>
+        </object>
+        <reference idRef="319"/>
+        <reference idRef="325"/>
+        <reference idRef="316"/>
+        <reference idRef="320"/>
+        <reference idRef="326"/>
+        <object class="IBCarbonStaticText" id="321">
+          <int name="controlSize">1</int>
+          <string name="title">大    小:</string>
+          <string name="viewFrame">100 198 40 13 </string>
+          <string name="bounds">198 100 211 140 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="327">
+          <ostype name="controlSignature">ASK </ostype>
+          <int name="controlID">6</int>
+          <int name="controlSize">1</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingLeftKind">1</int>
+            <int name="bindingRightKind">2</int>
+          </object>
+          <string name="title">狀態文字</string>
+          <string name="viewFrame">150 198 207 13 </string>
+          <string name="bounds">198 150 211 357 </string>
+        </object>
+        <reference idRef="322"/>
+        <object class="IBCarbonStaticText" id="328">
+          <ostype name="controlSignature">ASK </ostype>
+          <int name="controlID">7</int>
+          <int name="controlSize">1</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingLeftKind">1</int>
+            <int name="bindingRightKind">2</int>
+          </object>
+          <string name="title">狀態文字</string>
+          <string name="viewFrame">150 212 220 13 </string>
+          <string name="bounds">212 150 225 370 </string>
+        </object>
+        <reference idRef="330"/>
+        <reference idRef="332"/>
+        <object class="IBCarbonButton" id="334">
+          <ostype name="controlSignature">ASK </ostype>
+          <int name="controlID">11</int>
+          <ostype name="command">RESU</ostype>
+          <string name="helpTagText">嘗試完成不完整的傳輸任務</string>
+          <string name="title">續傳</string>
+          <string name="viewFrame">121 280 90 20 </string>
+          <string name="bounds">280 121 300 211 </string>
+        </object>
+        <object class="IBCarbonButton" id="331">
+          <ostype name="controlSignature">ASK </ostype>
+          <int name="controlID">9</int>
+          <ostype name="command">not!</ostype>
+          <string name="helpTagText">停止傳輸</string>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingRightKind">2</int>
+          </object>
+          <int name="buttonType">2</int>
+          <string name="title">取消</string>
+          <string name="viewFrame">223 280 89 20 </string>
+          <string name="bounds">280 223 300 312 </string>
+        </object>
+        <object class="IBCarbonButton" id="333">
+          <ostype name="controlSignature">ASK </ostype>
+          <int name="controlID">12</int>
+          <ostype name="command">ok  </ostype>
+          <string name="helpTagText">覆蓋已存在檔案</string>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingRightKind">2</int>
+          </object>
+          <int name="buttonType">1</int>
+          <string name="title">取代</string>
+          <string name="viewFrame">324 280 89 20 </string>
+          <string name="bounds">280 324 300 413 </string>
+        </object>
+        <object class="IBCarbonButton" id="449">
+          <ostype name="controlSignature">ASK </ostype>
+          <int name="controlID">16</int>
+          <int name="controlSize">3</int>
+          <ostype name="command">DIFF</ostype>
+          <string name="helpTagText">比較一個檔案的本地和遠程的副本，並顯示其不同。（需要已安裝 BBEdit 或 TextWrangler)</string>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingRightKind">2</int>
+          </object>
+          <string name="title">↑ 比較 ↓</string>
+          <string name="viewFrame">280 131 70 16 </string>
+          <string name="bounds">131 280 147 350 </string>
+        </object>
+        <reference idRef="523"/>
+        <reference idRef="593"/>
+        <object class="IBCarbonIcon" id="594">
+          <string name="helpTagText">Indicates the direction of transfer</string>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingRightKind">2</int>
+          </object>
+          <int name="contentType">132</int>
+          <int name="contentResID">1735288180</int>
+          <int name="creator">0</int>
+          <string name="viewFrame">365 59 48 48 </string>
+          <string name="bounds">59 365 107 413 </string>
+        </object>
+        <object class="IBCarbonIcon" id="595">
+          <string name="helpTagText">Indicates the direction of transfer</string>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingRightKind">2</int>
+          </object>
+          <int name="contentType">132</int>
+          <int name="contentResID">1179534418</int>
+          <int name="creator">0</int>
+          <string name="viewFrame">365 168 48 48 </string>
+          <string name="bounds">168 365 216 413 </string>
+        </object>
+        <object class="IBCarbonIcon" id="596">
+          <ostype name="controlSignature">ASK </ostype>
+          <int name="controlID">1001</int>
+          <string name="helpTagText">Indicates the direction of transfer</string>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingLeftKind">1</int>
+          </object>
+          <int name="contentType">132</int>
+          <int name="contentResID">1734635363</int>
+          <int name="creator">0</int>
+          <string name="viewFrame">20 160 64 64 </string>
+          <string name="bounds">160 20 224 84 </string>
+        </object>
+        <reference idRef="597"/>
+        <object class="IBCarbonSeparator" id="598">
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingLeftKind">1</int>
+            <int name="bindingRightKind">2</int>
+          </object>
+          <string name="viewFrame">20 134 253 8 </string>
+          <string name="bounds">134 20 142 273 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 320 433 </string>
+    </object>
+    <reference idRef="449"/>
+    <reference idRef="386"/>
+    <reference idRef="328"/>
+    <object class="IBCarbonChasingArrows" id="388">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">6</int>
+      <string name="viewFrame">2717 -15585 16 16 </string>
+      <string name="bounds">-15585 2717 -15569 2733 </string>
+    </object>
+    <reference idRef="417"/>
+    <object class="IBCarbonStaticText" id="360">
+      <ostype name="controlSignature">ASK </ostype>
+      <int name="controlID">3</int>
+      <int name="controlSize">1</int>
+      <string name="title">狀態文字</string>
+      <string name="viewFrame">542 223 315 13 </string>
+      <string name="bounds">223 542 236 857 </string>
+    </object>
+    <reference idRef="443"/>
+    <reference idRef="333"/>
+    <reference idRef="378"/>
+    <object class="IBCarbonRoundButton" id="369">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">2</int>
+      <ostype name="command">REFR</ostype>
+      <string name="helpTagText">刷新目錄</string>
+      <string name="viewFrame">31427 1111 0 0 </string>
+      <string name="bounds">1111 31427 1111 31427 </string>
+    </object>
+    <reference idRef="337"/>
+    <object class="IBCarbonMenu" id="439">
+      <string name="title">彈出:</string>
+      <array count="1" name="items">
+        <reference idRef="440"/>
+      </array>
+    </object>
+    <object class="IBCarbonRoundButton" id="435">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">4</int>
+      <ostype name="command">UPON</ostype>
+      <string name="helpTagText">目錄曏上</string>
+      <string name="viewFrame">-20678 -7 0 0 </string>
+      <string name="bounds">-7 -20678 -7 -20678 </string>
+    </object>
+    <object class="IBCarbonDBListView" id="341">
+      <ostype name="controlSignature">SESS</ostype>
+      <string name="helpTagText">FTP 列表</string>
+      <array count="4" name="listViewColumns">
+        <object class="IBCarbonDBListViewColumn">
+          <int name="sortOrder">1</int>
+        </object>
+        <object class="IBCarbonDBListViewColumn">
+          <int name="sortOrder">1</int>
+        </object>
+        <object class="IBCarbonDBListViewColumn">
+          <int name="sortOrder">1</int>
+        </object>
+        <object class="IBCarbonDBListViewColumn">
+          <int name="sortOrder">1</int>
+        </object>
+      </array>
+      <string name="viewFrame">-20798 1192 0 0 </string>
+      <string name="bounds">1192 -20798 1192 -20798 </string>
+    </object>
+    <object class="IBCarbonPopupButton" id="438">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">1</int>
+      <int name="controlSize">1</int>
+      <ostype name="command">PATH</ostype>
+      <string name="helpTagText">目錄選擇</string>
+      <reference name="menu" idRef="439"/>
+      <int name="titleJustification">-2</int>
+      <string name="viewFrame">31297 376 0 0 </string>
+      <string name="bounds">376 31297 376 31297 </string>
+    </object>
+    <object class="IBCarbonRoundButton" id="434">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">5</int>
+      <ostype name="command">TRAN</ostype>
+      <string name="helpTagText">顯示/隱藏 FTP 終端</string>
+      <string name="viewFrame">-20678 -2551 0 0 </string>
+      <string name="bounds">-2551 -20678 -2551 -20678 </string>
+    </object>
+    <reference idRef="324"/>
+    <object class="IBCarbonRoundButton" id="436">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">9</int>
+      <ostype name="command">QUEW</ostype>
+      <string name="helpTagText">顯示/隱藏佇列</string>
+      <string name="viewFrame">-20678 -7 0 0 </string>
+      <string name="bounds">-7 -20678 -7 -20678 </string>
+    </object>
+    <object class="IBCarbonRoundButton" id="392">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">9</int>
+      <ostype name="command">QUEW</ostype>
+      <string name="helpTagText">顯示/隱藏佇列</string>
+      <string name="viewFrame">-20678 -7 0 0 </string>
+      <string name="bounds">-7 -20678 -7 -20678 </string>
+    </object>
+    <object class="IBCarbonRoundButton" id="408">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">7</int>
+      <ostype name="command">CLLI</ostype>
+      <string name="helpTagText">切換分欄/列表檢視</string>
+      <string name="viewFrame">-20678 -7 0 0 </string>
+      <string name="bounds">-7 -20678 -7 -20678 </string>
+    </object>
+    <reference idRef="331"/>
+    <object class="IBCarbonDBListView" id="397">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">8</int>
+      <boolean name="hidden">TRUE</boolean>
+      <string name="helpTagText">FTP 列表</string>
+      <array count="4" name="listViewColumns">
+        <object class="IBCarbonDBListViewColumn">
+          <int name="sortOrder">1</int>
+        </object>
+        <object class="IBCarbonDBListViewColumn">
+          <int name="sortOrder">1</int>
+        </object>
+        <object class="IBCarbonDBListViewColumn">
+          <int name="sortOrder">1</int>
+        </object>
+        <object class="IBCarbonDBListViewColumn">
+          <int name="sortOrder">1</int>
+        </object>
+      </array>
+      <string name="viewFrame">31297 1192 0 0 </string>
+      <string name="bounds">1192 31297 1192 31297 </string>
+    </object>
+    <reference idRef="395"/>
+    <object class="IBCarbonWindow" id="364">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="themeBrush">53</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title"></string>
+      <object name="rootControl" class="IBCarbonRootControl" id="339">
+        <string name="viewFrame">0 0 433 145 </string>
+        <array count="24" name="subviews">
+          <object class="IBCarbonStaticText" id="361">
+            <string name="title">要創建的檔案已經存在!</string>
+            <string name="viewFrame">20 15 393 19 </string>
+            <string name="bounds">15 20 34 413 </string>
+          </object>
+          <object class="IBCarbonIcon" id="359">
+            <ostype name="controlSignature">ASK </ostype>
+            <int name="controlID">13</int>
+            <string name="helpTagText">標明傳輸方向</string>
+            <int name="contentType">132</int>
+            <int name="contentResID">1145851716</int>
+            <int name="creator">558257232</int>
+            <string name="viewFrame">478 15 64 64 </string>
+            <string name="bounds">15 478 79 542 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="354">
+            <ostype name="controlSignature">ASK </ostype>
+            <int name="controlID">4</int>
+            <int name="fontStyle">-3</int>
+            <int name="controlSize">1</int>
+            <string name="title">伺服器檔案 :</string>
+            <string name="viewFrame">20 38 70 13 </string>
+            <string name="bounds">38 20 51 90 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="342">
+            <int name="controlSize">1</int>
+            <string name="title">名    稱:</string>
+            <string name="viewFrame">42 53 41 13 </string>
+            <string name="bounds">53 42 66 83 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="344">
+            <ostype name="controlSignature">ASK </ostype>
+            <int name="controlID">5</int>
+            <int name="controlSize">1</int>
+            <string name="title">狀態文字</string>
+            <string name="viewFrame">98 53 315 15 </string>
+            <string name="bounds">53 98 68 413 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="350">
+            <int name="controlSize">1</int>
+            <string name="title">大    小:</string>
+            <string name="viewFrame">42 67 42 13 </string>
+            <string name="bounds">67 42 80 84 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="365">
+            <ostype name="controlSignature">ASK </ostype>
+            <int name="controlID">6</int>
+            <int name="controlSize">1</int>
+            <string name="title">狀態文字</string>
+            <string name="viewFrame">98 67 315 15 </string>
+            <string name="bounds">67 98 82 413 </string>
+          </object>
+          <reference idRef="338"/>
+          <object class="IBCarbonStaticText" id="353">
+            <int name="controlSize">1</int>
+            <string name="title">修改日期:</string>
+            <string name="viewFrame">34 81 51 13 </string>
+            <string name="bounds">81 34 94 85 </string>
+          </object>
+          <reference idRef="348"/>
+          <reference idRef="351"/>
+          <reference idRef="358"/>
+          <object class="IBCarbonCheckBox" id="373">
+            <ostype name="controlSignature">ASK </ostype>
+            <int name="controlID">8</int>
+            <int name="controlSize">1</int>
+            <string name="helpTagText">是否套用您的選擇到其他已經存在的檔案</string>
+            <string name="title">套用選擇到剩餘的檔案</string>
+            <string name="viewFrame">484 111 206 14 </string>
+            <string name="bounds">111 484 125 690 </string>
+          </object>
+          <reference idRef="367"/>
+          <object class="IBCarbonButton" id="362">
+            <ostype name="controlSignature">ASK </ostype>
+            <int name="controlID">11</int>
+            <ostype name="command">RESU</ostype>
+            <string name="helpTagText">嘗試完成不完整的傳輸任務</string>
+            <string name="title">續傳</string>
+            <string name="viewFrame">585 140 90 20 </string>
+            <string name="bounds">140 585 160 675 </string>
+          </object>
+          <reference idRef="343"/>
+          <object class="IBCarbonStaticText" id="366">
+            <int name="controlSize">1</int>
+            <string name="title">(即將被傳輸)</string>
+            <string name="viewFrame">535 180 136 13 </string>
+            <string name="bounds">180 535 193 671 </string>
+          </object>
+          <reference idRef="370"/>
+          <object class="IBCarbonStaticText" id="372">
+            <ostype name="controlSignature">ASK </ostype>
+            <int name="controlID">1</int>
+            <int name="controlSize">1</int>
+            <string name="title">狀態文字</string>
+            <string name="viewFrame">542 198 315 13 </string>
+            <string name="bounds">198 542 211 857 </string>
+          </object>
+          <reference idRef="357"/>
+          <reference idRef="368"/>
+          <object class="IBCarbonStaticText" id="349">
+            <int name="controlSize">1</int>
+            <string name="title">修改日期:</string>
+            <string name="viewFrame">482 222 50 13 </string>
+            <string name="bounds">222 482 235 532 </string>
+          </object>
+          <reference idRef="360"/>
+          <object class="IBCarbonButton" id="451">
+            <ostype name="controlSignature">ASK </ostype>
+            <int name="controlID">15</int>
+            <ostype name="command">DIFF</ostype>
+            <string name="helpTagText">比較一個檔案的本地和遠程的副本，並顯示其不同。（需要已安裝 BBEdit 或 TextWrangler)</string>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingBottomKind">2</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <string name="title">比較</string>
+            <string name="viewFrame">20 105 70 20 </string>
+            <string name="bounds">105 20 125 90 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 145 433 </string>
+      </object>
+      <string name="windowRect">710 610 855 1043 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="363"/>
+    <object class="IBCarbonRoundButton" id="279">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">9</int>
+      <ostype name="command">QUEW</ostype>
+      <string name="helpTagText">顯示/隱藏佇列</string>
+      <string name="viewFrame">-20678 -7 0 0 </string>
+      <string name="bounds">-7 -20678 -7 -20678 </string>
+    </object>
+    <reference idRef="359"/>
+    <reference idRef="318"/>
+    <reference idRef="442"/>
+    <object class="IBCarbonRoundButton" id="346">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">3</int>
+      <ostype name="command">GOTO</ostype>
+      <string name="helpTagText">轉到目錄</string>
+      <string name="viewFrame">-27392 15 0 0 </string>
+      <string name="bounds">15 -27392 15 -27392 </string>
+    </object>
+    <reference idRef="342"/>
+    <reference idRef="379"/>
+    <object class="IBCarbonRoundButton" id="389">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">3</int>
+      <ostype name="command">GOTO</ostype>
+      <string name="helpTagText">轉到目錄</string>
+      <string name="viewFrame">-27392 15 0 0 </string>
+      <string name="bounds">15 -27392 15 -27392 </string>
+    </object>
+    <reference idRef="365"/>
+    <reference idRef="384"/>
+    <object class="IBCarbonDBListView" id="404">
+      <ostype name="controlSignature">SESS</ostype>
+      <string name="helpTagText">FTP 列表</string>
+      <array count="4" name="listViewColumns">
+        <object class="IBCarbonDBListViewColumn">
+          <int name="sortOrder">1</int>
+        </object>
+        <object class="IBCarbonDBListViewColumn">
+          <int name="sortOrder">1</int>
+        </object>
+        <object class="IBCarbonDBListViewColumn">
+          <int name="sortOrder">1</int>
+        </object>
+        <object class="IBCarbonDBListViewColumn">
+          <int name="sortOrder">1</int>
+        </object>
+      </array>
+      <string name="viewFrame">-20798 -8 0 0 </string>
+      <string name="bounds">-8 -20798 -8 -20798 </string>
+    </object>
+    <reference idRef="394"/>
+    <reference idRef="327"/>
+    <object class="IBCarbonWindow" id="228">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="themeBrush">53</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title"></string>
+      <reference name="rootControl" idRef="229"/>
+      <string name="windowRect">185 179 505 612 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+      <int name="WindowMaxWidth">3000</int>
+      <int name="WindowMaxHeight">320</int>
+      <int name="WindowMinWidth">433</int>
+      <int name="WindowMinHeight">320</int>
+    </object>
+    <reference idRef="598"/>
+    <reference idRef="375"/>
+    <object class="IBCarbonMenu" id="283">
+      <string name="title">彈出:</string>
+      <array count="1" name="items">
+        <reference idRef="282"/>
+      </array>
+    </object>
+    <object class="IBCarbonPopupButton" id="356">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">1</int>
+      <int name="controlSize">1</int>
+      <ostype name="command">PATH</ostype>
+      <string name="helpTagText">目錄選擇</string>
+      <reference name="menu" idRef="347"/>
+      <int name="titleJustification">-2</int>
+      <string name="viewFrame">31297 376 0 0 </string>
+      <string name="bounds">376 31297 376 31297 </string>
+    </object>
+    <reference idRef="350"/>
+    <reference idRef="452"/>
+    <reference idRef="423"/>
+    <object class="IBCarbonRoundButton" id="340">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">5</int>
+      <ostype name="command">TRAN</ostype>
+      <string name="helpTagText">顯示/隱藏 FTP 終端</string>
+      <string name="viewFrame">-20678 -1207 0 0 </string>
+      <string name="bounds">-1207 -20678 -1207 -20678 </string>
+    </object>
+    <reference idRef="403"/>
+    <reference idRef="427"/>
+    <object class="IBCarbonDBListView" id="352">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">8</int>
+      <boolean name="hidden">TRUE</boolean>
+      <string name="helpTagText">FTP 列表</string>
+      <array count="4" name="listViewColumns">
+        <object class="IBCarbonDBListViewColumn">
+          <int name="sortOrder">1</int>
+        </object>
+        <object class="IBCarbonDBListViewColumn">
+          <int name="sortOrder">1</int>
+        </object>
+        <object class="IBCarbonDBListViewColumn">
+          <int name="sortOrder">1</int>
+        </object>
+        <object class="IBCarbonDBListViewColumn">
+          <int name="sortOrder">1</int>
+        </object>
+      </array>
+      <string name="viewFrame">31297 584 0 0 </string>
+      <string name="bounds">584 31297 584 31297 </string>
+    </object>
+    <reference idRef="393"/>
+    <reference idRef="321"/>
+    <reference idRef="334"/>
+    <reference idRef="354"/>
+    <object class="IBCarbonPopupButton" id="286">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">1</int>
+      <int name="controlSize">1</int>
+      <ostype name="command">PATH</ostype>
+      <string name="helpTagText">目錄選擇</string>
+      <reference name="menu" idRef="283"/>
+      <int name="titleJustification">-2</int>
+      <string name="viewFrame">31295 -407 0 0 </string>
+      <string name="bounds">-407 31295 -407 31295 </string>
+    </object>
+    <object class="IBCarbonRoundButton" id="345">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">7</int>
+      <ostype name="command">CLLI</ostype>
+      <string name="helpTagText">切換分欄/列表檢視</string>
+      <string name="viewFrame">-20678 -1158 0 0 </string>
+      <string name="bounds">-1158 -20678 -1158 -20678 </string>
+    </object>
+    <reference idRef="366"/>
+    <object class="IBCarbonRoundButton" id="418">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">2</int>
+      <ostype name="command">REFR</ostype>
+      <string name="helpTagText">刷新目錄</string>
+      <string name="viewFrame">31427 1111 0 0 </string>
+      <string name="bounds">1111 31427 1111 31427 </string>
+    </object>
+    <reference idRef="372"/>
+    <object class="IBCarbonDBListView" id="284">
+      <ostype name="controlSignature">SESS</ostype>
+      <string name="helpTagText">FTP 列表</string>
+      <array count="4" name="listViewColumns">
+        <object class="IBCarbonDBListViewColumn">
+          <int name="sortOrder">1</int>
+        </object>
+        <object class="IBCarbonDBListViewColumn">
+          <int name="sortOrder">1</int>
+        </object>
+        <object class="IBCarbonDBListViewColumn">
+          <int name="sortOrder">1</int>
+        </object>
+        <object class="IBCarbonDBListViewColumn">
+          <int name="sortOrder">1</int>
+        </object>
+      </array>
+      <string name="viewFrame">-20802 -1354 0 0 </string>
+      <string name="bounds">-1354 -20802 -1354 -20802 </string>
+    </object>
+    <reference idRef="400"/>
+    <reference idRef="349"/>
+    <reference idRef="451"/>
+    <reference idRef="339"/>
+    <reference idRef="410"/>
+    <reference idRef="596"/>
+    <reference idRef="411"/>
+    <reference idRef="401"/>
+    <reference idRef="444"/>
+    <object class="IBCarbonRoundButton" id="421">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">3</int>
+      <ostype name="command">GOTO</ostype>
+      <string name="helpTagText">轉到目錄</string>
+      <string name="viewFrame">-27392 -2546 0 0 </string>
+      <string name="bounds">-2546 -27392 -2546 -27392 </string>
+    </object>
+    <object class="IBCarbonChasingArrows" id="287">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">6</int>
+      <string name="viewFrame">22517 -15586 16 16 </string>
+      <string name="bounds">-15586 22517 -15570 22533 </string>
+    </object>
+    <reference idRef="414"/>
+    <reference idRef="361"/>
+    <reference idRef="382"/>
+    <reference idRef="595"/>
+    <reference idRef="426"/>
+    <reference idRef="362"/>
+    <reference idRef="344"/>
+    <reference idRef="594"/>
+    <object class="IBCarbonRoundButton" id="437">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">7</int>
+      <ostype name="command">CLLI</ostype>
+      <string name="helpTagText">切換分欄/列表檢視</string>
+      <string name="viewFrame">-20678 -7 0 0 </string>
+      <string name="bounds">-7 -20678 -7 -20678 </string>
+    </object>
+    <reference idRef="353"/>
+    <reference idRef="446"/>
+    <reference idRef="373"/>
+    <reference idRef="448"/>
+    <reference idRef="314"/>
+    <object class="IBCarbonRoundButton" id="280">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">4</int>
+      <ostype name="command">UPON</ostype>
+      <string name="helpTagText">目錄曏上</string>
+      <string name="viewFrame">-20678 -7 0 0 </string>
+      <string name="bounds">-7 -20678 -7 -20678 </string>
+    </object>
+  </array>
+  <array count="159" name="allParents">
+    <reference idRef="229"/>
+    <reference idRef="413"/>
+    <reference idRef="413"/>
+    <reference idRef="339"/>
+    <reference idRef="229"/>
+    <reference idRef="413"/>
+    <reference idRef="379"/>
+    <reference idRef="1"/>
+    <reference idRef="379"/>
+    <reference idRef="229"/>
+    <reference idRef="229"/>
+    <reference idRef="339"/>
+    <reference idRef="229"/>
+    <reference idRef="229"/>
+    <reference idRef="379"/>
+    <reference idRef="339"/>
+    <reference idRef="413"/>
+    <reference idRef="229"/>
+    <reference idRef="229"/>
+    <reference idRef="379"/>
+    <reference idRef="339"/>
+    <reference idRef="379"/>
+    <reference idRef="379"/>
+    <reference idRef="413"/>
+    <reference idRef="379"/>
+    <reference idRef="229"/>
+    <reference idRef="413"/>
+    <reference idRef="439"/>
+    <reference idRef="229"/>
+    <reference idRef="379"/>
+    <reference idRef="413"/>
+    <reference idRef="413"/>
+    <reference idRef="339"/>
+    <reference idRef="229"/>
+    <reference idRef="229"/>
+    <reference idRef="229"/>
+    <reference idRef="339"/>
+    <reference idRef="379"/>
+    <reference idRef="339"/>
+    <reference idRef="413"/>
+    <reference idRef="410"/>
+    <reference idRef="413"/>
+    <reference idRef="229"/>
+    <reference idRef="412"/>
+    <reference idRef="413"/>
+    <reference idRef="339"/>
+    <reference idRef="379"/>
+    <reference idRef="229"/>
+    <reference idRef="229"/>
+    <reference idRef="339"/>
+    <reference idRef="413"/>
+    <reference idRef="229"/>
+    <reference idRef="229"/>
+    <reference idRef="379"/>
+    <reference idRef="379"/>
+    <reference idRef="379"/>
+    <reference idRef="413"/>
+    <reference idRef="413"/>
+    <reference idRef="413"/>
+    <reference idRef="379"/>
+    <reference idRef="413"/>
+    <reference idRef="229"/>
+    <reference idRef="413"/>
+    <reference idRef="229"/>
+    <reference idRef="339"/>
+    <reference idRef="229"/>
+    <reference idRef="1"/>
+    <reference idRef="339"/>
+    <reference idRef="283"/>
+    <reference idRef="339"/>
+    <reference idRef="379"/>
+    <reference idRef="356"/>
+    <reference idRef="228"/>
+    <reference idRef="229"/>
+    <reference idRef="379"/>
+    <reference idRef="229"/>
+    <reference idRef="379"/>
+    <reference idRef="413"/>
+    <reference idRef="339"/>
+    <reference idRef="413"/>
+    <reference idRef="229"/>
+    <reference idRef="379"/>
+    <reference idRef="339"/>
+    <reference idRef="229"/>
+    <reference idRef="438"/>
+    <reference idRef="413"/>
+    <reference idRef="339"/>
+    <reference idRef="413"/>
+    <reference idRef="413"/>
+    <reference idRef="229"/>
+    <reference idRef="413"/>
+    <reference idRef="379"/>
+    <reference idRef="379"/>
+    <reference idRef="229"/>
+    <reference idRef="379"/>
+    <reference idRef="379"/>
+    <reference idRef="1"/>
+    <reference idRef="347"/>
+    <reference idRef="229"/>
+    <reference idRef="339"/>
+    <reference idRef="229"/>
+    <reference idRef="413"/>
+    <reference idRef="339"/>
+    <reference idRef="339"/>
+    <reference idRef="405"/>
+    <reference idRef="379"/>
+    <reference idRef="339"/>
+    <reference idRef="379"/>
+    <reference idRef="379"/>
+    <reference idRef="379"/>
+    <reference idRef="229"/>
+    <reference idRef="1"/>
+    <reference idRef="229"/>
+    <reference idRef="379"/>
+    <reference idRef="286"/>
+    <reference idRef="339"/>
+    <reference idRef="339"/>
+    <reference idRef="379"/>
+    <reference idRef="413"/>
+    <reference idRef="339"/>
+    <reference idRef="379"/>
+    <reference idRef="413"/>
+    <reference idRef="339"/>
+    <reference idRef="379"/>
+    <reference idRef="229"/>
+    <reference idRef="229"/>
+    <reference idRef="339"/>
+    <reference idRef="229"/>
+    <reference idRef="339"/>
+    <reference idRef="339"/>
+    <reference idRef="413"/>
+    <reference idRef="339"/>
+    <reference idRef="229"/>
+    <reference idRef="379"/>
+    <reference idRef="339"/>
+    <reference idRef="339"/>
+    <reference idRef="364"/>
+    <reference idRef="402"/>
+    <reference idRef="229"/>
+    <reference idRef="379"/>
+    <reference idRef="379"/>
+    <reference idRef="413"/>
+    <reference idRef="413"/>
+    <reference idRef="229"/>
+    <reference idRef="413"/>
+    <reference idRef="339"/>
+    <reference idRef="379"/>
+    <reference idRef="229"/>
+    <reference idRef="413"/>
+    <reference idRef="339"/>
+    <reference idRef="339"/>
+    <reference idRef="229"/>
+    <reference idRef="413"/>
+    <reference idRef="339"/>
+    <reference idRef="413"/>
+    <reference idRef="339"/>
+    <reference idRef="413"/>
+    <reference idRef="229"/>
+    <reference idRef="229"/>
+  </array>
+  <dictionary count="5" name="nameTable">
+    <string>ExistingFileQuestion</string>
+    <reference idRef="228"/>
+    <string>ExistingFileQuestion2</string>
+    <reference idRef="364"/>
+    <string>ExistingFileQuestion3</string>
+    <reference idRef="405"/>
+    <string>ExistingFileQuestion4</string>
+    <reference idRef="412"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">653</unsigned_int>
+</object>

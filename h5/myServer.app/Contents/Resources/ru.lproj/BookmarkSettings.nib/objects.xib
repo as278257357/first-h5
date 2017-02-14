@@ -1,0 +1,1235 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="130" name="allObjects">
+    <object class="IBCarbonEditText" id="857">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">5</int>
+      <string name="helpTagText">Введите имя пользователя, если у вас есть аккаунт на сервере, или оставьте это поле пустым для анонимного доступа</string>
+      <boolean name="isUnicode">TRUE</boolean>
+      <boolean name="isSingleLine">TRUE</boolean>
+      <string name="viewFrame">154 87 378 16 </string>
+      <string name="bounds">175 152 191 530 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="675">
+      <string name="title">PrimeOS</string>
+      <boolean name="disabled">TRUE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <ostype name="command">TYPE</ostype>
+    </object>
+    <object class="IBCarbonCheckBox" id="690">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">16</int>
+      <int name="controlSize">1</int>
+      <ostype name="command">PREF</ostype>
+      <string name="helpTagText">Override the folder setting here with the one set in the preferences window</string>
+      <string name="title">Use setting from preferences</string>
+      <string name="viewFrame">10 43 176 18 </string>
+      <string name="bounds">306 700 324 876 </string>
+    </object>
+    <object class="IBCarbonEditText" id="512">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">11</int>
+      <boolean name="hidden">TRUE</boolean>
+      <int name="controlSize">1</int>
+      <string name="helpTagText">Enter a URL here and the other fields will be filled automatically. A URL can point to a directory to display or a file to download. A URL will be constructed and displayed here whilst you enter details into the other fields</string>
+      <boolean name="isUnicode">TRUE</boolean>
+      <string name="viewFrame">43 688 245 52 </string>
+      <string name="bounds">688 43 740 288 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="731">
+      <string name="title">Days</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <object class="IBCarbonMenuItem" id="730">
+      <string name="title">Hours</string>
+      <boolean name="checked">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <object class="IBCarbonEditText" id="861">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">10000</int>
+      <boolean name="hidden">TRUE</boolean>
+      <string name="helpTagText">Введите пароль, если у вас есть аккаунт на сервере, или оставьте это поле пустым для анонимного доступа&#13;&#13;For Public Key authentication, enter the key passphrase or leave it blank if there is none</string>
+      <boolean name="isUnicode">TRUE</boolean>
+      <boolean name="isSingleLine">TRUE</boolean>
+      <string name="viewFrame">154 119 354 16 </string>
+      <string name="bounds">207 152 223 506 </string>
+    </object>
+    <object class="IBCarbonRadioGroup" id="686">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">27</int>
+      <int name="controlSize">1</int>
+      <ostype name="command">AHBH</ostype>
+      <int name="numRows">1</int>
+      <int name="numCols">2</int>
+      <array count="1" name="radioTitles">
+        <array count="2">
+          <string>Ahead</string>
+          <string>Behind</string>
+        </array>
+      </array>
+      <string name="viewFrame">183 30 114 18 </string>
+      <string name="bounds">449 552 467 666 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="642">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">105</int>
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <int name="controlSize">1</int>
+      <ostype name="command">UTCF</ostype>
+      <string name="helpTagText">When the MDTM option is enabled, this setting defines whether the date/time is specified in UTC format (as defined in the RFC) or as local time. Some servers do not correctly adhere to the standard, in which case this option can be disabled</string>
+      <string name="title">Use UTC date format</string>
+      <string name="viewFrame">591 76 135 17 </string>
+      <string name="bounds">329 612 346 747 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="864">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">8</int>
+      <string name="title">Загрузка на</string>
+      <string name="viewFrame">65 151 78 16 </string>
+      <string name="bounds">239 63 255 141 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="676">
+      <string name="title">AppleShare IP 6</string>
+      <ostype name="command">TYPE</ostype>
+    </object>
+    <object class="IBCarbonGroupBox" id="775">
+      <string name="title">подключение</string>
+      <boolean name="primary">FALSE</boolean>
+      <string name="viewFrame">23 20 610 144 </string>
+      <array count="12" name="subviews">
+        <object class="IBCarbonCheckBox" id="877">
+          <ostype name="controlSignature">DETL</ostype>
+          <int name="controlID">22</int>
+          <ostype name="command">PROX</ostype>
+          <string name="helpTagText">Если у вас конфигурация для доступа к серверам через прокси-сервер, вы можете выбрать прокси-сервер для этой закладки, включив эту опцию</string>
+          <int name="initialState">2</int>
+          <string name="title">Не использовать прокси-сервер</string>
+          <string name="viewFrame">14 30 231 18 </string>
+          <string name="bounds">138 35 156 266 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="875">
+          <ostype name="controlSignature">DETL</ostype>
+          <int name="controlID">102</int>
+          <ostype name="command">EPSV</ostype>
+          <string name="helpTagText">Включение этой опции запустит EPSV-команды, которые будут использоваться вместо PASV, а также EPRT-команды вместо PORT. Это включает расширенный режим</string>
+          <string name="title">Использовать EPSV/EPRT</string>
+          <string name="viewFrame">324 30 188 18 </string>
+          <string name="bounds">138 345 156 533 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="876">
+          <ostype name="controlSignature">DETL</ostype>
+          <int name="controlID">106</int>
+          <ostype name="command">PRET</ostype>
+          <string name="helpTagText">Когда опция PRET включена, поддержка распределенных FTP-серверов активна</string>
+          <string name="title">Использовать PRET</string>
+          <string name="viewFrame">324 51 149 18 </string>
+          <string name="bounds">159 345 177 494 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="806">
+          <ostype name="controlSignature">DETL</ostype>
+          <int name="controlID">94</int>
+          <ostype name="command">SSHK</ostype>
+          <int name="initialState">1</int>
+          <string name="title">SSH-ключ</string>
+          <string name="viewFrame">14 76 86 18 </string>
+          <string name="bounds">184 35 202 121 </string>
+        </object>
+        <object class="IBCarbonEditText" id="809">
+          <boolean name="enabled">FALSE</boolean>
+          <boolean name="useInlineInput">TRUE</boolean>
+          <boolean name="isUnicode">TRUE</boolean>
+          <boolean name="isSingleLine">TRUE</boolean>
+          <string name="foreColor">0 0 0 </string>
+          <string name="viewFrame">111 77 310 16 </string>
+          <string name="bounds">185 132 201 442 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="805">
+          <ostype name="controlSignature">DETL</ostype>
+          <int name="controlID">95</int>
+          <string name="helpTagText">Путь к файлу приватного ключа</string>
+          <string name="title">/Users/YummyFTP/.ssh/id_dsa</string>
+          <string name="viewFrame">111 77 307 16 </string>
+          <string name="bounds">185 132 201 439 </string>
+        </object>
+        <object class="IBCarbonButton" id="804">
+          <ostype name="controlSignature">DETL</ostype>
+          <int name="controlID">96</int>
+          <ostype name="command">SSHC</ostype>
+          <string name="helpTagText">Выберите приватный ключ</string>
+          <string name="title">Выбрать</string>
+          <string name="viewFrame">432 74 80 20 </string>
+          <string name="bounds">182 453 202 533 </string>
+        </object>
+        <object class="IBCarbonEditText" id="776">
+          <ostype name="controlSignature">DETL</ostype>
+          <int name="controlID">19</int>
+          <string name="helpTagText">FTP использует порт 21, а SFTP использует порт 22. Некоторые серверы используют нестандартные номера портов</string>
+          <boolean name="isUnicode">TRUE</boolean>
+          <boolean name="isSingleLine">TRUE</boolean>
+          <string name="viewFrame">59 109 77 16 </string>
+          <string name="bounds">217 80 233 157 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="777">
+          <ostype name="controlSignature">DETL</ostype>
+          <int name="controlID">18</int>
+          <string name="title">Порт</string>
+          <string name="viewFrame">16 109 32 16 </string>
+          <string name="bounds">217 37 233 69 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="780">
+          <ostype name="controlSignature">DETL</ostype>
+          <int name="controlID">103</int>
+          <ostype name="command">COMP</ostype>
+          <string name="helpTagText">В ходе SFTP-трансфера, включение этой опции сжимает все передаваемые данные на лету для быстрой передачи</string>
+          <string name="title">Сжатие</string>
+          <string name="viewFrame">14 51 70 18 </string>
+          <string name="bounds">159 35 177 105 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="810">
+          <ostype name="controlSignature">DETL</ostype>
+          <int name="controlID">10</int>
+          <ostype name="command">PASV</ostype>
+          <string name="helpTagText">Пассивный или активный FTP может потребоваться в зависимости от конфигурации вашей сети. Если у вас есть сложности, попробуйте переключить эту настройку</string>
+          <int name="initialState">2</int>
+          <string name="title">Использовать пассивный FTP (PASV)</string>
+          <string name="viewFrame">145 107 258 18 </string>
+          <string name="bounds">215 166 233 424 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="884">
+          <ostype name="controlSignature">DETL</ostype>
+          <int name="controlID">116</int>
+          <ostype name="command">TLS!</ostype>
+          <string name="helpTagText">Enable this option to force TLS instead of SSL</string>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingRightKind">2</int>
+          </object>
+          <int name="initialState">2</int>
+          <string name="title">Force TLS</string>
+          <string name="viewFrame">429 109 83 18 </string>
+          <string name="bounds">217 450 235 533 </string>
+        </object>
+      </array>
+      <string name="bounds">108 21 252 631 </string>
+    </object>
+    <object class="IBCarbonEditText" id="873">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">99</int>
+      <string name="helpTagText">Укажите название закладки</string>
+      <boolean name="isUnicode">TRUE</boolean>
+      <boolean name="isSingleLine">TRUE</boolean>
+      <string name="viewFrame">99 23 431 16 </string>
+      <string name="bounds">23 99 39 530 </string>
+    </object>
+    <object class="IBCarbonButton" id="232">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">1</int>
+      <ostype name="command">not!</ostype>
+      <int name="buttonType">2</int>
+      <string name="title">Отменить</string>
+      <string name="viewFrame">340 387 87 20 </string>
+      <string name="bounds">387 340 407 427 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="890">
+      <string name="title">SFTP</string>
+      <ostype name="command">CONN</ostype>
+    </object>
+    <reference idRef="875"/>
+    <reference idRef="805"/>
+    <object class="IBCarbonPopupButton" id="497">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">28</int>
+      <int name="controlSize">1</int>
+      <string name="helpTagText">Use the details of a recent connection</string>
+      <object name="menu" class="IBCarbonMenu" id="498">
+        <string name="title">Popup:</string>
+        <array count="1" name="items">
+          <object class="IBCarbonMenuItem" id="508">
+            <string name="title">Item</string>
+            <boolean name="checked">TRUE</boolean>
+          </object>
+        </array>
+      </object>
+      <int name="titleJustification">0</int>
+      <string name="viewFrame">123 23 21 17 </string>
+      <string name="bounds">695 474 712 495 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="681">
+      <string name="title">Netware (DOS)</string>
+      <ostype name="command">TYPE</ostype>
+    </object>
+    <object class="IBCarbonUserPane" id="239">
+      <ostype name="controlSignature">tabs</ostype>
+      <int name="controlID">130</int>
+      <int name="featureBits">2</int>
+      <string name="viewFrame">0 28 558 281 </string>
+      <array count="4" name="subviews">
+        <reference idRef="775"/>
+        <object class="IBCarbonGroupBox" id="635">
+          <ostype name="controlSignature">DETL</ostype>
+          <int name="controlID">14</int>
+          <boolean name="hidden">TRUE</boolean>
+          <int name="controlSize">1</int>
+          <string name="title">Mac browser Home folder</string>
+          <boolean name="primary">FALSE</boolean>
+          <string name="viewFrame">692 175 313 85 </string>
+          <array count="2" name="subviews">
+            <reference idRef="690"/>
+            <object class="IBCarbonCheckBox" id="689">
+              <ostype name="controlSignature">DETL</ostype>
+              <int name="controlID">93</int>
+              <boolean name="hidden">TRUE</boolean>
+              <int name="controlSize">1</int>
+              <ostype name="command">ATOR</ostype>
+              <string name="helpTagText">When enabled, items dropped on Yummy FTP&apos;s Dock icon will be automatically uploaded to the corresponding directory on the server, if they are located within the specified Mac Home folder or it&apos;s sub folders</string>
+              <string name="title">Enable AutoRoute from this folder</string>
+              <string name="viewFrame">10 60 205 18 </string>
+              <string name="bounds">323 700 341 905 </string>
+            </object>
+          </array>
+          <string name="bounds">263 690 348 1003 </string>
+        </object>
+        <object class="IBCarbonGroupBox" id="636">
+          <ostype name="controlSignature">DETL</ostype>
+          <int name="controlID">25</int>
+          <boolean name="hidden">TRUE</boolean>
+          <int name="controlSize">1</int>
+          <string name="title">Time zone</string>
+          <boolean name="primary">FALSE</boolean>
+          <string name="viewFrame">371 331 313 60 </string>
+          <array count="4" name="subviews">
+            <object class="IBCarbonCheckBox" id="685">
+              <ostype name="controlSignature">DETL</ostype>
+              <int name="controlID">100</int>
+              <boolean name="hidden">TRUE</boolean>
+              <int name="controlSize">1</int>
+              <ostype name="command">AUTI</ostype>
+              <string name="helpTagText">When this option is selected, the time difference will be calculated automatically</string>
+              <string name="title">Automatically detect time offset</string>
+              <string name="viewFrame">281 6 190 17 </string>
+              <string name="bounds">425 650 442 840 </string>
+            </object>
+            <object class="IBCarbonUserPane" id="688">
+              <ostype name="controlSignature">DETL</ostype>
+              <int name="controlID">24</int>
+              <string name="helpTagText">The time difference between your Mac and the server this Bookmark is configured for. Time zone differences are used during Synchronization</string>
+              <int name="featureBits">4194622</int>
+              <string name="viewFrame">11 25 79 24 </string>
+              <string name="bounds">444 380 468 459 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="687">
+              <ostype name="controlSignature">DETL</ostype>
+              <int name="controlID">26</int>
+              <int name="controlSize">1</int>
+              <string name="title">Hrs:Mins:Secs</string>
+              <string name="viewFrame">96 30 73 13 </string>
+              <string name="bounds">449 465 462 538 </string>
+            </object>
+            <reference idRef="686"/>
+          </array>
+          <string name="bounds">419 369 479 682 </string>
+        </object>
+        <object class="IBCarbonGroupBox" id="637">
+          <string name="title">Разное</string>
+          <boolean name="primary">FALSE</boolean>
+          <string name="viewFrame">23 165 610 97 </string>
+          <array count="15" name="subviews">
+            <object class="IBCarbonPopupButton" id="653">
+              <ostype name="controlSignature">DETL</ostype>
+              <int name="controlID">20</int>
+              <ostype name="command">ISOT</ostype>
+              <string name="helpTagText">Выберите набор символов, используемый сервером, если он нестандартный</string>
+              <object name="menu" class="IBCarbonMenu" id="657">
+                <string name="title">Popup:</string>
+                <array count="1" name="items">
+                  <object class="IBCarbonMenuItem" id="658">
+                    <string name="title">Используйте настройки параметров</string>
+                    <ostype name="command">ISOT</ostype>
+                  </object>
+                </array>
+              </object>
+              <int name="titleJustification">-2</int>
+              <string name="viewFrame">124 31 275 20 </string>
+              <string name="bounds">284 145 304 420 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="645">
+              <ostype name="controlSignature">DETL</ostype>
+              <int name="controlID">101</int>
+              <ostype name="command">AISO</ostype>
+              <string name="title">UTF-8 Form C</string>
+              <string name="viewFrame">405 32 110 18 </string>
+              <string name="bounds">285 426 303 536 </string>
+            </object>
+            <object class="IBCarbonPopupButton" id="652">
+              <ostype name="controlSignature">DETL</ostype>
+              <int name="controlID">13</int>
+              <ostype name="command">TYPE</ostype>
+              <string name="helpTagText">Тип сервера определяет, как это приложение взаимодействует с сервером. Оставьте эту галочку для автоматического обнаружения, и программа сама будет определять тип сервера</string>
+              <object name="menu" class="IBCarbonMenu" id="659">
+                <string name="title">Popup:</string>
+                <array count="25" name="items">
+                  <object class="IBCarbonMenuItem" id="670">
+                    <string name="title">Определить автоматически</string>
+                    <ostype name="command">TYPE</ostype>
+                  </object>
+                  <object class="IBCarbonMenuItem" id="677">
+                    <string name="title">Apple AUX</string>
+                    <ostype name="command">TYPE</ostype>
+                  </object>
+                  <object class="IBCarbonMenuItem" id="672">
+                    <string name="title">IBM OS4690</string>
+                    <ostype name="command">TYPE</ostype>
+                  </object>
+                  <reference idRef="676"/>
+                  <object class="IBCarbonMenuItem" id="680">
+                    <string name="title">ASC FTPShare</string>
+                    <ostype name="command">TYPE</ostype>
+                  </object>
+                  <object class="IBCarbonMenuItem" id="684">
+                    <string name="title">Control Data</string>
+                    <boolean name="disabled">TRUE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <ostype name="command">TYPE</ostype>
+                  </object>
+                  <object class="IBCarbonMenuItem" id="673">
+                    <string name="title">Data General</string>
+                    <boolean name="disabled">TRUE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <ostype name="command">TYPE</ostype>
+                  </object>
+                  <object class="IBCarbonMenuItem" id="664">
+                    <string name="title">DPS 8000</string>
+                    <boolean name="disabled">TRUE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <ostype name="command">TYPE</ostype>
+                  </object>
+                  <object class="IBCarbonMenuItem" id="683">
+                    <string name="title">DRS 6000</string>
+                    <ostype name="command">TYPE</ostype>
+                  </object>
+                  <object class="IBCarbonMenuItem" id="669">
+                    <string name="title">Dynix</string>
+                    <ostype name="command">TYPE</ostype>
+                  </object>
+                  <object class="IBCarbonMenuItem" id="674">
+                    <string name="title">FTPd / NetPresenz</string>
+                    <ostype name="command">TYPE</ostype>
+                  </object>
+                  <object class="IBCarbonMenuItem" id="667">
+                    <string name="title">HAL</string>
+                    <boolean name="disabled">TRUE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <ostype name="command">TYPE</ostype>
+                  </object>
+                  <object class="IBCarbonMenuItem" id="660">
+                    <string name="title">Honeywell Bull Unix</string>
+                    <ostype name="command">TYPE</ostype>
+                  </object>
+                  <object class="IBCarbonMenuItem" id="671">
+                    <string name="title">IBM AIX</string>
+                    <boolean name="checked">TRUE</boolean>
+                    <ostype name="command">TYPE</ostype>
+                  </object>
+                  <object class="IBCarbonMenuItem" id="668">
+                    <string name="title">IBM MVS Mainframe</string>
+                    <boolean name="disabled">TRUE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <ostype name="command">TYPE</ostype>
+                  </object>
+                  <object class="IBCarbonMenuItem" id="661">
+                    <string name="title">IBM OS/400</string>
+                    <ostype name="command">TYPE</ostype>
+                  </object>
+                  <object class="IBCarbonMenuItem" id="679">
+                    <string name="title">Netware (Unix)</string>
+                    <ostype name="command">TYPE</ostype>
+                  </object>
+                  <reference idRef="681"/>
+                  <reference idRef="675"/>
+                  <object class="IBCarbonMenuItem" id="678">
+                    <string name="title">Serv-U</string>
+                    <ostype name="command">TYPE</ostype>
+                  </object>
+                  <object class="IBCarbonMenuItem" id="682">
+                    <string name="title">Tandem Guardian</string>
+                    <boolean name="disabled">TRUE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <ostype name="command">TYPE</ostype>
+                  </object>
+                  <object class="IBCarbonMenuItem" id="665">
+                    <string name="title">Unix (Generic)</string>
+                    <ostype name="command">TYPE</ostype>
+                  </object>
+                  <object class="IBCarbonMenuItem" id="662">
+                    <string name="title">VMS</string>
+                    <ostype name="command">TYPE</ostype>
+                  </object>
+                  <object class="IBCarbonMenuItem" id="663">
+                    <string name="title">Windows NT</string>
+                    <ostype name="command">TYPE</ostype>
+                  </object>
+                  <object class="IBCarbonMenuItem" id="666">
+                    <string name="title">Windows 2000</string>
+                    <ostype name="command">TYPE</ostype>
+                  </object>
+                </array>
+              </object>
+              <int name="titleJustification">-2</int>
+              <string name="viewFrame">124 61 275 20 </string>
+              <string name="bounds">314 145 334 420 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="656">
+              <ostype name="controlSignature">DETL</ostype>
+              <int name="controlID">21</int>
+              <boolean name="hidden">TRUE</boolean>
+              <int name="controlSize">1</int>
+              <ostype name="command">SING</ostype>
+              <string name="helpTagText">Multiple connections to a server will not be made when this option is selected. Some servers require this.</string>
+              <string name="title">Only use one connection</string>
+              <string name="viewFrame">276 -125 156 18 </string>
+              <string name="bounds">128 297 146 453 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="646">
+              <ostype name="controlSignature">DETL</ostype>
+              <int name="controlID">92</int>
+              <boolean name="enabled">FALSE</boolean>
+              <boolean name="hidden">TRUE</boolean>
+              <int name="controlSize">1</int>
+              <ostype name="command">CASE</ostype>
+              <string name="helpTagText">Only select this option for servers which differentiate between lower and upper case characters</string>
+              <string name="title">Case sensitive</string>
+              <string name="viewFrame">427 116 98 18 </string>
+              <string name="bounds">369 448 387 546 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="654">
+              <ostype name="controlSignature">DETL</ostype>
+              <int name="controlID">23</int>
+              <boolean name="hidden">TRUE</boolean>
+              <int name="controlSize">1</int>
+              <ostype name="command">ACON</ostype>
+              <string name="helpTagText">Using these Bookmark settings, a connection will be made automatically when this application is run</string>
+              <string name="title">Auto-connect at startup</string>
+              <string name="viewFrame">779 114 151 17 </string>
+              <string name="bounds">367 800 384 951 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="648">
+              <ostype name="controlSignature">DETL</ostype>
+              <int name="controlID">98</int>
+              <boolean name="hidden">TRUE</boolean>
+              <int name="controlSize">1</int>
+              <ostype name="command">VMS </ostype>
+              <string name="helpTagText">When using VMS servers, this option enables you to see all versions of files in listings, including their version numbers. When not selected, only the latest version is shown</string>
+              <string name="title">Show all versions of files (VMS only)</string>
+              <string name="viewFrame">624 139 215 17 </string>
+              <string name="bounds">392 645 409 860 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="647">
+              <ostype name="controlSignature">DETL</ostype>
+              <int name="controlID">97</int>
+              <boolean name="enabled">FALSE</boolean>
+              <boolean name="hidden">TRUE</boolean>
+              <int name="controlSize">1</int>
+              <ostype name="command">DATE</ostype>
+              <string name="helpTagText">This option will override the Preferences setting to synchronize modification dates of transferred files, if it is enabled</string>
+              <string name="title">Don&apos;t synchronize dates</string>
+              <string name="viewFrame">721 122 156 17 </string>
+              <string name="bounds">375 742 392 898 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="643">
+              <ostype name="controlSignature">DETL</ostype>
+              <int name="controlID">104</int>
+              <boolean name="enabled">FALSE</boolean>
+              <boolean name="hidden">TRUE</boolean>
+              <int name="controlSize">1</int>
+              <ostype name="command">MDTM</ostype>
+              <string name="helpTagText">With this option enabled, the date of uploaded files will be set the same as the files on your Mac. Not all servers support this option</string>
+              <string name="title">Use MDTM to set server dates</string>
+              <string name="viewFrame">687 114 133 19 </string>
+              <string name="bounds">367 708 386 841 </string>
+            </object>
+            <reference idRef="642"/>
+            <object class="IBCarbonStaticText" id="651">
+              <ostype name="controlSignature">DETL</ostype>
+              <int name="controlID">667</int>
+              <string name="title">Кодирование</string>
+              <string name="viewFrame">30 33 87 16 </string>
+              <string name="bounds">286 51 302 138 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="650">
+              <ostype name="controlSignature">DETL</ostype>
+              <int name="controlID">666</int>
+              <string name="title">Тип сервера</string>
+              <string name="viewFrame">37 63 80 16 </string>
+              <string name="bounds">316 58 332 138 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="640">
+              <ostype name="controlSignature">DETL</ostype>
+              <int name="controlID">107</int>
+              <boolean name="hidden">TRUE</boolean>
+              <int name="controlSize">1</int>
+              <ostype name="command">SFTD</ostype>
+              <string name="helpTagText">With this option enabled, mod dates sent/received are adjusted by the time offset value</string>
+              <string name="title">Adjust SFTP dates</string>
+              <string name="viewFrame">399 -1 115 17 </string>
+              <string name="bounds">252 420 269 535 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="639">
+              <ostype name="controlSignature">DETL</ostype>
+              <int name="controlID">108</int>
+              <boolean name="hidden">TRUE</boolean>
+              <int name="controlSize">1</int>
+              <ostype name="command">LSTR</ostype>
+              <string name="helpTagText">With this option enabled, the recursive option for the LIST command is used, which can result in enhanced performance when fetching directory structures from the server</string>
+              <string name="title">Use LIST -R</string>
+              <string name="viewFrame">616 103 115 17 </string>
+              <string name="bounds">356 637 373 752 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="638">
+              <ostype name="controlSignature">DETL</ostype>
+              <int name="controlID">111</int>
+              <ostype name="command">NRFC</ostype>
+              <string name="helpTagText">Снимите эту галочку для FTP/SSL-серверов, которые некорректоно поддерживают RFC</string>
+              <string name="title">RFC SSL</string>
+              <string name="viewFrame">405 62 76 18 </string>
+              <string name="bounds">315 426 333 502 </string>
+            </object>
+          </array>
+          <string name="bounds">253 21 350 631 </string>
+        </object>
+      </array>
+      <string name="bounds">88 -2 369 556 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="634">
+      <int name="controlSize">1</int>
+      <string name="title">Mac :</string>
+      <string name="viewFrame">28 86 31 15 </string>
+      <string name="bounds">579 422 594 453 </string>
+    </object>
+    <reference idRef="680"/>
+    <object class="IBCarbonMenuItem" id="709">
+      <string name="title">Auto Upload + Archive</string>
+    </object>
+    <reference idRef="658"/>
+    <reference idRef="638"/>
+    <reference idRef="648"/>
+    <reference idRef="645"/>
+    <reference idRef="776"/>
+    <object class="IBCarbonMenu" id="728">
+      <string name="title">Popup:</string>
+      <array count="5" name="items">
+        <object class="IBCarbonMenuItem" id="729">
+          <string name="title">Seconds</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="739">
+          <string name="title">Minutes</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <reference idRef="730"/>
+        <reference idRef="731"/>
+        <object class="IBCarbonMenuItem" id="732">
+          <string name="title">Weeks</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+      </array>
+    </object>
+    <reference idRef="652"/>
+    <reference idRef="664"/>
+    <object class="IBCarbonMenuItem" id="734">
+      <boolean name="separator">TRUE</boolean>
+      <boolean name="disabled">TRUE</boolean>
+      <boolean name="notPreviousAlternate">TRUE</boolean>
+    </object>
+    <reference idRef="643"/>
+    <object class="IBCarbonGroupBox" id="627">
+      <boolean name="hidden">TRUE</boolean>
+      <int name="controlSize">1</int>
+      <string name="title">Watcher details</string>
+      <boolean name="primary">FALSE</boolean>
+      <string name="viewFrame">396 405 313 147 </string>
+      <array count="8" name="subviews">
+        <object class="IBCarbonStaticText" id="632">
+          <ostype name="controlSignature">DETL</ostype>
+          <int name="controlID">15</int>
+          <int name="controlSize">1</int>
+          <string name="title">DesktopDesktopDesktopDesktopDesktopDesktopDesktopDesktopDesktopDesktopDesktopDesktopDesktopDesktopDesktopDesktopDesktopDesktopDesktopDesktop</string>
+          <string name="viewFrame">63 86 168 15 </string>
+          <string name="bounds">579 457 594 625 </string>
+        </object>
+        <object class="IBCarbonButton" id="633">
+          <ostype name="controlSignature">DETL</ostype>
+          <int name="controlID">17</int>
+          <boolean name="hidden">TRUE</boolean>
+          <int name="controlSize">1</int>
+          <ostype name="command">CHOO</ostype>
+          <string name="helpTagText">Choose a different folder</string>
+          <string name="title">Select</string>
+          <string name="viewFrame">300 60 56 20 </string>
+          <string name="bounds">553 694 573 750 </string>
+        </object>
+        <reference idRef="634"/>
+        <object class="IBCarbonPopupButton" id="702">
+          <ostype name="controlSignature">WATC</ostype>
+          <int name="controlID">1</int>
+          <int name="controlSize">1</int>
+          <int name="selectedItem">7</int>
+          <object name="menu" class="IBCarbonMenu" id="703">
+            <string name="title">Popup:</string>
+            <array count="7" name="items">
+              <object class="IBCarbonMenuItem" id="705">
+                <string name="title">Synchronize : Update Server</string>
+              </object>
+              <object class="IBCarbonMenuItem" id="706">
+                <string name="title">Synchronize : Update Mac</string>
+              </object>
+              <reference idRef="734"/>
+              <object class="IBCarbonMenuItem" id="707">
+                <string name="title">Auto Upload</string>
+              </object>
+              <object class="IBCarbonMenuItem" id="704">
+                <string name="title">Auto Download</string>
+              </object>
+              <object class="IBCarbonMenuItem" id="735">
+                <boolean name="separator">TRUE</boolean>
+                <boolean name="disabled">TRUE</boolean>
+                <boolean name="notPreviousAlternate">TRUE</boolean>
+              </object>
+              <reference idRef="709"/>
+            </array>
+          </object>
+          <int name="titleJustification">-2</int>
+          <string name="viewFrame">63 30 234 17 </string>
+          <string name="bounds">523 457 540 691 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="708">
+          <int name="controlSize">1</int>
+          <string name="title">Type :</string>
+          <string name="viewFrame">23 31 34 16 </string>
+          <string name="bounds">524 417 540 451 </string>
+        </object>
+        <object class="IBCarbonUserPane" id="726">
+          <ostype name="controlSignature">WATC</ostype>
+          <int name="controlID">2</int>
+          <int name="featureBits">4194622</int>
+          <string name="viewFrame">150 109 60 24 </string>
+          <string name="bounds">602 544 626 604 </string>
+        </object>
+        <object class="IBCarbonPopupButton" id="727">
+          <ostype name="controlSignature">WATC</ostype>
+          <int name="controlID">3</int>
+          <int name="controlSize">1</int>
+          <reference name="menu" idRef="728"/>
+          <string name="viewFrame">216 112 80 17 </string>
+          <string name="bounds">605 610 622 690 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="733">
+          <int name="controlSize">1</int>
+          <string name="title">Auto re-scan interval : </string>
+          <string name="viewFrame">16 114 126 13 </string>
+          <string name="bounds">607 410 620 536 </string>
+        </object>
+      </array>
+      <string name="bounds">493 394 640 707 </string>
+    </object>
+    <reference idRef="656"/>
+    <reference idRef="665"/>
+    <reference idRef="806"/>
+    <reference idRef="639"/>
+    <object class="IBCarbonPopupButton" id="502">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">31</int>
+      <int name="controlSize">1</int>
+      <string name="helpTagText">Use the details of server found via Rendezvous</string>
+      <object name="menu" class="IBCarbonMenu" id="504">
+        <string name="title">Popup:</string>
+        <array count="1" name="items">
+          <object class="IBCarbonMenuItem" id="496">
+            <string name="title">Item</string>
+          </object>
+        </array>
+      </object>
+      <int name="titleJustification">-2</int>
+      <string name="viewFrame">276 23 21 17 </string>
+      <string name="bounds">695 627 712 648 </string>
+    </object>
+    <reference idRef="654"/>
+    <reference idRef="637"/>
+    <reference idRef="684"/>
+    <reference idRef="809"/>
+    <object class="IBCarbonWindow" id="228">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="themeBrush">49</int>
+      <int name="windowPosition">1</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">New FTP Alias</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="229">
+        <string name="viewFrame">0 0 553 427 </string>
+        <array count="7" name="subviews">
+          <reference idRef="873"/>
+          <object class="IBCarbonTab" id="237">
+            <ostype name="controlSignature">tabs</ostype>
+            <int name="controlID">128</int>
+            <int name="size">1</int>
+            <string name="viewFrame">-2 60 558 309 </string>
+            <array count="2" name="subviews">
+              <object class="IBCarbonUserPane" id="238">
+                <ostype name="controlSignature">tabs</ostype>
+                <int name="controlID">129</int>
+                <int name="controlSize">2</int>
+                <int name="featureBits">2</int>
+                <string name="viewFrame">0 28 558 281 </string>
+                <array count="17" name="subviews">
+                  <object class="IBCarbonPopupButton" id="865">
+                    <ostype name="controlSignature">DETL</ostype>
+                    <int name="controlID">12</int>
+                    <ostype name="command">CONN</ostype>
+                    <string name="helpTagText">Выберите стандартный FTP или защищенный SFTP. Большинство серверов используют стандартный FTP</string>
+                    <int name="selectedItem">6</int>
+                    <object name="menu" class="IBCarbonMenu" id="868">
+                      <string name="title">Popup:</string>
+                      <array count="6" name="items">
+                        <object class="IBCarbonMenuItem" id="889">
+                          <string name="title">FTP</string>
+                          <boolean name="checked">TRUE</boolean>
+                          <ostype name="command">CONN</ostype>
+                        </object>
+                        <reference idRef="890"/>
+                        <object class="IBCarbonMenuItem" id="891">
+                          <string name="title">FTPS (SSL/TLS)</string>
+                          <ostype name="command">CONN</ostype>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="892">
+                          <string name="title">FTPS (Implicit)</string>
+                          <ostype name="command">CONN</ostype>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="893">
+                          <string name="title">WebDAV</string>
+                          <ostype name="command">CONN</ostype>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="894">
+                          <string name="title">WebDAVS (SSL/TLS)</string>
+                          <ostype name="command">CONN</ostype>
+                        </object>
+                      </array>
+                    </object>
+                    <int name="titleJustification">-2</int>
+                    <string name="viewFrame">150 20 385 20 </string>
+                    <string name="bounds">108 148 128 533 </string>
+                  </object>
+                  <object class="IBCarbonEditText" id="855">
+                    <ostype name="controlSignature">DETL</ostype>
+                    <int name="controlID">3</int>
+                    <string name="helpTagText">IP-адрес или имя сервера. Например, ftp.apple.com</string>
+                    <boolean name="isUnicode">TRUE</boolean>
+                    <boolean name="isSingleLine">TRUE</boolean>
+                    <string name="viewFrame">154 55 378 16 </string>
+                    <string name="bounds">143 152 159 530 </string>
+                  </object>
+                  <reference idRef="857"/>
+                  <object class="IBCarbonEditText" id="859">
+                    <ostype name="controlSignature">DETL</ostype>
+                    <int name="controlID">7</int>
+                    <string name="helpTagText">Введите пароль, если у вас есть аккаунт на сервере, или оставьте это поле пустым для анонимного доступа</string>
+                    <boolean name="isPassword">TRUE</boolean>
+                    <boolean name="isUnicode">TRUE</boolean>
+                    <boolean name="isSingleLine">TRUE</boolean>
+                    <string name="viewFrame">154 119 354 16 </string>
+                    <string name="bounds">207 152 223 506 </string>
+                  </object>
+                  <reference idRef="861"/>
+                  <object class="IBCarbonIcon" id="862">
+                    <ostype name="controlSignature">LOCK</ostype>
+                    <ostype name="command">LOCK</ostype>
+                    <string name="helpTagText">Разблокировать, чтобы показать пароль</string>
+                    <int name="contentType">132</int>
+                    <int name="contentResID">1819239275</int>
+                    <boolean name="dontTrack">FALSE</boolean>
+                    <int name="creator">1296122707</int>
+                    <string name="viewFrame">519 119 16 16 </string>
+                    <string name="bounds">207 517 223 533 </string>
+                  </object>
+                  <object class="IBCarbonEditText" id="863">
+                    <ostype name="controlSignature">DETL</ostype>
+                    <int name="controlID">9</int>
+                    <boolean name="isUnicode">TRUE</boolean>
+                    <boolean name="isSingleLine">TRUE</boolean>
+                    <string name="viewFrame">154 151 378 16 </string>
+                    <string name="bounds">239 152 255 530 </string>
+                  </object>
+                  <object class="IBCarbonEditText" id="801">
+                    <ostype name="controlSignature">DETL</ostype>
+                    <int name="controlID">110</int>
+                    <string name="helpTagText">Укажите URL веб-сайта, чтобы определить начальный путь</string>
+                    <boolean name="isUnicode">TRUE</boolean>
+                    <boolean name="isSingleLine">TRUE</boolean>
+                    <string name="viewFrame">154 183 378 16 </string>
+                    <string name="bounds">271 152 287 530 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="880">
+                    <ostype name="controlSignature">ALIS</ostype>
+                    <ostype name="command">ZIP!</ostype>
+                    <int name="initialState">2</int>
+                    <string name="title">Сжать перед отправкой</string>
+                    <string name="viewFrame">149 210 175 18 </string>
+                    <string name="bounds">298 147 316 322 </string>
+                  </object>
+                  <object class="IBCarbonButton" id="803">
+                    <ostype name="command">OPCO</ostype>
+                    <string name="title">Проверьте подключение</string>
+                    <string name="viewFrame">151 241 384 20 </string>
+                    <string name="bounds">329 149 349 533 </string>
+                  </object>
+                  <reference idRef="627"/>
+                  <object class="IBCarbonStaticText" id="799">
+                    <ostype name="controlSignature">DETL</ostype>
+                    <int name="controlID">109</int>
+                    <string name="title">URL сайта</string>
+                    <string name="viewFrame">76 183 67 16 </string>
+                    <string name="bounds">271 74 287 141 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="856">
+                    <ostype name="controlSignature">DETL</ostype>
+                    <int name="controlID">2</int>
+                    <string name="title">Сервер</string>
+                    <string name="viewFrame">94 55 49 16 </string>
+                    <string name="bounds">143 92 159 141 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="858">
+                    <ostype name="controlSignature">DETL</ostype>
+                    <int name="controlID">4</int>
+                    <string name="title">Имя пользователя</string>
+                    <string name="viewFrame">23 87 120 16 </string>
+                    <string name="bounds">175 21 191 141 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="860">
+                    <ostype name="controlSignature">DETL</ostype>
+                    <int name="controlID">6</int>
+                    <string name="title">Пароль</string>
+                    <string name="viewFrame">95 119 48 16 </string>
+                    <string name="bounds">207 93 223 141 </string>
+                  </object>
+                  <reference idRef="864"/>
+                  <object class="IBCarbonStaticText" id="866">
+                    <ostype name="controlSignature">DETL</ostype>
+                    <int name="controlID">666</int>
+                    <string name="title">Протокол</string>
+                    <string name="viewFrame">80 22 63 16 </string>
+                    <string name="bounds">110 78 126 141 </string>
+                  </object>
+                </array>
+                <string name="bounds">88 -2 369 556 </string>
+              </object>
+              <reference idRef="239"/>
+            </array>
+            <string name="bounds">60 -2 369 556 </string>
+            <array count="2" name="tabItems">
+              <dictionary count="4">
+                <string>contentResID</string>
+                <string>0</string>
+                <string>tabEnabled</string>
+                <string>1</string>
+                <string>tabName</string>
+                <string>Основные</string>
+                <string>userPane</string>
+                <reference idRef="238"/>
+              </dictionary>
+              <dictionary count="4">
+                <string>contentResID</string>
+                <string>0</string>
+                <string>tabEnabled</string>
+                <string>1</string>
+                <string>tabName</string>
+                <string>Разное</string>
+                <string>userPane</string>
+                <reference idRef="239"/>
+              </dictionary>
+            </array>
+          </object>
+          <reference idRef="232"/>
+          <object class="IBCarbonButton" id="233">
+            <ostype name="controlSignature">DETL</ostype>
+            <ostype name="command">ok  </ostype>
+            <int name="buttonType">1</int>
+            <string name="title">Сохранить</string>
+            <string name="viewFrame">439 387 94 20 </string>
+            <string name="bounds">387 439 407 533 </string>
+          </object>
+          <reference idRef="512"/>
+          <object class="IBCarbonGroupBox" id="505">
+            <boolean name="hidden">TRUE</boolean>
+            <ostype name="command">BLNK</ostype>
+            <string name="title">Use connection details from...</string>
+            <boolean name="primary">FALSE</boolean>
+            <string name="viewFrame">351 672 313 59 </string>
+            <array count="4" name="subviews">
+              <reference idRef="497"/>
+              <reference idRef="502"/>
+              <object class="IBCarbonStaticText" id="506">
+                <ostype name="controlSignature">DETL</ostype>
+                <int name="controlID">29</int>
+                <int name="controlSize">1</int>
+                <string name="title">Recent connections</string>
+                <string name="viewFrame">16 28 107 16 </string>
+                <string name="bounds">700 367 716 474 </string>
+              </object>
+              <object class="IBCarbonStaticText" id="507">
+                <ostype name="controlSignature">DETL</ostype>
+                <int name="controlID">30</int>
+                <int name="controlSize">1</int>
+                <string name="title">Rendezvous</string>
+                <string name="viewFrame">207 28 66 16 </string>
+                <string name="bounds">700 558 716 624 </string>
+              </object>
+            </array>
+            <string name="bounds">672 351 731 664 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="874">
+            <string name="title">Название</string>
+            <string name="viewFrame">26 23 62 16 </string>
+            <string name="bounds">23 26 39 88 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 427 553 </string>
+      </object>
+      <string name="windowRect">81 68 508 621 </string>
+      <string name="ScreenRectAtEncodeTime">70 0 778 1280 </string>
+    </object>
+    <reference idRef="508"/>
+    <reference idRef="880"/>
+    <reference idRef="660"/>
+    <reference idRef="703"/>
+    <reference idRef="894"/>
+    <reference idRef="801"/>
+    <reference idRef="659"/>
+    <reference idRef="803"/>
+    <reference idRef="662"/>
+    <reference idRef="729"/>
+    <reference idRef="862"/>
+    <reference idRef="683"/>
+    <reference idRef="739"/>
+    <reference idRef="663"/>
+    <reference idRef="689"/>
+    <reference idRef="237"/>
+    <reference idRef="893"/>
+    <reference idRef="661"/>
+    <reference idRef="804"/>
+    <reference idRef="708"/>
+    <reference idRef="671"/>
+    <reference idRef="650"/>
+    <reference idRef="726"/>
+    <reference idRef="707"/>
+    <reference idRef="874"/>
+    <reference idRef="706"/>
+    <reference idRef="646"/>
+    <reference idRef="732"/>
+    <reference idRef="856"/>
+    <reference idRef="859"/>
+    <reference idRef="498"/>
+    <reference idRef="727"/>
+    <reference idRef="705"/>
+    <reference idRef="666"/>
+    <reference idRef="865"/>
+    <reference idRef="810"/>
+    <reference idRef="679"/>
+    <reference idRef="735"/>
+    <reference idRef="640"/>
+    <reference idRef="777"/>
+    <reference idRef="688"/>
+    <reference idRef="892"/>
+    <reference idRef="496"/>
+    <reference idRef="678"/>
+    <reference idRef="633"/>
+    <reference idRef="636"/>
+    <reference idRef="651"/>
+    <reference idRef="657"/>
+    <reference idRef="860"/>
+    <reference idRef="505"/>
+    <reference idRef="682"/>
+    <reference idRef="506"/>
+    <reference idRef="229"/>
+    <reference idRef="877"/>
+    <reference idRef="685"/>
+    <reference idRef="674"/>
+    <reference idRef="780"/>
+    <reference idRef="858"/>
+    <reference idRef="733"/>
+    <reference idRef="653"/>
+    <reference idRef="670"/>
+    <reference idRef="702"/>
+    <reference idRef="889"/>
+    <reference idRef="891"/>
+    <reference idRef="866"/>
+    <reference idRef="876"/>
+    <reference idRef="669"/>
+    <reference idRef="238"/>
+    <reference idRef="667"/>
+    <reference idRef="233"/>
+    <reference idRef="704"/>
+    <reference idRef="868"/>
+    <reference idRef="687"/>
+    <reference idRef="507"/>
+    <reference idRef="635"/>
+    <reference idRef="668"/>
+    <reference idRef="677"/>
+    <reference idRef="504"/>
+    <reference idRef="884"/>
+    <reference idRef="855"/>
+    <reference idRef="863"/>
+    <reference idRef="799"/>
+    <reference idRef="647"/>
+    <reference idRef="672"/>
+    <reference idRef="632"/>
+    <reference idRef="673"/>
+  </array>
+  <array count="130" name="allParents">
+    <reference idRef="238"/>
+    <reference idRef="659"/>
+    <reference idRef="635"/>
+    <reference idRef="229"/>
+    <reference idRef="728"/>
+    <reference idRef="728"/>
+    <reference idRef="238"/>
+    <reference idRef="636"/>
+    <reference idRef="637"/>
+    <reference idRef="238"/>
+    <reference idRef="659"/>
+    <reference idRef="239"/>
+    <reference idRef="229"/>
+    <reference idRef="229"/>
+    <reference idRef="868"/>
+    <reference idRef="775"/>
+    <reference idRef="775"/>
+    <reference idRef="505"/>
+    <reference idRef="659"/>
+    <reference idRef="237"/>
+    <reference idRef="627"/>
+    <reference idRef="659"/>
+    <reference idRef="703"/>
+    <reference idRef="657"/>
+    <reference idRef="637"/>
+    <reference idRef="637"/>
+    <reference idRef="637"/>
+    <reference idRef="775"/>
+    <reference idRef="727"/>
+    <reference idRef="637"/>
+    <reference idRef="659"/>
+    <reference idRef="703"/>
+    <reference idRef="637"/>
+    <reference idRef="238"/>
+    <reference idRef="637"/>
+    <reference idRef="659"/>
+    <reference idRef="775"/>
+    <reference idRef="637"/>
+    <reference idRef="505"/>
+    <reference idRef="637"/>
+    <reference idRef="239"/>
+    <reference idRef="659"/>
+    <reference idRef="775"/>
+    <reference idRef="1"/>
+    <reference idRef="498"/>
+    <reference idRef="238"/>
+    <reference idRef="659"/>
+    <reference idRef="702"/>
+    <reference idRef="868"/>
+    <reference idRef="238"/>
+    <reference idRef="652"/>
+    <reference idRef="238"/>
+    <reference idRef="659"/>
+    <reference idRef="728"/>
+    <reference idRef="238"/>
+    <reference idRef="659"/>
+    <reference idRef="728"/>
+    <reference idRef="659"/>
+    <reference idRef="635"/>
+    <reference idRef="229"/>
+    <reference idRef="868"/>
+    <reference idRef="659"/>
+    <reference idRef="775"/>
+    <reference idRef="627"/>
+    <reference idRef="659"/>
+    <reference idRef="637"/>
+    <reference idRef="627"/>
+    <reference idRef="703"/>
+    <reference idRef="229"/>
+    <reference idRef="703"/>
+    <reference idRef="637"/>
+    <reference idRef="728"/>
+    <reference idRef="238"/>
+    <reference idRef="238"/>
+    <reference idRef="497"/>
+    <reference idRef="627"/>
+    <reference idRef="703"/>
+    <reference idRef="659"/>
+    <reference idRef="238"/>
+    <reference idRef="775"/>
+    <reference idRef="659"/>
+    <reference idRef="703"/>
+    <reference idRef="637"/>
+    <reference idRef="775"/>
+    <reference idRef="636"/>
+    <reference idRef="868"/>
+    <reference idRef="504"/>
+    <reference idRef="659"/>
+    <reference idRef="627"/>
+    <reference idRef="239"/>
+    <reference idRef="637"/>
+    <reference idRef="653"/>
+    <reference idRef="238"/>
+    <reference idRef="229"/>
+    <reference idRef="659"/>
+    <reference idRef="505"/>
+    <reference idRef="228"/>
+    <reference idRef="775"/>
+    <reference idRef="636"/>
+    <reference idRef="659"/>
+    <reference idRef="775"/>
+    <reference idRef="238"/>
+    <reference idRef="627"/>
+    <reference idRef="637"/>
+    <reference idRef="659"/>
+    <reference idRef="627"/>
+    <reference idRef="868"/>
+    <reference idRef="868"/>
+    <reference idRef="238"/>
+    <reference idRef="775"/>
+    <reference idRef="659"/>
+    <reference idRef="237"/>
+    <reference idRef="659"/>
+    <reference idRef="229"/>
+    <reference idRef="703"/>
+    <reference idRef="865"/>
+    <reference idRef="636"/>
+    <reference idRef="505"/>
+    <reference idRef="239"/>
+    <reference idRef="659"/>
+    <reference idRef="659"/>
+    <reference idRef="502"/>
+    <reference idRef="775"/>
+    <reference idRef="238"/>
+    <reference idRef="238"/>
+    <reference idRef="238"/>
+    <reference idRef="637"/>
+    <reference idRef="659"/>
+    <reference idRef="627"/>
+    <reference idRef="659"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>BookmarkSettings</string>
+    <reference idRef="228"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">895</unsigned_int>
+</object>

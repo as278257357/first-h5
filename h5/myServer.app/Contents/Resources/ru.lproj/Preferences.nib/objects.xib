@@ -1,0 +1,3073 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="329" name="allObjects">
+    <object class="IBCarbonButton" id="1499">
+      <ostype name="controlSignature">PREF</ostype>
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <ostype name="command">ok  </ostype>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingBottomKind">2</int>
+        <int name="bindingRightKind">2</int>
+      </object>
+      <int name="buttonType">1</int>
+      <string name="title">Save</string>
+      <string name="viewFrame">393 658 92 20 </string>
+      <string name="bounds">658 393 678 485 </string>
+    </object>
+    <object class="IBCarbonMenu" id="1529">
+      <string name="title">Popup:</string>
+      <array count="1" name="items">
+        <object class="IBCarbonMenuItem" id="1530">
+          <string name="title">None</string>
+          <boolean name="checked">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+      </array>
+    </object>
+    <object class="IBCarbonCheckBox" id="1545">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">132</int>
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <string name="helpTagText">When this option is enabled, all downloading will not exceed the specifed speed</string>
+      <int name="initialState">2</int>
+      <string name="title">Limit download speed to:</string>
+      <string name="viewFrame">27 207 180 18 </string>
+      <string name="bounds">211 15 229 195 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="1332">
+      <string name="title">-</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <object class="IBCarbonStaticText" id="1567">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">59</int>
+      <string name="title">Задержка :</string>
+      <string name="viewFrame">30 311 73 16 </string>
+      <string name="bounds">315 18 331 91 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="1590">
+      <string name="title">USER hostusername@hostname:portnumber</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <object class="IBCarbonCheckBox" id="1363">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">123</int>
+      <string name="helpTagText">When selected, FTP Browsers with unified toolbars will have matching window backgrounds</string>
+      <string name="title">Unified windows</string>
+      <string name="viewFrame">28 108 179 18 </string>
+      <string name="bounds">112 16 130 195 </string>
+    </object>
+    <object class="IBCarbonMenu" id="1539">
+      <string name="title">Popup:</string>
+      <array count="1" name="items">
+        <object class="IBCarbonMenuItem" id="1540">
+          <string name="title">Ничего</string>
+          <boolean name="checked">TRUE</boolean>
+        </object>
+      </array>
+    </object>
+    <object class="IBCarbonMenuItem" id="1036">
+      <string name="title">Rename only (System default)</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <string name="helpTagText">The system default behavior of initiating an item rename</string>
+    </object>
+    <object class="IBCarbonSeparator" id="1564">
+      <string name="viewFrame">4 259 655 5 </string>
+      <string name="bounds">263 -8 268 647 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="1611">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">115</int>
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <string name="helpTagText">Some servers can list items with dates which appear to be in the future but are in fact just reported incorrectly. Enabling this option will validate dates in the future and adjust them to be in the past, as they were intended</string>
+      <string name="title">Validate suspect file datestamps</string>
+      <string name="viewFrame">27 288 224 18 </string>
+      <string name="bounds">292 15 310 239 </string>
+    </object>
+    <object class="IBCarbonEditText" id="1575">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">30</int>
+      <string name="helpTagText">Введите имя или IP-адрес прокси-сервера</string>
+      <boolean name="isUnicode">TRUE</boolean>
+      <string name="viewFrame">218 63 255 16 </string>
+      <string name="bounds">67 206 83 461 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="1649">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">22</int>
+      <string name="helpTagText">При выборе опции скрытые файлы будут переданы</string>
+      <int name="initialState">2</int>
+      <string name="title">Включить невидимые элементы для передачи</string>
+      <string name="viewFrame">27 35 318 18 </string>
+      <string name="bounds">39 15 57 333 </string>
+    </object>
+    <object class="IBCarbonIcon" id="1442">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">70</int>
+      <int name="contentType">132</int>
+      <int name="contentResID">1095782476</int>
+      <int name="creator">0</int>
+      <string name="viewFrame">263 16 32 32 </string>
+      <string name="bounds">20 251 52 283 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="1473">
+      <string name="title">Built-in</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <object class="IBCarbonMenu" id="1455">
+      <string name="title">Popup:</string>
+      <array count="8" name="items">
+        <object class="IBCarbonMenuItem" id="1460">
+          <string name="title">Araxis Merge</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="1463">
+          <string name="title">Changes</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="1459">
+          <string name="title">FileMerge</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="1462">
+          <string name="title">BBEdit</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="1458">
+          <string name="title">TextWrangler</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="1461">
+          <string name="title">DeltaWalker</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="1457">
+          <string name="title">DiffFork</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="1456">
+          <string name="title">Kaleidoscope</string>
+          <boolean name="checked">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+      </array>
+    </object>
+    <object class="IBCarbonStaticText" id="1424">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">1002</int>
+      <int name="fontStyle">-3</int>
+      <int name="controlSize">1</int>
+      <string name="title">Transfers</string>
+      <string name="viewFrame">29 12 55 13 </string>
+      <string name="bounds">16 17 29 72 </string>
+    </object>
+    <object class="IBCarbonUserPane" id="1497">
+      <ostype name="controlSignature">TABS</ostype>
+      <int name="controlID">136</int>
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <int name="featureBits">2</int>
+      <string name="viewFrame">0 0 597 500 </string>
+      <string name="bounds">4 -12 504 585 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="1411">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">45</int>
+      <ostype name="command">GRPR</ostype>
+      <string name="title">Read</string>
+      <string name="viewFrame">185 54 51 18 </string>
+      <string name="bounds">273 306 291 357 </string>
+    </object>
+    <reference idRef="1460"/>
+    <object class="IBCarbonStaticText" id="1515">
+      <string name="title">Загрузка</string>
+      <string name="viewFrame">29 142 59 16 </string>
+      <string name="bounds">146 17 162 76 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="1606">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">114</int>
+      <string name="title">UTF-8 Form C</string>
+      <string name="viewFrame">518 206 110 18 </string>
+      <string name="bounds">210 506 228 616 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="992">
+      <string name="title">Owner/Group</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <ostype name="command">OWGR</ostype>
+      <string name="helpTagText">This column shows the ownership and group settings of files and folders</string>
+    </object>
+    <object class="IBCarbonMenuItem" id="1338">
+      <string name="title">8</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <object class="IBCarbonCheckBox" id="1000">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">110</int>
+      <string name="helpTagText">When checked, List view browsers display alternating blue/white horizontal lines</string>
+      <int name="initialState">2</int>
+      <string name="title">Alternating row colors</string>
+      <string name="viewFrame">28 84 161 18 </string>
+      <string name="bounds">88 16 106 177 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="1410">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">43</int>
+      <ostype name="command">USRX</ostype>
+      <string name="title">Execute</string>
+      <string name="viewFrame">295 30 70 18 </string>
+      <string name="bounds">249 416 267 486 </string>
+    </object>
+    <object class="IBCarbonPopupButton" id="1522">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">121</int>
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <ostype name="command">DLOE</ostype>
+      <string name="helpTagText">Select the sound to be played when a remote edit download is successful</string>
+      <object name="menu" class="IBCarbonMenu" id="1527">
+        <string name="title">Popup:</string>
+        <array count="1" name="items">
+          <object class="IBCarbonMenuItem" id="1528">
+            <string name="title">None</string>
+            <boolean name="checked">TRUE</boolean>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+        </array>
+      </object>
+      <string name="viewFrame">211 219 141 20 </string>
+      <string name="bounds">223 199 243 340 </string>
+    </object>
+    <object class="IBCarbonPopupButton" id="1520">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">120</int>
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <ostype name="command">ULNE</ostype>
+      <string name="helpTagText">Select the sound to be played when a remote edit upload fails</string>
+      <reference name="menu" idRef="1529"/>
+      <string name="viewFrame">359 193 141 20 </string>
+      <string name="bounds">197 347 217 488 </string>
+    </object>
+    <object class="IBCarbonIcon" id="1450">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">138</int>
+      <int name="contentType">132</int>
+      <int name="contentResID">1095782476</int>
+      <int name="creator">0</int>
+      <string name="viewFrame">263 178 32 32 </string>
+      <string name="bounds">182 251 214 283 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="1040">
+      <string name="title">Transfer selection only</string>
+      <boolean name="checked">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <string name="helpTagText">The selected items will be transferred (upload or download depending whether the Mac or Server listing is selected)</string>
+    </object>
+    <object class="IBCarbonUserPane" id="1166">
+      <ostype name="controlSignature">tabs</ostype>
+      <int name="controlID">135</int>
+      <int name="featureBits">2</int>
+      <string name="viewFrame">0 28 772 650 </string>
+      <array count="14" name="subviews">
+        <object class="IBCarbonUserPane" id="1495">
+          <ostype name="controlSignature">TABS</ostype>
+          <int name="controlID">135</int>
+          <boolean name="enabled">FALSE</boolean>
+          <boolean name="hidden">TRUE</boolean>
+          <int name="featureBits">2</int>
+          <string name="viewFrame">11 0 597 230 </string>
+          <string name="bounds">4 -1 234 596 </string>
+        </object>
+        <reference idRef="1442"/>
+        <object class="IBCarbonPopupButton" id="1443">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">69</int>
+          <ostype name="command">EDIR</ostype>
+          <string name="helpTagText">Select a preconfigured editor app or select a new one</string>
+          <int name="selectedItem">3</int>
+          <object name="menu" class="IBCarbonMenu" id="1464">
+            <string name="title">Popup:</string>
+            <array count="13" name="items">
+              <object class="IBCarbonMenuItem" id="1469">
+                <string name="title">BBEdit</string>
+                <boolean name="checked">TRUE</boolean>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+              <object class="IBCarbonMenuItem" id="1474">
+                <string name="title">BBEdit Lite</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+              <object class="IBCarbonMenuItem" id="1470">
+                <string name="title">TextWrangler</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+              <object class="IBCarbonMenuItem" id="1475">
+                <string name="title">SubEthaEdit</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+              <object class="IBCarbonMenuItem" id="1471">
+                <string name="title">Page Spinner</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+              <object class="IBCarbonMenuItem" id="1466">
+                <string name="title">TextMate</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+              <object class="IBCarbonMenuItem" id="1477">
+                <string name="title">Pepper</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+              <object class="IBCarbonMenuItem" id="1467">
+                <string name="title">skEdit</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+              <object class="IBCarbonMenuItem" id="1472">
+                <string name="title">Espresso</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+              <object class="IBCarbonMenuItem" id="1476">
+                <string name="title">Smultron</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+              <reference idRef="1473"/>
+              <object class="IBCarbonMenuItem" id="1465">
+                <boolean name="separator">TRUE</boolean>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+              <object class="IBCarbonMenuItem" id="1468">
+                <string name="title">Other...</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+            </array>
+          </object>
+          <string name="viewFrame">126 22 125 20 </string>
+          <string name="bounds">26 114 46 239 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="1444">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">71</int>
+          <string name="title">BBEdit</string>
+          <string name="viewFrame">303 24 296 16 </string>
+          <string name="bounds">28 291 44 587 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="1445">
+          <string name="title">Default editor</string>
+          <string name="viewFrame">29 24 88 16 </string>
+          <string name="bounds">28 17 44 105 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="1446">
+          <string name="title">Upload edited files :</string>
+          <string name="viewFrame">29 56 127 16 </string>
+          <string name="bounds">60 17 76 144 </string>
+        </object>
+        <object class="IBCarbonRadioGroup" id="1447">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">101</int>
+          <string name="helpTagText">This setting governs when files that have been edited remotely are sent back to the server.&#13;&#13;Note that only ODB-aware editors are capable of the &apos;Close&apos; setting.&#13;Changes to this setting apply to subsequent edits</string>
+          <int name="numCols">2</int>
+          <array count="2" name="radioTitles">
+            <array count="2">
+              <string>Ask before editing</string>
+              <string>When closed</string>
+            </array>
+            <array count="2">
+              <string>When saved</string>
+              <string>Never</string>
+            </array>
+          </array>
+          <string name="viewFrame">164 56 276 38 </string>
+          <string name="bounds">60 152 98 428 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1449">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">1009</int>
+          <string name="helpTagText">When selected, remotely edited files will be cached</string>
+          <string name="title">Cache edits</string>
+          <string name="viewFrame">28 103 93 18 </string>
+          <string name="bounds">107 16 125 109 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1448">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">105</int>
+          <string name="helpTagText">When selected, remote edits with ODB compliant editors will disallow duplicate edits of the same file, and when uploading changes checks whether the server file has been modified will be made. If the latter is true, options to edit the server file for merging purposes is given, in addition to cancel and straght replacement options.&#10;&#10;The &apos;Automatically detect time offset&apos; feature must be enabled in your Bookmarks for this feature to operate</string>
+          <string name="title">Check for duplicate edits and overwriting newer files on upload</string>
+          <string name="viewFrame">28 128 421 18 </string>
+          <string name="bounds">132 16 150 437 </string>
+        </object>
+        <reference idRef="1450"/>
+        <object class="IBCarbonPopupButton" id="1451">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">137</int>
+          <ostype name="command">DIFF</ostype>
+          <string name="helpTagText">Select a preconfigured diff app</string>
+          <int name="selectedItem">8</int>
+          <reference name="menu" idRef="1455"/>
+          <string name="viewFrame">126 184 125 20 </string>
+          <string name="bounds">188 114 208 239 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="1452">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">139</int>
+          <string name="title">BBEdit</string>
+          <string name="viewFrame">303 186 296 16 </string>
+          <string name="bounds">190 291 206 587 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="1453">
+          <string name="title">Diff files with</string>
+          <string name="viewFrame">30 187 87 16 </string>
+          <string name="bounds">191 18 207 105 </string>
+        </object>
+        <object class="IBCarbonSeparator" id="1454">
+          <string name="viewFrame">30 162 558 4 </string>
+          <string name="bounds">166 18 170 576 </string>
+        </object>
+      </array>
+      <string name="bounds">4 -12 654 760 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="1052">
+      <string name="title">Каждую неделю</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <reference idRef="1467"/>
+    <object class="IBCarbonSeparator" id="1427">
+      <string name="viewFrame">7 26 644 4 </string>
+      <string name="bounds">30 -5 34 639 </string>
+    </object>
+    <object class="IBCarbonUserPane" id="309">
+      <ostype name="controlSignature">tabs</ostype>
+      <int name="controlID">132</int>
+      <int name="featureBits">2</int>
+      <string name="viewFrame">0 28 772 650 </string>
+      <array count="33" name="subviews">
+        <object class="IBCarbonUserPane" id="1492">
+          <ostype name="controlSignature">TABS</ostype>
+          <int name="controlID">132</int>
+          <boolean name="enabled">FALSE</boolean>
+          <boolean name="hidden">TRUE</boolean>
+          <int name="featureBits">2</int>
+          <string name="viewFrame">0 0 638 325 </string>
+          <string name="bounds">4 -12 329 626 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="1573">
+          <int name="fontStyle">-3</int>
+          <int name="controlSize">1</int>
+          <string name="title">Прокси</string>
+          <string name="viewFrame">29 12 44 13 </string>
+          <string name="bounds">16 17 29 61 </string>
+        </object>
+        <object class="IBCarbonSeparator" id="1574">
+          <string name="viewFrame">3 26 655 5 </string>
+          <string name="bounds">30 -9 35 646 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1599">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">28</int>
+          <string name="helpTagText">Если доступ к Интернету доступен только через прокси-сервер, включите эту опцию</string>
+          <int name="initialState">2</int>
+          <string name="title">Использовать прокси-сервер :</string>
+          <string name="viewFrame">27 38 220 18 </string>
+          <string name="bounds">42 15 60 235 </string>
+        </object>
+        <reference idRef="1575"/>
+        <object class="IBCarbonEditText" id="1576">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">32</int>
+          <string name="helpTagText">Введите номер TCP-порта, который использует сервер. SOCKS-сервер будет использовать 1080 по умолчанию</string>
+          <boolean name="isUnicode">TRUE</boolean>
+          <string name="viewFrame">521 63 39 16 </string>
+          <string name="bounds">67 509 83 548 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="1577">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">31</int>
+          <string name="title">Порт</string>
+          <string name="viewFrame">481 62 32 16 </string>
+          <string name="bounds">66 469 82 501 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="1578">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">29</int>
+          <string name="title">Адрес сервера</string>
+          <string name="viewFrame">109 62 97 16 </string>
+          <string name="bounds">66 97 82 194 </string>
+        </object>
+        <object class="IBCarbonEditText" id="1579">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">34</int>
+          <string name="helpTagText">Если имя пользователя и пароль требуются для доступа к прокси-серверу, введите имя пользователя здесь</string>
+          <boolean name="isUnicode">TRUE</boolean>
+          <string name="viewFrame">218 95 342 16 </string>
+          <string name="bounds">99 206 115 548 </string>
+        </object>
+        <object class="IBCarbonEditText" id="1581">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">36</int>
+          <string name="helpTagText">Если имя пользователя и пароль требуются для доступа к прокси-серверу, введите пароль здесь</string>
+          <boolean name="isPassword">TRUE</boolean>
+          <boolean name="isUnicode">TRUE</boolean>
+          <string name="viewFrame">218 127 342 16 </string>
+          <string name="bounds">131 206 147 548 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="1580">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">33</int>
+          <string name="title">Имя пользвателя</string>
+          <string name="viewFrame">94 95 112 16 </string>
+          <string name="bounds">99 82 115 194 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="1582">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">35</int>
+          <string name="title">Пароль</string>
+          <string name="viewFrame">158 127 48 16 </string>
+          <string name="bounds">131 146 147 194 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="1583">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">37</int>
+          <string name="title">Тип прокси</string>
+          <string name="viewFrame">133 158 73 16 </string>
+          <string name="bounds">162 121 178 194 </string>
+        </object>
+        <object class="IBCarbonPopupButton" id="1584">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">38</int>
+          <string name="helpTagText">Выберите тип входа, используемый на прокси-сервере</string>
+          <int name="selectedItem">8</int>
+          <object name="menu" class="IBCarbonMenu" id="1585">
+            <string name="title">Popup:</string>
+            <array count="13" name="items">
+              <object class="IBCarbonMenuItem" id="1591">
+                <string name="title">USER after logon</string>
+              </object>
+              <object class="IBCarbonMenuItem" id="1598">
+                <string name="title">SITE hostname</string>
+              </object>
+              <object class="IBCarbonMenuItem" id="1589">
+                <string name="title">Proxy OPEN</string>
+              </object>
+              <object class="IBCarbonMenuItem" id="1597">
+                <string name="title">Transparent</string>
+              </object>
+              <object class="IBCarbonMenuItem" id="1588">
+                <string name="title">USER with no logon</string>
+              </object>
+              <object class="IBCarbonMenuItem" id="1595">
+                <string name="title">USER proxyusername@hostname</string>
+              </object>
+              <object class="IBCarbonMenuItem" id="1586">
+                <string name="title">USER hostusername@proxyusername@hostname</string>
+              </object>
+              <object class="IBCarbonMenuItem" id="1596">
+                <string name="title">USER hostusername@hostname proxyusername</string>
+                <boolean name="checked">TRUE</boolean>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+              <reference idRef="1590"/>
+              <object class="IBCarbonMenuItem" id="1593">
+                <string name="title">USER hostusername@hostname portnumber</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+              <object class="IBCarbonMenuItem" id="1587">
+                <string name="title">SOCKS 4</string>
+              </object>
+              <object class="IBCarbonMenuItem" id="1592">
+                <string name="title">SOCKS 4a</string>
+              </object>
+              <object class="IBCarbonMenuItem" id="1594">
+                <string name="title">SOCKS 5</string>
+              </object>
+            </array>
+          </object>
+          <string name="viewFrame">215 156 348 20 </string>
+          <string name="bounds">160 203 180 551 </string>
+        </object>
+        <object class="IBCarbonPopupButton" id="1605">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">88</int>
+          <string name="helpTagText">Большинство серверов будут работать с кодировкой UTF-8. Если вам нужно работать с различным типом по умолчанию, выберите его здесь. Обратите внимание, что каждая закладка имеет свою собственную установку для этого.</string>
+          <object name="menu" class="IBCarbonMenu" id="1619">
+            <string name="title">Popup:</string>
+            <array count="1" name="items">
+              <object class="IBCarbonMenuItem" id="1620">
+                <string name="title">UTF-8</string>
+                <boolean name="checked">TRUE</boolean>
+              </object>
+            </array>
+          </object>
+          <string name="viewFrame">202 205 310 20 </string>
+          <string name="bounds">209 190 229 500 </string>
+        </object>
+        <reference idRef="1606"/>
+        <object class="IBCarbonCheckBox" id="1608">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">109</int>
+          <string name="helpTagText">При выборе приложение будет автоматически переключиться в режим активного или пассивного FTP в зависимости от сервера</string>
+          <int name="initialState">2</int>
+          <string name="title">Автоматическое обнаружение активного/пассивного режима</string>
+          <string name="viewFrame">27 240 418 18 </string>
+          <string name="bounds">244 15 262 433 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1609">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">21</int>
+          <string name="helpTagText">Пассивный или активный FTP может потребоваться в зависимости от конфигурации вашей сети. Если у вас есть трудности, попробуйте переключить эту настройку</string>
+          <string name="title">По умолчанию пассивный FTP (PASV)</string>
+          <string name="viewFrame">27 264 261 18 </string>
+          <string name="bounds">268 15 286 276 </string>
+        </object>
+        <reference idRef="1611"/>
+        <object class="IBCarbonCheckBox" id="1614">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">100</int>
+          <boolean name="enabled">FALSE</boolean>
+          <boolean name="hidden">TRUE</boolean>
+          <string name="helpTagText">When checked, symbolic links are resolved during file listing retrievals so that it can be determined whether they point to directories or files, and for the latter, the file sizes.&#10;&#10;Disable this option if directory listings take too long to display because the server has very many symlinks</string>
+          <string name="title">Resolve symlinks</string>
+          <string name="viewFrame">27 307 128 18 </string>
+          <string name="bounds">311 15 329 143 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1615">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">140</int>
+          <boolean name="enabled">FALSE</boolean>
+          <boolean name="hidden">TRUE</boolean>
+          <string name="title">Treat symlinks as normal items</string>
+          <string name="viewFrame">46 331 218 18 </string>
+          <string name="bounds">335 34 353 252 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1602">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">23</int>
+          <boolean name="enabled">FALSE</boolean>
+          <boolean name="hidden">TRUE</boolean>
+          <string name="helpTagText">If selected, using multiple connections allows more than one task to be executed at a time</string>
+          <string name="title">Allow multiple connections</string>
+          <string name="viewFrame">27 362 191 18 </string>
+          <string name="bounds">366 15 384 206 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1618">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">56</int>
+          <boolean name="enabled">FALSE</boolean>
+          <boolean name="hidden">TRUE</boolean>
+          <string name="helpTagText">Some servers require a special command to be sent in order to see invisible files. Select this option if you do not see invisible items you are expecting to.</string>
+          <int name="initialState">2</int>
+          <string name="title">Issue &quot;LIST -la&quot; command</string>
+          <string name="viewFrame">268 240 190 18 </string>
+          <string name="bounds">244 256 262 446 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1613">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">116</int>
+          <string name="helpTagText">Некоторые установки SSH требуют указание файла с ключом в кавычках, а другие же нет. Если ваш файл с ключом не найден, судя по сообщению, переключите эту настройку</string>
+          <int name="initialState">2</int>
+          <string name="title">Кавычки для пути файла с ключом SSH</string>
+          <string name="viewFrame">27 288 276 18 </string>
+          <string name="bounds">292 15 310 291 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1610">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">95</int>
+          <boolean name="enabled">FALSE</boolean>
+          <boolean name="hidden">TRUE</boolean>
+          <string name="helpTagText">When selected, NOOP (no operation) commands are sent to the server periodically when connections are idle. This prevents the server from closing the connection due to the servers idle time limit being exceeded</string>
+          <string name="title">Keep connections alive</string>
+          <string name="viewFrame">268 264 165 18 </string>
+          <string name="bounds">268 256 286 421 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1612">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">118</int>
+          <boolean name="enabled">FALSE</boolean>
+          <boolean name="hidden">TRUE</boolean>
+          <string name="helpTagText">When using the Copy As URL option in the File menu, this option controls whether both the username and password are included in the URL, or only the username, for security reasons</string>
+          <string name="title">Export passwords in URLs</string>
+          <string name="viewFrame">268 288 184 18 </string>
+          <string name="bounds">292 256 310 440 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1617">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">124</int>
+          <ostype name="command">ACTI</ostype>
+          <string name="helpTagText">Включение этой опции позволяет указать IP-адрес, чтобы использовать его при активном режиме работы FTP. Если флажок не установлен, ваш местный IP будет использоваться автоматически</string>
+          <string name="title">Активные IP-адреса</string>
+          <string name="viewFrame">353 288 150 18 </string>
+          <string name="bounds">292 341 310 491 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="1600">
+          <int name="fontStyle">-3</int>
+          <int name="controlSize">1</int>
+          <string name="title">Разное</string>
+          <string name="viewFrame">28 182 80 13 </string>
+          <string name="bounds">186 16 199 96 </string>
+        </object>
+        <object class="IBCarbonSeparator" id="1601">
+          <string name="viewFrame">2 196 655 5 </string>
+          <string name="bounds">200 -10 205 645 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="1604">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">25</int>
+          <boolean name="enabled">FALSE</boolean>
+          <boolean name="hidden">TRUE</boolean>
+          <string name="title">Maximum connections per server:</string>
+          <string name="viewFrame">231 363 215 16 </string>
+          <string name="bounds">367 219 383 434 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="1607">
+          <string name="title">Кодировка по умолчанию</string>
+          <string name="viewFrame">29 207 166 16 </string>
+          <string name="bounds">211 17 227 183 </string>
+        </object>
+        <object class="IBCarbonEditText" id="1616">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">125</int>
+          <boolean name="isUnicode">TRUE</boolean>
+          <string name="title">255.255.255.255</string>
+          <string name="viewFrame">514 289 111 16 </string>
+          <string name="bounds">293 502 309 613 </string>
+        </object>
+        <object class="IBCarbonEditText" id="1603">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">26</int>
+          <boolean name="enabled">FALSE</boolean>
+          <boolean name="hidden">TRUE</boolean>
+          <string name="helpTagText">Enter the number of simultaneous connections limit</string>
+          <boolean name="isUnicode">TRUE</boolean>
+          <string name="title">21</string>
+          <string name="viewFrame">454 363 21 16 </string>
+          <string name="bounds">367 442 383 463 </string>
+        </object>
+      </array>
+      <string name="bounds">4 -12 654 760 </string>
+    </object>
+    <reference idRef="1585"/>
+    <reference idRef="1614"/>
+    <object class="IBCarbonStaticText" id="1163">
+      <string name="title">Dropbox syncing allows all your FTP settings to be automatically copied to all your devices where the app is installed. See the link below for more info:&#10;&#10;http://www.dropbox.com</string>
+      <string name="viewFrame">29 54 579 31 </string>
+      <string name="bounds">58 17 89 596 </string>
+    </object>
+    <reference idRef="1596"/>
+    <reference idRef="1620"/>
+    <reference idRef="1443"/>
+    <object class="IBCarbonCheckBox" id="1438">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">82</int>
+      <string name="helpTagText">When checked, items are selected in file lists using a selection rectangle</string>
+      <string name="title">Marquee list selection</string>
+      <string name="viewFrame">101 389 158 18 </string>
+      <string name="bounds">393 89 411 247 </string>
+    </object>
+    <object class="IBCarbonPopupButton" id="1519">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">119</int>
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <ostype name="command">ULOE</ostype>
+      <string name="helpTagText">Select the sound to be played when a remote edit upload is successful</string>
+      <object name="menu" class="IBCarbonMenu" id="1531">
+        <string name="title">Popup:</string>
+        <array count="1" name="items">
+          <object class="IBCarbonMenuItem" id="1532">
+            <string name="title">None</string>
+            <boolean name="checked">TRUE</boolean>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+        </array>
+      </object>
+      <string name="viewFrame">211 193 141 20 </string>
+      <string name="bounds">197 199 217 340 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="1386">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">10</int>
+      <string name="helpTagText">When selected, server icons may be badged to indicate the privileges you have</string>
+      <int name="initialState">2</int>
+      <string name="title">Icons reflect permissions</string>
+      <string name="viewFrame">28 276 178 18 </string>
+      <string name="bounds">280 16 298 194 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="1510">
+      <int name="controlSize">1</int>
+      <string name="title">Успешно</string>
+      <string name="viewFrame">122 122 49 13 </string>
+      <string name="bounds">126 110 139 159 </string>
+    </object>
+    <reference idRef="1474"/>
+    <object class="IBCarbonStaticText" id="1621">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">1000</int>
+      <int name="fontStyle">-3</int>
+      <int name="controlSize">1</int>
+      <string name="title">Настройки загрузки</string>
+      <string name="viewFrame">29 12 118 13 </string>
+      <string name="bounds">16 17 29 135 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="1415">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">46</int>
+      <ostype name="command">GRPW</ostype>
+      <string name="title">Write</string>
+      <string name="viewFrame">240 54 53 18 </string>
+      <string name="bounds">273 361 291 414 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="1053">
+      <string name="title">Каждый месяц</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <reference idRef="1601"/>
+    <object class="IBCarbonMenuItem" id="873">
+      <string name="title">Edit</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <string name="helpTagText">Files will be opened for editing in an external editor when double clicked</string>
+    </object>
+    <object class="IBCarbonUserPane" id="1217">
+      <ostype name="controlSignature">tabs</ostype>
+      <int name="controlID">136</int>
+      <int name="featureBits">2</int>
+      <string name="viewFrame">0 28 772 650 </string>
+      <array count="43" name="subviews">
+        <reference idRef="1497"/>
+        <object class="IBCarbonCheckBox" id="1393">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">57</int>
+          <string name="helpTagText">Adjust the modification date of transferred files to match the original</string>
+          <string name="title">Maintain modification dates of transferred files</string>
+          <string name="viewFrame">27 60 317 18 </string>
+          <string name="bounds">64 15 82 332 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1394">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">64</int>
+          <string name="helpTagText">Adjust the permissions of transferred files to match the original. Note that this is only available for SFTP connections</string>
+          <string name="title">Maintain permissions of transferred files (SFTP only)</string>
+          <string name="viewFrame">27 84 349 18 </string>
+          <string name="bounds">88 15 106 364 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1395">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">24</int>
+          <string name="helpTagText">When selected, files downloaded as ASCII (text) will use the LF character instead of the usual CR character to denote line endings</string>
+          <string name="title">Use UNIX line endings (LF) instead of Mac (CR) for local files</string>
+          <string name="viewFrame">27 108 397 18 </string>
+          <string name="bounds">112 15 130 412 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="1397">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">84</int>
+          <string name="title">SFTP Text upload mode</string>
+          <string name="viewFrame">102 184 149 16 </string>
+          <string name="bounds">188 90 204 239 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1398">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">86</int>
+          <string name="helpTagText">When selected, each multi-file transfer will use more than one connection</string>
+          <string name="title">Split transactions</string>
+          <string name="viewFrame">27 132 129 18 </string>
+          <string name="bounds">136 15 154 144 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1399">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">134</int>
+          <string name="helpTagText">When selected, the transfer queue will be automatically filled with sub items, such as folder contents, as they become known, to ensure that maximum bandwidth is used, thereby speeding up transfers</string>
+          <string name="title">Recursive batch transfers</string>
+          <string name="viewFrame">27 156 180 18 </string>
+          <string name="bounds">160 15 178 195 </string>
+        </object>
+        <object class="IBCarbonEditText" id="1401">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">1004</int>
+          <boolean name="isUnicode">TRUE</boolean>
+          <string name="title">30</string>
+          <string name="viewFrame">485 155 20 16 </string>
+          <string name="bounds">159 473 175 493 </string>
+        </object>
+        <object class="IBCarbonPopupButton" id="1396">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">85</int>
+          <string name="helpTagText">Select the line endings to encode when uploading text files via SFTP</string>
+          <int name="selectedItem">3</int>
+          <object name="menu" class="IBCarbonMenu" id="1420">
+            <string name="title">Popup:</string>
+            <array count="3" name="items">
+              <object class="IBCarbonMenuItem" id="1421">
+                <string name="title">Unix (LF)</string>
+              </object>
+              <object class="IBCarbonMenuItem" id="1423">
+                <string name="title">Mac (CR)</string>
+              </object>
+              <object class="IBCarbonMenuItem" id="1422">
+                <string name="title">DOS (CRLF)</string>
+                <boolean name="checked">TRUE</boolean>
+              </object>
+            </array>
+          </object>
+          <string name="viewFrame">258 182 111 20 </string>
+          <string name="bounds">186 246 206 357 </string>
+        </object>
+        <object class="IBCarbonButton" id="1637">
+          <ostype name="command">SFIX</ostype>
+          <string name="helpTagText">Edit the Suffix Mapping table</string>
+          <int name="iconPosition">0</int>
+          <string name="title">Suffix Mapping</string>
+          <string name="viewFrame">424 182 119 20 </string>
+          <string name="bounds">186 412 206 531 </string>
+        </object>
+        <object class="IBCarbonGroupBox" id="1400">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">39</int>
+          <string name="helpTagText">If selected, files which are uploaded will have the configured permissions set on the server. Not all servers support this feature.</string>
+          <string name="title">Set permissions of uploaded files</string>
+          <boolean name="primary">FALSE</boolean>
+          <int name="titleType">1</int>
+          <string name="viewFrame">133 215 381 110 </string>
+          <array count="16" name="subviews">
+            <object class="IBCarbonStaticText" id="1416">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">40</int>
+              <string name="title">User:</string>
+              <string name="viewFrame">145 31 33 16 </string>
+              <string name="bounds">250 266 266 299 </string>
+            </object>
+            <object class="IBCarbonEditText" id="1404">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">53</int>
+              <string name="helpTagText">Enter the octal value directly if preferred</string>
+              <boolean name="isUnicode">TRUE</boolean>
+              <string name="title">777</string>
+              <string name="viewFrame">63 46 30 16 </string>
+              <string name="bounds">265 184 281 214 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="1406">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">41</int>
+              <ostype name="command">USRR</ostype>
+              <string name="title">Read</string>
+              <string name="viewFrame">185 30 51 18 </string>
+              <string name="bounds">249 306 267 357 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="1409">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">42</int>
+              <ostype name="command">USRW</ostype>
+              <string name="title">Write</string>
+              <string name="viewFrame">240 30 53 18 </string>
+              <string name="bounds">249 361 267 414 </string>
+            </object>
+            <reference idRef="1410"/>
+            <object class="IBCarbonSeparator" id="1414">
+              <string name="viewFrame">119 41 5 43 </string>
+              <string name="bounds">260 240 303 245 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="1413">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">52</int>
+              <string name="title">Octal:</string>
+              <string name="viewFrame">16 46 37 16 </string>
+              <string name="bounds">265 137 281 174 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="1412">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">44</int>
+              <string name="title">Group:</string>
+              <string name="viewFrame">137 55 44 16 </string>
+              <string name="bounds">274 258 290 302 </string>
+            </object>
+            <reference idRef="1411"/>
+            <reference idRef="1415"/>
+            <object class="IBCarbonCheckBox" id="1417">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">47</int>
+              <ostype name="command">GRPX</ostype>
+              <string name="title">Execute</string>
+              <string name="viewFrame">295 54 70 18 </string>
+              <string name="bounds">273 416 291 486 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="1408">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">48</int>
+              <string name="title">Other:</string>
+              <string name="viewFrame">139 79 40 16 </string>
+              <string name="bounds">298 260 314 300 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="1407">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">49</int>
+              <ostype name="command">OTHR</ostype>
+              <string name="title">Read</string>
+              <string name="viewFrame">185 78 51 18 </string>
+              <string name="bounds">297 306 315 357 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="1418">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">50</int>
+              <ostype name="command">OTHW</ostype>
+              <string name="title">Write</string>
+              <string name="viewFrame">240 78 53 18 </string>
+              <string name="bounds">297 361 315 414 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="1419">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">51</int>
+              <ostype name="command">OTHX</ostype>
+              <string name="title">Execute</string>
+              <string name="viewFrame">295 78 70 18 </string>
+              <string name="bounds">297 416 315 486 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="1405">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">54</int>
+              <string name="title">----------</string>
+              <string name="viewFrame">25 70 76 16 </string>
+              <string name="bounds">289 146 305 222 </string>
+            </object>
+          </array>
+          <string name="bounds">219 121 329 502 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="1402">
+          <string name="title">Keep logs for</string>
+          <string name="viewFrame">392 155 84 16 </string>
+          <string name="bounds">159 380 175 464 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="1403">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">1005</int>
+          <string name="title">days</string>
+          <string name="viewFrame">514 155 29 16 </string>
+          <string name="bounds">159 502 175 531 </string>
+        </object>
+        <reference idRef="1424"/>
+        <reference idRef="1427"/>
+        <object class="IBCarbonStaticText" id="1428">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">1001</int>
+          <int name="fontStyle">-3</int>
+          <int name="controlSize">1</int>
+          <string name="title">Interface</string>
+          <string name="viewFrame">29 342 51 13 </string>
+          <string name="bounds">346 17 359 68 </string>
+        </object>
+        <object class="IBCarbonSeparator" id="1429">
+          <string name="viewFrame">7 357 682 4 </string>
+          <string name="bounds">361 -5 365 677 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1225">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">107</int>
+          <boolean name="enabled">FALSE</boolean>
+          <boolean name="hidden">TRUE</boolean>
+          <int name="controlSize">1</int>
+          <string name="helpTagText">When selected, you will be warned if you close an FTP Browser window or Quit the app while running or pending tasks are outstanding</string>
+          <string name="title">Ask before closing busy FTP sessions</string>
+          <string name="viewFrame">720 312 218 16 </string>
+          <string name="bounds">316 708 332 926 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1224">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">27</int>
+          <boolean name="hidden">TRUE</boolean>
+          <int name="controlSize">1</int>
+          <string name="helpTagText">When selected, the Queue drawer will show when there is more than one task active and hide again when there is not</string>
+          <string name="title">Open/close the queue drawer automatically</string>
+          <string name="viewFrame">720 199 252 14 </string>
+          <string name="bounds">203 708 217 960 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1221">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">20</int>
+          <boolean name="enabled">FALSE</boolean>
+          <boolean name="hidden">TRUE</boolean>
+          <int name="controlSize">1</int>
+          <string name="helpTagText">Show a warning alert before permanently deleting items</string>
+          <string name="title">Ask before deleting items</string>
+          <string name="viewFrame">713 269 161 14 </string>
+          <string name="bounds">273 701 287 862 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1226">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">87</int>
+          <boolean name="enabled">FALSE</boolean>
+          <boolean name="hidden">TRUE</boolean>
+          <int name="controlSize">1</int>
+          <string name="helpTagText">When selected, you will be prompted to save a connection established with the New Connection window as a Bookmark</string>
+          <string name="title">Ask before closing unsaved new connections</string>
+          <string name="viewFrame">713 279 266 16 </string>
+          <string name="bounds">283 701 299 967 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1220">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">1006</int>
+          <boolean name="hidden">TRUE</boolean>
+          <int name="controlSize">1</int>
+          <string name="helpTagText">When selected, Lion&apos;s auto-resume feature is supported</string>
+          <string name="title">Enable auto-resume windows</string>
+          <string name="viewFrame">720 215 177 16 </string>
+          <string name="bounds">219 708 235 885 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1297">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">90</int>
+          <boolean name="hidden">TRUE</boolean>
+          <int name="controlSize">1</int>
+          <string name="helpTagText">When checked, transfer progress bar indicators display a rippling effect&#13;&#13;Disabling this feature will reduce CPU usage, which is especially useful on slower machines</string>
+          <string name="title">Animated progress bars</string>
+          <string name="viewFrame">720 135 148 14 </string>
+          <string name="bounds">139 708 153 856 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1298">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">99</int>
+          <boolean name="hidden">TRUE</boolean>
+          <int name="controlSize">1</int>
+          <string name="helpTagText">When checked, the Transcript font is smaller and more compact, but this may not be antialiased in some systems so the larger version may be more suitable</string>
+          <string name="title">Small Transcript font</string>
+          <string name="viewFrame">733 113 137 14 </string>
+          <string name="bounds">117 721 131 858 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1299">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">96</int>
+          <boolean name="hidden">TRUE</boolean>
+          <int name="controlSize">1</int>
+          <string name="helpTagText">When checked, the status area at the bottom of each browser is reduced in size, allowing more vertical space for file lisings</string>
+          <string name="title">Small FTP status area</string>
+          <string name="viewFrame">720 167 136 14 </string>
+          <string name="bounds">171 708 185 844 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1300">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">98</int>
+          <boolean name="hidden">TRUE</boolean>
+          <int name="controlSize">1</int>
+          <string name="helpTagText">When checked, a Trash icon just like the one in the Dock is displayed in the Browser window. Items can be deleted by dragging them onto it</string>
+          <string name="title">Show Trash icon</string>
+          <string name="viewFrame">720 151 110 14 </string>
+          <string name="bounds">155 708 169 818 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1301">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">135</int>
+          <boolean name="hidden">TRUE</boolean>
+          <int name="controlSize">1</int>
+          <string name="helpTagText">When enabled, windows fade in and out</string>
+          <string name="title">Fading windows</string>
+          <string name="viewFrame">720 98 107 14 </string>
+          <string name="bounds">102 708 116 815 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1303">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">65</int>
+          <boolean name="enabled">FALSE</boolean>
+          <boolean name="hidden">TRUE</boolean>
+          <int name="controlSize">1</int>
+          <string name="helpTagText">When selected, displayed file listings will be kept in memory rather than being read from disk each time, unless the file listing is manually refreshed</string>
+          <string name="title">Use directory caching</string>
+          <string name="viewFrame">720 251 136 14 </string>
+          <string name="bounds">255 708 269 844 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1306">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">66</int>
+          <boolean name="enabled">FALSE</boolean>
+          <boolean name="hidden">TRUE</boolean>
+          <int name="controlSize">1</int>
+          <string name="helpTagText">When selected, displayed file listings will be kept in memory rather than being read from the server each time, unless the file listing is manually refreshed</string>
+          <int name="initialState">2</int>
+          <string name="title">Use directory caching</string>
+          <string name="viewFrame">720 237 137 14 </string>
+          <string name="bounds">241 708 255 845 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1364">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">11</int>
+          <boolean name="hidden">TRUE</boolean>
+          <int name="controlSize">1</int>
+          <string name="helpTagText">When selected, the Bookmarks window and FTP Browser windows use the Metal theme</string>
+          <string name="title">Metal windows</string>
+          <string name="viewFrame">720 183 100 14 </string>
+          <string name="bounds">187 708 201 808 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1228">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">106</int>
+          <boolean name="enabled">FALSE</boolean>
+          <boolean name="hidden">TRUE</boolean>
+          <int name="controlSize">1</int>
+          <string name="helpTagText">When selected, the transcript will record activity from all connections. If not selected, only the main connection will be logged</string>
+          <int name="initialState">2</int>
+          <string name="title">Log all connections</string>
+          <string name="viewFrame">711 342 125 14 </string>
+          <string name="bounds">346 699 360 824 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="1430">
+          <int name="fontStyle">-3</int>
+          <int name="controlSize">1</int>
+          <string name="title">General</string>
+          <string name="viewFrame">102 369 44 13 </string>
+          <string name="bounds">373 90 386 134 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="1431">
+          <int name="fontStyle">-3</int>
+          <int name="controlSize">1</int>
+          <string name="title">FTP Browser</string>
+          <string name="viewFrame">298 369 71 13 </string>
+          <string name="bounds">373 286 386 357 </string>
+        </object>
+        <object class="IBCarbonSeparator" id="1432">
+          <string name="viewFrame">299 382 70 4 </string>
+          <string name="bounds">386 287 390 357 </string>
+        </object>
+        <object class="IBCarbonSeparator" id="1433">
+          <string name="viewFrame">102 383 44 4 </string>
+          <string name="bounds">387 90 391 134 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1434">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">89</int>
+          <boolean name="hidden">TRUE</boolean>
+          <int name="controlSize">1</int>
+          <string name="helpTagText">When checked, FTP Browser windows will zoom when opening and fade out when closing&#13;&#13;Disabling this feature will reduce CPU usage, which is especially useful on slower machines</string>
+          <string name="title">Animated windows</string>
+          <string name="viewFrame">720 372 122 14 </string>
+          <string name="bounds">376 708 390 830 </string>
+        </object>
+        <reference idRef="1438"/>
+        <object class="IBCarbonCheckBox" id="1440">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">141</int>
+          <int name="initialState">2</int>
+          <string name="title">Intelligent target selection</string>
+          <string name="viewFrame">101 413 186 18 </string>
+          <string name="bounds">417 89 435 275 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1441">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">142</int>
+          <string name="helpTagText">When selected, all AutoRoute - enabled Bookmarks wil be checked. When de-selected, processing will stop after the first matching Bookmark</string>
+          <string name="title">Recursive AutoRoute</string>
+          <string name="viewFrame">101 437 151 18 </string>
+          <string name="bounds">441 89 459 240 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1435">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">108</int>
+          <string name="helpTagText">When checked, dates are displayed with &quot;Today&quot; and &quot;Yesterday&quot; when appropriate. With the setting un-checked all dates are displayed as their absolute values</string>
+          <string name="title">Display relative dates</string>
+          <string name="viewFrame">296 389 155 18 </string>
+          <string name="bounds">393 284 411 439 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1436">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">91</int>
+          <string name="helpTagText">When checked, each FTP Browser window maintains its settings for Lists, Toolbar, window size and position separately from all others. When not checked, all FTP Browser windows share the same settings.</string>
+          <string name="title">Independent window settings</string>
+          <string name="viewFrame">296 413 206 18 </string>
+          <string name="bounds">417 284 435 490 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1437">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">102</int>
+          <string name="helpTagText">When checked, User, Group and Permissions are shown in listings as their numerical value. If the option is disabled, the textual representation is used</string>
+          <string name="title">Numeric Permissions, Owner/Group</string>
+          <string name="viewFrame">296 437 247 18 </string>
+          <string name="bounds">441 284 459 531 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1439">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">68</int>
+          <string name="helpTagText">When selected, sizes of files are displayed without K, MB and GB abbreviations</string>
+          <string name="title">Show exact file sizes (in bytes)</string>
+          <string name="viewFrame">296 461 213 18 </string>
+          <string name="bounds">465 284 483 497 </string>
+        </object>
+      </array>
+      <string name="bounds">4 -12 654 760 </string>
+    </object>
+    <object class="IBCarbonPopupButton" id="1523">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">122</int>
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <ostype name="command">DLNE</ostype>
+      <string name="helpTagText">Select the sound to be played when a remote edit download fails</string>
+      <object name="menu" class="IBCarbonMenu" id="1525">
+        <string name="title">Popup:</string>
+        <array count="1" name="items">
+          <object class="IBCarbonMenuItem" id="1526">
+            <string name="title">None</string>
+            <boolean name="checked">TRUE</boolean>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+        </array>
+      </object>
+      <string name="viewFrame">359 219 141 20 </string>
+      <string name="bounds">223 347 243 488 </string>
+    </object>
+    <reference idRef="1224"/>
+    <object class="IBCarbonMenuItem" id="1534">
+      <string name="title">None</string>
+      <boolean name="checked">TRUE</boolean>
+    </object>
+    <object class="IBCarbonStaticText" id="1320">
+      <string name="title">Default Home folder</string>
+      <string name="viewFrame">29 190 129 16 </string>
+      <string name="bounds">194 17 210 146 </string>
+    </object>
+    <reference idRef="1475"/>
+    <reference idRef="1461"/>
+    <object class="IBCarbonSeparator" id="1551">
+      <string name="viewFrame">4 26 655 5 </string>
+      <string name="bounds">30 -8 35 647 </string>
+    </object>
+    <object class="IBCarbonPopupButton" id="1513">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">72</int>
+      <ostype name="command">ULOK</ostype>
+      <string name="helpTagText">Выберите звук для воспроизведения при выполнении загрузки успешно</string>
+      <reference name="menu" idRef="1539"/>
+      <string name="viewFrame">95 140 141 20 </string>
+      <string name="bounds">144 83 164 224 </string>
+    </object>
+    <reference idRef="1458"/>
+    <object class="IBCarbonMenuItem" id="882">
+      <string name="title">Nothing</string>
+      <boolean name="checked">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <string name="helpTagText">Nothing will happen when files are double clicked</string>
+    </object>
+    <reference idRef="1530"/>
+    <reference idRef="1583"/>
+    <reference idRef="1401"/>
+    <reference idRef="1600"/>
+    <object class="IBCarbonButton" id="1319">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">5</int>
+      <ostype name="command">MACH</ostype>
+      <string name="helpTagText">Choose a different folder</string>
+      <string name="title">Select</string>
+      <string name="viewFrame">538 187 70 20 </string>
+      <string name="bounds">191 526 211 596 </string>
+    </object>
+    <reference idRef="1619"/>
+    <object class="IBCarbonCheckBox" id="1001">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">111</int>
+      <string name="helpTagText">When checked, List view browsers display a vertical dividing line between each column</string>
+      <string name="title">Column dividers</string>
+      <string name="viewFrame">28 60 123 18 </string>
+      <string name="bounds">64 16 82 139 </string>
+    </object>
+    <object class="IBCarbonUserPane" id="1042">
+      <ostype name="controlSignature">tabs</ostype>
+      <int name="controlID">133</int>
+      <int name="featureBits">2</int>
+      <string name="viewFrame">0 28 772 650 </string>
+      <array count="8" name="subviews">
+        <object class="IBCarbonUserPane" id="1493">
+          <ostype name="controlSignature">TABS</ostype>
+          <int name="controlID">133</int>
+          <boolean name="enabled">FALSE</boolean>
+          <boolean name="hidden">TRUE</boolean>
+          <int name="featureBits">2</int>
+          <string name="viewFrame">0 0 662 174 </string>
+          <string name="bounds">4 -12 178 650 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="1083">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">136</int>
+          <string name="helpTagText">Если эта опция включена, не будет никакого автоматического уведомления о бета-версиях</string>
+          <string name="title">Игнорировать бета-версии</string>
+          <string name="viewFrame">290 86 196 18 </string>
+          <string name="bounds">90 278 108 474 </string>
+        </object>
+        <object class="IBCarbonButton" id="1043">
+          <ostype name="command">supd</ostype>
+          <string name="title">Проверить сейчас</string>
+          <string name="viewFrame">443 57 142 20 </string>
+          <string name="bounds">61 431 81 573 </string>
+        </object>
+        <object class="IBCarbonSeparator" id="1044">
+          <string name="viewFrame">29 121 617 5 </string>
+          <string name="bounds">125 17 130 634 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="1045">
+          <string name="title">Последняя проверка:</string>
+          <string name="viewFrame">29 132 139 16 </string>
+          <string name="bounds">136 17 152 156 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="1046">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">127</int>
+          <string name="title">Обновление ПО проверяет наличие новых и обновленных версий приложения автоматически или вручную по требованию</string>
+          <string name="viewFrame">29 12 617 37 </string>
+          <string name="bounds">16 17 53 634 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="1047">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">129</int>
+          <string name="title">Обновление ПО не было использовано.</string>
+          <string name="viewFrame">176 132 470 31 </string>
+          <string name="bounds">136 164 167 634 </string>
+        </object>
+        <object class="IBCarbonPopupButton" id="1048">
+          <ostype name="controlSignature">PREF</ostype>
+          <int name="controlID">128</int>
+          <int name="selectedItem">6</int>
+          <object name="menu" class="IBCarbonMenu" id="1049">
+            <string name="title">Popup</string>
+            <array count="6" name="items">
+              <object class="IBCarbonMenuItem" id="1050">
+                <string name="title">Никогда</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+              <object class="IBCarbonMenuItem" id="1054">
+                <boolean name="separator">TRUE</boolean>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+              <object class="IBCarbonMenuItem" id="1051">
+                <string name="title">При запуске</string>
+                <boolean name="checked">TRUE</boolean>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+              <object class="IBCarbonMenuItem" id="1071">
+                <string name="title">Ежедневно</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+              <reference idRef="1052"/>
+              <reference idRef="1053"/>
+            </array>
+          </object>
+          <string name="title">Проверить наличие обновлений:</string>
+          <int name="titleJustification">0</int>
+          <string name="viewFrame">76 57 359 20 </string>
+          <string name="bounds">61 64 81 423 </string>
+        </object>
+      </array>
+      <string name="bounds">4 -12 654 760 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="1384">
+      <int name="fontStyle">-3</int>
+      <string name="title">Server browser</string>
+      <string name="viewFrame">29 249 94 16 </string>
+      <string name="bounds">253 17 269 111 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="1543">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">62</int>
+      <string name="viewFrame">419 305 37 14 </string>
+      <string name="bounds">309 407 323 444 </string>
+    </object>
+    <reference idRef="1449"/>
+    <object class="IBCarbonEditText" id="1623">
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="useInlineInput">TRUE</boolean>
+      <boolean name="isUnicode">TRUE</boolean>
+      <boolean name="isSingleLine">TRUE</boolean>
+      <string name="foreColor">0 0 0 </string>
+      <string name="viewFrame">137 18 382 16 </string>
+      <string name="bounds">22 125 38 507 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="1521">
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <string name="title">Edit Upload</string>
+      <string name="viewFrame">131 195 73 16 </string>
+      <string name="bounds">199 119 215 192 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="1544">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">130</int>
+      <string name="helpTagText">Когда опция включена, все загрузки не будут превышать указанную скорость</string>
+      <int name="initialState">2</int>
+      <string name="title">Ограничить скорость загрузки до:</string>
+      <string name="viewFrame">27 207 244 18 </string>
+      <string name="bounds">211 15 229 259 </string>
+    </object>
+    <object class="IBCarbonUserPane" id="1489">
+      <ostype name="controlSignature">TABS</ostype>
+      <int name="controlID">129</int>
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <int name="featureBits">2</int>
+      <string name="viewFrame">11 0 617 444 </string>
+      <string name="bounds">4 -1 448 616 </string>
+    </object>
+    <reference idRef="1468"/>
+    <object class="IBCarbonUserPane" id="1494">
+      <ostype name="controlSignature">TABS</ostype>
+      <int name="controlID">134</int>
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <int name="featureBits">2</int>
+      <string name="viewFrame">0 0 607 165 </string>
+      <string name="bounds">4 -12 169 595 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="1550">
+      <int name="fontStyle">-3</int>
+      <int name="controlSize">1</int>
+      <string name="title">Автоматическое переподключение</string>
+      <string name="viewFrame">30 12 206 13 </string>
+      <string name="bounds">16 18 29 224 </string>
+    </object>
+    <object class="IBCarbonSeparator" id="1542">
+      <string name="viewFrame">6 193 644 5 </string>
+      <string name="bounds">197 -6 202 638 </string>
+    </object>
+    <object class="IBCarbonSeparator" id="1317">
+      <string name="viewFrame">-6 177 656 5 </string>
+      <string name="bounds">181 -18 186 638 </string>
+    </object>
+    <reference idRef="1578"/>
+    <reference idRef="1437"/>
+    <reference idRef="1459"/>
+    <reference idRef="1306"/>
+    <object class="IBCarbonCheckBox" id="1313">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">97</int>
+      <string name="helpTagText">When selected, the New Connection window will be displayed when the app thinks it makes sense</string>
+      <string name="title">Automatically show New Connection window</string>
+      <string name="viewFrame">28 356 302 18 </string>
+      <string name="bounds">360 16 378 318 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="1164">
+      <string name="title">http://www.dropbox.com</string>
+      <int name="justification">1</int>
+      <string name="viewFrame">205 133 227 23 </string>
+      <string name="bounds">137 193 160 420 </string>
+    </object>
+    <reference idRef="1054"/>
+    <object class="IBCarbonPopupButton" id="1517">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">75</int>
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <ostype name="command">DLNK</ostype>
+      <string name="helpTagText">Select the sound to be played when a download fails</string>
+      <object name="menu" class="IBCarbonMenu" id="1533">
+        <string name="title">Popup:</string>
+        <array count="1" name="items">
+          <reference idRef="1534"/>
+        </array>
+      </object>
+      <string name="viewFrame">359 167 141 20 </string>
+      <string name="bounds">171 347 191 488 </string>
+    </object>
+    <object class="IBCarbonPopupButton" id="1516">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">74</int>
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <ostype name="command">DLOK</ostype>
+      <string name="helpTagText">Select the sound to be played when a download is successful</string>
+      <object name="menu" class="IBCarbonMenu" id="1535">
+        <string name="title">Popup:</string>
+        <array count="1" name="items">
+          <object class="IBCarbonMenuItem" id="1536">
+            <string name="title">None</string>
+            <boolean name="checked">TRUE</boolean>
+          </object>
+        </array>
+      </object>
+      <string name="viewFrame">211 167 141 20 </string>
+      <string name="bounds">171 199 191 340 </string>
+    </object>
+    <object class="IBCarbonMenu" id="1537">
+      <string name="title">Popup:</string>
+      <array count="1" name="items">
+        <object class="IBCarbonMenuItem" id="1538">
+          <string name="title">Ничего</string>
+          <boolean name="checked">TRUE</boolean>
+        </object>
+      </array>
+    </object>
+    <reference idRef="1580"/>
+    <object class="IBCarbonStaticText" id="1509">
+      <int name="controlSize">1</int>
+      <string name="title">Неудачно</string>
+      <string name="viewFrame">277 122 54 13 </string>
+      <string name="bounds">126 265 139 319 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="1336">
+      <string name="title">9</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <reference idRef="1421"/>
+    <object class="IBCarbonStaticText" id="1563">
+      <int name="fontStyle">-3</int>
+      <int name="controlSize">1</int>
+      <string name="title">Ошибки</string>
+      <string name="viewFrame">30 245 47 13 </string>
+      <string name="bounds">249 18 262 65 </string>
+    </object>
+    <reference idRef="1441"/>
+    <reference idRef="1433"/>
+    <reference idRef="1448"/>
+    <reference idRef="1581"/>
+    <object class="IBCarbonMenu" id="989">
+      <string name="title">Popup:</string>
+      <array count="6" name="items">
+        <object class="IBCarbonMenuItem" id="993">
+          <string name="title">Date</string>
+          <boolean name="checked">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">DATE</ostype>
+          <string name="helpTagText">This column shows the last modified date and time of files and folders</string>
+        </object>
+        <object class="IBCarbonMenuItem" id="994">
+          <string name="title">Size</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">SIZE</ostype>
+          <string name="helpTagText">This column shows the size of files</string>
+        </object>
+        <object class="IBCarbonMenuItem" id="995">
+          <string name="title">Kind</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">KIND</ostype>
+          <string name="helpTagText">This column shows the type of items</string>
+        </object>
+        <object class="IBCarbonMenuItem" id="990">
+          <string name="title">Permissions</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">PERM</ostype>
+          <string name="helpTagText">This column shows the access rights of files and folders</string>
+        </object>
+        <object class="IBCarbonMenuItem" id="991">
+          <string name="title">Links</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">LINK</ostype>
+          <string name="helpTagText">This column shows the number links to files and folders</string>
+        </object>
+        <reference idRef="992"/>
+      </array>
+    </object>
+    <reference idRef="1225"/>
+    <object class="IBCarbonMenu" id="1328">
+      <string name="title">Popup:</string>
+      <array count="13" name="items">
+        <reference idRef="1332"/>
+        <object class="IBCarbonMenuItem" id="1340">
+          <string name="title">6</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <reference idRef="1338"/>
+        <reference idRef="1336"/>
+        <object class="IBCarbonMenuItem" id="1333">
+          <string name="title">10</string>
+          <boolean name="checked">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="1337">
+          <string name="title">11</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="1331">
+          <string name="title">12</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="1335">
+          <string name="title">14</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="1330">
+          <string name="title">16</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="1339">
+          <string name="title">18</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="1341">
+          <string name="title">24</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="1334">
+          <string name="title">36</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="1329">
+          <string name="title">48</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+      </array>
+    </object>
+    <reference idRef="1303"/>
+    <object class="IBCarbonEditText" id="1323">
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="useInlineInput">TRUE</boolean>
+      <boolean name="isUnicode">TRUE</boolean>
+      <boolean name="isSingleLine">TRUE</boolean>
+      <string name="foreColor">0 0 0 </string>
+      <string name="viewFrame">169 189 358 16 </string>
+      <string name="bounds">193 157 209 515 </string>
+    </object>
+    <object class="IBCarbonTab" id="237">
+      <ostype name="controlSignature">tabs</ostype>
+      <int name="controlID">128</int>
+      <int name="size">1</int>
+      <string name="viewFrame">-12 -24 772 678 </string>
+      <array count="8" name="subviews">
+        <object class="IBCarbonUserPane" id="239">
+          <ostype name="controlSignature">tabs</ostype>
+          <int name="controlID">130</int>
+          <int name="featureBits">2</int>
+          <string name="viewFrame">0 28 772 650 </string>
+          <array count="39" name="subviews">
+            <object class="IBCarbonUserPane" id="1490">
+              <ostype name="controlSignature">TABS</ostype>
+              <int name="controlID">130</int>
+              <boolean name="enabled">FALSE</boolean>
+              <boolean name="hidden">TRUE</boolean>
+              <int name="featureBits">2</int>
+              <string name="viewFrame">0 0 593 246 </string>
+              <string name="bounds">4 -12 250 581 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="1501">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">1000</int>
+              <boolean name="enabled">FALSE</boolean>
+              <boolean name="hidden">TRUE</boolean>
+              <int name="fontStyle">-3</int>
+              <int name="controlSize">1</int>
+              <string name="title">Download options</string>
+              <string name="viewFrame">29 12 104 13 </string>
+              <string name="bounds">16 17 29 121 </string>
+            </object>
+            <reference idRef="1621"/>
+            <object class="IBCarbonSeparator" id="1502">
+              <string name="viewFrame">3 25 644 5 </string>
+              <string name="bounds">29 -9 34 635 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="1507">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">1000</int>
+              <int name="fontStyle">-3</int>
+              <int name="controlSize">1</int>
+              <string name="title">Звук завершения передачи</string>
+              <string name="viewFrame">29 102 160 13 </string>
+              <string name="bounds">106 17 119 177 </string>
+            </object>
+            <object class="IBCarbonSeparator" id="1508">
+              <string name="viewFrame">8 115 644 5 </string>
+              <string name="bounds">119 -4 124 640 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="1541">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">1000</int>
+              <int name="fontStyle">-3</int>
+              <int name="controlSize">1</int>
+              <string name="title">Управление полосой пропускания</string>
+              <string name="viewFrame">29 180 200 13 </string>
+              <string name="bounds">184 17 197 217 </string>
+            </object>
+            <reference idRef="1542"/>
+            <object class="IBCarbonStaticText" id="1503">
+              <boolean name="enabled">FALSE</boolean>
+              <boolean name="hidden">TRUE</boolean>
+              <string name="title">If a file being downloaded already exists on your Mac...</string>
+              <string name="viewFrame">39 35 244 35 </string>
+              <string name="bounds">39 27 74 271 </string>
+            </object>
+            <object class="IBCarbonRadioGroup" id="1504">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">13</int>
+              <boolean name="enabled">FALSE</boolean>
+              <boolean name="hidden">TRUE</boolean>
+              <string name="helpTagExtendedText">When you are about to download a file and a file of the same name exists on your Mac, this setting allows you to choose what will happen:&#10;&#10;Ask what to do - the app will ask you&#10;&#10;Skip it - The file will be automatically ommited from the download&#10;&#10;Replace it - The file will be downloaded regardless, overwriting the file on your Mac&#10;&#10;Try to resume it - the app will attempt to resume the file as if it were partially downloaded before, but if this fails the app will simply start to download the file from the beginning</string>
+              <string name="helpTagText">Choose the action to take when downloading a file which already exists on your Mac&#10;&#10;&lt; ⌘ More ... &gt;</string>
+              <int name="numCols">2</int>
+              <int name="selectedRow">2</int>
+              <array count="2" name="radioTitles">
+                <array count="2">
+                  <string>Ask what to do</string>
+                  <string>Replace it</string>
+                </array>
+                <array count="2">
+                  <string>Skip it</string>
+                  <string>Try to resume it</string>
+                </array>
+              </array>
+              <string name="viewFrame">105 383 244 38 </string>
+              <string name="bounds">387 93 425 337 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="1505">
+              <boolean name="enabled">FALSE</boolean>
+              <boolean name="hidden">TRUE</boolean>
+              <string name="title">If a file being uploaded already exists on the server...</string>
+              <string name="viewFrame">384 35 244 35 </string>
+              <string name="bounds">39 372 74 616 </string>
+            </object>
+            <object class="IBCarbonRadioGroup" id="1506">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">15</int>
+              <boolean name="enabled">FALSE</boolean>
+              <boolean name="hidden">TRUE</boolean>
+              <string name="helpTagExtendedText">When you are about to upload a file and a file of the same name exists on the server, this setting allows you to choose what will happen:&#10;&#10;Ask what to do - the app will ask you&#10;&#10;Skip it - The file will be automatically ommited from the upload&#10;&#10;Replace it - The file will be uploaded regardless, overwriting the file on the server&#10;&#10;Try to resume it - the app will attempt to resume the file as if it were partially uploaded before, but if this fails the app will simply start to upload the file from the beginning</string>
+              <string name="helpTagText">Choose the action to take when uploading a file which already exists on the server&#10;&#10;&lt; ⌘ More ... &gt;</string>
+              <int name="numCols">2</int>
+              <int name="selectedRow">2</int>
+              <int name="selectedCol">2</int>
+              <array count="2" name="radioTitles">
+                <array count="2">
+                  <string>Ask what to do</string>
+                  <string>Replace it</string>
+                </array>
+                <array count="2">
+                  <string>Skip it</string>
+                  <string>Try to resume it</string>
+                </array>
+              </array>
+              <string name="viewFrame">360 383 244 38 </string>
+              <string name="bounds">387 348 425 592 </string>
+            </object>
+            <reference idRef="1509"/>
+            <reference idRef="1510"/>
+            <object class="IBCarbonSeparator" id="1511">
+              <string name="viewFrame">122 133 49 4 </string>
+              <string name="bounds">137 110 141 159 </string>
+            </object>
+            <object class="IBCarbonSeparator" id="1512">
+              <string name="viewFrame">277 133 54 4 </string>
+              <string name="bounds">137 265 141 319 </string>
+            </object>
+            <reference idRef="1513"/>
+            <object class="IBCarbonPopupButton" id="1514">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">73</int>
+              <ostype name="command">ULNK</ostype>
+              <string name="helpTagText">Выберите звук для воспроизведения, если загрузка не удалась</string>
+              <reference name="menu" idRef="1537"/>
+              <string name="viewFrame">243 140 141 20 </string>
+              <string name="bounds">144 231 164 372 </string>
+            </object>
+            <reference idRef="1515"/>
+            <reference idRef="1516"/>
+            <reference idRef="1517"/>
+            <object class="IBCarbonStaticText" id="1518">
+              <boolean name="enabled">FALSE</boolean>
+              <boolean name="hidden">TRUE</boolean>
+              <string name="title">Download</string>
+              <string name="viewFrame">141 169 63 16 </string>
+              <string name="bounds">173 129 189 192 </string>
+            </object>
+            <reference idRef="1519"/>
+            <reference idRef="1520"/>
+            <reference idRef="1521"/>
+            <reference idRef="1522"/>
+            <reference idRef="1523"/>
+            <object class="IBCarbonStaticText" id="1524">
+              <boolean name="enabled">FALSE</boolean>
+              <boolean name="hidden">TRUE</boolean>
+              <string name="title">Edit Download</string>
+              <string name="viewFrame">113 221 91 16 </string>
+              <string name="bounds">225 101 241 192 </string>
+            </object>
+            <reference idRef="1543"/>
+            <reference idRef="1545"/>
+            <object class="IBCarbonEditText" id="1547">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">133</int>
+              <boolean name="enabled">FALSE</boolean>
+              <boolean name="hidden">TRUE</boolean>
+              <string name="helpTagText">Enter the maximum download speed in kilobytes per second</string>
+              <boolean name="isUnicode">TRUE</boolean>
+              <string name="title">50</string>
+              <string name="viewFrame">219 208 55 16 </string>
+              <string name="bounds">212 207 228 262 </string>
+            </object>
+            <reference idRef="1544"/>
+            <object class="IBCarbonEditText" id="1546">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">131</int>
+              <string name="helpTagText">Введите максимальную скорость загрузки в килобайтах в секунду</string>
+              <boolean name="isUnicode">TRUE</boolean>
+              <string name="title">21</string>
+              <string name="viewFrame">283 208 55 16 </string>
+              <string name="bounds">212 271 228 326 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="1548">
+              <string name="title">KB/sec</string>
+              <string name="viewFrame">349 208 44 16 </string>
+              <string name="bounds">212 337 228 381 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="1549">
+              <boolean name="enabled">FALSE</boolean>
+              <boolean name="hidden">TRUE</boolean>
+              <string name="title">KB/сек</string>
+              <string name="viewFrame">315 232 44 16 </string>
+              <string name="bounds">236 303 252 347 </string>
+            </object>
+            <reference idRef="1649"/>
+            <object class="IBCarbonCheckBox" id="1650">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">67</int>
+              <string name="helpTagText">При выборе скрытые файлы, которые создаются с помощью Finder, будут включены в загрузку. Эти файлы отслеживают позиции иконок и другие параметры на вашем компьютере</string>
+              <string name="title">... и включить файлы .DS_Store</string>
+              <string name="viewFrame">351 35 222 18 </string>
+              <string name="bounds">39 339 57 561 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="1651">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">1007</int>
+              <ostype name="command">EMAI</ostype>
+              <int name="initialState">2</int>
+              <string name="title">Уведомление по email</string>
+              <string name="viewFrame">27 62 165 18 </string>
+              <string name="bounds">66 15 84 180 </string>
+            </object>
+            <object class="IBCarbonEditText" id="1652">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">1008</int>
+              <boolean name="hidden">TRUE</boolean>
+              <boolean name="isUnicode">TRUE</boolean>
+              <string name="title">me@host.net</string>
+              <string name="viewFrame">203 64 264 16 </string>
+              <string name="bounds">68 191 84 455 </string>
+            </object>
+          </array>
+          <string name="bounds">4 -12 654 760 </string>
+        </object>
+        <object class="IBCarbonUserPane" id="238">
+          <ostype name="controlSignature">tabs</ostype>
+          <int name="controlID">129</int>
+          <int name="featureBits">2</int>
+          <string name="viewFrame">0 28 772 650 </string>
+          <array count="33" name="subviews">
+            <object class="IBCarbonCheckBox" id="1008">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">117</int>
+              <string name="helpTagText">When checked, the listings will folders at the top and file below. If not checked, folders will be sorted naturally as in the Finder</string>
+              <int name="initialState">1</int>
+              <string name="title">Sort folders first</string>
+              <string name="viewFrame">28 36 123 18 </string>
+              <string name="bounds">40 16 58 139 </string>
+            </object>
+            <reference idRef="1001"/>
+            <reference idRef="1000"/>
+            <reference idRef="1363"/>
+            <object class="IBCarbonCheckBox" id="1342">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">94</int>
+              <string name="helpTagText">When checked, the scrollbar controls for file lists use the mini variant</string>
+              <string name="title">Small scrollbars</string>
+              <string name="viewFrame">28 132 120 18 </string>
+              <string name="bounds">136 16 154 136 </string>
+            </object>
+            <object class="IBCarbonPopupButton" id="1326">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">93</int>
+              <string name="helpTagText">Control the size of text in listings</string>
+              <reference name="menu" idRef="1328"/>
+              <string name="viewFrame">324 73 57 20 </string>
+              <string name="bounds">77 312 97 369 </string>
+            </object>
+            <object class="IBCarbonPopupButton" id="988">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">103</int>
+              <string name="helpTagText">Control which columns are shown in List view. Ticked entries will show the corresponding column. Un-ticked entries hide them.</string>
+              <reference name="menu" idRef="989"/>
+              <string name="viewFrame">586 73 25 20 </string>
+              <string name="bounds">77 574 97 599 </string>
+            </object>
+            <object class="IBCarbonPopupButton" id="1034">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">126</int>
+              <string name="helpTagText">Control what happens when the Return key is pressed&#10;&#10;Note: The Enter key retains its system default function of initiating an item rename</string>
+              <int name="selectedItem">5</int>
+              <object name="menu" class="IBCarbonMenu" id="1035">
+                <string name="title">Popup:</string>
+                <array count="5" name="items">
+                  <reference idRef="1036"/>
+                  <object class="IBCarbonMenuItem" id="1037">
+                    <string name="title">Edit selection / Enter single folder</string>
+                    <boolean name="updateSingleItem">TRUE</boolean>
+                    <string name="helpTagText">Files will be opened for editing in an external editor, but if a single folder is selected it will become the current directory</string>
+                  </object>
+                  <object class="IBCarbonMenuItem" id="1041">
+                    <string name="title">Edit selection only</string>
+                    <boolean name="hidden">TRUE</boolean>
+                    <boolean name="updateSingleItem">TRUE</boolean>
+                    <string name="helpTagText">Files will be opened for editing in an external editor</string>
+                  </object>
+                  <object class="IBCarbonMenuItem" id="1038">
+                    <string name="title">Transfer selection / Enter single folder</string>
+                    <boolean name="updateSingleItem">TRUE</boolean>
+                    <string name="helpTagText">The selected items will be transferred (upload or download depending whether the Mac or Server listing is selected), but if a single folder is selected it will become the current directory</string>
+                  </object>
+                  <reference idRef="1040"/>
+                </array>
+              </object>
+              <string name="viewFrame">324 101 284 20 </string>
+              <string name="bounds">105 312 125 596 </string>
+            </object>
+            <object class="IBCarbonPopupButton" id="864">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">8</int>
+              <string name="helpTagText">Control what happens when you double click files</string>
+              <int name="selectedItem">4</int>
+              <object name="menu" class="IBCarbonMenu" id="877">
+                <string name="title">Popup:</string>
+                <array count="4" name="items">
+                  <object class="IBCarbonMenuItem" id="871">
+                    <string name="title">Transfer</string>
+                    <boolean name="updateSingleItem">TRUE</boolean>
+                    <string name="helpTagText">Uploads or downloads will be started when files are double clicked</string>
+                  </object>
+                  <reference idRef="873"/>
+                  <object class="IBCarbonMenuItem" id="1086">
+                    <string name="title">Open WebURL</string>
+                    <boolean name="updateSingleItem">TRUE</boolean>
+                    <string name="helpTagText">Files will be opened using the WebURL function</string>
+                  </object>
+                  <reference idRef="882"/>
+                </array>
+              </object>
+              <string name="viewFrame">324 131 129 20 </string>
+              <string name="bounds">135 312 155 441 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="1318">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">104</int>
+              <string name="helpTagText">When selected, choosing the Delete option will move the selected Mac items to the Trash, rather than actually delete them</string>
+              <string name="title">Delete moves items to the Trash</string>
+              <string name="viewFrame">28 217 225 18 </string>
+              <string name="bounds">221 16 239 241 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="1383">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">6</int>
+              <string name="helpTagText">Items not normally shown in the Finder will be displayed in the Mac view</string>
+              <int name="initialState">2</int>
+              <string name="title">Show invisible items</string>
+              <string name="viewFrame">267 217 148 18 </string>
+              <string name="bounds">221 255 239 403 </string>
+            </object>
+            <reference idRef="1319"/>
+            <reference idRef="1386"/>
+            <object class="IBCarbonCheckBox" id="1385">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">55</int>
+              <string name="helpTagText">Invisible files on the server are usually named with a period at the start of the name. Without this option selected, these files will not be shown</string>
+              <int name="initialState">2</int>
+              <string name="title">Show invisible items</string>
+              <string name="viewFrame">221 277 148 18 </string>
+              <string name="bounds">281 209 299 357 </string>
+            </object>
+            <object class="IBCarbonCheckBox" id="1312">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">83</int>
+              <string name="helpTagText">When checked, the Bookmarks window will be displayed when the app is launched</string>
+              <string name="title">Show &apos;Bookmarks&apos; window at launch</string>
+              <string name="viewFrame">28 332 248 18 </string>
+              <string name="bounds">336 16 354 264 </string>
+            </object>
+            <reference idRef="1313"/>
+            <object class="IBCarbonCheckBox" id="1362">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">7</int>
+              <string name="helpTagText">Your Keychain stores your passwords securely. When selected, passwords are not saved in Bookmarks</string>
+              <string name="title">Store passwords in Keychain</string>
+              <string name="viewFrame">28 405 200 18 </string>
+              <string name="bounds">409 16 427 216 </string>
+            </object>
+            <reference idRef="1489"/>
+            <reference idRef="1323"/>
+            <object class="IBCarbonStaticText" id="1316">
+              <int name="fontStyle">-3</int>
+              <int name="controlSize">1</int>
+              <string name="title">Mac browser</string>
+              <string name="viewFrame">29 164 73 13 </string>
+              <string name="bounds">168 17 181 90 </string>
+            </object>
+            <reference idRef="1317"/>
+            <object class="IBCarbonStaticText" id="1343">
+              <int name="fontStyle">-3</int>
+              <int name="controlSize">1</int>
+              <string name="title">General</string>
+              <string name="viewFrame">29 308 44 13 </string>
+              <string name="bounds">312 17 325 61 </string>
+            </object>
+            <object class="IBCarbonSeparator" id="1344">
+              <string name="viewFrame">3 322 655 5 </string>
+              <string name="bounds">326 -9 331 646 </string>
+            </object>
+            <reference idRef="1320"/>
+            <object class="IBCarbonStaticText" id="1322">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">4</int>
+              <string name="helpTagText">The path to the folder shown by default in the Mac browser and the default download location</string>
+              <string name="title">/Users/user/Desktop</string>
+              <string name="viewFrame">172 189 349 16 </string>
+              <string name="bounds">193 160 209 509 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="1324">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">1000</int>
+              <int name="fontStyle">-3</int>
+              <int name="controlSize">1</int>
+              <string name="title">Browsers</string>
+              <string name="viewFrame">29 12 53 13 </string>
+              <string name="bounds">16 17 29 70 </string>
+            </object>
+            <object class="IBCarbonSeparator" id="1325">
+              <string name="viewFrame">5 25 644 5 </string>
+              <string name="bounds">29 -7 34 637 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="1327">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">92</int>
+              <string name="helpTagText">Control the size of text in listings</string>
+              <string name="title">Font size</string>
+              <string name="viewFrame">258 74 58 16 </string>
+              <string name="bounds">78 246 94 304 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="1033">
+              <string name="helpTagText">Control what happens when the Return key is pressed&#10;&#10;Note: The Enter key retains its system default function of initiating an item rename</string>
+              <string name="title">Return key action</string>
+              <string name="viewFrame">205 102 111 16 </string>
+              <string name="bounds">106 193 122 304 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="863">
+              <string name="helpTagText">Control what happens when you double click files</string>
+              <string name="title">Double click action</string>
+              <string name="viewFrame">195 132 121 16 </string>
+              <string name="bounds">136 183 152 304 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="955">
+              <string name="helpTagText">Control which columns are shown in List view. Ticked entries will show the corresponding column. Un-ticked entries hide them.</string>
+              <string name="title">Show/hide List view columns</string>
+              <string name="viewFrame">395 74 183 16 </string>
+              <string name="bounds">78 383 94 566 </string>
+            </object>
+            <reference idRef="1384"/>
+            <object class="IBCarbonSeparator" id="1387">
+              <string name="viewFrame">5 262 655 5 </string>
+              <string name="bounds">266 -7 271 648 </string>
+            </object>
+          </array>
+          <string name="bounds">4 -12 654 760 </string>
+        </object>
+        <object class="IBCarbonUserPane" id="308">
+          <ostype name="controlSignature">tabs</ostype>
+          <int name="controlID">131</int>
+          <int name="featureBits">2</int>
+          <string name="viewFrame">0 28 772 650 </string>
+          <array count="24" name="subviews">
+            <object class="IBCarbonUserPane" id="1491">
+              <ostype name="controlSignature">TABS</ostype>
+              <int name="controlID">131</int>
+              <boolean name="enabled">FALSE</boolean>
+              <boolean name="hidden">TRUE</boolean>
+              <int name="featureBits">2</int>
+              <string name="viewFrame">12 0 597 422 </string>
+              <string name="bounds">4 0 426 597 </string>
+            </object>
+            <reference idRef="1550"/>
+            <reference idRef="1551"/>
+            <reference idRef="1563"/>
+            <reference idRef="1564"/>
+            <object class="IBCarbonStaticText" id="1552">
+              <string name="title">Переподключитесь, если нет активности в течение</string>
+              <string name="viewFrame">30 35 331 16 </string>
+              <string name="bounds">39 18 55 349 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="1553">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">113</int>
+              <string name="title">120 сек</string>
+              <string name="viewFrame">536 53 56 16 </string>
+              <string name="bounds">57 524 73 580 </string>
+            </object>
+            <object class="IBCarbonSlider" id="1554">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">112</int>
+              <ostype name="command">IDLE</ostype>
+              <string name="helpTagText">Используйте ползунок, чтобы изменить количество времени, после которого соединение считается потерянным</string>
+              <boolean name="isLive">TRUE</boolean>
+              <int name="minimumValue">10</int>
+              <int name="maximumValue">600</int>
+              <string name="viewFrame">45 54 482 22 </string>
+              <string name="bounds">58 33 80 515 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="1555">
+              <string name="title">и ждать</string>
+              <string name="viewFrame">42 77 52 16 </string>
+              <string name="bounds">81 30 97 82 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="1556">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">78</int>
+              <string name="title">120 сек</string>
+              <string name="viewFrame">536 95 56 16 </string>
+              <string name="bounds">99 524 115 580 </string>
+            </object>
+            <object class="IBCarbonSlider" id="1557">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">77</int>
+              <ostype name="command">RCRT</ostype>
+              <string name="helpTagText">Используйте ползунок, чтобы изменить время задержки перед попыткой продолжения/перезапуска</string>
+              <boolean name="isLive">TRUE</boolean>
+              <int name="minimumValue">1</int>
+              <int name="maximumValue">120</int>
+              <string name="viewFrame">45 96 482 22 </string>
+              <string name="bounds">100 33 122 515 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="1558">
+              <string name="title">а затем</string>
+              <string name="viewFrame">42 118 49 16 </string>
+              <string name="bounds">122 30 138 79 </string>
+            </object>
+            <object class="IBCarbonRadioGroup" id="1559">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">79</int>
+              <string name="helpTagText">Процесс будет пытаться продолжить работу с места остановки, возобновляя частичную передачу, где это возможно. Перезагрузка будет продолжать обработку, где она была прервана, и отменит все частичные передачи, запустив задачу поверх</string>
+              <array count="2" name="radioTitles">
+                <array count="1">
+                  <string>Продолжить, если возможно</string>
+                </array>
+                <array count="1">
+                  <string>Перезагрузить</string>
+                </array>
+              </array>
+              <string name="viewFrame">44 136 209 38 </string>
+              <string name="bounds">140 32 178 241 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="1560">
+              <string name="title">Если сервер занят, обождите период, указанный перед переподключением</string>
+              <string name="viewFrame">30 189 490 16 </string>
+              <string name="bounds">193 18 209 508 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="1561">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">81</int>
+              <string name="title">120 сек</string>
+              <string name="viewFrame">536 210 56 16 </string>
+              <string name="bounds">214 524 230 580 </string>
+            </object>
+            <object class="IBCarbonSlider" id="1562">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">80</int>
+              <ostype name="command">BSRT</ostype>
+              <string name="helpTagText">Используйте ползунок, чтобы изменить время задержки перед попыткой переподключения</string>
+              <boolean name="isLive">TRUE</boolean>
+              <int name="initialValue">9</int>
+              <int name="minimumValue">9</int>
+              <int name="maximumValue">120</int>
+              <string name="viewFrame">45 211 482 22 </string>
+              <string name="bounds">215 33 237 515 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="1565">
+              <string name="title">Сообщить об ошибке, и затем сделать задержку, как показано ниже: -</string>
+              <string name="viewFrame">30 268 460 16 </string>
+              <string name="bounds">272 18 288 478 </string>
+            </object>
+            <object class="IBCarbonRadioGroup" id="1566">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">17</int>
+              <string name="helpTagText">Выберите действие автоматически при возникновении ошибки</string>
+              <int name="numRows">4</int>
+              <array count="4" name="radioTitles">
+                <array count="1">
+                  <string>Ничего не делать</string>
+                </array>
+                <array count="1">
+                  <string>Попробовать ещё раз</string>
+                </array>
+                <array count="1">
+                  <string>Пропустить</string>
+                </array>
+                <array count="1">
+                  <string>Отменить</string>
+                </array>
+              </array>
+              <string name="viewFrame">430 288 162 78 </string>
+              <string name="bounds">292 418 370 580 </string>
+            </object>
+            <reference idRef="1567"/>
+            <object class="IBCarbonStaticText" id="1568">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">61</int>
+              <string name="title">30 сек</string>
+              <string name="viewFrame">113 311 293 16 </string>
+              <string name="bounds">315 101 331 394 </string>
+            </object>
+            <object class="IBCarbonSlider" id="1569">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">60</int>
+              <ostype name="command">DELA</ostype>
+              <string name="helpTagText">Установите задержку перед повторной попыткой/пропуском с помощью ползунка</string>
+              <boolean name="isLive">TRUE</boolean>
+              <int name="initialValue">30</int>
+              <int name="minimumValue">4</int>
+              <int name="maximumValue">120</int>
+              <string name="viewFrame">31 330 380 22 </string>
+              <string name="bounds">334 19 356 399 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="1570">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">58</int>
+              <string name="title">Максимальное восстановление :</string>
+              <string name="viewFrame">30 362 212 16 </string>
+              <string name="bounds">366 18 382 230 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="1571">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">19</int>
+              <string name="title">Безлимитно</string>
+              <string name="viewFrame">252 362 170 16 </string>
+              <string name="bounds">366 240 382 410 </string>
+            </object>
+            <object class="IBCarbonSlider" id="1572">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">18</int>
+              <ostype name="command">RETR</ostype>
+              <string name="helpTagText">Отрегулируйте количество попыток путём перетаскивания ползунка</string>
+              <boolean name="isLive">TRUE</boolean>
+              <int name="initialValue">10</int>
+              <int name="minimumValue">1</int>
+              <int name="maximumValue">101</int>
+              <string name="viewFrame">31 381 560 22 </string>
+              <string name="bounds">385 19 407 579 </string>
+            </object>
+          </array>
+          <string name="bounds">4 -12 654 760 </string>
+        </object>
+        <reference idRef="309"/>
+        <reference idRef="1042"/>
+        <object class="IBCarbonUserPane" id="1160">
+          <ostype name="controlSignature">tabs</ostype>
+          <int name="controlID">134</int>
+          <int name="featureBits">2</int>
+          <string name="viewFrame">0 28 772 650 </string>
+          <array count="8" name="subviews">
+            <reference idRef="1494"/>
+            <object class="IBCarbonButton" id="1624">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">1012</int>
+              <ostype name="command">DR2P</ostype>
+              <int name="iconPosition">0</int>
+              <string name="title">Select</string>
+              <string name="viewFrame">530 16 70 20 </string>
+              <string name="bounds">20 518 40 588 </string>
+            </object>
+            <object class="IBCarbonButton" id="1162">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">1011</int>
+              <ostype name="command">DR1P</ostype>
+              <int name="iconPosition">0</int>
+              <string name="title">Enable Now</string>
+              <string name="viewFrame">267 99 103 20 </string>
+              <string name="bounds">103 255 123 358 </string>
+            </object>
+            <reference idRef="1163"/>
+            <reference idRef="1164"/>
+            <reference idRef="1623"/>
+            <object class="IBCarbonStaticText" id="1625">
+              <string name="title">Dropbox folder</string>
+              <string name="viewFrame">29 19 97 16 </string>
+              <string name="bounds">23 17 39 114 </string>
+            </object>
+            <object class="IBCarbonStaticText" id="1622">
+              <ostype name="controlSignature">PREF</ostype>
+              <int name="controlID">1010</int>
+              <string name="title">Not installed</string>
+              <int name="justification">-2</int>
+              <string name="viewFrame">140 18 372 16 </string>
+              <string name="bounds">22 128 38 500 </string>
+            </object>
+          </array>
+          <string name="bounds">4 -12 654 760 </string>
+        </object>
+        <reference idRef="1166"/>
+        <reference idRef="1217"/>
+      </array>
+      <string name="bounds">-24 -12 654 760 </string>
+      <array count="8" name="tabItems">
+        <dictionary count="4">
+          <string>contentResID</string>
+          <string>0</string>
+          <string>tabEnabled</string>
+          <string>1</string>
+          <string>tabName</string>
+          <string>Transfers</string>
+          <string>userPane</string>
+          <reference idRef="239"/>
+        </dictionary>
+        <dictionary count="4">
+          <string>contentResID</string>
+          <string>0</string>
+          <string>tabEnabled</string>
+          <string>1</string>
+          <string>tabName</string>
+          <string>Interface</string>
+          <string>userPane</string>
+          <reference idRef="238"/>
+        </dictionary>
+        <dictionary count="4">
+          <string>contentResID</string>
+          <string>0</string>
+          <string>tabEnabled</string>
+          <string>1</string>
+          <string>tabName</string>
+          <string>Error Handling</string>
+          <string>userPane</string>
+          <reference idRef="308"/>
+        </dictionary>
+        <dictionary count="4">
+          <string>contentResID</string>
+          <string>0</string>
+          <string>tabEnabled</string>
+          <string>1</string>
+          <string>tabName</string>
+          <string>Server Options</string>
+          <string>userPane</string>
+          <reference idRef="309"/>
+        </dictionary>
+        <dictionary count="4">
+          <string>contentResID</string>
+          <string>0</string>
+          <string>tabEnabled</string>
+          <string>1</string>
+          <string>tabName</string>
+          <string>Software Update</string>
+          <string>userPane</string>
+          <reference idRef="1042"/>
+        </dictionary>
+        <dictionary count="4">
+          <string>contentResID</string>
+          <string>0</string>
+          <string>tabEnabled</string>
+          <string>1</string>
+          <string>tabName</string>
+          <string>Dropbox</string>
+          <string>userPane</string>
+          <reference idRef="1160"/>
+        </dictionary>
+        <dictionary count="4">
+          <string>contentResID</string>
+          <string>0</string>
+          <string>tabEnabled</string>
+          <string>1</string>
+          <string>tabName</string>
+          <string>Remote Editing</string>
+          <string>userPane</string>
+          <reference idRef="1166"/>
+        </dictionary>
+        <dictionary count="4">
+          <string>contentResID</string>
+          <string>0</string>
+          <string>tabEnabled</string>
+          <string>1</string>
+          <string>tabName</string>
+          <string>Obscure</string>
+          <string>userPane</string>
+          <reference idRef="1217"/>
+        </dictionary>
+      </array>
+    </object>
+    <reference idRef="1555"/>
+    <reference idRef="1435"/>
+    <reference idRef="1049"/>
+    <reference idRef="1418"/>
+    <reference idRef="1511"/>
+    <reference idRef="1298"/>
+    <reference idRef="1594"/>
+    <reference idRef="1406"/>
+    <object class="IBCarbonWindow" id="228">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <int name="themeBrush">49</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Preferences</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="229">
+        <string name="viewFrame">0 0 805 688 </string>
+        <array count="3" name="subviews">
+          <reference idRef="237"/>
+          <reference idRef="1499"/>
+          <object class="IBCarbonButton" id="1498">
+            <ostype name="controlSignature">PREF</ostype>
+            <int name="controlID">1</int>
+            <boolean name="enabled">FALSE</boolean>
+            <boolean name="hidden">TRUE</boolean>
+            <ostype name="command">not!</ostype>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingBottomKind">2</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <int name="buttonType">2</int>
+            <string name="title">Cancel</string>
+            <string name="viewFrame">489 658 92 20 </string>
+            <string name="bounds">658 489 678 581 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 688 805 </string>
+      </object>
+      <string name="windowRect">167 111 855 916 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="1562"/>
+    <reference idRef="1407"/>
+    <reference idRef="1604"/>
+    <reference idRef="1454"/>
+    <reference idRef="1554"/>
+    <reference idRef="1538"/>
+    <reference idRef="993"/>
+    <reference idRef="1624"/>
+    <reference idRef="1605"/>
+    <reference idRef="1603"/>
+    <reference idRef="1597"/>
+    <reference idRef="1404"/>
+    <reference idRef="1043"/>
+    <reference idRef="1572"/>
+    <reference idRef="1394"/>
+    <reference idRef="1160"/>
+    <reference idRef="1610"/>
+    <reference idRef="1221"/>
+    <reference idRef="1439"/>
+    <reference idRef="1326"/>
+    <reference idRef="995"/>
+    <reference idRef="1446"/>
+    <reference idRef="1476"/>
+    <reference idRef="1416"/>
+    <reference idRef="1622"/>
+    <reference idRef="1463"/>
+    <reference idRef="1162"/>
+    <reference idRef="1330"/>
+    <reference idRef="988"/>
+    <reference idRef="1051"/>
+    <reference idRef="1505"/>
+    <reference idRef="1034"/>
+    <reference idRef="1584"/>
+    <reference idRef="1035"/>
+    <reference idRef="1490"/>
+    <reference idRef="990"/>
+    <reference idRef="1045"/>
+    <reference idRef="1579"/>
+    <reference idRef="1471"/>
+    <reference idRef="1403"/>
+    <reference idRef="1528"/>
+    <reference idRef="1431"/>
+    <reference idRef="1333"/>
+    <reference idRef="1541"/>
+    <reference idRef="1340"/>
+    <reference idRef="1464"/>
+    <reference idRef="1086"/>
+    <reference idRef="871"/>
+    <reference idRef="1549"/>
+    <reference idRef="1495"/>
+    <reference idRef="308"/>
+    <reference idRef="1556"/>
+    <reference idRef="1586"/>
+    <reference idRef="1535"/>
+    <reference idRef="1501"/>
+    <reference idRef="1504"/>
+    <reference idRef="1491"/>
+    <reference idRef="991"/>
+    <reference idRef="1344"/>
+    <reference idRef="1457"/>
+    <reference idRef="1548"/>
+    <reference idRef="1385"/>
+    <reference idRef="1547"/>
+    <reference idRef="1502"/>
+    <reference idRef="1591"/>
+    <reference idRef="1565"/>
+    <reference idRef="1607"/>
+    <reference idRef="1428"/>
+    <reference idRef="1335"/>
+    <reference idRef="1592"/>
+    <reference idRef="1429"/>
+    <reference idRef="1608"/>
+    <reference idRef="1342"/>
+    <reference idRef="1364"/>
+    <reference idRef="1383"/>
+    <reference idRef="1413"/>
+    <reference idRef="1402"/>
+    <reference idRef="1322"/>
+    <reference idRef="1625"/>
+    <reference idRef="1616"/>
+    <reference idRef="1047"/>
+    <reference idRef="1318"/>
+    <reference idRef="1452"/>
+    <reference idRef="1451"/>
+    <reference idRef="1297"/>
+    <reference idRef="1395"/>
+    <reference idRef="1324"/>
+    <reference idRef="1041"/>
+    <reference idRef="1546"/>
+    <reference idRef="1553"/>
+    <reference idRef="1637"/>
+    <reference idRef="1008"/>
+    <reference idRef="1514"/>
+    <reference idRef="1465"/>
+    <reference idRef="1615"/>
+    <reference idRef="1050"/>
+    <reference idRef="1589"/>
+    <reference idRef="1498"/>
+    <reference idRef="1312"/>
+    <reference idRef="1507"/>
+    <reference idRef="1071"/>
+    <reference idRef="1033"/>
+    <reference idRef="1339"/>
+    <reference idRef="1456"/>
+    <reference idRef="1398"/>
+    <reference idRef="1577"/>
+    <reference idRef="1436"/>
+    <reference idRef="1506"/>
+    <reference idRef="1566"/>
+    <reference idRef="1434"/>
+    <reference idRef="1399"/>
+    <reference idRef="1492"/>
+    <reference idRef="1570"/>
+    <reference idRef="1037"/>
+    <reference idRef="1343"/>
+    <reference idRef="1331"/>
+    <reference idRef="1609"/>
+    <reference idRef="239"/>
+    <reference idRef="1540"/>
+    <reference idRef="1576"/>
+    <reference idRef="1220"/>
+    <reference idRef="1552"/>
+    <reference idRef="1397"/>
+    <reference idRef="864"/>
+    <reference idRef="1598"/>
+    <reference idRef="955"/>
+    <reference idRef="1531"/>
+    <reference idRef="1453"/>
+    <reference idRef="1430"/>
+    <reference idRef="1334"/>
+    <reference idRef="1569"/>
+    <reference idRef="1536"/>
+    <reference idRef="1423"/>
+    <reference idRef="1462"/>
+    <reference idRef="1408"/>
+    <reference idRef="1048"/>
+    <reference idRef="1393"/>
+    <reference idRef="1568"/>
+    <reference idRef="1571"/>
+    <reference idRef="1651"/>
+    <reference idRef="1327"/>
+    <reference idRef="1525"/>
+    <reference idRef="1472"/>
+    <reference idRef="1337"/>
+    <reference idRef="1432"/>
+    <reference idRef="1533"/>
+    <reference idRef="1518"/>
+    <reference idRef="1409"/>
+    <reference idRef="1044"/>
+    <reference idRef="1440"/>
+    <reference idRef="1300"/>
+    <reference idRef="1508"/>
+    <reference idRef="877"/>
+    <reference idRef="1447"/>
+    <reference idRef="1595"/>
+    <reference idRef="1400"/>
+    <reference idRef="1422"/>
+    <reference idRef="1618"/>
+    <reference idRef="1560"/>
+    <reference idRef="1588"/>
+    <reference idRef="1526"/>
+    <reference idRef="1341"/>
+    <reference idRef="229"/>
+    <reference idRef="1593"/>
+    <reference idRef="1524"/>
+    <reference idRef="1316"/>
+    <reference idRef="1573"/>
+    <reference idRef="1362"/>
+    <reference idRef="1602"/>
+    <reference idRef="863"/>
+    <reference idRef="1228"/>
+    <reference idRef="994"/>
+    <reference idRef="1038"/>
+    <reference idRef="1396"/>
+    <reference idRef="1417"/>
+    <reference idRef="1617"/>
+    <reference idRef="1419"/>
+    <reference idRef="1587"/>
+    <reference idRef="1301"/>
+    <reference idRef="1532"/>
+    <reference idRef="1444"/>
+    <reference idRef="1329"/>
+    <reference idRef="1083"/>
+    <reference idRef="1477"/>
+    <reference idRef="1512"/>
+    <reference idRef="238"/>
+    <reference idRef="1470"/>
+    <reference idRef="1557"/>
+    <reference idRef="1469"/>
+    <reference idRef="1599"/>
+    <reference idRef="1412"/>
+    <reference idRef="1226"/>
+    <reference idRef="1299"/>
+    <reference idRef="1650"/>
+    <reference idRef="1582"/>
+    <reference idRef="1613"/>
+    <reference idRef="1387"/>
+    <reference idRef="1405"/>
+    <reference idRef="1561"/>
+    <reference idRef="1046"/>
+    <reference idRef="1558"/>
+    <reference idRef="1652"/>
+    <reference idRef="1445"/>
+    <reference idRef="1466"/>
+    <reference idRef="1420"/>
+    <reference idRef="1503"/>
+    <reference idRef="1414"/>
+    <reference idRef="1527"/>
+    <reference idRef="1325"/>
+    <reference idRef="1574"/>
+    <reference idRef="1559"/>
+    <reference idRef="1612"/>
+    <reference idRef="1493"/>
+  </array>
+  <array count="329" name="allParents">
+    <reference idRef="229"/>
+    <reference idRef="1520"/>
+    <reference idRef="239"/>
+    <reference idRef="1328"/>
+    <reference idRef="308"/>
+    <reference idRef="1585"/>
+    <reference idRef="238"/>
+    <reference idRef="1513"/>
+    <reference idRef="1035"/>
+    <reference idRef="308"/>
+    <reference idRef="309"/>
+    <reference idRef="309"/>
+    <reference idRef="239"/>
+    <reference idRef="1166"/>
+    <reference idRef="1464"/>
+    <reference idRef="1451"/>
+    <reference idRef="1217"/>
+    <reference idRef="1217"/>
+    <reference idRef="1400"/>
+    <reference idRef="1455"/>
+    <reference idRef="239"/>
+    <reference idRef="309"/>
+    <reference idRef="989"/>
+    <reference idRef="1328"/>
+    <reference idRef="238"/>
+    <reference idRef="1400"/>
+    <reference idRef="239"/>
+    <reference idRef="239"/>
+    <reference idRef="1166"/>
+    <reference idRef="1035"/>
+    <reference idRef="237"/>
+    <reference idRef="1049"/>
+    <reference idRef="1464"/>
+    <reference idRef="1217"/>
+    <reference idRef="237"/>
+    <reference idRef="1584"/>
+    <reference idRef="309"/>
+    <reference idRef="1160"/>
+    <reference idRef="1585"/>
+    <reference idRef="1619"/>
+    <reference idRef="1166"/>
+    <reference idRef="1217"/>
+    <reference idRef="239"/>
+    <reference idRef="238"/>
+    <reference idRef="239"/>
+    <reference idRef="1464"/>
+    <reference idRef="239"/>
+    <reference idRef="1400"/>
+    <reference idRef="1049"/>
+    <reference idRef="309"/>
+    <reference idRef="877"/>
+    <reference idRef="237"/>
+    <reference idRef="239"/>
+    <reference idRef="1217"/>
+    <reference idRef="1533"/>
+    <reference idRef="238"/>
+    <reference idRef="1464"/>
+    <reference idRef="1455"/>
+    <reference idRef="308"/>
+    <reference idRef="239"/>
+    <reference idRef="1455"/>
+    <reference idRef="877"/>
+    <reference idRef="1529"/>
+    <reference idRef="309"/>
+    <reference idRef="1217"/>
+    <reference idRef="309"/>
+    <reference idRef="238"/>
+    <reference idRef="1605"/>
+    <reference idRef="238"/>
+    <reference idRef="237"/>
+    <reference idRef="238"/>
+    <reference idRef="239"/>
+    <reference idRef="1166"/>
+    <reference idRef="1160"/>
+    <reference idRef="239"/>
+    <reference idRef="239"/>
+    <reference idRef="238"/>
+    <reference idRef="1464"/>
+    <reference idRef="1160"/>
+    <reference idRef="308"/>
+    <reference idRef="239"/>
+    <reference idRef="238"/>
+    <reference idRef="309"/>
+    <reference idRef="1217"/>
+    <reference idRef="1455"/>
+    <reference idRef="1217"/>
+    <reference idRef="238"/>
+    <reference idRef="1160"/>
+    <reference idRef="1049"/>
+    <reference idRef="239"/>
+    <reference idRef="239"/>
+    <reference idRef="1514"/>
+    <reference idRef="309"/>
+    <reference idRef="239"/>
+    <reference idRef="1328"/>
+    <reference idRef="1420"/>
+    <reference idRef="308"/>
+    <reference idRef="1217"/>
+    <reference idRef="1217"/>
+    <reference idRef="1166"/>
+    <reference idRef="309"/>
+    <reference idRef="988"/>
+    <reference idRef="1217"/>
+    <reference idRef="1326"/>
+    <reference idRef="1217"/>
+    <reference idRef="238"/>
+    <reference idRef="229"/>
+    <reference idRef="308"/>
+    <reference idRef="1217"/>
+    <reference idRef="1048"/>
+    <reference idRef="1400"/>
+    <reference idRef="239"/>
+    <reference idRef="1217"/>
+    <reference idRef="1585"/>
+    <reference idRef="1400"/>
+    <reference idRef="1"/>
+    <reference idRef="308"/>
+    <reference idRef="1400"/>
+    <reference idRef="309"/>
+    <reference idRef="1166"/>
+    <reference idRef="308"/>
+    <reference idRef="1537"/>
+    <reference idRef="989"/>
+    <reference idRef="1160"/>
+    <reference idRef="309"/>
+    <reference idRef="309"/>
+    <reference idRef="1585"/>
+    <reference idRef="1400"/>
+    <reference idRef="1042"/>
+    <reference idRef="308"/>
+    <reference idRef="1217"/>
+    <reference idRef="237"/>
+    <reference idRef="309"/>
+    <reference idRef="1217"/>
+    <reference idRef="1217"/>
+    <reference idRef="238"/>
+    <reference idRef="989"/>
+    <reference idRef="1166"/>
+    <reference idRef="1464"/>
+    <reference idRef="1400"/>
+    <reference idRef="1160"/>
+    <reference idRef="1455"/>
+    <reference idRef="1160"/>
+    <reference idRef="1328"/>
+    <reference idRef="238"/>
+    <reference idRef="1049"/>
+    <reference idRef="239"/>
+    <reference idRef="238"/>
+    <reference idRef="309"/>
+    <reference idRef="1034"/>
+    <reference idRef="239"/>
+    <reference idRef="989"/>
+    <reference idRef="1042"/>
+    <reference idRef="309"/>
+    <reference idRef="1464"/>
+    <reference idRef="1217"/>
+    <reference idRef="1527"/>
+    <reference idRef="1217"/>
+    <reference idRef="1328"/>
+    <reference idRef="239"/>
+    <reference idRef="1328"/>
+    <reference idRef="1443"/>
+    <reference idRef="877"/>
+    <reference idRef="877"/>
+    <reference idRef="239"/>
+    <reference idRef="1166"/>
+    <reference idRef="237"/>
+    <reference idRef="308"/>
+    <reference idRef="1585"/>
+    <reference idRef="1516"/>
+    <reference idRef="239"/>
+    <reference idRef="239"/>
+    <reference idRef="308"/>
+    <reference idRef="989"/>
+    <reference idRef="238"/>
+    <reference idRef="1455"/>
+    <reference idRef="239"/>
+    <reference idRef="238"/>
+    <reference idRef="239"/>
+    <reference idRef="239"/>
+    <reference idRef="1585"/>
+    <reference idRef="308"/>
+    <reference idRef="309"/>
+    <reference idRef="1217"/>
+    <reference idRef="1328"/>
+    <reference idRef="1585"/>
+    <reference idRef="1217"/>
+    <reference idRef="309"/>
+    <reference idRef="238"/>
+    <reference idRef="1217"/>
+    <reference idRef="238"/>
+    <reference idRef="1400"/>
+    <reference idRef="1217"/>
+    <reference idRef="238"/>
+    <reference idRef="1160"/>
+    <reference idRef="309"/>
+    <reference idRef="1042"/>
+    <reference idRef="238"/>
+    <reference idRef="1166"/>
+    <reference idRef="1166"/>
+    <reference idRef="1217"/>
+    <reference idRef="1217"/>
+    <reference idRef="238"/>
+    <reference idRef="1035"/>
+    <reference idRef="239"/>
+    <reference idRef="308"/>
+    <reference idRef="1217"/>
+    <reference idRef="238"/>
+    <reference idRef="239"/>
+    <reference idRef="1464"/>
+    <reference idRef="309"/>
+    <reference idRef="1049"/>
+    <reference idRef="1585"/>
+    <reference idRef="229"/>
+    <reference idRef="238"/>
+    <reference idRef="239"/>
+    <reference idRef="1049"/>
+    <reference idRef="238"/>
+    <reference idRef="1328"/>
+    <reference idRef="1455"/>
+    <reference idRef="1217"/>
+    <reference idRef="309"/>
+    <reference idRef="1217"/>
+    <reference idRef="239"/>
+    <reference idRef="308"/>
+    <reference idRef="1217"/>
+    <reference idRef="1217"/>
+    <reference idRef="309"/>
+    <reference idRef="308"/>
+    <reference idRef="1035"/>
+    <reference idRef="238"/>
+    <reference idRef="1328"/>
+    <reference idRef="309"/>
+    <reference idRef="237"/>
+    <reference idRef="1539"/>
+    <reference idRef="309"/>
+    <reference idRef="1217"/>
+    <reference idRef="308"/>
+    <reference idRef="1217"/>
+    <reference idRef="238"/>
+    <reference idRef="1585"/>
+    <reference idRef="238"/>
+    <reference idRef="1519"/>
+    <reference idRef="1166"/>
+    <reference idRef="1217"/>
+    <reference idRef="1328"/>
+    <reference idRef="308"/>
+    <reference idRef="1535"/>
+    <reference idRef="1420"/>
+    <reference idRef="1455"/>
+    <reference idRef="1400"/>
+    <reference idRef="1042"/>
+    <reference idRef="1217"/>
+    <reference idRef="308"/>
+    <reference idRef="308"/>
+    <reference idRef="239"/>
+    <reference idRef="238"/>
+    <reference idRef="1523"/>
+    <reference idRef="1464"/>
+    <reference idRef="1328"/>
+    <reference idRef="1217"/>
+    <reference idRef="1517"/>
+    <reference idRef="239"/>
+    <reference idRef="1400"/>
+    <reference idRef="1042"/>
+    <reference idRef="1217"/>
+    <reference idRef="1217"/>
+    <reference idRef="239"/>
+    <reference idRef="864"/>
+    <reference idRef="1166"/>
+    <reference idRef="1585"/>
+    <reference idRef="1217"/>
+    <reference idRef="1420"/>
+    <reference idRef="309"/>
+    <reference idRef="308"/>
+    <reference idRef="1585"/>
+    <reference idRef="1525"/>
+    <reference idRef="1328"/>
+    <reference idRef="228"/>
+    <reference idRef="1585"/>
+    <reference idRef="239"/>
+    <reference idRef="238"/>
+    <reference idRef="309"/>
+    <reference idRef="238"/>
+    <reference idRef="309"/>
+    <reference idRef="238"/>
+    <reference idRef="1217"/>
+    <reference idRef="989"/>
+    <reference idRef="1035"/>
+    <reference idRef="1217"/>
+    <reference idRef="1400"/>
+    <reference idRef="309"/>
+    <reference idRef="1400"/>
+    <reference idRef="1585"/>
+    <reference idRef="1217"/>
+    <reference idRef="1531"/>
+    <reference idRef="1166"/>
+    <reference idRef="1328"/>
+    <reference idRef="1042"/>
+    <reference idRef="1464"/>
+    <reference idRef="239"/>
+    <reference idRef="237"/>
+    <reference idRef="1464"/>
+    <reference idRef="308"/>
+    <reference idRef="1464"/>
+    <reference idRef="309"/>
+    <reference idRef="1400"/>
+    <reference idRef="1217"/>
+    <reference idRef="1217"/>
+    <reference idRef="239"/>
+    <reference idRef="309"/>
+    <reference idRef="309"/>
+    <reference idRef="238"/>
+    <reference idRef="1400"/>
+    <reference idRef="308"/>
+    <reference idRef="1042"/>
+    <reference idRef="308"/>
+    <reference idRef="239"/>
+    <reference idRef="1166"/>
+    <reference idRef="1464"/>
+    <reference idRef="1396"/>
+    <reference idRef="239"/>
+    <reference idRef="1400"/>
+    <reference idRef="1522"/>
+    <reference idRef="238"/>
+    <reference idRef="309"/>
+    <reference idRef="308"/>
+    <reference idRef="309"/>
+    <reference idRef="1042"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>Preferences</string>
+    <reference idRef="228"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">1655</unsigned_int>
+</object>

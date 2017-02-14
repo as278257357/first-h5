@@ -1,0 +1,160 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="16" name="allObjects">
+    <object class="IBCarbonStaticText" id="238">
+      <int name="controlSize">1</int>
+      <string name="title">Homepage:</string>
+      <string name="viewFrame">20 225 65 13 </string>
+      <string name="bounds">225 20 238 85 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="240">
+      <ostype name="controlSignature">ABOU</ostype>
+      <int name="controlSize">1</int>
+      <string name="viewFrame">90 203 235 16 </string>
+      <string name="bounds">203 90 219 325 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="242">
+      <ostype name="controlSignature">ABOU</ostype>
+      <int name="controlID">2</int>
+      <int name="controlSize">1</int>
+      <string name="viewFrame">177 119 64 13 </string>
+      <string name="bounds">119 177 132 241 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="243">
+      <ostype name="controlSignature">ABOU</ostype>
+      <int name="controlID">3</int>
+      <int name="fontStyle">-3</int>
+      <int name="controlSize">1</int>
+      <string name="title">&#10;DEMO</string>
+      <int name="justification">1</int>
+      <string name="viewFrame">0 138 350 30 </string>
+      <string name="bounds">138 0 168 350 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="237">
+      <int name="controlSize">1</int>
+      <string name="title">Home Page:</string>
+      <string name="viewFrame">47 -20 66 13 </string>
+      <string name="bounds">-20 47 -7 113 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="235">
+      <boolean name="hidden">TRUE</boolean>
+      <int name="fontStyle">-3</int>
+      <int name="controlSize">1</int>
+      <string name="viewFrame">20 245 310 13 </string>
+      <string name="bounds">245 20 258 330 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="233">
+      <int name="controlSize">1</int>
+      <string name="title">Copyright © 2016 - Alle rechten voorbehouden</string>
+      <string name="viewFrame">47 172 255 13 </string>
+      <string name="bounds">172 47 185 302 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="182">
+      <string name="viewFrame">0 0 350 256 </string>
+      <array count="14" name="subviews">
+        <object class="IBCarbonIcon" id="230">
+          <ostype name="controlSignature">ABOU</ostype>
+          <int name="controlID">4</int>
+          <int name="contentType">132</int>
+          <int name="contentResID">1095782476</int>
+          <int name="creator">0</int>
+          <string name="viewFrame">142 20 64 64 </string>
+          <string name="bounds">20 142 84 206 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="231">
+          <ostype name="controlSignature">ABOU</ostype>
+          <int name="controlID">5</int>
+          <int name="fontStyle">4</int>
+          <int name="justification">1</int>
+          <string name="viewFrame">20 92 305 19 </string>
+          <string name="bounds">92 20 111 325 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="232">
+          <int name="controlSize">1</int>
+          <string name="title">Versie</string>
+          <string name="viewFrame">142 119 34 13 </string>
+          <string name="bounds">119 142 132 176 </string>
+        </object>
+        <reference idRef="233"/>
+        <object class="IBCarbonStaticText" id="234">
+          <boolean name="hidden">TRUE</boolean>
+          <int name="controlSize">1</int>
+          <string name="viewFrame">104 172 146 14 </string>
+          <string name="bounds">172 104 186 250 </string>
+        </object>
+        <reference idRef="235"/>
+        <object class="IBCarbonStaticText" id="236">
+          <int name="controlSize">1</int>
+          <string name="title">E-mail:</string>
+          <string name="viewFrame">42 206 43 13 </string>
+          <string name="bounds">206 42 219 85 </string>
+        </object>
+        <reference idRef="237"/>
+        <reference idRef="238"/>
+        <object class="IBCarbonStaticText" id="239">
+          <ostype name="controlSignature">ABOU</ostype>
+          <int name="controlID">1</int>
+          <int name="controlSize">1</int>
+          <string name="viewFrame">90 222 235 16 </string>
+          <string name="bounds">222 90 238 325 </string>
+        </object>
+        <reference idRef="240"/>
+        <object class="IBCarbonSeparator" id="241">
+          <string name="viewFrame">20 191 310 4 </string>
+          <string name="bounds">191 20 195 330 </string>
+        </object>
+        <reference idRef="242"/>
+        <reference idRef="243"/>
+      </array>
+      <string name="bounds">0 0 256 350 </string>
+    </object>
+    <reference idRef="239"/>
+    <reference idRef="236"/>
+    <reference idRef="230"/>
+    <object class="IBCarbonWindow" id="180">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="themeBrush">5</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Over %@</string>
+      <reference name="rootControl" idRef="182"/>
+      <string name="windowRect">429 252 685 602 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="234"/>
+    <reference idRef="232"/>
+    <reference idRef="241"/>
+    <reference idRef="231"/>
+  </array>
+  <array count="16" name="allParents">
+    <reference idRef="182"/>
+    <reference idRef="182"/>
+    <reference idRef="182"/>
+    <reference idRef="182"/>
+    <reference idRef="182"/>
+    <reference idRef="182"/>
+    <reference idRef="182"/>
+    <reference idRef="180"/>
+    <reference idRef="182"/>
+    <reference idRef="182"/>
+    <reference idRef="182"/>
+    <reference idRef="1"/>
+    <reference idRef="182"/>
+    <reference idRef="182"/>
+    <reference idRef="182"/>
+    <reference idRef="182"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>About</string>
+    <reference idRef="180"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">262</unsigned_int>
+</object>

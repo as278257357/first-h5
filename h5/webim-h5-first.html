@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>h5</title>
+    <link href="css/mui.min.css" rel="stylesheet" />
+    <link href="css/mui.css">
+    <style>
+        .mui-input-group:first-child {
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .mui-input-group label {
+            width: 22%;
+        }
+        .mui-input-row label~input,
+        .mui-input-row label~select,
+        .mui-input-row label~textarea {
+            width: 78%;
+        }
+        .mui-bar-nav {
+            background-color: #007aff;
+        }
+        .mui-input-row {
+            height: 100px;
+        }
+        /*.input-one {*/
+            /*height: 40px;*/
+        /*}*/
+
+    </style>
+</head>
+<body>
+
+<header class="mui-bar mui-bar-nav">
+    <h1 class="mui-title">首页</h1>
+</header>
+<div class="mui-content">
+    <form class="mui-input-group" >
+        <div class="mui-input-row">
+            <label>用户名</label>
+            <input type="text" placeholder="请输入用户名" id="username" class="mui-input-clear mui-input">
+        </div>
+        <div class="mui-input-row">
+            <label>密码</label>
+            <input type="password" placeholder="请输入密码" id="password" class="mui-input-password mui-input">
+        </div>
+    </form>
+    <div class="mui-content-padded">
+        <button id="login" class="mui-btn mui-btn-block mui-btn-primary" type="button">登陆</button>
+        <button id="registe" class="mui-btn mui-btn-block mui-btn-primary" type="button">注册</button>
+
+    </div>
+</div>
+<script src="js/mui.min.js"></script>
+<script src="webim.config.js"></script>
+<script src="sdk/dist/strophe-1.2.8.js"></script>
+<script src="sdk/dist/websdk-1.4.7.js"></script>
+<script>
+    mui.init({
+
+    });
+    //输入的参数
+    var informationConfig = {
+        username: mui("#username")[0],
+        password: mui("#password")[0]
+    }
+    //登陆事件监听
+    mui("#login")[0].addEventListener('tap',function () {
+        var username = informationConfig.username.value;
+        var password = informationConfig.password.value;
+        if (!isEmpty(username)) {
+            debugger;
+            mui.toast('用户名为空', {duration: 'long', type: 'div'})
+            return;
+        }
+        if (!isChina(username)) {
+            mui.toast('用户名不合法', {duration: 'long', type: 'div'})
+            return;
+        }
+        if (!isEmpty(password)) {
+            mui.toast('密码为空', {duration: 'long', type: 'div'})
+            return;
+        }
+        if (!isChina(password)) {
+            mui.toast('密码不合法', {duration: 'long', type: 'div'})
+            return;
+        }
+
+    });
+    //注册事件监听
+    mui("#registe")[0].addEventListener('tap',function () {
+        var username = informationConfig.username.value;
+        var password = informationConfig.password.value;
+        if (!isEmpty(username)) {
+            debugger;
+            mui.toast('用户名为空', {duration: 'long', type: 'div'})
+            return;
+        }
+        if (!isChina(username)) {
+            mui.toast('用户名不合法', {duration: 'long', type: 'div'})
+            return;
+        }
+        if (!isEmpty(password)) {
+            mui.toast('密码为空', {duration: 'long', type: 'div'})
+            return;
+        }
+        if (!isChina(password)) {
+            mui.toast('密码不合法', {duration: 'long', type: 'div'})
+            return;
+        }
+    })
+    //判断是否存在中文
+    function isChina(value) {
+        var validateReg = /.*[\u4e00-\u9fa5]+.*$/;
+        return validateReg.test(value);
+    }
+    // 是否为空
+    function isEmpty(value){
+        var validateReg = /^\S+$/;
+        return validateReg.test(value);
+    }
+</script>
+</body>
+</html>

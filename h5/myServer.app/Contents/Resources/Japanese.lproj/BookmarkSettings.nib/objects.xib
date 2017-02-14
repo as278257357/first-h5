@@ -1,0 +1,1111 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="109" name="allObjects">
+    <object class="IBCarbonCheckBox" id="546">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">107</int>
+      <boolean name="hidden">TRUE</boolean>
+      <int name="controlSize">1</int>
+      <ostype name="command">SFTD</ostype>
+      <string name="helpTagText">変更日の送信/受信はオフセット値によって調整されます</string>
+      <string name="title">SFTP日付を調整</string>
+      <string name="viewFrame">456 -20 115 17 </string>
+      <string name="bounds">234 475 251 590 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="496">
+      <string name="title">アイテム</string>
+    </object>
+    <object class="IBCarbonMenuItem" id="619">
+      <string name="title">WebDAVS (SSL/TLS)</string>
+      <ostype name="command">CONN</ostype>
+    </object>
+    <object class="IBCarbonStaticText" id="506">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">29</int>
+      <int name="controlSize">1</int>
+      <string name="title">最近の接続</string>
+      <string name="viewFrame">16 28 107 16 </string>
+      <string name="bounds">652 325 668 432 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="602">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">94</int>
+      <ostype name="command">SSHK</ostype>
+      <string name="helpTagText">公開鍵認証を使用</string>
+      <int name="initialState">1</int>
+      <string name="title">SSHキー</string>
+      <string name="viewFrame">14 58 73 18 </string>
+      <string name="bounds">146 33 164 106 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="408">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">21</int>
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <int name="controlSize">1</int>
+      <ostype name="command">SING</ostype>
+      <string name="helpTagText">この設定が選択されているときは、複数サーバへの接続は行われません。一部のサーバではこれを必要とします。</string>
+      <string name="title">1接続のみ使用</string>
+      <string name="viewFrame">419 63 156 18 </string>
+      <string name="bounds">317 438 335 594 </string>
+    </object>
+    <object class="IBCarbonUserPane" id="314">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">24</int>
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <string name="helpTagText">ブックマークに設定するローカルとリモート間の時差です。タイムゾーンの違いは同期中に使用されます。</string>
+      <int name="featureBits">4194622</int>
+      <string name="viewFrame">11 42 79 24 </string>
+      <string name="bounds">482 332 506 411 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="601">
+      <ostype name="controlSignature">ALIS</ostype>
+      <ostype name="command">ZIP!</ostype>
+      <int name="initialState">2</int>
+      <string name="title">送信するまえにZIP</string>
+      <string name="viewFrame">105 209 132 18 </string>
+      <string name="bounds">297 103 315 235 </string>
+    </object>
+    <object class="IBCarbonEditText" id="573">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">10000</int>
+      <boolean name="hidden">TRUE</boolean>
+      <string name="helpTagText">サーバのアカウントがあればここにパスワードを入力、匿名アクセスなら空白のまま&#13;&#13;公開鍵認証では、鍵のパスフレーズを入力するか、ない場合は空白のまま</string>
+      <boolean name="isUnicode">TRUE</boolean>
+      <boolean name="isSingleLine">TRUE</boolean>
+      <string name="viewFrame">110 118 333 16 </string>
+      <string name="bounds">206 108 222 441 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="536">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">92</int>
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <int name="controlSize">1</int>
+      <ostype name="command">CASE</ostype>
+      <string name="helpTagText">大文字/小文字を区別するサーバの場合はこのオプションを選択</string>
+      <string name="title">大文字/小文字を区別</string>
+      <string name="viewFrame">589 63 130 18 </string>
+      <string name="bounds">317 608 335 738 </string>
+    </object>
+    <object class="IBCarbonMenu" id="433">
+      <string name="title">ポップアップ：</string>
+      <array count="1" name="items">
+        <object class="IBCarbonMenuItem" id="425">
+          <string name="title">環境設定を使用</string>
+          <ostype name="command">ISOT</ostype>
+        </object>
+      </array>
+    </object>
+    <object class="IBCarbonStaticText" id="604">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">95</int>
+      <string name="helpTagText">秘密鍵ファイルへのパス</string>
+      <string name="title">/Users/YummyFTP/.ssh/id_dsa</string>
+      <string name="viewFrame">95 59 254 16 </string>
+      <string name="bounds">147 114 163 368 </string>
+    </object>
+    <object class="IBCarbonEditText" id="581">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">9</int>
+      <string name="helpTagText">接続時の標準ルート以外の他のディレクトリを表示するには、必要なディレクトリへのパスを入力</string>
+      <boolean name="isUnicode">TRUE</boolean>
+      <boolean name="isSingleLine">TRUE</boolean>
+      <string name="viewFrame">110 150 357 16 </string>
+      <string name="bounds">238 108 254 465 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="514">
+      <string name="title">名前</string>
+      <string name="viewFrame">70 24 26 14 </string>
+      <string name="bounds">24 70 38 96 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="430">
+      <string name="title">IBM OS4690</string>
+      <ostype name="command">TYPE</ostype>
+    </object>
+    <object class="IBCarbonStaticText" id="439">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">667</int>
+      <string name="title">エンコード</string>
+      <string name="viewFrame">29 32 65 14 </string>
+      <string name="bounds">286 48 300 113 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="585">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">8</int>
+      <string name="title">アップロード</string>
+      <string name="viewFrame">21 151 78 14 </string>
+      <string name="bounds">239 19 253 97 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="412">
+      <string name="title">データを制御</string>
+      <boolean name="disabled">TRUE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <ostype name="command">TYPE</ostype>
+    </object>
+    <object class="IBCarbonStaticText" id="258">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">15</int>
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <int name="controlSize">1</int>
+      <string name="helpTagText">ローカルブラウザで標準表示するフォルダと、このブックマークの標準のダウンロード場所へのパス</string>
+      <string name="title">DesktopDesktopDesktopDesktopDesktopDesktopDesktopDesktopDesktopDesktopDesktopDesktopDesktopDesktopDesktopDesktopDesktopDesktopDesktopDesktop</string>
+      <string name="viewFrame">11 23 286 15 </string>
+      <string name="bounds">463 332 478 618 </string>
+    </object>
+    <object class="IBCarbonEditText" id="568">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">3</int>
+      <string name="helpTagText">サーバ名またはIPアドレス 例： ftp.apple.com</string>
+      <boolean name="isUnicode">TRUE</boolean>
+      <boolean name="isSingleLine">TRUE</boolean>
+      <string name="viewFrame">110 56 357 16 </string>
+      <string name="bounds">144 108 160 465 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="436">
+      <string name="title">HAL</string>
+      <boolean name="disabled">TRUE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <ostype name="command">TYPE</ostype>
+    </object>
+    <object class="IBCarbonMenuItem" id="618">
+      <string name="title">WebDAV</string>
+      <ostype name="command">CONN</ostype>
+    </object>
+    <object class="IBCarbonPopupButton" id="419">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">20</int>
+      <ostype name="command">ISOT</ostype>
+      <string name="helpTagText">サーバが使用する文字セットを選択</string>
+      <reference name="menu" idRef="433"/>
+      <int name="titleJustification">-2</int>
+      <string name="viewFrame">101 29 216 20 </string>
+      <string name="bounds">283 120 303 336 </string>
+    </object>
+    <object class="IBCarbonMenu" id="498">
+      <string name="title">ポップアップ：</string>
+      <array count="1" name="items">
+        <object class="IBCarbonMenuItem" id="508">
+          <string name="title">アイテム</string>
+          <boolean name="checked">TRUE</boolean>
+        </object>
+      </array>
+    </object>
+    <object class="IBCarbonMenuItem" id="448">
+      <string name="title">Honeywell Bull Unix</string>
+      <ostype name="command">TYPE</ostype>
+    </object>
+    <object class="IBCarbonStaticText" id="574">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">6</int>
+      <string name="title">パスワード</string>
+      <string name="viewFrame">34 119 65 14 </string>
+      <string name="bounds">207 32 221 97 </string>
+    </object>
+    <object class="IBCarbonUserPane" id="238">
+      <ostype name="controlSignature">tabs</ostype>
+      <int name="controlID">129</int>
+      <int name="featureBits">2</int>
+      <string name="viewFrame">0 28 492 280 </string>
+      <array count="16" name="subviews">
+        <object class="IBCarbonPopupButton" id="577">
+          <ostype name="controlSignature">DETL</ostype>
+          <int name="controlID">12</int>
+          <ostype name="command">CONN</ostype>
+          <string name="helpTagText">標準のFTPまたは安全なSFTPを選択します。ほとんどのサーバでは標準のFTPを使用します</string>
+          <int name="selectedItem">6</int>
+          <object name="menu" class="IBCarbonMenu" id="589">
+            <string name="title">ポップアップ：</string>
+            <array count="6" name="items">
+              <object class="IBCarbonMenuItem" id="614">
+                <string name="title">FTP</string>
+                <boolean name="checked">TRUE</boolean>
+                <ostype name="command">CONN</ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="615">
+                <string name="title">SFTP</string>
+                <ostype name="command">CONN</ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="616">
+                <string name="title">FTPS (SSL/TLS)</string>
+                <ostype name="command">CONN</ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="617">
+                <string name="title">FTPS (Implicit)</string>
+                <ostype name="command">CONN</ostype>
+              </object>
+              <reference idRef="618"/>
+              <reference idRef="619"/>
+            </array>
+          </object>
+          <int name="titleJustification">-2</int>
+          <string name="viewFrame">106 21 364 20 </string>
+          <string name="bounds">109 104 129 468 </string>
+        </object>
+        <reference idRef="568"/>
+        <object class="IBCarbonStaticText" id="569">
+          <ostype name="controlSignature">DETL</ostype>
+          <int name="controlID">2</int>
+          <string name="title">サーバ</string>
+          <string name="viewFrame">59 57 39 14 </string>
+          <string name="bounds">145 57 159 96 </string>
+        </object>
+        <object class="IBCarbonEditText" id="570">
+          <ostype name="controlSignature">DETL</ostype>
+          <int name="controlID">5</int>
+          <string name="helpTagText">サーバのアカウントがあればここにユーザ名を入力、匿名アクセスの場合は空白のまま</string>
+          <boolean name="isUnicode">TRUE</boolean>
+          <boolean name="isSingleLine">TRUE</boolean>
+          <string name="viewFrame">110 88 357 16 </string>
+          <string name="bounds">176 108 192 465 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="571">
+          <ostype name="controlSignature">DETL</ostype>
+          <int name="controlID">4</int>
+          <string name="title">ユーザ名</string>
+          <string name="viewFrame">46 89 52 14 </string>
+          <string name="bounds">177 44 191 96 </string>
+        </object>
+        <object class="IBCarbonEditText" id="572">
+          <ostype name="controlSignature">DETL</ostype>
+          <int name="controlID">7</int>
+          <string name="helpTagText">サーバのアカウントがあればここにパスワードを入力、匿名アクセスなら空白のまま&#13;&#13;公開鍵認証では、鍵のパスフレーズを入力するか、ない場合は空白のまま</string>
+          <boolean name="isPassword">TRUE</boolean>
+          <boolean name="isUnicode">TRUE</boolean>
+          <boolean name="isSingleLine">TRUE</boolean>
+          <string name="viewFrame">110 118 333 16 </string>
+          <string name="bounds">206 108 222 441 </string>
+        </object>
+        <reference idRef="573"/>
+        <object class="IBCarbonIcon" id="584">
+          <ostype name="controlSignature">LOCK</ostype>
+          <ostype name="command">LOCK</ostype>
+          <string name="helpTagText">パスワードの表示/非表示</string>
+          <int name="contentType">132</int>
+          <int name="contentResID">1819239275</int>
+          <boolean name="dontTrack">FALSE</boolean>
+          <int name="creator">1296122707</int>
+          <string name="viewFrame">454 118 16 16 </string>
+          <string name="bounds">206 452 222 468 </string>
+        </object>
+        <reference idRef="574"/>
+        <object class="IBCarbonStaticText" id="578">
+          <ostype name="controlSignature">DETL</ostype>
+          <int name="controlID">666</int>
+          <string name="title">プロトコル</string>
+          <string name="viewFrame">34 25 65 14 </string>
+          <string name="bounds">113 32 127 97 </string>
+        </object>
+        <reference idRef="581"/>
+        <object class="IBCarbonEditText" id="582">
+          <ostype name="controlSignature">DETL</ostype>
+          <int name="controlID">110</int>
+          <string name="helpTagText">初期パスの設定と一致するようにWebサイトのURLを入力</string>
+          <boolean name="isUnicode">TRUE</boolean>
+          <boolean name="isSingleLine">TRUE</boolean>
+          <string name="viewFrame">110 182 357 16 </string>
+          <string name="bounds">270 108 286 465 </string>
+        </object>
+        <reference idRef="601"/>
+        <object class="IBCarbonStaticText" id="583">
+          <ostype name="controlSignature">DETL</ostype>
+          <int name="controlID">109</int>
+          <string name="title">Web URL</string>
+          <string name="viewFrame">44 182 61 16 </string>
+          <string name="bounds">270 42 286 103 </string>
+        </object>
+        <reference idRef="585"/>
+        <object class="IBCarbonButton" id="586">
+          <ostype name="command">OPCO</ostype>
+          <string name="title">接続＆セットのアップロードフォルダを確認</string>
+          <string name="viewFrame">106 240 364 20 </string>
+          <string name="bounds">328 104 348 468 </string>
+        </object>
+      </array>
+      <string name="bounds">88 -2 368 490 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="417">
+      <string name="title">ASC FTPShare</string>
+      <ostype name="command">TYPE</ostype>
+    </object>
+    <object class="IBCarbonMenuItem" id="420">
+      <string name="title">Netware (Unix)</string>
+      <ostype name="command">TYPE</ostype>
+    </object>
+    <object class="IBCarbonCheckBox" id="609">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">116</int>
+      <ostype name="command">TLS!</ostype>
+      <string name="helpTagText">Enable this option to force TLS instead of SSL</string>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingRightKind">2</int>
+      </object>
+      <int name="initialState">2</int>
+      <string name="title">Force TLS</string>
+      <string name="viewFrame">15 116 83 18 </string>
+      <string name="bounds">204 34 222 117 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="315">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">26</int>
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <int name="controlSize">1</int>
+      <string name="title">時：分：秒</string>
+      <string name="viewFrame">96 47 73 13 </string>
+      <string name="bounds">487 417 500 490 </string>
+    </object>
+    <object class="IBCarbonMenu" id="504">
+      <string name="title">ポップアップ：</string>
+      <array count="1" name="items">
+        <reference idRef="496"/>
+      </array>
+    </object>
+    <object class="IBCarbonCheckBox" id="410">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">23</int>
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <int name="controlSize">1</int>
+      <ostype name="command">ACON</ostype>
+      <string name="helpTagText">再起動時に、これらのブックマーク設定を使用して自動的に接続されます</string>
+      <string name="title">起動時に自動接続</string>
+      <string name="viewFrame">419 80 151 17 </string>
+      <string name="bounds">334 438 351 589 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="535">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">93</int>
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <int name="controlSize">1</int>
+      <ostype name="command">ATOR</ostype>
+      <string name="helpTagText">ファイルが指定したローカルホームフォルダまたはそのサブフォルダ内に配置されている場合、Yummy FTPのドックアイコンにドロップされたアイテムは自動的にリモート上の対応するディレクトリにアップロードされます。</string>
+      <string name="title">このフォルダからのAutoRouteを有効</string>
+      <string name="viewFrame">10 60 230 18 </string>
+      <string name="bounds">500 331 518 561 </string>
+    </object>
+    <object class="IBCarbonPopupButton" id="502">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">31</int>
+      <int name="controlSize">1</int>
+      <string name="helpTagText">ランデブーで見つけたサーバの詳細を使用</string>
+      <reference name="menu" idRef="504"/>
+      <int name="titleJustification">-2</int>
+      <string name="viewFrame">276 23 21 17 </string>
+      <string name="bounds">647 585 664 606 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="550">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">108</int>
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <int name="controlSize">1</int>
+      <ostype name="command">LSTR</ostype>
+      <string name="helpTagText">有効の場合、LISTコマンドでリカーシブオプションを使用します。サーバからディレクトリ構造をフェッチするときにパフォーマンスを向上できます。</string>
+      <int name="initialState">1</int>
+      <string name="title">LIST -R を使用</string>
+      <string name="viewFrame">596 96 115 17 </string>
+      <string name="bounds">350 615 367 730 </string>
+    </object>
+    <reference idRef="589"/>
+    <object class="IBCarbonEditText" id="512">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">11</int>
+      <boolean name="hidden">TRUE</boolean>
+      <int name="controlSize">1</int>
+      <string name="helpTagText">ここにURLを入力すれば自動的に他の項目に自動入力されます。URLは表示するディレクトリまたはダウンロードするファイルを指すことができます。その他の欄に詳細を入力しながらURLが構築され個々に表示されます。</string>
+      <boolean name="isUnicode">TRUE</boolean>
+      <string name="viewFrame">54 628 245 52 </string>
+      <string name="bounds">628 54 680 299 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="595">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">18</int>
+      <string name="title">ポート</string>
+      <string name="viewFrame">17 90 39 14 </string>
+      <string name="bounds">178 36 192 75 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="527">
+      <ostype name="controlSignature">DETL</ostype>
+      <int name="controlID">10</int>
+      <ostype name="command">PASV</ostype>
+      <string name="helpTagText">ネットワーク構成に応じて、パッシブまたはアクティブFTPが必要になる場合があります。わからないことがある場合は、この設定を逆にしてみてください。</string>
+      <string name="title">パッシブFTPを使用 (PASV)</string>
+      <string name="viewFrame">255 88 187 18 </string>
+      <string name="bounds">176 274 194 461 </string>
+    </object>
+    <object class="IBCarbonWindow" id="228">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="themeBrush">49</int>
+      <int name="windowPosition">1</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">新規  FTPエイリア</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="229">
+        <string name="viewFrame">0 0 488 426 </string>
+        <array count="7" name="subviews">
+          <object class="IBCarbonEditText" id="521">
+            <ostype name="controlSignature">DETL</ostype>
+            <int name="controlID">99</int>
+            <string name="helpTagText">このブックマークに割り当てる名前を入力</string>
+            <boolean name="isUnicode">TRUE</boolean>
+            <boolean name="isSingleLine">TRUE</boolean>
+            <string name="viewFrame">107 23 357 16 </string>
+            <string name="bounds">23 107 39 464 </string>
+          </object>
+          <object class="IBCarbonTab" id="237">
+            <ostype name="controlSignature">tabs</ostype>
+            <int name="controlID">128</int>
+            <int name="size">1</int>
+            <string name="viewFrame">-2 60 492 308 </string>
+            <array count="2" name="subviews">
+              <reference idRef="238"/>
+              <object class="IBCarbonUserPane" id="239">
+                <ostype name="controlSignature">tabs</ostype>
+                <int name="controlID">130</int>
+                <int name="featureBits">2</int>
+                <string name="viewFrame">0 28 492 280 </string>
+                <array count="4" name="subviews">
+                  <object class="IBCarbonGroupBox" id="452">
+                    <int name="controlSize">1</int>
+                    <string name="title">接続詳細</string>
+                    <boolean name="primary">FALSE</boolean>
+                    <string name="viewFrame">21 0 449 144 </string>
+                    <array count="12" name="subviews">
+                      <object class="IBCarbonCheckBox" id="409">
+                        <ostype name="controlSignature">DETL</ostype>
+                        <int name="controlID">22</int>
+                        <ostype name="command">PROX</ostype>
+                        <string name="helpTagText">環境設定でプロキシサーバを経由してサーバにアクセスするように設定されている場合は、この設定を選択してプロキシサーバをバイパスするかを選択</string>
+                        <string name="title">プロキシサーバは使用しない</string>
+                        <string name="viewFrame">15 30 189 18 </string>
+                        <string name="bounds">118 34 136 223 </string>
+                      </object>
+                      <object class="IBCarbonCheckBox" id="539">
+                        <ostype name="controlSignature">DETL</ostype>
+                        <int name="controlID">102</int>
+                        <ostype name="command">EPSV</ostype>
+                        <string name="helpTagText">PASVコマンドの代わりにEPSVコマンドを使用し、PORTコマンドの代わりにEPRTコマンドを使用します。接続ネゴシエーションの拡張モードが有効になります。</string>
+                        <int name="initialState">1</int>
+                        <string name="title">EPSV/EPRTを使用</string>
+                        <string name="viewFrame">210 29 132 18 </string>
+                        <string name="bounds">117 229 135 361 </string>
+                      </object>
+                      <object class="IBCarbonCheckBox" id="543">
+                        <ostype name="controlSignature">DETL</ostype>
+                        <int name="controlID">106</int>
+                        <ostype name="command">PRET</ostype>
+                        <string name="helpTagText">分散FTPサーバのサポートがアクティブになります。</string>
+                        <string name="title">PRETを使用</string>
+                        <string name="viewFrame">343 29 99 18 </string>
+                        <string name="bounds">117 362 135 461 </string>
+                      </object>
+                      <reference idRef="602"/>
+                      <object class="IBCarbonButton" id="598">
+                        <ostype name="controlSignature">DETL</ostype>
+                        <int name="controlID">96</int>
+                        <ostype name="command">SSHC</ostype>
+                        <string name="helpTagText">秘密鍵を選択</string>
+                        <string name="title">選択</string>
+                        <string name="viewFrame">363 56 70 20 </string>
+                        <string name="bounds">144 382 164 452 </string>
+                      </object>
+                      <object class="IBCarbonEditText" id="594">
+                        <ostype name="controlSignature">DETL</ostype>
+                        <int name="controlID">19</int>
+                        <string name="helpTagText">FTPは21、SFTPは22。一部のサーバでは、非標準のポート番号を使用</string>
+                        <boolean name="isUnicode">TRUE</boolean>
+                        <boolean name="isSingleLine">TRUE</boolean>
+                        <string name="viewFrame">67 89 46 16 </string>
+                        <string name="bounds">177 86 193 132 </string>
+                      </object>
+                      <reference idRef="595"/>
+                      <object class="IBCarbonCheckBox" id="596">
+                        <ostype name="controlSignature">DETL</ostype>
+                        <int name="controlID">103</int>
+                        <ostype name="command">COMP</ostype>
+                        <string name="helpTagText">SFTP転送では、このオプションを有効にすると、高速転送のためにオンザフライで転送されたすべてのデータを圧縮します</string>
+                        <string name="title">圧縮</string>
+                        <string name="viewFrame">158 88 46 18 </string>
+                        <string name="bounds">176 177 194 223 </string>
+                      </object>
+                      <reference idRef="527"/>
+                      <object class="IBCarbonEditText" id="603">
+                        <boolean name="enabled">FALSE</boolean>
+                        <boolean name="useInlineInput">TRUE</boolean>
+                        <boolean name="isUnicode">TRUE</boolean>
+                        <boolean name="isSingleLine">TRUE</boolean>
+                        <string name="foreColor">0 0 0 </string>
+                        <string name="viewFrame">95 59 257 16 </string>
+                        <string name="bounds">147 114 163 371 </string>
+                      </object>
+                      <reference idRef="604"/>
+                      <reference idRef="609"/>
+                    </array>
+                    <string name="bounds">88 19 232 468 </string>
+                  </object>
+                  <object class="IBCarbonGroupBox" id="257">
+                    <ostype name="controlSignature">DETL</ostype>
+                    <int name="controlID">14</int>
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <int name="controlSize">1</int>
+                    <string name="title">ローカルホームフォルダ</string>
+                    <boolean name="primary">FALSE</boolean>
+                    <string name="viewFrame">323 352 313 85 </string>
+                    <array count="4" name="subviews">
+                      <reference idRef="258"/>
+                      <object class="IBCarbonCheckBox" id="259">
+                        <ostype name="controlSignature">DETL</ostype>
+                        <int name="controlID">16</int>
+                        <boolean name="enabled">FALSE</boolean>
+                        <boolean name="hidden">TRUE</boolean>
+                        <int name="controlSize">1</int>
+                        <ostype name="command">PREF</ostype>
+                        <string name="helpTagText">環境設定で設定したものを、このフォルダ設定で上書き</string>
+                        <string name="title">環境設定の設定を使用</string>
+                        <string name="viewFrame">10 43 176 18 </string>
+                        <string name="bounds">483 331 501 507 </string>
+                      </object>
+                      <object class="IBCarbonButton" id="260">
+                        <ostype name="controlSignature">DETL</ostype>
+                        <int name="controlID">17</int>
+                        <boolean name="enabled">FALSE</boolean>
+                        <boolean name="hidden">TRUE</boolean>
+                        <int name="controlSize">1</int>
+                        <ostype name="command">CHOO</ostype>
+                        <string name="helpTagText">別のフォルダを選択してください</string>
+                        <string name="title">選択</string>
+                        <string name="viewFrame">240 38 56 20 </string>
+                        <string name="bounds">478 561 498 617 </string>
+                      </object>
+                      <reference idRef="535"/>
+                    </array>
+                    <string name="bounds">440 321 525 634 </string>
+                  </object>
+                  <object class="IBCarbonGroupBox" id="313">
+                    <ostype name="controlSignature">DETL</ostype>
+                    <int name="controlID">25</int>
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <int name="controlSize">1</int>
+                    <string name="title">タイムゾーン</string>
+                    <boolean name="primary">FALSE</boolean>
+                    <string name="viewFrame">323 352 313 76 </string>
+                    <array count="4" name="subviews">
+                      <object class="IBCarbonCheckBox" id="537">
+                        <ostype name="controlSignature">DETL</ostype>
+                        <int name="controlID">100</int>
+                        <boolean name="enabled">FALSE</boolean>
+                        <boolean name="hidden">TRUE</boolean>
+                        <int name="controlSize">1</int>
+                        <ostype name="command">AUTI</ostype>
+                        <string name="helpTagText">時差を自動的に計算します</string>
+                        <string name="title">自動的にタイムオフセットを検出</string>
+                        <string name="viewFrame">11 21 190 17 </string>
+                        <string name="bounds">461 332 478 522 </string>
+                      </object>
+                      <reference idRef="314"/>
+                      <reference idRef="315"/>
+                      <object class="IBCarbonRadioGroup" id="316">
+                        <ostype name="controlSignature">DETL</ostype>
+                        <int name="controlID">27</int>
+                        <boolean name="enabled">FALSE</boolean>
+                        <boolean name="hidden">TRUE</boolean>
+                        <int name="controlSize">1</int>
+                        <ostype name="command">AHBH</ostype>
+                        <int name="numRows">1</int>
+                        <int name="numCols">2</int>
+                        <array count="1" name="radioTitles">
+                          <array count="2">
+                            <string>前に</string>
+                            <string>後ろに</string>
+                          </array>
+                        </array>
+                        <string name="viewFrame">183 47 114 18 </string>
+                        <string name="bounds">487 504 505 618 </string>
+                      </object>
+                    </array>
+                    <string name="bounds">440 321 516 634 </string>
+                  </object>
+                  <object class="IBCarbonGroupBox" id="407">
+                    <int name="controlSize">1</int>
+                    <string name="title">その他</string>
+                    <boolean name="primary">FALSE</boolean>
+                    <string name="viewFrame">21 166 449 93 </string>
+                    <array count="15" name="subviews">
+                      <reference idRef="419"/>
+                      <reference idRef="408"/>
+                      <reference idRef="536"/>
+                      <reference idRef="410"/>
+                      <object class="IBCarbonCheckBox" id="528">
+                        <ostype name="controlSignature">DETL</ostype>
+                        <int name="controlID">98</int>
+                        <boolean name="enabled">FALSE</boolean>
+                        <boolean name="hidden">TRUE</boolean>
+                        <int name="controlSize">1</int>
+                        <ostype name="command">VMS </ostype>
+                        <string name="helpTagText">VMSサーバを使用の場合、一覧にファイルのすべてのバージョンがバージョン番号と共に表示されます。選択しなければ、最新のファイルのみ表示されます。</string>
+                        <string name="title">ファイルのすべてのバージョンを表示（VMSのみ）</string>
+                        <string name="viewFrame">688 105 280 17 </string>
+                        <string name="bounds">359 707 376 987 </string>
+                      </object>
+                      <object class="IBCarbonCheckBox" id="529">
+                        <ostype name="controlSignature">DETL</ostype>
+                        <int name="controlID">97</int>
+                        <boolean name="enabled">FALSE</boolean>
+                        <boolean name="hidden">TRUE</boolean>
+                        <int name="controlSize">1</int>
+                        <ostype name="command">DATE</ostype>
+                        <string name="helpTagText">環境設定において、転送されたファイルの変更日の同期する設定が有効の場合、それを上書きします</string>
+                        <string name="title">日時を同期しない</string>
+                        <string name="viewFrame">473 -4 156 17 </string>
+                        <string name="bounds">250 492 267 648 </string>
+                      </object>
+                      <object class="IBCarbonCheckBox" id="541">
+                        <ostype name="controlSignature">DETL</ostype>
+                        <int name="controlID">104</int>
+                        <boolean name="enabled">FALSE</boolean>
+                        <boolean name="hidden">TRUE</boolean>
+                        <int name="controlSize">1</int>
+                        <ostype name="command">MDTM</ostype>
+                        <string name="helpTagText">アップロードされたファイルの日時はローカルファイルと同じになります。すべてのサーバがこれをサポートしているわけではありません。</string>
+                        <string name="title">サーバの日付設定にMDTMを使用</string>
+                        <string name="viewFrame">449 -4 200 17 </string>
+                        <string name="bounds">250 468 267 668 </string>
+                      </object>
+                      <object class="IBCarbonCheckBox" id="542">
+                        <ostype name="controlSignature">DETL</ostype>
+                        <int name="controlID">105</int>
+                        <boolean name="enabled">FALSE</boolean>
+                        <boolean name="hidden">TRUE</boolean>
+                        <int name="controlSize">1</int>
+                        <ostype name="command">UTCF</ostype>
+                        <string name="helpTagText">MDTMが有効の場合、日付/時間を（RFCで定義された）UTC形式か、ローカル日時で指定するかを定義します。一部のサーバで標準時刻をうまく取得できない場合は無効にしてください。</string>
+                        <string name="title">UTC日付フォーマットを使用</string>
+                        <string name="viewFrame">419 39 170 17 </string>
+                        <string name="bounds">293 438 310 608 </string>
+                      </object>
+                      <object class="IBCarbonCheckBox" id="538">
+                        <ostype name="controlSignature">DETL</ostype>
+                        <int name="controlID">101</int>
+                        <ostype name="command">AISO</ostype>
+                        <string name="helpTagText">ダウンロード時にISOからMacエンコードに、アップロードでMacからISOエンコードに変換します</string>
+                        <string name="title">UFT-8 Form C</string>
+                        <string name="viewFrame">323 30 110 18 </string>
+                        <string name="bounds">284 342 302 452 </string>
+                      </object>
+                      <reference idRef="439"/>
+                      <object class="IBCarbonPopupButton" id="427">
+                        <ostype name="controlSignature">DETL</ostype>
+                        <int name="controlID">13</int>
+                        <ostype name="command">TYPE</ostype>
+                        <string name="helpTagText">サーバと通信する方法を決定します。自動検知のままで、サーバの種類を自動検知します。</string>
+                        <int name="selectedItem">14</int>
+                        <object name="menu" class="IBCarbonMenu" id="451">
+                          <string name="title">ポップアップ：</string>
+                          <array count="25" name="items">
+                            <object class="IBCarbonMenuItem" id="432">
+                              <string name="title">自動検知</string>
+                              <ostype name="command">TYPE</ostype>
+                            </object>
+                            <object class="IBCarbonMenuItem" id="422">
+                              <string name="title">Apple AUX</string>
+                              <ostype name="command">TYPE</ostype>
+                            </object>
+                            <reference idRef="430"/>
+                            <object class="IBCarbonMenuItem" id="423">
+                              <string name="title">AppleShare IP 6</string>
+                              <ostype name="command">TYPE</ostype>
+                            </object>
+                            <reference idRef="417"/>
+                            <reference idRef="412"/>
+                            <object class="IBCarbonMenuItem" id="429">
+                              <string name="title">データ一般</string>
+                              <boolean name="disabled">TRUE</boolean>
+                              <boolean name="hidden">TRUE</boolean>
+                              <ostype name="command">TYPE</ostype>
+                            </object>
+                            <object class="IBCarbonMenuItem" id="442">
+                              <string name="title">DPS 8000</string>
+                              <boolean name="disabled">TRUE</boolean>
+                              <boolean name="hidden">TRUE</boolean>
+                              <ostype name="command">TYPE</ostype>
+                            </object>
+                            <object class="IBCarbonMenuItem" id="414">
+                              <string name="title">DRS 6000</string>
+                              <ostype name="command">TYPE</ostype>
+                            </object>
+                            <object class="IBCarbonMenuItem" id="434">
+                              <string name="title">Dynix</string>
+                              <ostype name="command">TYPE</ostype>
+                            </object>
+                            <object class="IBCarbonMenuItem" id="428">
+                              <string name="title">FTPd / NetPresenz</string>
+                              <ostype name="command">TYPE</ostype>
+                            </object>
+                            <reference idRef="436"/>
+                            <reference idRef="448"/>
+                            <object class="IBCarbonMenuItem" id="431">
+                              <string name="title">IBM AIX</string>
+                              <boolean name="checked">TRUE</boolean>
+                              <ostype name="command">TYPE</ostype>
+                            </object>
+                            <object class="IBCarbonMenuItem" id="435">
+                              <string name="title">IBM MVS Mainframe</string>
+                              <boolean name="disabled">TRUE</boolean>
+                              <boolean name="hidden">TRUE</boolean>
+                              <ostype name="command">TYPE</ostype>
+                            </object>
+                            <object class="IBCarbonMenuItem" id="446">
+                              <string name="title">IBM OS/400</string>
+                              <ostype name="command">TYPE</ostype>
+                            </object>
+                            <reference idRef="420"/>
+                            <object class="IBCarbonMenuItem" id="416">
+                              <string name="title">Netware (DOS)</string>
+                              <ostype name="command">TYPE</ostype>
+                            </object>
+                            <object class="IBCarbonMenuItem" id="426">
+                              <string name="title">PrimeOS</string>
+                              <boolean name="disabled">TRUE</boolean>
+                              <boolean name="hidden">TRUE</boolean>
+                              <ostype name="command">TYPE</ostype>
+                            </object>
+                            <object class="IBCarbonMenuItem" id="421">
+                              <string name="title">Serv-U</string>
+                              <ostype name="command">TYPE</ostype>
+                            </object>
+                            <object class="IBCarbonMenuItem" id="415">
+                              <string name="title">Tandem Guardian</string>
+                              <boolean name="disabled">TRUE</boolean>
+                              <boolean name="hidden">TRUE</boolean>
+                              <ostype name="command">TYPE</ostype>
+                            </object>
+                            <object class="IBCarbonMenuItem" id="440">
+                              <string name="title">Unix (Generic)</string>
+                              <ostype name="command">TYPE</ostype>
+                            </object>
+                            <object class="IBCarbonMenuItem" id="445">
+                              <string name="title">VMS</string>
+                              <ostype name="command">TYPE</ostype>
+                            </object>
+                            <object class="IBCarbonMenuItem" id="444">
+                              <string name="title">Windows NT</string>
+                              <ostype name="command">TYPE</ostype>
+                            </object>
+                            <object class="IBCarbonMenuItem" id="438">
+                              <string name="title">Windows 2000</string>
+                              <ostype name="command">TYPE</ostype>
+                            </object>
+                          </array>
+                        </object>
+                        <int name="titleJustification">-2</int>
+                        <string name="viewFrame">101 57 216 20 </string>
+                        <string name="bounds">311 120 331 336 </string>
+                      </object>
+                      <object class="IBCarbonStaticText" id="441">
+                        <ostype name="controlSignature">DETL</ostype>
+                        <int name="controlID">666</int>
+                        <string name="title">サーバの種類</string>
+                        <string name="viewFrame">16 60 78 14 </string>
+                        <string name="bounds">314 35 328 113 </string>
+                      </object>
+                      <reference idRef="546"/>
+                      <reference idRef="550"/>
+                      <object class="IBCarbonCheckBox" id="555">
+                        <ostype name="controlSignature">DETL</ostype>
+                        <int name="controlID">111</int>
+                        <ostype name="command">NRFC</ostype>
+                        <string name="helpTagText">正しくRFCに準拠しないFTP/SSLサーバはチェックを外してください</string>
+                        <string name="title">RFC SSL</string>
+                        <string name="viewFrame">323 58 81 18 </string>
+                        <string name="bounds">312 342 330 423 </string>
+                      </object>
+                    </array>
+                    <string name="bounds">254 19 347 468 </string>
+                  </object>
+                </array>
+                <string name="bounds">88 -2 368 490 </string>
+              </object>
+            </array>
+            <string name="bounds">60 -2 368 490 </string>
+            <array count="2" name="tabItems">
+              <dictionary count="4">
+                <string>contentResID</string>
+                <string>0</string>
+                <string>tabEnabled</string>
+                <string>1</string>
+                <string>tabName</string>
+                <string>基本設定</string>
+                <string>userPane</string>
+                <reference idRef="238"/>
+              </dictionary>
+              <dictionary count="4">
+                <string>contentResID</string>
+                <string>0</string>
+                <string>tabEnabled</string>
+                <string>1</string>
+                <string>tabName</string>
+                <string>詳細設定</string>
+                <string>userPane</string>
+                <reference idRef="239"/>
+              </dictionary>
+            </array>
+          </object>
+          <object class="IBCarbonButton" id="232">
+            <ostype name="controlSignature">DETL</ostype>
+            <int name="controlID">1</int>
+            <ostype name="command">not!</ostype>
+            <int name="buttonType">2</int>
+            <string name="title">キャンセル</string>
+            <string name="viewFrame">297 386 89 20 </string>
+            <string name="bounds">386 297 406 386 </string>
+          </object>
+          <object class="IBCarbonButton" id="233">
+            <ostype name="controlSignature">DETL</ostype>
+            <ostype name="command">ok  </ostype>
+            <int name="buttonType">1</int>
+            <string name="title">保存</string>
+            <string name="viewFrame">398 386 70 20 </string>
+            <string name="bounds">386 398 406 468 </string>
+          </object>
+          <reference idRef="512"/>
+          <object class="IBCarbonGroupBox" id="505">
+            <boolean name="hidden">TRUE</boolean>
+            <ostype name="command">BLNK</ostype>
+            <string name="title">接続詳細を使用</string>
+            <boolean name="primary">FALSE</boolean>
+            <string name="viewFrame">309 624 313 59 </string>
+            <array count="4" name="subviews">
+              <object class="IBCarbonPopupButton" id="497">
+                <ostype name="controlSignature">DETL</ostype>
+                <int name="controlID">28</int>
+                <int name="controlSize">1</int>
+                <string name="helpTagText">最近の接続の詳細を使用</string>
+                <reference name="menu" idRef="498"/>
+                <int name="titleJustification">0</int>
+                <string name="viewFrame">123 23 21 17 </string>
+                <string name="bounds">647 432 664 453 </string>
+              </object>
+              <reference idRef="502"/>
+              <reference idRef="506"/>
+              <object class="IBCarbonStaticText" id="507">
+                <ostype name="controlSignature">DETL</ostype>
+                <int name="controlID">30</int>
+                <int name="controlSize">1</int>
+                <string name="title">ランデブー</string>
+                <string name="viewFrame">207 28 66 16 </string>
+                <string name="bounds">652 516 668 582 </string>
+              </object>
+            </array>
+            <string name="bounds">624 309 683 622 </string>
+          </object>
+          <reference idRef="514"/>
+        </array>
+        <string name="bounds">0 0 426 488 </string>
+      </object>
+      <string name="windowRect">46 174 472 662 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="555"/>
+    <reference idRef="505"/>
+    <reference idRef="582"/>
+    <reference idRef="497"/>
+    <reference idRef="521"/>
+    <reference idRef="260"/>
+    <reference idRef="435"/>
+    <reference idRef="237"/>
+    <reference idRef="415"/>
+    <reference idRef="528"/>
+    <reference idRef="232"/>
+    <reference idRef="598"/>
+    <reference idRef="569"/>
+    <reference idRef="422"/>
+    <reference idRef="440"/>
+    <reference idRef="571"/>
+    <reference idRef="259"/>
+    <reference idRef="572"/>
+    <reference idRef="452"/>
+    <reference idRef="426"/>
+    <reference idRef="414"/>
+    <reference idRef="427"/>
+    <reference idRef="416"/>
+    <reference idRef="428"/>
+    <reference idRef="541"/>
+    <reference idRef="539"/>
+    <reference idRef="617"/>
+    <reference idRef="615"/>
+    <reference idRef="507"/>
+    <reference idRef="537"/>
+    <reference idRef="529"/>
+    <reference idRef="616"/>
+    <reference idRef="584"/>
+    <reference idRef="570"/>
+    <reference idRef="446"/>
+    <reference idRef="538"/>
+    <reference idRef="429"/>
+    <reference idRef="543"/>
+    <reference idRef="596"/>
+    <reference idRef="586"/>
+    <reference idRef="594"/>
+    <reference idRef="409"/>
+    <reference idRef="441"/>
+    <reference idRef="614"/>
+    <reference idRef="407"/>
+    <reference idRef="444"/>
+    <reference idRef="578"/>
+    <reference idRef="603"/>
+    <reference idRef="313"/>
+    <reference idRef="438"/>
+    <reference idRef="432"/>
+    <reference idRef="421"/>
+    <reference idRef="233"/>
+    <reference idRef="431"/>
+    <reference idRef="434"/>
+    <reference idRef="583"/>
+    <reference idRef="451"/>
+    <reference idRef="577"/>
+    <reference idRef="257"/>
+    <reference idRef="542"/>
+    <reference idRef="508"/>
+    <reference idRef="229"/>
+    <reference idRef="423"/>
+    <reference idRef="239"/>
+    <reference idRef="445"/>
+    <reference idRef="316"/>
+    <reference idRef="442"/>
+    <reference idRef="425"/>
+  </array>
+  <array count="109" name="allParents">
+    <reference idRef="407"/>
+    <reference idRef="504"/>
+    <reference idRef="589"/>
+    <reference idRef="505"/>
+    <reference idRef="452"/>
+    <reference idRef="407"/>
+    <reference idRef="313"/>
+    <reference idRef="238"/>
+    <reference idRef="238"/>
+    <reference idRef="407"/>
+    <reference idRef="419"/>
+    <reference idRef="452"/>
+    <reference idRef="238"/>
+    <reference idRef="229"/>
+    <reference idRef="451"/>
+    <reference idRef="407"/>
+    <reference idRef="238"/>
+    <reference idRef="451"/>
+    <reference idRef="257"/>
+    <reference idRef="238"/>
+    <reference idRef="451"/>
+    <reference idRef="589"/>
+    <reference idRef="407"/>
+    <reference idRef="497"/>
+    <reference idRef="451"/>
+    <reference idRef="238"/>
+    <reference idRef="237"/>
+    <reference idRef="451"/>
+    <reference idRef="451"/>
+    <reference idRef="452"/>
+    <reference idRef="313"/>
+    <reference idRef="502"/>
+    <reference idRef="407"/>
+    <reference idRef="257"/>
+    <reference idRef="505"/>
+    <reference idRef="407"/>
+    <reference idRef="577"/>
+    <reference idRef="229"/>
+    <reference idRef="452"/>
+    <reference idRef="452"/>
+    <reference idRef="1"/>
+    <reference idRef="407"/>
+    <reference idRef="229"/>
+    <reference idRef="238"/>
+    <reference idRef="505"/>
+    <reference idRef="229"/>
+    <reference idRef="257"/>
+    <reference idRef="451"/>
+    <reference idRef="229"/>
+    <reference idRef="451"/>
+    <reference idRef="407"/>
+    <reference idRef="229"/>
+    <reference idRef="452"/>
+    <reference idRef="238"/>
+    <reference idRef="451"/>
+    <reference idRef="451"/>
+    <reference idRef="238"/>
+    <reference idRef="257"/>
+    <reference idRef="238"/>
+    <reference idRef="239"/>
+    <reference idRef="451"/>
+    <reference idRef="451"/>
+    <reference idRef="407"/>
+    <reference idRef="451"/>
+    <reference idRef="451"/>
+    <reference idRef="407"/>
+    <reference idRef="452"/>
+    <reference idRef="589"/>
+    <reference idRef="589"/>
+    <reference idRef="505"/>
+    <reference idRef="313"/>
+    <reference idRef="407"/>
+    <reference idRef="589"/>
+    <reference idRef="238"/>
+    <reference idRef="238"/>
+    <reference idRef="451"/>
+    <reference idRef="407"/>
+    <reference idRef="451"/>
+    <reference idRef="452"/>
+    <reference idRef="452"/>
+    <reference idRef="238"/>
+    <reference idRef="452"/>
+    <reference idRef="452"/>
+    <reference idRef="407"/>
+    <reference idRef="589"/>
+    <reference idRef="239"/>
+    <reference idRef="451"/>
+    <reference idRef="238"/>
+    <reference idRef="452"/>
+    <reference idRef="239"/>
+    <reference idRef="451"/>
+    <reference idRef="451"/>
+    <reference idRef="451"/>
+    <reference idRef="229"/>
+    <reference idRef="451"/>
+    <reference idRef="451"/>
+    <reference idRef="238"/>
+    <reference idRef="427"/>
+    <reference idRef="238"/>
+    <reference idRef="239"/>
+    <reference idRef="407"/>
+    <reference idRef="498"/>
+    <reference idRef="228"/>
+    <reference idRef="451"/>
+    <reference idRef="237"/>
+    <reference idRef="451"/>
+    <reference idRef="313"/>
+    <reference idRef="451"/>
+    <reference idRef="433"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>BookmarkSettings</string>
+    <reference idRef="228"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">620</unsigned_int>
+</object>

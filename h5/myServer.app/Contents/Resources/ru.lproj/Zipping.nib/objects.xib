@@ -1,0 +1,68 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="5" name="allObjects">
+    <object class="IBCarbonRootControl" id="167">
+      <string name="viewFrame">0 0 264 74 </string>
+      <array count="3" name="subviews">
+        <object class="IBCarbonStaticText" id="225">
+          <string name="title">Создание архива ....</string>
+          <string name="viewFrame">20 14 224 16 </string>
+          <string name="bounds">14 20 30 244 </string>
+        </object>
+        <object class="IBCarbonProgressBar" id="226">
+          <string name="viewFrame">19 37 200 19 </string>
+          <string name="bounds">37 19 56 219 </string>
+        </object>
+        <object class="IBCarbonIcon" id="228">
+          <ostype name="command">STOP</ostype>
+          <int name="contentType">132</int>
+          <int name="contentResID">1834177616</int>
+          <boolean name="dontTrack">FALSE</boolean>
+          <int name="creator">558257232</int>
+          <string name="viewFrame">228 37 16 16 </string>
+          <string name="bounds">37 228 53 244 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 74 264 </string>
+    </object>
+    <reference idRef="226"/>
+    <reference idRef="225"/>
+    <reference idRef="228"/>
+    <object class="IBCarbonWindow" id="166">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <boolean name="inWindowMenu">FALSE</boolean>
+      <int name="carbonWindowClass">3</int>
+      <int name="windowPosition">1</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title"></string>
+      <reference name="rootControl" idRef="167"/>
+      <string name="windowRect">351 657 425 921 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+  </array>
+  <array count="5" name="allParents">
+    <reference idRef="166"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="1"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>Zipping</string>
+    <reference idRef="166"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">229</unsigned_int>
+</object>

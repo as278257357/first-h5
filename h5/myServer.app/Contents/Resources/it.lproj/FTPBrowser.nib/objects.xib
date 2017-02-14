@@ -1,0 +1,1831 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="134" name="allObjects">
+    <object class="IBCarbonMenuItem" id="1558">
+      <boolean name="separator">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <object class="IBCarbonStaticText" id="1533">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">29</int>
+      <int name="controlSize">1</int>
+      <string name="title">Filtri Mac</string>
+      <string name="viewFrame">153 9 60 16 </string>
+      <string name="bounds">8 152 24 212 </string>
+    </object>
+    <object class="IBCarbonPopupButton" id="1538">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">24</int>
+      <int name="controlSize">1</int>
+      <object name="menu" class="IBCarbonMenu" id="1539">
+        <string name="title">Popup:</string>
+        <array count="5" name="items">
+          <object class="IBCarbonMenuItem" id="1540">
+            <string name="title">Automatica</string>
+            <boolean name="checked">TRUE</boolean>
+            <boolean name="updateSingleItem">TRUE</boolean>
+            <ostype name="command">ENCO</ostype>
+            <string name="helpTagText">Fai scegliere al software la codifica migliore</string>
+          </object>
+          <object class="IBCarbonMenuItem" id="1542">
+            <string name="title">ASCII</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+            <ostype name="command">ENCO</ostype>
+            <string name="helpTagText">Tutti i file saranno trasferiti come testo</string>
+          </object>
+          <object class="IBCarbonMenuItem" id="1544">
+            <string name="title">Binario</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+            <ostype name="command">ENCO</ostype>
+            <string name="helpTagText">Nessun formato file verrà modificato</string>
+          </object>
+          <object class="IBCarbonMenuItem" id="1543">
+            <string name="title">EBCDIC</string>
+            <boolean name="hidden">TRUE</boolean>
+            <boolean name="updateSingleItem">TRUE</boolean>
+            <ostype name="command">ENCO</ostype>
+            <string name="helpTagText">Tutti i file saranno trasferiti come testi con codifica IBM</string>
+          </object>
+          <object class="IBCarbonMenuItem" id="1541">
+            <string name="title">MacBinary</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+            <ostype name="command">ENCO</ostype>
+            <string name="helpTagText">I file contenenti risorse del Finder verranno trasferiti completi</string>
+          </object>
+        </array>
+      </object>
+      <string name="viewFrame">60 7 86 17 </string>
+      <string name="bounds">6 59 23 145 </string>
+    </object>
+    <object class="IBCarbonButton" id="3170">
+      <ostype name="controlSignature">WATC</ostype>
+      <int name="controlID">3</int>
+      <boolean name="hidden">TRUE</boolean>
+      <ostype name="command">NEWF</ostype>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingLeftKind">1</int>
+        <int name="bindingBottomKind">2</int>
+      </object>
+      <int name="iconPosition">0</int>
+      <string name="title">Nuova cartella</string>
+      <string name="viewFrame">9 467 113 20 </string>
+      <string name="bounds">467 9 487 122 </string>
+    </object>
+    <object class="IBCarbonMenu" id="1587">
+      <string name="title">Popup:</string>
+      <array count="1" name="items">
+        <object class="IBCarbonMenuItem" id="1588">
+          <string name="title">&lt;Sconosciuto&gt;</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+      </array>
+    </object>
+    <object class="IBCarbonMenuItem" id="1590">
+      <boolean name="checked">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <object class="IBCarbonUserPane" id="1514">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">21</int>
+      <int name="featureBits">146</int>
+      <string name="viewFrame">-1 -1 657 34 </string>
+      <array count="24" name="subviews">
+        <object class="IBCarbonStaticText" id="1515">
+          <ostype name="controlSignature">SESS</ostype>
+          <int name="controlID">31</int>
+          <int name="controlSize">1</int>
+          <string name="title">Aggiorna</string>
+          <string name="viewFrame">257 124 41 16 </string>
+          <string name="bounds">123 256 139 297 </string>
+        </object>
+        <object class="IBCarbonIcon" id="1521">
+          <ostype name="controlSignature">SESS</ostype>
+          <int name="controlID">22</int>
+          <ostype name="command">EDIT</ostype>
+          <string name="helpTagText">Modifica il file sul server</string>
+          <int name="contentType">132</int>
+          <int name="contentResID">1162103124</int>
+          <boolean name="dontTrack">FALSE</boolean>
+          <int name="creator">1447251032</int>
+          <string name="viewFrame">363 91 32 32 </string>
+          <string name="bounds">90 362 122 394 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="1529">
+          <ostype name="controlSignature">SESS</ostype>
+          <int name="controlID">34</int>
+          <int name="controlSize">1</int>
+          <string name="title">Elimina</string>
+          <string name="viewFrame">409 124 37 16 </string>
+          <string name="bounds">123 408 139 445 </string>
+        </object>
+        <object class="IBCarbonIcon" id="1518">
+          <ostype name="controlSignature">SESS</ostype>
+          <int name="controlID">16</int>
+          <ostype name="command">DLUP</ostype>
+          <string name="helpTagText">Start transfer</string>
+          <int name="contentType">132</int>
+          <int name="contentResID">1145851716</int>
+          <boolean name="dontTrack">FALSE</boolean>
+          <int name="creator">1447251032</int>
+          <string name="viewFrame">82 91 32 32 </string>
+          <string name="bounds">90 81 122 113 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="1530">
+          <ostype name="controlSignature">SESS</ostype>
+          <int name="controlID">33</int>
+          <int name="controlSize">1</int>
+          <string name="title">Modifica</string>
+          <string name="viewFrame">368 124 24 16 </string>
+          <string name="bounds">123 367 139 391 </string>
+        </object>
+        <object class="IBCarbonIcon" id="1524">
+          <ostype name="controlSignature">SESS</ostype>
+          <int name="controlID">9</int>
+          <ostype name="command">INFO</ostype>
+          <string name="helpTagText">Display information window for selection</string>
+          <int name="contentType">132</int>
+          <int name="contentResID">1229866575</int>
+          <boolean name="dontTrack">FALSE</boolean>
+          <int name="creator">1447251032</int>
+          <string name="viewFrame">531 91 32 32 </string>
+          <string name="bounds">90 530 122 562 </string>
+        </object>
+        <object class="IBCarbonIcon" id="1516">
+          <ostype name="controlSignature">SESS</ostype>
+          <int name="controlID">13</int>
+          <ostype name="command">NEWF</ostype>
+          <string name="helpTagText">Create an empty folder</string>
+          <int name="contentType">132</int>
+          <int name="contentResID">1313167174</int>
+          <boolean name="dontTrack">FALSE</boolean>
+          <int name="creator">1447251032</int>
+          <string name="viewFrame">144 91 32 32 </string>
+          <string name="bounds">90 143 122 175 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="1520">
+          <ostype name="controlSignature">SESS</ostype>
+          <int name="controlID">30</int>
+          <int name="controlSize">1</int>
+          <string name="title">Principale</string>
+          <string name="viewFrame">204 124 33 16 </string>
+          <string name="bounds">123 203 139 236 </string>
+        </object>
+        <object class="IBCarbonIcon" id="1519">
+          <ostype name="controlSignature">SESS</ostype>
+          <int name="controlID">5</int>
+          <boolean name="hidden">TRUE</boolean>
+          <int name="contentType">132</int>
+          <int name="contentResID">1380534100</int>
+          <boolean name="dontTrack">FALSE</boolean>
+          <int name="creator">1447251032</int>
+          <string name="viewFrame">631 107 16 16 </string>
+          <string name="bounds">106 630 122 646 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="1526">
+          <ostype name="controlSignature">SESS</ostype>
+          <int name="controlID">36</int>
+          <int name="controlSize">1</int>
+          <string name="title">Info</string>
+          <string name="viewFrame">537 124 23 16 </string>
+          <string name="bounds">123 536 139 559 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="1531">
+          <ostype name="controlSignature">SESS</ostype>
+          <int name="controlID">35</int>
+          <int name="controlSize">1</int>
+          <string name="title">Sincronizza</string>
+          <string name="viewFrame">456 124 66 16 </string>
+          <string name="bounds">123 455 139 521 </string>
+        </object>
+        <object class="IBCarbonIcon" id="1525">
+          <ostype name="controlSignature">SESS</ostype>
+          <int name="controlID">25</int>
+          <ostype name="command">SYNC</ostype>
+          <string name="helpTagText">Show synchronization options</string>
+          <int name="contentType">132</int>
+          <int name="contentResID">1398361667</int>
+          <boolean name="dontTrack">FALSE</boolean>
+          <int name="creator">1447251032</int>
+          <string name="viewFrame">473 91 32 32 </string>
+          <string name="bounds">90 472 122 504 </string>
+        </object>
+        <object class="IBCarbonIcon" id="1523">
+          <ostype name="controlSignature">SESS</ostype>
+          <int name="controlID">23</int>
+          <ostype name="command">DELE</ostype>
+          <string name="helpTagText">Delete selection</string>
+          <int name="contentType">132</int>
+          <int name="contentResID">1952736620</int>
+          <boolean name="dontTrack">FALSE</boolean>
+          <int name="creator">1296122707</int>
+          <string name="viewFrame">410 91 32 32 </string>
+          <string name="bounds">90 409 122 441 </string>
+        </object>
+        <object class="IBCarbonIcon" id="1517">
+          <ostype name="controlSignature">SESS</ostype>
+          <int name="controlID">12</int>
+          <ostype name="command">HOME</ostype>
+          <string name="helpTagText">Go to login directory</string>
+          <int name="contentType">132</int>
+          <int name="contentResID">1953001325</int>
+          <boolean name="dontTrack">FALSE</boolean>
+          <int name="creator">1296122707</int>
+          <string name="viewFrame">203 91 32 32 </string>
+          <string name="bounds">90 202 122 234 </string>
+        </object>
+        <object class="IBCarbonIcon" id="1537">
+          <ostype name="controlSignature">SESS</ostype>
+          <int name="controlID">26</int>
+          <ostype name="command">STOP</ostype>
+          <string name="helpTagText">Annulla azione corrente</string>
+          <int name="contentType">132</int>
+          <int name="contentResID">1398034256</int>
+          <boolean name="dontTrack">FALSE</boolean>
+          <int name="creator">1447251032</int>
+          <string name="viewFrame">581 91 32 32 </string>
+          <string name="bounds">90 580 122 612 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="1534">
+          <ostype name="controlSignature">SESS</ostype>
+          <int name="controlID">37</int>
+          <int name="controlSize">1</int>
+          <string name="title">Stop</string>
+          <string name="viewFrame">586 124 23 16 </string>
+          <string name="bounds">123 585 139 608 </string>
+        </object>
+        <object class="IBCarbonPopupButton" id="1532">
+          <ostype name="controlSignature">SESS</ostype>
+          <int name="controlID">7</int>
+          <int name="controlSize">1</int>
+          <string name="helpTagText">Attiva, disattiva o modifica i filtri file sul Server</string>
+          <int name="selectedItem">2</int>
+          <object name="menu" class="IBCarbonMenu" id="1554">
+            <string name="title">Popup:</string>
+            <array count="4" name="items">
+              <object class="IBCarbonMenuItem" id="1557">
+                <string name="title">Active</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <ostype name="command">FAAS</ostype>
+                <string name="helpTagText">I filtri saranno applicati agli elementi del Server mostrati</string>
+              </object>
+              <object class="IBCarbonMenuItem" id="1556">
+                <string name="title">Inactive</string>
+                <boolean name="checked">TRUE</boolean>
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <ostype name="command">FIAS</ostype>
+                <string name="helpTagText">Nessun filtro verrà applicato agli elementi del Server mostrati</string>
+              </object>
+              <reference idRef="1558"/>
+              <object class="IBCarbonMenuItem" id="1555">
+                <string name="title">Edit</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <ostype name="command">FILS</ostype>
+                <string name="helpTagText">Edit the filters</string>
+              </object>
+            </array>
+          </object>
+          <string name="viewFrame">369 7 73 17 </string>
+          <string name="bounds">6 368 23 441 </string>
+        </object>
+        <reference idRef="1533"/>
+        <object class="IBCarbonPopupButton" id="1536">
+          <ostype name="controlSignature">SESS</ostype>
+          <int name="controlID">2</int>
+          <int name="controlSize">1</int>
+          <string name="helpTagText">Attiva, disattiva o modifica il filtri sul Mac</string>
+          <int name="selectedItem">2</int>
+          <object name="menu" class="IBCarbonMenu" id="1545">
+            <string name="title">Popup:</string>
+            <array count="4" name="items">
+              <object class="IBCarbonMenuItem" id="1546">
+                <string name="title">Attivi</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <ostype name="command">FAAM</ostype>
+                <string name="helpTagText">I filtri saranno applicati agli elementi Mac mostrati</string>
+              </object>
+              <object class="IBCarbonMenuItem" id="1549">
+                <string name="title">Inattivi</string>
+                <boolean name="checked">TRUE</boolean>
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <ostype name="command">FIAM</ostype>
+                <string name="helpTagText">Nessun filtro verrà applicato agli elementi Mac mostrati</string>
+              </object>
+              <object class="IBCarbonMenuItem" id="1547">
+                <boolean name="separator">TRUE</boolean>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+              <object class="IBCarbonMenuItem" id="1548">
+                <string name="title">Edit</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <ostype name="command">FILM</ostype>
+                <string name="helpTagText">Modifica i filtri</string>
+              </object>
+            </array>
+          </object>
+          <string name="viewFrame">214 7 74 17 </string>
+          <string name="bounds">6 213 23 287 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="1527">
+          <ostype name="controlSignature">SESS</ostype>
+          <int name="controlID">27</int>
+          <int name="controlSize">1</int>
+          <string name="title">Codifica</string>
+          <string name="viewFrame">7 9 52 16 </string>
+          <string name="bounds">8 6 24 58 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="1522">
+          <ostype name="controlSignature">SESS</ostype>
+          <int name="controlID">28</int>
+          <int name="controlSize">1</int>
+          <string name="title">Filtro Server</string>
+          <string name="viewFrame">295 9 73 16 </string>
+          <string name="bounds">8 294 24 367 </string>
+        </object>
+        <reference idRef="1538"/>
+        <object class="IBCarbonPopupButton" id="1535">
+          <ostype name="controlSignature">SESS</ostype>
+          <int name="controlID">32</int>
+          <int name="controlSize">1</int>
+          <string name="helpTagText">Cambia il modo di gestire i file trasferiti quando si trova un file già esistente nella destinazione</string>
+          <object name="menu" class="IBCarbonMenu" id="1550">
+            <string name="title">Popup:</string>
+            <array count="3" name="items">
+              <object class="IBCarbonMenuItem" id="1553">
+                <string name="title">Usa Preferenze</string>
+                <boolean name="checked">TRUE</boolean>
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <ostype name="command">EIST</ostype>
+                <string name="helpTagText">Usa i parametri del pannello preferenze FTP per gestire gli upload e i download separatamente</string>
+              </object>
+              <object class="IBCarbonMenuItem" id="1551">
+                <string name="title">Sovrascrivi</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <ostype name="command">EIST</ostype>
+                <string name="helpTagText">Sovrascrivi sempre i file con lo stesso nome</string>
+              </object>
+              <object class="IBCarbonMenuItem" id="1552">
+                <string name="title">Rendi Unico</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <ostype name="command">EIST</ostype>
+                <string name="helpTagText">Assegna al file da trasferire un nome univoco&#10;&#10;Nota: il server deve supportare il comando STOU per gli upload. Non tutti i server ne sono capaci.</string>
+              </object>
+            </array>
+          </object>
+          <string name="viewFrame">522 8 101 17 </string>
+          <string name="bounds">7 521 24 622 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="1528">
+          <ostype name="controlSignature">SESS</ostype>
+          <int name="controlID">3</int>
+          <int name="controlSize">1</int>
+          <string name="title">File esistenti</string>
+          <string name="viewFrame">449 10 70 13 </string>
+          <string name="bounds">9 448 22 518 </string>
+        </object>
+      </array>
+      <string name="bounds">-1 -1 33 656 </string>
+    </object>
+    <object class="IBCarbonIcon" id="1456">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">1013</int>
+      <int name="contentType">132</int>
+      <int name="contentResID">1381189974</int>
+      <int name="creator">558257232</int>
+      <string name="viewFrame">317 191 16 16 </string>
+      <string name="bounds">191 317 207 333 </string>
+    </object>
+    <reference idRef="1551"/>
+    <reference idRef="1518"/>
+    <object class="IBCarbonRoundButton" id="1480">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">5</int>
+      <ostype name="command">TRAN</ostype>
+      <string name="helpTagText">Mostra/Nascondi FTP Transcript</string>
+      <string name="viewFrame">-19282 -674377 0 0 </string>
+      <string name="bounds">-19017 -19282 -19017 -19282 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="1619">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">50</int>
+      <int name="fontStyle">2</int>
+      <int name="controlSize">1</int>
+      <string name="viewFrame">15 9 396 14 </string>
+      <string name="bounds">8 14 22 410 </string>
+    </object>
+    <reference idRef="1588"/>
+    <object class="IBCarbonPopupButton" id="1485">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">11</int>
+      <int name="controlSize">2</int>
+      <ostype name="command">PATM</ostype>
+      <string name="helpTagText">Menu di navigazione cartella Mac</string>
+      <boolean name="variableWith">TRUE</boolean>
+      <int name="selectedItem">-2147483648</int>
+      <object name="menu" class="IBCarbonMenu" id="1589">
+        <string name="title">MAC</string>
+        <array count="1" name="items">
+          <reference idRef="1590"/>
+        </array>
+      </object>
+      <int name="titleJustification">1</int>
+      <string name="viewFrame">129 60 42 20 </string>
+      <string name="bounds">60 129 80 171 </string>
+    </object>
+    <reference idRef="1519"/>
+    <object class="IBCarbonUserPane" id="1471">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">20</int>
+      <string name="helpTagText">Ridimensiona la lista Mac/Server &#13;&#13;Trascina tutto a sinistra per nascondere il Browser Mac</string>
+      <int name="featureBits">2</int>
+      <string name="viewFrame">319 90 11 214 </string>
+      <string name="bounds">90 319 304 330 </string>
+    </object>
+    <reference idRef="1532"/>
+    <object class="IBCarbonIcon" id="1475">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">23</int>
+      <ostype name="command">DELE</ostype>
+      <string name="helpTagText">Elimina selezione</string>
+      <int name="contentType">132</int>
+      <int name="contentResID">1952736620</int>
+      <boolean name="dontTrack">FALSE</boolean>
+      <int name="creator">1296122707</int>
+      <string name="viewFrame">-19976 -674408 0 0 </string>
+      <string name="bounds">-19048 -19976 -19048 -19976 </string>
+    </object>
+    <object class="IBCarbonIcon" id="1505">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">13</int>
+      <ostype name="command">NEWF</ostype>
+      <string name="helpTagText">Crea una cartella vuota</string>
+      <int name="contentType">132</int>
+      <int name="contentResID">1313167174</int>
+      <boolean name="dontTrack">FALSE</boolean>
+      <int name="creator">1447251032</int>
+      <string name="viewFrame">-19976 -674408 0 0 </string>
+      <string name="bounds">-19048 -19976 -19048 -19976 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="1562">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">1001</int>
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <int name="controlSize">3</int>
+      <int name="justification">1</int>
+      <string name="viewFrame">8 2 116 11 </string>
+      <string name="bounds">291 34 302 150 </string>
+    </object>
+    <reference idRef="1527"/>
+    <object class="IBCarbonPlacard" id="1614">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">1017</int>
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <string name="viewFrame">0 0 120 16 </string>
+      <string name="bounds">289 342 305 462 </string>
+    </object>
+    <reference idRef="1552"/>
+    <object class="IBCarbonIcon" id="1502">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">3</int>
+      <ostype name="command">GOTO</ostype>
+      <string name="helpTagText">Vai alla cartella</string>
+      <int name="contentType">132</int>
+      <int name="contentResID">1196381263</int>
+      <boolean name="dontTrack">FALSE</boolean>
+      <int name="creator">1447251032</int>
+      <string name="viewFrame">-19976 -674408 0 0 </string>
+      <string name="bounds">-19048 -19976 -19048 -19976 </string>
+    </object>
+    <object class="IBCarbonSegment" id="2654">
+      <ostype name="command">BK1M</ostype>
+      <boolean name="autoWidth">FALSE</boolean>
+      <boolean name="enabled">FALSE</boolean>
+      <float name="width">14.000000</float>
+      <string name="label"></string>
+    </object>
+    <reference idRef="1554"/>
+    <reference idRef="1523"/>
+    <object class="IBCarbonIcon" id="1458">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">1011</int>
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <ostype name="command">DELE</ostype>
+      <string name="helpTagText">Trascina qui gli elementi da cancellare</string>
+      <int name="contentType">132</int>
+      <int name="contentResID">1953657704</int>
+      <boolean name="dontTrack">FALSE</boolean>
+      <int name="creator">1296122707</int>
+      <string name="viewFrame">-1000 331 32 32 </string>
+      <string name="bounds">331 -1000 363 -968 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="1560">
+      <boolean name="checked">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <reference idRef="1517"/>
+    <object class="IBCarbonIcon" id="1617">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">47</int>
+      <int name="contentType">132</int>
+      <int name="contentResID">0</int>
+      <int name="creator">0</int>
+      <string name="viewFrame">474 44 16 16 </string>
+      <string name="bounds">43 473 59 489 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="3055">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">1005</int>
+      <int name="fontStyle">-3</int>
+      <int name="controlSize">1</int>
+      <string name="foreColor">21600 21600 21600 </string>
+      <int name="justification">-1</int>
+      <string name="viewFrame">506 65 150 11 </string>
+      <string name="bounds">65 506 76 656 </string>
+    </object>
+    <reference idRef="1521"/>
+    <object class="IBCarbonIcon" id="1484">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">6</int>
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <ostype name="command">PVYW</ostype>
+      <string name="helpTagText">Mostra/Nascondi il pannello Anteprima</string>
+      <int name="contentType">132</int>
+      <int name="contentResID">1196377935</int>
+      <boolean name="dontTrack">FALSE</boolean>
+      <int name="creator">558257232</int>
+      <string name="viewFrame">-1000 63 16 16 </string>
+      <string name="bounds">63 -1000 79 -984 </string>
+    </object>
+    <reference idRef="1516"/>
+    <reference idRef="1536"/>
+    <object class="IBCarbonUserPane" id="1500">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">44</int>
+      <boolean name="enabled">FALSE</boolean>
+      <int name="featureBits">2</int>
+      <string name="viewFrame">4091 856 32 23 </string>
+      <string name="bounds">856 4091 879 4123 </string>
+    </object>
+    <object class="IBCarbonPopupButton" id="1487">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">1</int>
+      <int name="controlSize">1</int>
+      <ostype name="command">PATH</ostype>
+      <string name="helpTagText">Seleziona cartella</string>
+      <reference name="menu" idRef="1587"/>
+      <int name="titleJustification">-2</int>
+      <string name="viewFrame">-19976 -674379 0 0 </string>
+      <string name="bounds">-19019 -19976 -19019 -19976 </string>
+    </object>
+    <object class="IBCarbonRoundButton" id="1496">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">9</int>
+      <ostype name="command">QUEW</ostype>
+      <string name="helpTagText">Mostra/Nascondi Coda</string>
+      <string name="viewFrame">-19282 -674377 0 0 </string>
+      <string name="bounds">-19017 -19282 -19017 -19282 </string>
+    </object>
+    <object class="IBCarbonIcon" id="1501">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">2</int>
+      <ostype name="command">REFR</ostype>
+      <string name="helpTagText">Aggiorna la lista delle cartelle</string>
+      <int name="contentType">132</int>
+      <int name="contentResID">1380271698</int>
+      <boolean name="dontTrack">FALSE</boolean>
+      <int name="creator">1447251032</int>
+      <string name="viewFrame">-19976 -674408 0 0 </string>
+      <string name="bounds">-19048 -19976 -19048 -19976 </string>
+    </object>
+    <object class="IBCarbonDBListView" id="1483">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">2000</int>
+      <int name="rowHeight">20</int>
+      <array count="8" name="listViewColumns">
+        <object class="IBCarbonDBListViewColumn">
+          <ostype name="propertyID">NAME</ostype>
+          <ostype name="propertyType">ticn</ostype>
+          <int name="propertyFlags">983040</int>
+          <int name="sortOrder">1</int>
+          <int name="maxWidth">20000</int>
+          <int name="minWidth">180</int>
+          <int name="textAlignment">-2</int>
+          <string name="titleString">Nome</string>
+        </object>
+        <object class="IBCarbonDBListViewColumn">
+          <ostype name="propertyID">SERV</ostype>
+          <int name="sortOrder">1</int>
+          <int name="maxWidth">121</int>
+          <int name="minWidth">120</int>
+          <int name="textAlignment">-2</int>
+          <string name="titleString">Server</string>
+        </object>
+        <object class="IBCarbonDBListViewColumn">
+          <ostype name="propertyID">USER</ostype>
+          <int name="sortOrder">1</int>
+          <int name="maxWidth">101</int>
+          <int name="minWidth">100</int>
+          <int name="textAlignment">-2</int>
+          <string name="titleString">Nome Utente</string>
+        </object>
+        <object class="IBCarbonDBListViewColumn">
+          <ostype name="propertyID">PASS</ostype>
+          <int name="sortOrder">1</int>
+          <int name="maxWidth">151</int>
+          <int name="minWidth">150</int>
+          <int name="textAlignment">-2</int>
+          <string name="titleString">Password</string>
+        </object>
+        <object class="IBCarbonDBListViewColumn">
+          <ostype name="propertyID">PATH</ostype>
+          <int name="sortOrder">1</int>
+          <int name="maxWidth">201</int>
+          <int name="minWidth">200</int>
+          <int name="textAlignment">-2</int>
+          <string name="titleString">Percorso</string>
+        </object>
+        <object class="IBCarbonDBListViewColumn">
+          <ostype name="propertyID">PORT</ostype>
+          <int name="sortOrder">1</int>
+          <int name="maxWidth">46</int>
+          <int name="minWidth">45</int>
+          <int name="textAlignment">-2</int>
+          <string name="titleString">Porta</string>
+        </object>
+        <object class="IBCarbonDBListViewColumn">
+          <ostype name="propertyID">PROT</ostype>
+          <int name="sortOrder">1</int>
+          <int name="maxWidth">69</int>
+          <int name="minWidth">68</int>
+          <int name="textAlignment">-2</int>
+          <string name="titleString">Protocollo</string>
+        </object>
+        <object class="IBCarbonDBListViewColumn">
+          <ostype name="propertyID">LOCA</ostype>
+          <int name="sortOrder">1</int>
+          <int name="maxWidth">201</int>
+          <int name="minWidth">200</int>
+          <int name="textAlignment">-2</int>
+          <string name="titleString">Cartella Mac</string>
+        </object>
+      </array>
+      <int name="hiliteStyle">1</int>
+      <string name="viewFrame">20 87 294 220 </string>
+      <string name="bounds">87 20 307 314 </string>
+    </object>
+    <reference idRef="1556"/>
+    <reference idRef="1539"/>
+    <object class="IBCarbonIcon" id="1506">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">1015</int>
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <ostype name="command">QUEW</ostype>
+      <string name="helpTagText">Mostra/nasconde la finestra della coda</string>
+      <int name="contentType">132</int>
+      <int name="contentResID">1148076370</int>
+      <boolean name="dontTrack">FALSE</boolean>
+      <int name="creator">558257232</int>
+      <string name="viewFrame">-1000 373 16 16 </string>
+      <string name="bounds">373 -1000 389 -984 </string>
+    </object>
+    <object class="IBCarbonIcon" id="1489">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">24</int>
+      <ostype name="command">LIST</ostype>
+      <string name="helpTagText">Passa alla visualizzazione lista</string>
+      <int name="contentType">132</int>
+      <int name="contentResID">1280529473</int>
+      <boolean name="dontTrack">FALSE</boolean>
+      <int name="creator">1447251032</int>
+      <string name="viewFrame">-19976 -674408 0 0 </string>
+      <string name="bounds">-19048 -19976 -19048 -19976 </string>
+    </object>
+    <object class="IBCarbonWindow" id="1453">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="toolbarButton">TRUE</boolean>
+      <boolean name="metal">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <int name="themeBrush">49</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Nuova Connessione</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="1454">
+        <string name="viewFrame">0 0 711 496 </string>
+        <array count="41" name="subviews">
+          <object class="IBCarbonSegmentView" id="2650">
+            <ostype name="controlSignature">SESS</ostype>
+            <int name="controlID">1014</int>
+            <array count="2" name="segments">
+              <reference idRef="2654"/>
+              <object class="IBCarbonSegment" id="2652">
+                <ostype name="command">FW1M</ostype>
+                <boolean name="autoWidth">FALSE</boolean>
+                <boolean name="enabled">FALSE</boolean>
+                <float name="width">14.000000</float>
+                <string name="label"></string>
+              </object>
+            </array>
+            <string name="viewFrame">20 60 47 24 </string>
+            <string name="bounds">60 20 84 67 </string>
+          </object>
+          <reference idRef="1485"/>
+          <object class="IBCarbonDBListView" id="1494">
+            <ostype name="controlSignature">SESS</ostype>
+            <int name="controlID">10</int>
+            <int name="rowHeight">20</int>
+            <array count="6" name="listViewColumns">
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">NAME</ostype>
+                <ostype name="propertyType">ticn</ostype>
+                <int name="propertyFlags">983040</int>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">20000</int>
+                <int name="minWidth">180</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Nome</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">DATE</ostype>
+                <ostype name="propertyType">date</ostype>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">137</int>
+                <int name="minWidth">136</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Data di modifica</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">SIZE</ostype>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">89</int>
+                <int name="minWidth">88</int>
+                <int name="textAlignment">-1</int>
+                <int name="titleOffset">3</int>
+                <string name="titleString">Dimensione</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">KIND</ostype>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">224</int>
+                <int name="minWidth">223</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Tipo</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">PERM</ostype>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">101</int>
+                <int name="minWidth">100</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Permessi</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">OWGR</ostype>
+                <int name="sortOrder">2</int>
+                <int name="maxWidth">141</int>
+                <int name="minWidth">140</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Proprietario / Gruppo</string>
+              </object>
+            </array>
+            <int name="hiliteStyle">1</int>
+            <string name="viewFrame">20 87 294 220 </string>
+            <string name="bounds">87 20 307 314 </string>
+          </object>
+          <object class="IBCarbonDBListView" id="1503">
+            <ostype name="controlSignature">SESS</ostype>
+            <int name="controlID">17</int>
+            <int name="rowHeight">20</int>
+            <array count="6" name="listViewColumns">
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">NAME</ostype>
+                <ostype name="propertyType">ticn</ostype>
+                <int name="propertyFlags">983040</int>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">20000</int>
+                <int name="minWidth">180</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Nome</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">DATE</ostype>
+                <ostype name="propertyType">date</ostype>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">137</int>
+                <int name="minWidth">136</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Data di modifica</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">SIZE</ostype>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">89</int>
+                <int name="minWidth">88</int>
+                <int name="textAlignment">-1</int>
+                <int name="titleOffset">3</int>
+                <string name="titleString">Dimensione</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">KIND</ostype>
+                <int name="sortOrder">2</int>
+                <int name="maxWidth">224</int>
+                <int name="minWidth">223</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Tipo</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">PERM</ostype>
+                <int name="sortOrder">2</int>
+                <int name="maxWidth">101</int>
+                <int name="minWidth">100</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Permessi</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">OWGR</ostype>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">141</int>
+                <int name="minWidth">140</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Proprietario / Gruppo</string>
+              </object>
+            </array>
+            <string name="viewFrame">20 87 294 220 </string>
+            <string name="bounds">87 20 307 314 </string>
+          </object>
+          <object class="IBCarbonDBListView" id="1479">
+            <ostype name="controlSignature">SESS</ostype>
+            <int name="controlID">2001</int>
+            <int name="rowHeight">20</int>
+            <array count="8" name="listViewColumns">
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">NAME</ostype>
+                <ostype name="propertyType">ticn</ostype>
+                <int name="propertyFlags">983040</int>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">20000</int>
+                <int name="minWidth">180</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Nome</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">SERV</ostype>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">121</int>
+                <int name="minWidth">120</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Server</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">USER</ostype>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">101</int>
+                <int name="minWidth">100</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Nome Utente</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">PASS</ostype>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">151</int>
+                <int name="minWidth">150</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Password</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">PATH</ostype>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">201</int>
+                <int name="minWidth">200</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Percorso</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">PORT</ostype>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">46</int>
+                <int name="minWidth">45</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Porta</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">PROT</ostype>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">69</int>
+                <int name="minWidth">68</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Protocollo</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">LOCA</ostype>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">201</int>
+                <int name="minWidth">200</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Cartella Mac</string>
+              </object>
+            </array>
+            <string name="viewFrame">20 87 294 220 </string>
+            <string name="bounds">87 20 307 314 </string>
+          </object>
+          <reference idRef="1483"/>
+          <object class="IBCarbonSegmentView" id="1469">
+            <ostype name="controlSignature">SESS</ostype>
+            <int name="controlID">4</int>
+            <array count="2" name="segments">
+              <object class="IBCarbonSegment" id="2647">
+                <ostype name="command">BK1S</ostype>
+                <boolean name="autoWidth">FALSE</boolean>
+                <boolean name="enabled">FALSE</boolean>
+                <float name="width">14.000000</float>
+                <string name="label"></string>
+              </object>
+              <object class="IBCarbonSegment" id="2648">
+                <ostype name="command">FW1S</ostype>
+                <boolean name="autoWidth">FALSE</boolean>
+                <boolean name="enabled">FALSE</boolean>
+                <float name="width">14.000000</float>
+                <string name="label"></string>
+              </object>
+            </array>
+            <string name="viewFrame">336 60 47 24 </string>
+            <string name="bounds">60 336 84 383 </string>
+          </object>
+          <object class="IBCarbonPopupButton" id="1511">
+            <ostype name="controlSignature">SESS</ostype>
+            <int name="controlID">1</int>
+            <int name="controlSize">2</int>
+            <ostype name="command">PATH</ostype>
+            <string name="helpTagText">Menu di navigazione cartella Server</string>
+            <boolean name="variableWith">TRUE</boolean>
+            <int name="selectedItem">-2147483648</int>
+            <object name="menu" class="IBCarbonMenu" id="1559">
+              <string name="title">SERVER</string>
+              <array count="1" name="items">
+                <reference idRef="1560"/>
+              </array>
+            </object>
+            <int name="titleJustification">1</int>
+            <string name="viewFrame">445 60 42 20 </string>
+            <string name="bounds">60 445 80 487 </string>
+          </object>
+          <object class="IBCarbonDBListView" id="1491">
+            <ostype name="controlSignature">SESS</ostype>
+            <int name="rowHeight">20</int>
+            <array count="7" name="listViewColumns">
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">NAME</ostype>
+                <ostype name="propertyType">ticn</ostype>
+                <int name="propertyFlags">983040</int>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">20000</int>
+                <int name="minWidth">180</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Nome</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">DATE</ostype>
+                <ostype name="propertyType">date</ostype>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">137</int>
+                <int name="minWidth">136</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Data di modifica</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">SIZE</ostype>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">89</int>
+                <int name="minWidth">88</int>
+                <int name="textAlignment">-1</int>
+                <int name="titleOffset">3</int>
+                <string name="titleString">Dimensione</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">KIND</ostype>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">224</int>
+                <int name="minWidth">223</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Tipo</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">PERM</ostype>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">101</int>
+                <int name="minWidth">100</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Permessi</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">LINK</ostype>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">51</int>
+                <int name="minWidth">50</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Collegamenti</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">OWGR</ostype>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">141</int>
+                <int name="minWidth">140</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Proprietario / Gruppo</string>
+              </object>
+            </array>
+            <int name="hiliteStyle">1</int>
+            <string name="viewFrame">336 87 294 220 </string>
+            <string name="bounds">87 336 307 630 </string>
+          </object>
+          <object class="IBCarbonDBListView" id="1459">
+            <ostype name="controlSignature">SESS</ostype>
+            <int name="controlID">8</int>
+            <int name="rowHeight">20</int>
+            <array count="7" name="listViewColumns">
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">NAME</ostype>
+                <ostype name="propertyType">ticn</ostype>
+                <int name="propertyFlags">983040</int>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">20000</int>
+                <int name="minWidth">180</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Nome</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">DATE</ostype>
+                <ostype name="propertyType">date</ostype>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">137</int>
+                <int name="minWidth">136</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Data di modifica</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">SIZE</ostype>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">89</int>
+                <int name="minWidth">88</int>
+                <int name="textAlignment">-1</int>
+                <int name="titleOffset">3</int>
+                <string name="titleString">Dimensione</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">KIND</ostype>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">224</int>
+                <int name="minWidth">223</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Tipo</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">PERM</ostype>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">101</int>
+                <int name="minWidth">100</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Permessi</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">LINK</ostype>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">51</int>
+                <int name="minWidth">50</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Collegamenti</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">OWGR</ostype>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">141</int>
+                <int name="minWidth">140</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Proprietario / Gruppo</string>
+              </object>
+            </array>
+            <string name="viewFrame">336 87 294 220 </string>
+            <string name="bounds">87 336 307 630 </string>
+          </object>
+          <object class="IBCarbonSegmentView" id="1472">
+            <ostype name="controlSignature">SESS</ostype>
+            <int name="controlID">14</int>
+            <array count="5" name="segments">
+              <object class="IBCarbonSegment">
+                <ostype name="command">BK1M</ostype>
+                <boolean name="autoWidth">FALSE</boolean>
+                <boolean name="enabled">FALSE</boolean>
+                <float name="width">14.000000</float>
+                <string name="label"></string>
+              </object>
+              <object class="IBCarbonSegment">
+                <ostype name="command">FW1M</ostype>
+                <boolean name="autoWidth">FALSE</boolean>
+                <boolean name="enabled">FALSE</boolean>
+                <float name="width">14.000000</float>
+                <string name="label"></string>
+              </object>
+              <object class="IBCarbonSegment">
+                <ostype name="command">LIST</ostype>
+                <int name="value">1</int>
+                <boolean name="autoWidth">FALSE</boolean>
+                <float name="width">14.000000</float>
+                <string name="label"></string>
+              </object>
+              <object class="IBCarbonSegment">
+                <ostype name="command">COLM</ostype>
+                <boolean name="autoWidth">FALSE</boolean>
+                <float name="width">14.000000</float>
+                <string name="label"></string>
+              </object>
+              <object class="IBCarbonSegment">
+                <boolean name="autoWidth">FALSE</boolean>
+                <float name="width">20.000000</float>
+                <string name="label"></string>
+              </object>
+            </array>
+            <string name="viewFrame">18 63 102 24 </string>
+            <string name="bounds">63 18 87 120 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="1482">
+            <ostype name="controlSignature">SESS</ostype>
+            <int name="controlID">40</int>
+            <boolean name="hidden">TRUE</boolean>
+            <int name="controlSize">1</int>
+            <string name="viewFrame">14 350 587 14 </string>
+            <string name="bounds">350 14 364 601 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="1486">
+            <ostype name="controlSignature">SESS</ostype>
+            <int name="controlID">38</int>
+            <int name="controlSize">1</int>
+            <string name="viewFrame">14 363 577 14 </string>
+            <string name="bounds">363 14 377 591 </string>
+          </object>
+          <object class="IBCarbonUserPane" id="1508">
+            <ostype name="controlSignature">SESS</ostype>
+            <int name="controlID">1006</int>
+            <boolean name="enabled">FALSE</boolean>
+            <boolean name="hidden">TRUE</boolean>
+            <int name="featureBits">58</int>
+            <string name="viewFrame">20 410 607 92 </string>
+            <string name="bounds">410 20 502 627 </string>
+          </object>
+          <object class="IBCarbonUserPane" id="1466">
+            <ostype name="controlSignature">SESS</ostype>
+            <int name="controlID">1003</int>
+            <string name="helpTagText">Ridimensione&#10;&#10;Trascina in alto per mostrare, in basso per nascondere o ridimensiona</string>
+            <int name="featureBits">2</int>
+            <string name="viewFrame">20 402 607 8 </string>
+            <string name="bounds">402 20 410 627 </string>
+          </object>
+          <object class="IBCarbonIcon" id="1460">
+            <ostype name="controlSignature">SESS</ostype>
+            <int name="controlID">1012</int>
+            <int name="contentType">132</int>
+            <int name="contentResID">1381189974</int>
+            <int name="creator">558257232</int>
+            <string name="viewFrame">307 393 16 16 </string>
+            <string name="bounds">393 307 409 323 </string>
+          </object>
+          <object class="IBCarbonUserPane" id="1464">
+            <ostype name="controlSignature">SESS</ostype>
+            <int name="controlID">45</int>
+            <int name="featureBits">2</int>
+            <string name="viewFrame">-1 -1 542 100 </string>
+            <array count="8" name="subviews">
+              <object class="IBCarbonStaticText" id="1622">
+                <ostype name="controlSignature">SESS</ostype>
+                <int name="controlID">48</int>
+                <int name="controlSize">1</int>
+                <string name="viewFrame">15 53 396 14 </string>
+                <string name="bounds">52 14 66 410 </string>
+              </object>
+              <object class="IBCarbonStaticText" id="1615">
+                <ostype name="controlSignature">SESS</ostype>
+                <int name="controlID">46</int>
+                <int name="controlSize">1</int>
+                <string name="viewFrame">15 65 396 28 </string>
+                <string name="bounds">64 14 92 410 </string>
+              </object>
+              <reference idRef="1619"/>
+              <object class="IBCarbonIcon" id="1616">
+                <ostype name="controlSignature">SESS</ostype>
+                <int name="controlID">51</int>
+                <int name="contentType">132</int>
+                <int name="contentResID">0</int>
+                <int name="creator">0</int>
+                <string name="viewFrame">456 44 16 16 </string>
+                <string name="bounds">43 455 59 471 </string>
+              </object>
+              <object class="IBCarbonProgressBar" id="1620">
+                <ostype name="controlSignature">SESS</ostype>
+                <int name="controlID">49</int>
+                <int name="controlSize">1</int>
+                <string name="viewFrame">14 32 366 13 </string>
+                <string name="bounds">31 13 44 379 </string>
+              </object>
+              <object class="IBCarbonStaticText" id="1618">
+                <ostype name="controlSignature">SESS</ostype>
+                <int name="controlID">52</int>
+                <int name="controlSize">1</int>
+                <string name="viewFrame">466 20 19 16 </string>
+                <string name="bounds">19 465 35 484 </string>
+              </object>
+              <reference idRef="1617"/>
+              <object class="IBCarbonIcon" id="1621">
+                <ostype name="controlSignature">SESS</ostype>
+                <int name="controlID">53</int>
+                <ostype name="command">STOP</ostype>
+                <int name="contentType">132</int>
+                <int name="contentResID">1834177616</int>
+                <boolean name="dontTrack">FALSE</boolean>
+                <int name="creator">558257232</int>
+                <string name="viewFrame">387 30 16 16 </string>
+                <string name="bounds">29 386 45 402 </string>
+              </object>
+            </array>
+            <string name="bounds">-1 -1 99 541 </string>
+          </object>
+          <reference idRef="1471"/>
+          <object class="IBCarbonSeparator" id="1473">
+            <ostype name="controlSignature">SESS</ostype>
+            <int name="controlID">18</int>
+            <boolean name="enabled">FALSE</boolean>
+            <string name="viewFrame">322 201 1 15 </string>
+            <string name="bounds">201 322 216 323 </string>
+          </object>
+          <object class="IBCarbonSeparator" id="1497">
+            <ostype name="controlSignature">SESS</ostype>
+            <int name="controlID">19</int>
+            <boolean name="enabled">FALSE</boolean>
+            <string name="viewFrame">324 201 1 15 </string>
+            <string name="bounds">201 324 216 325 </string>
+          </object>
+          <reference idRef="1514"/>
+          <object class="IBCarbonUserPane" id="1507">
+            <ostype name="controlSignature">SESS</ostype>
+            <int name="controlID">999</int>
+            <boolean name="hidden">TRUE</boolean>
+            <int name="featureBits">4194306</int>
+            <string name="viewFrame">26 289 23 15 </string>
+            <array count="4" name="subviews">
+              <object class="IBCarbonPlacard" id="1561">
+                <ostype name="controlSignature">SESS</ostype>
+                <int name="controlID">1016</int>
+                <boolean name="enabled">FALSE</boolean>
+                <boolean name="hidden">TRUE</boolean>
+                <string name="viewFrame">0 0 120 16 </string>
+                <string name="bounds">289 26 305 146 </string>
+              </object>
+              <reference idRef="1562"/>
+              <object class="IBCarbonIcon" id="1563">
+                <boolean name="enabled">FALSE</boolean>
+                <boolean name="hidden">TRUE</boolean>
+                <int name="contentType">132</int>
+                <int name="contentResID">1179534418</int>
+                <int name="creator">1296122707</int>
+                <string name="viewFrame">3 3 10 10 </string>
+                <string name="bounds">292 29 302 39 </string>
+              </object>
+              <object class="IBCarbonBevelButton" id="2279">
+                <ostype name="controlSignature">SESS</ostype>
+                <int name="controlID">1018</int>
+                <int name="controlSize">3</int>
+                <int name="contentType">0</int>
+                <int name="contentResID">0</int>
+                <int name="graphicAlignment">5</int>
+                <int name="menuPlacement">4</int>
+                <unsigned_int name="behavior">8192</unsigned_int>
+                <string name="viewFrame">0 0 25 16 </string>
+                <string name="bounds">289 26 305 51 </string>
+              </object>
+            </array>
+            <string name="bounds">289 26 304 49 </string>
+          </object>
+          <object class="IBCarbonGroupBox" id="1476">
+            <ostype name="controlSignature">SESS</ostype>
+            <int name="controlID">1007</int>
+            <int name="controlSize">1</int>
+            <string name="viewFrame">-5 33 660 21 </string>
+            <array count="2" name="subviews">
+              <object class="IBCarbonStaticText" id="1611">
+                <ostype name="controlSignature">SESS</ostype>
+                <int name="controlID">1008</int>
+                <int name="controlSize">1</int>
+                <string name="title">0 items</string>
+                <string name="viewFrame">23 3 304 16 </string>
+                <string name="bounds">36 18 52 322 </string>
+              </object>
+              <object class="IBCarbonStaticText" id="1610">
+                <ostype name="controlSignature">SESS</ostype>
+                <int name="controlID">1010</int>
+                <int name="controlSize">1</int>
+                <string name="title">0 elementi</string>
+                <string name="viewFrame">335 3 309 16 </string>
+                <string name="bounds">36 330 52 639 </string>
+              </object>
+            </array>
+            <string name="bounds">33 -5 54 655 </string>
+          </object>
+          <object class="IBCarbonGroupBox" id="1465">
+            <ostype name="controlSignature">SESS</ostype>
+            <int name="controlID">1009</int>
+            <boolean name="enabled">FALSE</boolean>
+            <int name="controlSize">1</int>
+            <boolean name="primary">FALSE</boolean>
+            <string name="viewFrame">4057 502 66 21 </string>
+            <string name="bounds">502 4057 523 4123 </string>
+          </object>
+          <reference idRef="1458"/>
+          <reference idRef="1456"/>
+          <object class="IBCarbonUserPane" id="1461">
+            <ostype name="controlSignature">SESS</ostype>
+            <int name="controlID">43</int>
+            <boolean name="enabled">FALSE</boolean>
+            <int name="featureBits">2</int>
+            <string name="viewFrame">4097 911 33 18 </string>
+            <string name="bounds">911 4097 929 4130 </string>
+          </object>
+          <reference idRef="1500"/>
+          <object class="IBCarbonUserPane" id="1467">
+            <ostype name="controlSignature">SESS</ostype>
+            <int name="controlID">39</int>
+            <boolean name="enabled">FALSE</boolean>
+            <int name="featureBits">2</int>
+            <string name="viewFrame">4097 887 20 16 </string>
+            <string name="bounds">887 4097 903 4117 </string>
+          </object>
+          <object class="IBCarbonUserPane" id="1470">
+            <ostype name="controlSignature">SESS</ostype>
+            <int name="controlID">1000</int>
+            <boolean name="hidden">TRUE</boolean>
+            <int name="featureBits">4194306</int>
+            <string name="viewFrame">342 289 23 15 </string>
+            <array count="4" name="subviews">
+              <reference idRef="1614"/>
+              <object class="IBCarbonStaticText" id="1613">
+                <ostype name="controlSignature">SESS</ostype>
+                <int name="controlID">1002</int>
+                <boolean name="enabled">FALSE</boolean>
+                <boolean name="hidden">TRUE</boolean>
+                <int name="controlSize">3</int>
+                <int name="justification">1</int>
+                <string name="viewFrame">8 2 116 11 </string>
+                <string name="bounds">291 350 302 466 </string>
+              </object>
+              <object class="IBCarbonIcon" id="1612">
+                <boolean name="enabled">FALSE</boolean>
+                <boolean name="hidden">TRUE</boolean>
+                <int name="contentType">132</int>
+                <int name="contentResID">1735288180</int>
+                <int name="creator">1296122707</int>
+                <string name="viewFrame">4 4 9 8 </string>
+                <string name="bounds">293 346 301 355 </string>
+              </object>
+              <object class="IBCarbonBevelButton" id="2280">
+                <ostype name="controlSignature">SESS</ostype>
+                <int name="controlID">1019</int>
+                <int name="controlSize">3</int>
+                <int name="contentType">0</int>
+                <int name="contentResID">0</int>
+                <int name="graphicAlignment">5</int>
+                <int name="menuPlacement">4</int>
+                <unsigned_int name="behavior">8192</unsigned_int>
+                <string name="viewFrame">0 0 25 16 </string>
+                <string name="bounds">289 342 305 367 </string>
+              </object>
+            </array>
+            <string name="bounds">289 342 304 365 </string>
+          </object>
+          <reference idRef="1484"/>
+          <reference idRef="1506"/>
+          <object class="IBCarbonProgressBar" id="1495">
+            <ostype name="controlSignature">SESS</ostype>
+            <int name="controlID">41</int>
+            <boolean name="hidden">TRUE</boolean>
+            <int name="controlSize">3</int>
+            <string name="viewFrame">13 375 594 13 </string>
+            <string name="bounds">375 13 388 607 </string>
+          </object>
+          <object class="IBCarbonProgressBar" id="1509">
+            <ostype name="controlSignature">SESS</ostype>
+            <int name="controlID">9999</int>
+            <boolean name="hidden">TRUE</boolean>
+            <boolean name="indeterminate">FALSE</boolean>
+            <string name="viewFrame">336 357 266 19 </string>
+            <string name="bounds">357 336 376 602 </string>
+          </object>
+          <object class="IBCarbonIcon" id="1490">
+            <ostype name="controlSignature">SESS</ostype>
+            <int name="controlID">15</int>
+            <boolean name="enabled">FALSE</boolean>
+            <boolean name="hidden">TRUE</boolean>
+            <ostype name="command">STOP</ostype>
+            <string name="helpTagText">Annulla l&apos;azione corrente</string>
+            <int name="contentType">132</int>
+            <int name="contentResID">1834177616</int>
+            <boolean name="dontTrack">FALSE</boolean>
+            <int name="creator">558257232</int>
+            <string name="viewFrame">-1000 373 16 16 </string>
+            <string name="bounds">373 -1000 389 -984 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="1457">
+            <ostype name="controlSignature">SESS</ostype>
+            <int name="controlID">42</int>
+            <int name="controlSize">3</int>
+            <string name="viewFrame">14 337 587 14 </string>
+            <string name="bounds">337 14 351 601 </string>
+          </object>
+          <reference idRef="3055"/>
+          <object class="IBCarbonStaticText" id="3056">
+            <ostype name="controlSignature">SESS</ostype>
+            <int name="controlID">1004</int>
+            <int name="fontStyle">-3</int>
+            <int name="controlSize">1</int>
+            <string name="foreColor">21626 21626 21626 </string>
+            <int name="justification">-1</int>
+            <string name="viewFrame">179 65 150 11 </string>
+            <string name="bounds">65 179 76 329 </string>
+          </object>
+          <object class="IBCarbonButton" id="3168">
+            <ostype name="controlSignature">WATC</ostype>
+            <int name="controlID">1</int>
+            <boolean name="hidden">TRUE</boolean>
+            <ostype name="command">WAT1</ostype>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingBottomKind">2</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <int name="buttonType">1</int>
+            <int name="iconPosition">0</int>
+            <string name="title">Scegliere</string>
+            <string name="viewFrame">621 467 81 20 </string>
+            <string name="bounds">467 621 487 702 </string>
+          </object>
+          <object class="IBCarbonButton" id="3169">
+            <ostype name="controlSignature">WATC</ostype>
+            <int name="controlID">2</int>
+            <boolean name="hidden">TRUE</boolean>
+            <ostype name="command">clos</ostype>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingBottomKind">2</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <int name="buttonType">2</int>
+            <int name="iconPosition">0</int>
+            <string name="title">Annullare</string>
+            <string name="viewFrame">527 467 82 20 </string>
+            <string name="bounds">467 527 487 609 </string>
+          </object>
+          <reference idRef="3170"/>
+        </array>
+        <string name="bounds">0 0 496 711 </string>
+      </object>
+      <string name="windowRect">217 176 713 887 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="1459"/>
+    <reference idRef="1509"/>
+    <reference idRef="1555"/>
+    <reference idRef="2652"/>
+    <reference idRef="1616"/>
+    <reference idRef="1465"/>
+    <object class="IBCarbonIcon" id="1510">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">25</int>
+      <ostype name="command">SYNC</ostype>
+      <string name="helpTagText">Mostra opzioni sincronizzazione</string>
+      <int name="contentType">132</int>
+      <int name="contentResID">1398361667</int>
+      <boolean name="dontTrack">FALSE</boolean>
+      <int name="creator">1447251032</int>
+      <string name="viewFrame">-19976 -674408 0 0 </string>
+      <string name="bounds">-19048 -19976 -19048 -19976 </string>
+    </object>
+    <reference idRef="1612"/>
+    <reference idRef="1497"/>
+    <reference idRef="1457"/>
+    <reference idRef="1613"/>
+    <reference idRef="1529"/>
+    <reference idRef="1525"/>
+    <reference idRef="1515"/>
+    <reference idRef="1494"/>
+    <object class="IBCarbonIcon" id="1488">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">7</int>
+      <ostype name="command">COLM</ostype>
+      <string name="helpTagText">Passa alla visualizzazione a colonne</string>
+      <int name="contentType">132</int>
+      <int name="contentResID">1129073993</int>
+      <boolean name="dontTrack">FALSE</boolean>
+      <int name="creator">1447251032</int>
+      <string name="viewFrame">-19976 -674408 0 0 </string>
+      <string name="bounds">-19048 -19976 -19048 -19976 </string>
+    </object>
+    <reference idRef="1466"/>
+    <reference idRef="3056"/>
+    <reference idRef="1460"/>
+    <reference idRef="1549"/>
+    <reference idRef="1482"/>
+    <reference idRef="1557"/>
+    <reference idRef="1543"/>
+    <reference idRef="1621"/>
+    <reference idRef="1530"/>
+    <reference idRef="1503"/>
+    <object class="IBCarbonIcon" id="1498">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">16</int>
+      <ostype name="command">DLUP</ostype>
+      <string name="helpTagText">Avvia trasferimento</string>
+      <int name="contentType">132</int>
+      <int name="contentResID">1145851716</int>
+      <boolean name="dontTrack">FALSE</boolean>
+      <int name="creator">1447251032</int>
+      <string name="viewFrame">-19976 -674408 0 0 </string>
+      <string name="bounds">-19048 -19976 -19048 -19976 </string>
+    </object>
+    <reference idRef="3168"/>
+    <reference idRef="1520"/>
+    <reference idRef="1610"/>
+    <reference idRef="1486"/>
+    <object class="IBCarbonRoundButton" id="1477">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">4</int>
+      <ostype name="command">UPON</ostype>
+      <string name="helpTagText">Torna indietro di una cartella</string>
+      <string name="viewFrame">-19284 -674377 0 0 </string>
+      <string name="bounds">-19017 -19284 -19017 -19284 </string>
+    </object>
+    <reference idRef="2279"/>
+    <reference idRef="1467"/>
+    <reference idRef="1524"/>
+    <reference idRef="1550"/>
+    <reference idRef="1620"/>
+    <reference idRef="1561"/>
+    <reference idRef="1508"/>
+    <reference idRef="1495"/>
+    <reference idRef="1535"/>
+    <reference idRef="2647"/>
+    <reference idRef="1511"/>
+    <reference idRef="2648"/>
+    <reference idRef="1534"/>
+    <reference idRef="1548"/>
+    <reference idRef="1541"/>
+    <reference idRef="2280"/>
+    <reference idRef="1622"/>
+    <reference idRef="1589"/>
+    <reference idRef="1469"/>
+    <reference idRef="1615"/>
+    <reference idRef="1454"/>
+    <object class="IBCarbonRoundButton" id="1504">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">7</int>
+      <ostype name="command">CLLI</ostype>
+      <string name="helpTagText">Mostra vista Colonne/Lista</string>
+      <string name="viewFrame">-19282 -674377 0 0 </string>
+      <string name="bounds">-19017 -19282 -19017 -19282 </string>
+    </object>
+    <reference idRef="1546"/>
+    <reference idRef="1528"/>
+    <object class="IBCarbonRoundButton" id="1468">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">3</int>
+      <ostype name="command">GOTO</ostype>
+      <string name="helpTagText">Vai alla cartella</string>
+      <string name="viewFrame">-19282 -674377 0 0 </string>
+      <string name="bounds">-19017 -19282 -19017 -19282 </string>
+    </object>
+    <reference idRef="1464"/>
+    <reference idRef="1537"/>
+    <reference idRef="1540"/>
+    <reference idRef="1545"/>
+    <reference idRef="1473"/>
+    <reference idRef="1470"/>
+    <reference idRef="2650"/>
+    <reference idRef="1461"/>
+    <reference idRef="1611"/>
+    <reference idRef="1476"/>
+    <reference idRef="1563"/>
+    <reference idRef="1472"/>
+    <reference idRef="1547"/>
+    <reference idRef="1479"/>
+    <object class="IBCarbonIcon" id="1463">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">12</int>
+      <ostype name="command">HOME</ostype>
+      <string name="helpTagText">Vai alla cartella di login</string>
+      <int name="contentType">132</int>
+      <int name="contentResID">1953001325</int>
+      <boolean name="dontTrack">FALSE</boolean>
+      <int name="creator">1296122707</int>
+      <string name="viewFrame">-19976 -674408 0 0 </string>
+      <string name="bounds">-19048 -19976 -19048 -19976 </string>
+    </object>
+    <reference idRef="3169"/>
+    <reference idRef="1531"/>
+    <reference idRef="1507"/>
+    <object class="IBCarbonIcon" id="1513">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">5</int>
+      <boolean name="hidden">TRUE</boolean>
+      <int name="contentType">132</int>
+      <int name="contentResID">1380534100</int>
+      <boolean name="dontTrack">FALSE</boolean>
+      <int name="creator">1447251032</int>
+      <string name="viewFrame">-19976 -674408 0 0 </string>
+      <string name="bounds">-19048 -19976 -19048 -19976 </string>
+    </object>
+    <object class="IBCarbonIcon" id="1474">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">9</int>
+      <ostype name="command">INFO</ostype>
+      <string name="helpTagText">Mostra la finestra delle informazioni</string>
+      <int name="contentType">132</int>
+      <int name="contentResID">1229866575</int>
+      <boolean name="dontTrack">FALSE</boolean>
+      <int name="creator">1447251032</int>
+      <string name="viewFrame">-19976 -674408 0 0 </string>
+      <string name="bounds">-19048 -19976 -19048 -19976 </string>
+    </object>
+    <object class="IBCarbonIcon" id="1462">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">22</int>
+      <ostype name="command">EDIT</ostype>
+      <string name="helpTagText">Modifica in BBEdit</string>
+      <int name="contentType">132</int>
+      <int name="contentResID">1162103124</int>
+      <boolean name="dontTrack">FALSE</boolean>
+      <int name="creator">1447251032</int>
+      <string name="viewFrame">-19976 -674400 0 0 </string>
+      <string name="bounds">-19040 -19976 -19040 -19976 </string>
+    </object>
+    <reference idRef="1491"/>
+    <reference idRef="1544"/>
+    <reference idRef="1553"/>
+    <reference idRef="1618"/>
+    <reference idRef="1542"/>
+    <reference idRef="1559"/>
+    <reference idRef="1526"/>
+    <object class="IBCarbonRoundButton" id="1481">
+      <ostype name="controlSignature">SESS</ostype>
+      <int name="controlID">2</int>
+      <ostype name="command">REFR</ostype>
+      <string name="helpTagText">Aggiorna Cartella</string>
+      <string name="viewFrame">-19282 -674377 0 0 </string>
+      <string name="bounds">-19017 -19282 -19017 -19282 </string>
+    </object>
+    <reference idRef="1490"/>
+    <reference idRef="1522"/>
+  </array>
+  <array count="134" name="allParents">
+    <reference idRef="1554"/>
+    <reference idRef="1514"/>
+    <reference idRef="1514"/>
+    <reference idRef="1454"/>
+    <reference idRef="1487"/>
+    <reference idRef="1589"/>
+    <reference idRef="1454"/>
+    <reference idRef="1454"/>
+    <reference idRef="1550"/>
+    <reference idRef="1514"/>
+    <reference idRef="1454"/>
+    <reference idRef="1464"/>
+    <reference idRef="1587"/>
+    <reference idRef="1454"/>
+    <reference idRef="1514"/>
+    <reference idRef="1454"/>
+    <reference idRef="1514"/>
+    <reference idRef="1454"/>
+    <reference idRef="1454"/>
+    <reference idRef="1507"/>
+    <reference idRef="1514"/>
+    <reference idRef="1470"/>
+    <reference idRef="1550"/>
+    <reference idRef="1454"/>
+    <reference idRef="2650"/>
+    <reference idRef="1532"/>
+    <reference idRef="1514"/>
+    <reference idRef="1454"/>
+    <reference idRef="1559"/>
+    <reference idRef="1514"/>
+    <reference idRef="1464"/>
+    <reference idRef="1454"/>
+    <reference idRef="1514"/>
+    <reference idRef="1454"/>
+    <reference idRef="1514"/>
+    <reference idRef="1514"/>
+    <reference idRef="1454"/>
+    <reference idRef="1454"/>
+    <reference idRef="1454"/>
+    <reference idRef="1454"/>
+    <reference idRef="1454"/>
+    <reference idRef="1554"/>
+    <reference idRef="1538"/>
+    <reference idRef="1454"/>
+    <reference idRef="1454"/>
+    <reference idRef="1"/>
+    <reference idRef="1454"/>
+    <reference idRef="1454"/>
+    <reference idRef="1554"/>
+    <reference idRef="2650"/>
+    <reference idRef="1464"/>
+    <reference idRef="1454"/>
+    <reference idRef="1454"/>
+    <reference idRef="1470"/>
+    <reference idRef="1454"/>
+    <reference idRef="1454"/>
+    <reference idRef="1470"/>
+    <reference idRef="1514"/>
+    <reference idRef="1514"/>
+    <reference idRef="1514"/>
+    <reference idRef="1454"/>
+    <reference idRef="1454"/>
+    <reference idRef="1454"/>
+    <reference idRef="1454"/>
+    <reference idRef="1454"/>
+    <reference idRef="1545"/>
+    <reference idRef="1454"/>
+    <reference idRef="1554"/>
+    <reference idRef="1539"/>
+    <reference idRef="1464"/>
+    <reference idRef="1514"/>
+    <reference idRef="1454"/>
+    <reference idRef="1454"/>
+    <reference idRef="1454"/>
+    <reference idRef="1514"/>
+    <reference idRef="1476"/>
+    <reference idRef="1454"/>
+    <reference idRef="1454"/>
+    <reference idRef="1507"/>
+    <reference idRef="1454"/>
+    <reference idRef="1514"/>
+    <reference idRef="1535"/>
+    <reference idRef="1464"/>
+    <reference idRef="1507"/>
+    <reference idRef="1454"/>
+    <reference idRef="1454"/>
+    <reference idRef="1514"/>
+    <reference idRef="1469"/>
+    <reference idRef="1454"/>
+    <reference idRef="1469"/>
+    <reference idRef="1514"/>
+    <reference idRef="1545"/>
+    <reference idRef="1539"/>
+    <reference idRef="1470"/>
+    <reference idRef="1464"/>
+    <reference idRef="1485"/>
+    <reference idRef="1454"/>
+    <reference idRef="1464"/>
+    <reference idRef="1453"/>
+    <reference idRef="1454"/>
+    <reference idRef="1545"/>
+    <reference idRef="1514"/>
+    <reference idRef="1454"/>
+    <reference idRef="1454"/>
+    <reference idRef="1514"/>
+    <reference idRef="1539"/>
+    <reference idRef="1536"/>
+    <reference idRef="1454"/>
+    <reference idRef="1454"/>
+    <reference idRef="1454"/>
+    <reference idRef="1454"/>
+    <reference idRef="1476"/>
+    <reference idRef="1454"/>
+    <reference idRef="1507"/>
+    <reference idRef="1454"/>
+    <reference idRef="1545"/>
+    <reference idRef="1454"/>
+    <reference idRef="1454"/>
+    <reference idRef="1454"/>
+    <reference idRef="1514"/>
+    <reference idRef="1454"/>
+    <reference idRef="1454"/>
+    <reference idRef="1454"/>
+    <reference idRef="1454"/>
+    <reference idRef="1454"/>
+    <reference idRef="1539"/>
+    <reference idRef="1550"/>
+    <reference idRef="1464"/>
+    <reference idRef="1539"/>
+    <reference idRef="1511"/>
+    <reference idRef="1514"/>
+    <reference idRef="1454"/>
+    <reference idRef="1454"/>
+    <reference idRef="1514"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>FTPBrowserCompositeLeopard</string>
+    <reference idRef="1453"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">3171</unsigned_int>
+</object>

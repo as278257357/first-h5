@@ -1,0 +1,1331 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="168" name="allObjects">
+    <object class="IBCarbonMenuItem" id="690">
+      <string name="title">Bonjour</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <object name="submenu" class="IBCarbonMenu" id="691">
+        <string name="title">Bonjour</string>
+        <array count="1" name="items">
+          <object class="IBCarbonMenuItem" id="692">
+            <string name="title">项</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+        </array>
+      </object>
+    </object>
+    <object class="IBCarbonMenuItem" id="410">
+      <string name="title">书签</string>
+      <boolean name="hidden">TRUE</boolean>
+      <object name="submenu" class="IBCarbonMenu" id="408">
+        <string name="title">书签</string>
+        <int name="menuID">6666</int>
+        <boolean name="hidden">TRUE</boolean>
+        <array count="7" name="items">
+          <object class="IBCarbonMenuItem" id="685">
+            <string name="title">添加书签…</string>
+            <string name="keyEquivalent">s</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+            <ostype name="command">SBOK</ostype>
+          </object>
+          <object class="IBCarbonMenuItem" id="729">
+            <string name="title">导入…</string>
+            <ostype name="command">IMPO</ostype>
+            <string name="helpTagText">导入书签/收藏夹自其它 FTP 程序(如：Fetch、 Interarchy、Captain FTP、 Transmit、 Cyberduck、 FTPeel和Vicomsoft FTP Client)</string>
+          </object>
+          <object class="IBCarbonMenuItem" id="689">
+            <boolean name="separator">TRUE</boolean>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+          <reference idRef="690"/>
+          <object class="IBCarbonMenuItem" id="693">
+            <string name="title">Rendezvous</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+            <object name="submenu" class="IBCarbonMenu" id="694">
+              <string name="title">Rendezvous</string>
+              <array count="1" name="items">
+                <object class="IBCarbonMenuItem" id="695">
+                  <string name="title">项</string>
+                  <boolean name="updateSingleItem">TRUE</boolean>
+                </object>
+              </array>
+            </object>
+          </object>
+          <object class="IBCarbonMenuItem" id="696">
+            <string name="title">最近连接</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+            <object name="submenu" class="IBCarbonMenu" id="697">
+              <string name="title">最近连接</string>
+              <array count="1" name="items">
+                <object class="IBCarbonMenuItem" id="698">
+                  <string name="title">项</string>
+                  <boolean name="updateSingleItem">TRUE</boolean>
+                </object>
+              </array>
+            </object>
+          </object>
+          <object class="IBCarbonMenuItem" id="703">
+            <boolean name="separator">TRUE</boolean>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+        </array>
+      </object>
+    </object>
+    <object class="IBCarbonMenuItem" id="706">
+      <string name="title">另存为 FTP 替身…</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <ostype name="command">DROQ</ostype>
+      <string name="helpTagText">创建一个 FTP 替身文件，用来上传那些要拖进拖出到所选服务器目录的项目</string>
+    </object>
+    <object class="IBCarbonMenuItem" id="637">
+      <boolean name="separator">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <object class="IBCarbonMenuItem" id="523">
+      <string name="title">过滤</string>
+      <string name="keyEquivalent">F</string>
+      <boolean name="hidden">TRUE</boolean>
+      <ostype name="command">FILT</ostype>
+      <string name="helpTagText">为活动列表显示过滤选项</string>
+    </object>
+    <object class="IBCarbonMenuItem" id="716">
+      <string name="title">特殊字符…</string>
+      <boolean name="hidden">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <ostype name="command">chrp</ostype>
+      <string name="helpTagText">显示特殊字符面板</string>
+    </object>
+    <object class="IBCarbonMenuItem" id="687">
+      <boolean name="separator">TRUE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <object class="IBCarbonMenuItem" id="750">
+      <string name="title">拷贝为网址</string>
+      <string name="keyEquivalent">u</string>
+      <boolean name="hidden">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <int name="keyEquivalentModifier">1572864</int>
+      <ostype name="command">WURL</ostype>
+      <string name="helpTagText">创建一个所选项目的网址，以用来粘贴到其他地方</string>
+    </object>
+    <object class="IBCarbonMenuItem" id="720">
+      <string name="title">计算大小</string>
+      <string name="keyEquivalent">C</string>
+      <boolean name="hidden">TRUE</boolean>
+      <ostype name="command">CALC</ostype>
+      <string name="helpTagText">计算所选文件夹大小</string>
+    </object>
+    <object class="IBCarbonMenuItem" id="639">
+      <string name="title">进入目录</string>
+      <string name="keyEquivalent"></string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <ostype name="command">IN1M</ostype>
+      <string name="helpTagText">前往所选目录</string>
+    </object>
+    <object class="IBCarbonMenuItem" id="615">
+      <boolean name="separator">TRUE</boolean>
+    </object>
+    <object class="IBCarbonMenuItem" id="663">
+      <boolean name="separator">TRUE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <object class="IBCarbonMenuItem" id="252">
+      <string name="title">删除</string>
+      <string name="keyEquivalent"></string>
+      <boolean name="hidden">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <ostype name="command">DELE</ostype>
+      <string name="helpTagText">删除所选项目</string>
+    </object>
+    <object class="IBCarbonMenuItem" id="751">
+      <string name="title">作为网址打开</string>
+      <string name="keyEquivalent">w</string>
+      <boolean name="hidden">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <int name="keyEquivalentModifier">1572864</int>
+      <ostype name="command">OURL</ostype>
+      <string name="helpTagText">在浏览器中打开所选的网址</string>
+    </object>
+    <object class="IBCarbonMenuItem" id="604">
+      <string name="title">模式</string>
+      <string name="helpTagText">控制在传输文件时替换目标目录已存在同名文件的情况</string>
+      <object name="submenu" class="IBCarbonMenu" id="605">
+        <string name="title">模式</string>
+        <array count="3" name="items">
+          <object class="IBCarbonMenuItem" id="607">
+            <string name="title">服从偏好设置中的替换规则</string>
+            <boolean name="disabled">TRUE</boolean>
+            <ostype name="command">UPRF</ostype>
+            <string name="helpTagText">服从偏好设置中的设置，允许选项以替换、续传、替换或忽略</string>
+          </object>
+          <object class="IBCarbonMenuItem" id="608">
+            <string name="title">总是创建唯一文件名</string>
+            <boolean name="disabled">TRUE</boolean>
+            <ostype name="command">UNIQ</ostype>
+            <string name="helpTagText">为目标目录已存在的同名文件，分配唯一文件名</string>
+          </object>
+          <object class="IBCarbonMenuItem" id="609">
+            <string name="title">总是替换文件</string>
+            <boolean name="disabled">TRUE</boolean>
+            <ostype name="command">REPL</ostype>
+            <string name="helpTagText">文件将被替换且无警告</string>
+          </object>
+        </array>
+      </object>
+    </object>
+    <object class="IBCarbonMenuItem" id="664">
+      <string name="title">队列</string>
+      <string name="keyEquivalent">L</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <ostype name="command">DDUP</ostype>
+      <string name="helpTagText">添加所选项到队列，并不立即开始传输。此队列项将被显示在队列屉，并且可以点击开始按钮以立即开始传输</string>
+    </object>
+    <object class="IBCarbonMenuItem" id="742">
+      <string name="title">字体…</string>
+      <boolean name="hidden">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <ostype name="command">shfp</ostype>
+    </object>
+    <object class="IBCarbonMenuItem" id="393">
+      <string name="title">在 Finder 中打开</string>
+      <string name="keyEquivalent">o</string>
+      <boolean name="disabled">TRUE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <ostype name="command">OPFN</ostype>
+      <string name="helpTagText">在 Finder 打开所选项。如果选择内容包含文本或者程序，它们将被打开</string>
+    </object>
+    <object class="IBCarbonMenuItem" id="600">
+      <string name="title">ASCII (文本)</string>
+      <boolean name="disabled">TRUE</boolean>
+      <ostype name="command">TEXT</ostype>
+      <string name="helpTagText">传输文件如同文本</string>
+    </object>
+    <object class="IBCarbonMenuItem" id="704">
+      <string name="title">新建 FTP 替身</string>
+      <string name="keyEquivalent">n</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <ostype name="command">NEWC</ostype>
+    </object>
+    <object class="IBCarbonMenuItem" id="256">
+      <string name="title">显示</string>
+      <object name="submenu" class="IBCarbonMenu" id="264">
+        <string name="title">显示</string>
+        <int name="menuID">1122</int>
+        <array count="12" name="items">
+          <object class="IBCarbonMenuItem" id="278">
+            <string name="title">显示分栏查看</string>
+            <string name="keyEquivalent">V</string>
+            <ostype name="command">LICL</ostype>
+            <string name="helpTagText">切换列表或分栏查看</string>
+          </object>
+          <object class="IBCarbonMenuItem" id="276">
+            <string name="title">显示本地浏览</string>
+            <string name="keyEquivalent">M</string>
+            <boolean name="hidden">TRUE</boolean>
+            <ostype name="command">MACC</ostype>
+            <string name="helpTagText">显示或隐藏本地目录查看</string>
+          </object>
+          <object class="IBCarbonMenuItem" id="414">
+            <string name="title">显示状态栏</string>
+            <string name="keyEquivalent">B</string>
+            <boolean name="hidden">TRUE</boolean>
+            <ostype name="command">STAT</ostype>
+            <string name="helpTagText">显示或隐藏项目数目的信息栏</string>
+          </object>
+          <object class="IBCarbonMenuItem" id="265">
+            <string name="title">显示终端</string>
+            <string name="keyEquivalent">T</string>
+            <boolean name="hidden">TRUE</boolean>
+            <ostype name="command">TRAN</ostype>
+            <string name="helpTagText">显示或隐藏终端</string>
+          </object>
+          <object class="IBCarbonMenuItem" id="434">
+            <boolean name="separator">TRUE</boolean>
+            <boolean name="hidden">TRUE</boolean>
+          </object>
+          <object class="IBCarbonMenuItem" id="255">
+            <string name="title">显示队列屉</string>
+            <string name="keyEquivalent">q</string>
+            <boolean name="hidden">TRUE</boolean>
+            <int name="keyEquivalentModifier">1572864</int>
+            <ostype name="command">QUEW</ostype>
+            <string name="helpTagText">显示或隐藏队列屉</string>
+          </object>
+          <object class="IBCarbonMenuItem" id="431">
+            <string name="title">显示预览屉</string>
+            <string name="keyEquivalent">p</string>
+            <boolean name="hidden">TRUE</boolean>
+            <int name="keyEquivalentModifier">1572864</int>
+            <ostype name="command">PVYW</ostype>
+            <string name="helpTagText">显示或隐藏预览屉</string>
+          </object>
+          <object class="IBCarbonMenuItem" id="429">
+            <boolean name="separator">TRUE</boolean>
+            <boolean name="hidden">TRUE</boolean>
+          </object>
+          <object class="IBCarbonMenuItem" id="277">
+            <string name="title">显示工具栏</string>
+            <boolean name="hidden">TRUE</boolean>
+            <ostype name="command">HITB</ostype>
+            <string name="helpTagText">显示或隐藏实用工具栏</string>
+          </object>
+          <object class="IBCarbonMenuItem" id="432">
+            <string name="title">自定义工具栏…</string>
+            <boolean name="hidden">TRUE</boolean>
+            <ostype name="command">CSTB</ostype>
+            <string name="helpTagText">配置实用工具栏</string>
+          </object>
+          <object class="IBCarbonMenuItem" id="756">
+            <string name="title">设为默认工具栏</string>
+            <boolean name="hidden">TRUE</boolean>
+            <boolean name="updateSingleItem">TRUE</boolean>
+            <ostype name="command">DFTB</ostype>
+            <string name="helpTagText">还原当前显示的工具栏为默认值</string>
+          </object>
+          <object class="IBCarbonMenuItem" id="765">
+            <string name="title">还原默认工具栏</string>
+            <boolean name="hidden">TRUE</boolean>
+            <boolean name="updateSingleItem">TRUE</boolean>
+            <ostype name="command">RDFT</ostype>
+            <string name="helpTagText">还原当前显示的工具栏为默认值</string>
+          </object>
+        </array>
+      </object>
+    </object>
+    <object class="IBCarbonMenuItem" id="575">
+      <string name="title">传输</string>
+      <string name="keyEquivalent">t</string>
+      <ostype name="command">DLUP</ostype>
+      <string name="helpTagText">传输所选项到对面窗口的当前目录</string>
+    </object>
+    <object class="IBCarbonMenu" id="147">
+      <string name="title">编辑</string>
+      <array count="13" name="items">
+        <object class="IBCarbonMenuItem" id="141">
+          <string name="title">还原</string>
+          <string name="keyEquivalent">z</string>
+          <ostype name="command">undo</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="146">
+          <string name="title">重做</string>
+          <string name="keyEquivalent">Z</string>
+          <ostype name="command">redo</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="142">
+          <boolean name="separator">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="143">
+          <string name="title">剪切</string>
+          <string name="keyEquivalent">x</string>
+          <ostype name="command">cut </ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="149">
+          <string name="title">拷贝</string>
+          <string name="keyEquivalent">c</string>
+          <ostype name="command">copy</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="755">
+          <string name="title">拷贝名称</string>
+          <string name="keyEquivalent">c</string>
+          <boolean name="hidden">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">COPY</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="144">
+          <string name="title">粘贴</string>
+          <string name="keyEquivalent">v</string>
+          <ostype name="command">past</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="151">
+          <string name="title">清除</string>
+          <ostype name="command">clea</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="148">
+          <string name="title">全选</string>
+          <string name="keyEquivalent">a</string>
+          <ostype name="command">sall</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="715">
+          <boolean name="separator">TRUE</boolean>
+          <boolean name="hidden">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <reference idRef="742"/>
+        <object class="IBCarbonMenuItem" id="743">
+          <boolean name="separator">TRUE</boolean>
+          <boolean name="hidden">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <reference idRef="716"/>
+      </array>
+    </object>
+    <reference idRef="691"/>
+    <object class="IBCarbonMenuItem" id="638">
+      <string name="title">新建文件</string>
+      <string name="keyEquivalent">n</string>
+      <boolean name="hidden">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <int name="keyEquivalentModifier">1572864</int>
+      <ostype name="command">CEFC</ostype>
+      <string name="helpTagText">新建一个空白文件</string>
+    </object>
+    <object class="IBCarbonMenuItem" id="737">
+      <string name="title">创建归档</string>
+      <ostype name="command">ARCD</ostype>
+      <string name="helpTagText">创建所选项的 zip 归档，并保持 Finder 和 Mac OS 资源信息</string>
+    </object>
+    <object class="IBCarbonMenuItem" id="628">
+      <boolean name="separator">TRUE</boolean>
+    </object>
+    <object class="IBCarbonMenuItem" id="624">
+      <string name="title">发送 Raw 命令</string>
+      <string name="keyEquivalent">R</string>
+      <ostype name="command">SRAW</ostype>
+      <string name="helpTagText">输入并发送任意命令给服务器</string>
+    </object>
+    <object class="IBCarbonMenuItem" id="621">
+      <boolean name="separator">TRUE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+    </object>
+    <object class="IBCarbonMenuItem" id="647">
+      <string name="title">无</string>
+      <boolean name="disabled">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <ostype name="command">MACF</ostype>
+    </object>
+    <object class="IBCarbonMenuItem" id="623">
+      <boolean name="separator">TRUE</boolean>
+    </object>
+    <reference idRef="689"/>
+    <object class="IBCarbonMenuItem" id="549">
+      <boolean name="separator">TRUE</boolean>
+    </object>
+    <reference idRef="144"/>
+    <reference idRef="695"/>
+    <object class="IBCarbonMenuItem" id="702">
+      <string name="title">拷贝为 URL</string>
+      <string name="keyEquivalent">u</string>
+      <boolean name="hidden">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <ostype name="command">CURL</ostype>
+      <string name="helpTagText">生成一个到所选项目的 URL 链接，可以用来粘贴到任何地方</string>
+    </object>
+    <object class="IBCarbonMenuItem" id="769">
+      <string name="title">显示全部书签</string>
+      <string name="keyEquivalent">b</string>
+      <boolean name="hidden">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <ostype name="command">MBOK</ostype>
+      <string name="helpTagText">显示能被访问的已保存书签窗口</string>
+    </object>
+    <reference idRef="151"/>
+    <reference idRef="609"/>
+    <object class="IBCarbonMenu" id="650">
+      <string name="title">前往收藏</string>
+      <array count="1" name="items">
+        <object class="IBCarbonMenuItem" id="649">
+          <string name="title">无</string>
+          <boolean name="disabled">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">MACF</ostype>
+        </object>
+      </array>
+    </object>
+    <reference idRef="715"/>
+    <object class="IBCarbonMenuItem" id="719">
+      <string name="title">同步浏览</string>
+      <string name="keyEquivalent">D</string>
+      <boolean name="hidden">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <ostype name="command">DUBL</ostype>
+      <string name="helpTagText">同步或独立浏览两个列表</string>
+    </object>
+    <reference idRef="276"/>
+    <object class="IBCarbonMenuItem" id="130">
+      <string name="title">关闭</string>
+      <string name="keyEquivalent">w</string>
+      <ostype name="command">clos</ostype>
+      <string name="helpTagText">关闭最前的窗口</string>
+    </object>
+    <object class="IBCarbonMenuItem" id="611">
+      <string name="title">自动选择</string>
+      <boolean name="disabled">TRUE</boolean>
+      <ostype name="command">AUTO</ostype>
+      <string name="helpTagText">后缀映射表用来决定更适当的编码</string>
+    </object>
+    <reference idRef="431"/>
+    <object class="IBCarbonMenu" id="184">
+      <string name="name">_NSAppleMenu</string>
+      <string name="title">Yummy FTP Alias</string>
+      <array count="7" name="items">
+        <object class="IBCarbonMenuItem" id="187">
+          <string name="title">关于 Yummy FTP Alias</string>
+          <int name="keyEquivalentModifier">0</int>
+          <ostype name="command">abou</ostype>
+          <string name="helpTagText">显示版本和注册信息</string>
+        </object>
+        <reference idRef="628"/>
+        <object class="IBCarbonMenuItem" id="744">
+          <string name="title">检查更新…</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <int name="keyEquivalentModifier">0</int>
+          <ostype name="command">supd</ostype>
+          <string name="helpTagText"></string>
+        </object>
+        <object class="IBCarbonMenuItem" id="631">
+          <string name="title">在线购买</string>
+          <int name="keyEquivalentModifier">0</int>
+          <ostype name="command">PURC</ostype>
+          <string name="helpTagText">如果您喜欢或者感觉好用，购买吧!</string>
+        </object>
+        <object class="IBCarbonMenuItem" id="632">
+          <string name="title">输入序列号</string>
+          <int name="keyEquivalentModifier">0</int>
+          <ostype name="command">SERN</ostype>
+          <string name="helpTagText">输入注册序列号来注册软件</string>
+        </object>
+        <object class="IBCarbonMenuItem" id="584">
+          <string name="title">设为默认 FTP</string>
+          <boolean name="hidden">TRUE</boolean>
+          <ostype name="command">DFHL</ostype>
+          <string name="helpTagText">使用 Yummy FTP 下载你的 FTP 链接</string>
+        </object>
+        <object class="IBCarbonMenuItem" id="709">
+          <boolean name="separator">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+      </array>
+    </object>
+    <object class="IBCarbonMenuItem" id="733">
+      <string name="title">远程 Shell 命令</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <object name="submenu" class="IBCarbonMenu" id="734">
+        <string name="title">远程 Shell 命令</string>
+        <array count="11" name="items">
+          <object class="IBCarbonMenuItem" id="735">
+            <string name="title">创建 zip 归档</string>
+            <ostype name="command">ARCZ</ostype>
+            <string name="helpTagText">创建所选项的 zip 归档</string>
+          </object>
+          <object class="IBCarbonMenuItem" id="736">
+            <string name="title">创建 tgz 归档</string>
+            <ostype name="command">ARCT</ostype>
+            <string name="helpTagText">创建所选项的 tgz 归档</string>
+          </object>
+          <reference idRef="737"/>
+          <object class="IBCarbonMenuItem" id="741">
+            <string name="title">解压归档</string>
+            <int name="keyEquivalentModifier">0</int>
+            <ostype name="command">UPaK</ostype>
+            <string name="helpTagText">解压所选项</string>
+          </object>
+          <object class="IBCarbonMenuItem" id="738">
+            <boolean name="separator">TRUE</boolean>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+          <object class="IBCarbonMenuItem" id="760">
+            <string name="title">复制</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+            <ostype name="command">DUPR</ostype>
+            <string name="helpTagText">为所选项创建拷贝</string>
+          </object>
+          <object class="IBCarbonMenuItem" id="761">
+            <string name="title">删除</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+            <ostype name="command">DELR</ostype>
+            <string name="helpTagText">删除所选项目</string>
+          </object>
+          <object class="IBCarbonMenuItem" id="762">
+            <boolean name="separator">TRUE</boolean>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+          <object class="IBCarbonMenuItem" id="739">
+            <string name="title">发送 Raw 命令</string>
+            <ostype name="command">SSHC</ostype>
+            <string name="helpTagText">输入并发送任意命令给服务器</string>
+          </object>
+          <object class="IBCarbonMenuItem" id="752">
+            <boolean name="separator">TRUE</boolean>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+          <object class="IBCarbonMenuItem" id="753">
+            <string name="title">最近使用的命令</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+            <object name="submenu" class="IBCarbonMenu" id="754">
+              <string name="title">最近使用的命令</string>
+            </object>
+          </object>
+        </array>
+      </object>
+    </object>
+    <reference idRef="761"/>
+    <object class="IBCarbonMenuItem" id="748">
+      <string name="title">搜索</string>
+      <string name="keyEquivalent">f</string>
+      <boolean name="hidden">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <int name="keyEquivalentModifier">1572864</int>
+      <ostype name="command">SRCH</ostype>
+      <string name="helpTagText">聚焦搜索栏的项目</string>
+    </object>
+    <object class="IBCarbonMenuItem" id="641">
+      <string name="title">历史向前</string>
+      <string name="keyEquivalent"></string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <ostype name="command">FWon</ostype>
+      <string name="helpTagText">向前移动到历史目录列表</string>
+    </object>
+    <object class="IBCarbonMenu" id="131">
+      <string name="title">文件</string>
+      <int name="menuID">7777</int>
+      <array count="32" name="items">
+        <reference idRef="769"/>
+        <reference idRef="704"/>
+        <reference idRef="706"/>
+        <object class="IBCarbonMenuItem" id="710">
+          <string name="title">另存为 FTP 哨兵…</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">WATQ</ostype>
+          <string name="helpTagText">创建一个 FTP 哨兵，用来自动上传您放置在目录中的内容到所选服务器目录</string>
+        </object>
+        <object class="IBCarbonMenuItem" id="708">
+          <string name="title">保存 FTP 终端…</string>
+          <string name="keyEquivalent">t</string>
+          <boolean name="disabled">TRUE</boolean>
+          <boolean name="hidden">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <int name="keyEquivalentModifier">1572864</int>
+          <ostype name="command">TRNS</ostype>
+          <string name="helpTagText">保存 FTP 终端为文本文件</string>
+        </object>
+        <object class="IBCarbonMenuItem" id="707">
+          <boolean name="separator">TRUE</boolean>
+          <boolean name="hidden">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="249">
+          <string name="title">新建文件夹</string>
+          <string name="keyEquivalent">N</string>
+          <ostype name="command">NEWF</ostype>
+          <string name="helpTagText">新建空文件夹</string>
+        </object>
+        <reference idRef="638"/>
+        <object class="IBCarbonMenuItem" id="251">
+          <string name="title">显示简介</string>
+          <string name="keyEquivalent">i</string>
+          <boolean name="hidden">TRUE</boolean>
+          <ostype name="command">INFO</ostype>
+          <string name="helpTagText">显示所选项的信息窗口</string>
+        </object>
+        <object class="IBCarbonMenuItem" id="385">
+          <string name="title">在 Finder 中显示</string>
+          <string name="keyEquivalent">f</string>
+          <boolean name="disabled">TRUE</boolean>
+          <boolean name="hidden">TRUE</boolean>
+          <ostype name="command">REVE</ostype>
+          <string name="helpTagText">在 Finder 中显示所选项</string>
+        </object>
+        <reference idRef="393"/>
+        <reference idRef="252"/>
+        <object class="IBCarbonMenuItem" id="763">
+          <string name="title">删除</string>
+          <string name="keyEquivalent"></string>
+          <boolean name="hidden">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <int name="keyEquivalentModifier">1835008</int>
+          <ostype name="command">DELR</ostype>
+          <string name="helpTagText">删除所选项目</string>
+        </object>
+        <object class="IBCarbonMenuItem" id="659">
+          <string name="title">复制</string>
+          <string name="keyEquivalent">d</string>
+          <boolean name="hidden">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">DUPE</ostype>
+          <string name="helpTagText">为所选项创建拷贝</string>
+        </object>
+        <object class="IBCarbonMenuItem" id="764">
+          <string name="title">复制</string>
+          <string name="keyEquivalent">d</string>
+          <boolean name="hidden">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <int name="keyEquivalentModifier">1835008</int>
+          <ostype name="command">DUPR</ostype>
+          <string name="helpTagText">为所选项创建拷贝</string>
+        </object>
+        <object class="IBCarbonMenuItem" id="767">
+          <string name="title">创建替身</string>
+          <string name="keyEquivalent">l</string>
+          <boolean name="hidden">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">ALIA</ostype>
+          <string name="helpTagText">为所选项创建一个替身</string>
+        </object>
+        <object class="IBCarbonMenuItem" id="747">
+          <string name="title">快速查看</string>
+          <string name="keyEquivalent">y</string>
+          <boolean name="hidden">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <int name="keyEquivalentModifier">1048840</int>
+          <ostype name="command">QUIK</ostype>
+          <string name="helpTagText">快速查看</string>
+        </object>
+        <object class="IBCarbonMenuItem" id="266">
+          <string name="title">重命名</string>
+          <string name="keyEquivalent">r</string>
+          <boolean name="hidden">TRUE</boolean>
+          <int name="keyEquivalentModifier">1572864</int>
+          <ostype name="command">RENA</ostype>
+          <string name="helpTagText">重命名所选项</string>
+        </object>
+        <object class="IBCarbonMenuItem" id="563">
+          <string name="title">移动...</string>
+          <string name="keyEquivalent">m</string>
+          <boolean name="hidden">TRUE</boolean>
+          <int name="keyEquivalentModifier">1310720</int>
+          <ostype name="command">MOVE</ostype>
+          <string name="helpTagText">移动所选项到用户指定位置</string>
+        </object>
+        <reference idRef="702"/>
+        <reference idRef="750"/>
+        <reference idRef="751"/>
+        <object class="IBCarbonMenuItem" id="717">
+          <string name="title">创建归档</string>
+          <string name="keyEquivalent">z</string>
+          <boolean name="hidden">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <int name="keyEquivalentModifier">1572864</int>
+          <ostype name="command">ARCH</ostype>
+          <string name="helpTagText">创建所选项的 zip 归档</string>
+        </object>
+        <object class="IBCarbonMenuItem" id="731">
+          <string name="title">解压归档</string>
+          <string name="keyEquivalent">z</string>
+          <boolean name="hidden">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <int name="keyEquivalentModifier">1310720</int>
+          <ostype name="command">UPAK</ostype>
+          <string name="helpTagText">解压所选项</string>
+        </object>
+        <reference idRef="720"/>
+        <object class="IBCarbonMenuItem" id="759">
+          <string name="title">不同</string>
+          <string name="keyEquivalent">k</string>
+          <boolean name="hidden">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">DIFF</ostype>
+          <string name="helpTagText">比较所选文件的本地和远程副本并显示不同。（需已安装 BBEdit 或 TextWrangler）</string>
+        </object>
+        <reference idRef="687"/>
+        <object class="IBCarbonMenuItem" id="680">
+          <string name="title">快速编辑</string>
+          <string name="keyEquivalent">e</string>
+          <boolean name="hidden">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <int name="keyEquivalentModifier">1572864</int>
+          <ostype name="command">BUIL</ostype>
+          <string name="helpTagText">用内嵌编辑器编辑所选项</string>
+        </object>
+        <object class="IBCarbonMenuItem" id="253">
+          <string name="title">编辑</string>
+          <string name="keyEquivalent">e</string>
+          <boolean name="hidden">TRUE</boolean>
+          <ostype name="command">EDIT</ostype>
+          <string name="helpTagText">用默认编辑器编辑所选项</string>
+        </object>
+        <object class="IBCarbonMenuItem" id="635">
+          <string name="title">编辑用…</string>
+          <boolean name="hidden">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">EXTE</ostype>
+          <string name="helpTagText">用非默认的其它编辑器编辑所选项</string>
+          <object name="submenu" class="IBCarbonMenu" id="636">
+            <string name="title">编辑用…</string>
+            <array count="2" name="items">
+              <object class="IBCarbonMenuItem" id="634">
+                <string name="title">选择附加编辑器</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+                <ostype name="command">EDIS</ostype>
+                <string name="helpTagText">选择扩展编辑器来使用</string>
+              </object>
+              <reference idRef="637"/>
+            </array>
+          </object>
+        </object>
+        <object class="IBCarbonMenuItem" id="688">
+          <boolean name="separator">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <reference idRef="130"/>
+      </array>
+    </object>
+    <object class="IBCarbonMenuItem" id="656">
+      <string name="title">历史</string>
+      <boolean name="hidden">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <string name="helpTagText">显示最近访问过的目录内容</string>
+      <object name="submenu" class="IBCarbonMenu" id="657">
+        <string name="title">历史</string>
+      </object>
+    </object>
+    <reference idRef="408"/>
+    <reference idRef="744"/>
+    <object class="IBCarbonMenuItem" id="726">
+      <string name="title">暂停</string>
+      <string name="keyEquivalent">.</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <int name="keyEquivalentModifier">1572864</int>
+      <ostype name="command">PAWS</ostype>
+      <string name="helpTagText">暂停当前活动</string>
+    </object>
+    <reference idRef="657"/>
+    <reference idRef="697"/>
+    <reference idRef="255"/>
+    <reference idRef="414"/>
+    <object class="IBCarbonMenuItem" id="701">
+      <string name="title">断开连接</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <ostype name="command">EJEC</ostype>
+      <string name="helpTagText">与服务器断开</string>
+    </object>
+    <reference idRef="708"/>
+    <reference idRef="434"/>
+    <reference idRef="767"/>
+    <object class="IBCarbonMenuItem" id="622">
+      <string name="title">后缀映射…</string>
+      <string name="keyEquivalent">s</string>
+      <int name="keyEquivalentModifier">1572864</int>
+      <ostype name="command">SFIX</ostype>
+      <string name="helpTagText">编辑后缀映射表</string>
+    </object>
+    <reference idRef="694"/>
+    <reference idRef="747"/>
+    <reference idRef="743"/>
+    <reference idRef="385"/>
+    <reference idRef="142"/>
+    <reference idRef="264"/>
+    <reference idRef="649"/>
+    <object class="IBCarbonMenuItem" id="745">
+      <string name="title">拷贝列表数据</string>
+      <string name="keyEquivalent">c</string>
+      <boolean name="hidden">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <int name="keyEquivalentModifier">1572864</int>
+      <ostype name="command">CDIR</ostype>
+      <string name="helpTagText">拷贝所选项如同文本</string>
+    </object>
+    <reference idRef="698"/>
+    <reference idRef="693"/>
+    <reference idRef="277"/>
+    <object class="IBCarbonMenuItem" id="530">
+      <string name="title">主目录</string>
+      <string name="keyEquivalent">H</string>
+      <ostype name="command">HOME</ostype>
+      <string name="helpTagText">显示默认登录目录</string>
+    </object>
+    <object class="IBCarbonMenuItem" id="749">
+      <boolean name="separator">TRUE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <reference idRef="631"/>
+    <object class="IBCarbonMenuItem" id="728">
+      <string name="title">暂停所有计划任务</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <ostype name="command">!PWS</ostype>
+      <string name="helpTagText">暂停/续传全部计划同步和传输</string>
+    </object>
+    <object class="IBCarbonMenu" id="648">
+      <string name="title">移除收藏夹</string>
+      <array count="1" name="items">
+        <reference idRef="647"/>
+      </array>
+    </object>
+    <reference idRef="148"/>
+    <reference idRef="253"/>
+    <reference idRef="692"/>
+    <object class="IBCarbonMenuItem" id="127">
+      <string name="title">文件</string>
+      <reference name="submenu" idRef="131"/>
+    </object>
+    <reference idRef="607"/>
+    <reference idRef="752"/>
+    <object class="IBCarbonMenuItem" id="640">
+      <string name="title">历史后退</string>
+      <string name="keyEquivalent"></string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <ostype name="command">BKon</ostype>
+      <string name="helpTagText">后退到历史目录列表</string>
+    </object>
+    <reference idRef="563"/>
+    <object class="IBCarbonMenuItem" id="610">
+      <string name="title">同步</string>
+      <string name="keyEquivalent">S</string>
+      <ostype name="command">SYNC</ostype>
+      <string name="helpTagText">显示同步选项窗口</string>
+    </object>
+    <object class="IBCarbonMenuItem" id="529">
+      <string name="title">前往目录…</string>
+      <string name="keyEquivalent">g</string>
+      <ostype name="command">GOTO</ostype>
+      <string name="helpTagText">显示指定目录的内容</string>
+    </object>
+    <object class="IBCarbonMenuItem" id="652">
+      <string name="title">前往收藏</string>
+      <boolean name="hidden">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <reference name="submenu" idRef="650"/>
+    </object>
+    <reference idRef="680"/>
+    <object class="IBCarbonMenuItem" id="601">
+      <string name="title">二进制 (原始数据)</string>
+      <boolean name="disabled">TRUE</boolean>
+      <ostype name="command">BINA</ostype>
+      <string name="helpTagText">传输文件且毫无修改</string>
+    </object>
+    <reference idRef="605"/>
+    <reference idRef="635"/>
+    <reference idRef="754"/>
+    <reference idRef="584"/>
+    <object class="IBCarbonMenuItem" id="577">
+      <string name="title">取消</string>
+      <string name="keyEquivalent">.</string>
+      <ostype name="command">STOP</ostype>
+      <string name="helpTagText">停止顶部更多的活动</string>
+    </object>
+    <reference idRef="659"/>
+    <reference idRef="636"/>
+    <reference idRef="432"/>
+    <object class="IBCarbonMenuItem" id="714">
+      <boolean name="separator">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <reference idRef="736"/>
+    <reference idRef="707"/>
+    <object class="IBCarbonMenuItem" id="527">
+      <string name="title">刷新列表</string>
+      <string name="keyEquivalent">r</string>
+      <ostype name="command">REFR</ostype>
+      <string name="helpTagText">刷新当前目录列表内容</string>
+    </object>
+    <object class="IBCarbonMenuItem" id="510">
+      <string name="title">列表</string>
+      <object name="submenu" class="IBCarbonMenu" id="507">
+        <string name="title">列表</string>
+        <int name="menuID">8888</int>
+        <array count="26" name="items">
+          <reference idRef="527"/>
+          <object class="IBCarbonMenuItem" id="528">
+            <string name="title">目录向上</string>
+            <string name="keyEquivalent"></string>
+            <ostype name="command">UP1M</ostype>
+            <string name="helpTagText">显示上一级目录的内容</string>
+          </object>
+          <reference idRef="639"/>
+          <reference idRef="640"/>
+          <reference idRef="641"/>
+          <reference idRef="745"/>
+          <reference idRef="529"/>
+          <reference idRef="530"/>
+          <reference idRef="656"/>
+          <object class="IBCarbonMenuItem" id="550">
+            <boolean name="separator">TRUE</boolean>
+            <boolean name="hidden">TRUE</boolean>
+          </object>
+          <reference idRef="652"/>
+          <object class="IBCarbonMenuItem" id="653">
+            <string name="title">添加收藏夹</string>
+            <boolean name="hidden">TRUE</boolean>
+            <boolean name="updateSingleItem">TRUE</boolean>
+            <ostype name="command">ADDF</ostype>
+            <string name="helpTagText">添加到所选目录的快捷方式</string>
+          </object>
+          <object class="IBCarbonMenuItem" id="651">
+            <string name="title">移除收藏夹</string>
+            <boolean name="hidden">TRUE</boolean>
+            <boolean name="updateSingleItem">TRUE</boolean>
+            <reference name="submenu" idRef="648"/>
+          </object>
+          <object class="IBCarbonMenuItem" id="722">
+            <boolean name="separator">TRUE</boolean>
+            <boolean name="hidden">TRUE</boolean>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+          <object class="IBCarbonMenuItem" id="724">
+            <string name="title">在新窗口中打开</string>
+            <string name="keyEquivalent">o</string>
+            <boolean name="hidden">TRUE</boolean>
+            <boolean name="updateSingleItem">TRUE</boolean>
+            <int name="keyEquivalentModifier">1572864</int>
+            <ostype name="command">NEWW</ostype>
+            <string name="helpTagText">打开所选项到独立窗口，使用附加连接到服务器</string>
+          </object>
+          <object class="IBCarbonMenuItem" id="766">
+            <string name="title">在终端打开</string>
+            <string name="keyEquivalent">t</string>
+            <boolean name="hidden">TRUE</boolean>
+            <boolean name="updateSingleItem">TRUE</boolean>
+            <int name="keyEquivalentModifier">1835008</int>
+            <ostype name="command">TERM</ostype>
+            <string name="helpTagText">用终端程序打开当前/所选目录</string>
+          </object>
+          <object class="IBCarbonMenuItem" id="725">
+            <boolean name="separator">TRUE</boolean>
+            <boolean name="hidden">TRUE</boolean>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+          <object class="IBCarbonMenuItem" id="721">
+            <string name="title">设置为主文件夹</string>
+            <boolean name="hidden">TRUE</boolean>
+            <boolean name="updateSingleItem">TRUE</boolean>
+            <ostype name="command">SHMG</ostype>
+            <string name="helpTagText">设置当前目录为本地默认</string>
+          </object>
+          <reference idRef="621"/>
+          <object class="IBCarbonMenuItem" id="662">
+            <string name="title">隐藏文件开关</string>
+            <string name="keyEquivalent">v</string>
+            <boolean name="hidden">TRUE</boolean>
+            <boolean name="updateSingleItem">TRUE</boolean>
+            <int name="keyEquivalentModifier">1572864</int>
+            <ostype name="command">TOGL</ostype>
+            <string name="helpTagText">在本地和服务器列表切换显示或隐藏具有“隐藏属性”的文件</string>
+          </object>
+          <reference idRef="663"/>
+          <reference idRef="523"/>
+          <reference idRef="749"/>
+          <reference idRef="748"/>
+          <object class="IBCarbonMenuItem" id="718">
+            <boolean name="separator">TRUE</boolean>
+            <boolean name="hidden">TRUE</boolean>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+          <reference idRef="719"/>
+        </array>
+      </object>
+    </object>
+    <reference idRef="760"/>
+    <reference idRef="762"/>
+    <reference idRef="146"/>
+    <reference idRef="143"/>
+    <reference idRef="710"/>
+    <reference idRef="721"/>
+    <reference idRef="709"/>
+    <reference idRef="251"/>
+    <reference idRef="187"/>
+    <reference idRef="149"/>
+    <reference idRef="765"/>
+    <reference idRef="662"/>
+    <reference idRef="741"/>
+    <reference idRef="763"/>
+    <object class="IBCarbonMenuItem" id="152">
+      <string name="title">编辑</string>
+      <reference name="submenu" idRef="147"/>
+    </object>
+    <object class="IBCarbonMenuItem" id="596">
+      <string name="title">编码</string>
+      <string name="helpTagText">选项传输文件的方法</string>
+      <object name="submenu" class="IBCarbonMenu" id="598">
+        <string name="title">编码</string>
+        <array count="5" name="items">
+          <reference idRef="611"/>
+          <reference idRef="600"/>
+          <reference idRef="601"/>
+          <object class="IBCarbonMenuItem" id="602">
+            <string name="title">EBCDIC (文本)</string>
+            <boolean name="disabled">TRUE</boolean>
+            <boolean name="hidden">TRUE</boolean>
+            <ostype name="command">EBCD</ostype>
+            <string name="helpTagText">传输文件如同 IBM 文本</string>
+          </object>
+          <object class="IBCarbonMenuItem" id="603">
+            <string name="title">Mac 二进制</string>
+            <boolean name="disabled">TRUE</boolean>
+            <ostype name="command">MACB</ostype>
+            <string name="helpTagText">传输文件使用 Finder 信息且保持资源数据结构完整</string>
+          </object>
+        </array>
+      </object>
+    </object>
+    <reference idRef="696"/>
+    <reference idRef="653"/>
+    <reference idRef="755"/>
+    <object class="IBCarbonMenuItem" id="713">
+      <boolean name="separator">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <reference idRef="685"/>
+    <reference idRef="265"/>
+    <reference idRef="703"/>
+    <reference idRef="725"/>
+    <reference idRef="718"/>
+    <reference idRef="738"/>
+    <reference idRef="632"/>
+    <reference idRef="249"/>
+    <reference idRef="764"/>
+    <reference idRef="603"/>
+    <reference idRef="756"/>
+    <object class="IBCarbonMenu" id="537">
+      <string name="title">传输</string>
+      <boolean name="hidden">TRUE</boolean>
+      <array count="19" name="items">
+        <reference idRef="575"/>
+        <reference idRef="664"/>
+        <object class="IBCarbonMenuItem" id="576">
+          <boolean name="separator">TRUE</boolean>
+        </object>
+        <reference idRef="610"/>
+        <reference idRef="615"/>
+        <reference idRef="577"/>
+        <reference idRef="726"/>
+        <reference idRef="701"/>
+        <reference idRef="549"/>
+        <reference idRef="596"/>
+        <reference idRef="604"/>
+        <reference idRef="623"/>
+        <reference idRef="622"/>
+        <reference idRef="714"/>
+        <reference idRef="624"/>
+        <reference idRef="733"/>
+        <reference idRef="713"/>
+        <object class="IBCarbonMenuItem" id="712">
+          <string name="title">停止所有 FTP 哨兵</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+          <ostype name="command">!WAT</ostype>
+          <string name="helpTagText">退出所有运行的 FTP 哨兵</string>
+        </object>
+        <reference idRef="728"/>
+      </array>
+    </object>
+    <reference idRef="576"/>
+    <reference idRef="739"/>
+    <reference idRef="266"/>
+    <reference idRef="688"/>
+    <reference idRef="598"/>
+    <reference idRef="602"/>
+    <reference idRef="722"/>
+    <reference idRef="651"/>
+    <reference idRef="735"/>
+    <reference idRef="766"/>
+    <reference idRef="759"/>
+    <reference idRef="608"/>
+    <object class="IBCarbonMenuItem" id="185">
+      <string name="title">Yummy FTP Alias</string>
+      <reference name="submenu" idRef="184"/>
+    </object>
+    <reference idRef="729"/>
+    <reference idRef="634"/>
+    <reference idRef="731"/>
+    <reference idRef="278"/>
+    <reference idRef="734"/>
+    <reference idRef="724"/>
+    <reference idRef="141"/>
+    <object class="IBCarbonMenuItem" id="538">
+      <string name="title">传输</string>
+      <boolean name="hidden">TRUE</boolean>
+      <reference name="submenu" idRef="537"/>
+    </object>
+    <reference idRef="550"/>
+    <reference idRef="429"/>
+    <reference idRef="712"/>
+    <reference idRef="528"/>
+    <reference idRef="753"/>
+    <reference idRef="507"/>
+    <object class="IBCarbonMenu" id="29">
+      <string name="name">_NSMainMenu</string>
+      <string name="title">菜单栏</string>
+      <array count="7" name="items">
+        <reference idRef="185"/>
+        <reference idRef="127"/>
+        <reference idRef="152"/>
+        <reference idRef="410"/>
+        <reference idRef="538"/>
+        <reference idRef="510"/>
+        <reference idRef="256"/>
+      </array>
+    </object>
+    <reference idRef="717"/>
+  </array>
+  <array count="168" name="allParents">
+    <reference idRef="408"/>
+    <reference idRef="29"/>
+    <reference idRef="131"/>
+    <reference idRef="636"/>
+    <reference idRef="507"/>
+    <reference idRef="147"/>
+    <reference idRef="131"/>
+    <reference idRef="131"/>
+    <reference idRef="131"/>
+    <reference idRef="507"/>
+    <reference idRef="537"/>
+    <reference idRef="507"/>
+    <reference idRef="131"/>
+    <reference idRef="131"/>
+    <reference idRef="537"/>
+    <reference idRef="537"/>
+    <reference idRef="147"/>
+    <reference idRef="131"/>
+    <reference idRef="598"/>
+    <reference idRef="131"/>
+    <reference idRef="29"/>
+    <reference idRef="537"/>
+    <reference idRef="152"/>
+    <reference idRef="690"/>
+    <reference idRef="131"/>
+    <reference idRef="734"/>
+    <reference idRef="184"/>
+    <reference idRef="537"/>
+    <reference idRef="507"/>
+    <reference idRef="648"/>
+    <reference idRef="537"/>
+    <reference idRef="408"/>
+    <reference idRef="537"/>
+    <reference idRef="147"/>
+    <reference idRef="694"/>
+    <reference idRef="131"/>
+    <reference idRef="131"/>
+    <reference idRef="147"/>
+    <reference idRef="605"/>
+    <reference idRef="652"/>
+    <reference idRef="147"/>
+    <reference idRef="507"/>
+    <reference idRef="264"/>
+    <reference idRef="131"/>
+    <reference idRef="598"/>
+    <reference idRef="264"/>
+    <reference idRef="185"/>
+    <reference idRef="537"/>
+    <reference idRef="734"/>
+    <reference idRef="507"/>
+    <reference idRef="507"/>
+    <reference idRef="127"/>
+    <reference idRef="507"/>
+    <reference idRef="410"/>
+    <reference idRef="184"/>
+    <reference idRef="537"/>
+    <reference idRef="656"/>
+    <reference idRef="696"/>
+    <reference idRef="264"/>
+    <reference idRef="264"/>
+    <reference idRef="537"/>
+    <reference idRef="131"/>
+    <reference idRef="264"/>
+    <reference idRef="131"/>
+    <reference idRef="537"/>
+    <reference idRef="693"/>
+    <reference idRef="131"/>
+    <reference idRef="147"/>
+    <reference idRef="131"/>
+    <reference idRef="147"/>
+    <reference idRef="256"/>
+    <reference idRef="650"/>
+    <reference idRef="507"/>
+    <reference idRef="697"/>
+    <reference idRef="408"/>
+    <reference idRef="264"/>
+    <reference idRef="507"/>
+    <reference idRef="507"/>
+    <reference idRef="184"/>
+    <reference idRef="537"/>
+    <reference idRef="651"/>
+    <reference idRef="147"/>
+    <reference idRef="131"/>
+    <reference idRef="691"/>
+    <reference idRef="29"/>
+    <reference idRef="605"/>
+    <reference idRef="734"/>
+    <reference idRef="507"/>
+    <reference idRef="131"/>
+    <reference idRef="537"/>
+    <reference idRef="507"/>
+    <reference idRef="507"/>
+    <reference idRef="131"/>
+    <reference idRef="598"/>
+    <reference idRef="604"/>
+    <reference idRef="131"/>
+    <reference idRef="753"/>
+    <reference idRef="184"/>
+    <reference idRef="537"/>
+    <reference idRef="131"/>
+    <reference idRef="635"/>
+    <reference idRef="264"/>
+    <reference idRef="537"/>
+    <reference idRef="734"/>
+    <reference idRef="131"/>
+    <reference idRef="507"/>
+    <reference idRef="29"/>
+    <reference idRef="734"/>
+    <reference idRef="734"/>
+    <reference idRef="147"/>
+    <reference idRef="147"/>
+    <reference idRef="131"/>
+    <reference idRef="507"/>
+    <reference idRef="184"/>
+    <reference idRef="131"/>
+    <reference idRef="184"/>
+    <reference idRef="147"/>
+    <reference idRef="264"/>
+    <reference idRef="507"/>
+    <reference idRef="734"/>
+    <reference idRef="131"/>
+    <reference idRef="29"/>
+    <reference idRef="537"/>
+    <reference idRef="408"/>
+    <reference idRef="507"/>
+    <reference idRef="147"/>
+    <reference idRef="537"/>
+    <reference idRef="408"/>
+    <reference idRef="264"/>
+    <reference idRef="408"/>
+    <reference idRef="507"/>
+    <reference idRef="507"/>
+    <reference idRef="734"/>
+    <reference idRef="184"/>
+    <reference idRef="131"/>
+    <reference idRef="131"/>
+    <reference idRef="598"/>
+    <reference idRef="264"/>
+    <reference idRef="538"/>
+    <reference idRef="537"/>
+    <reference idRef="734"/>
+    <reference idRef="131"/>
+    <reference idRef="131"/>
+    <reference idRef="596"/>
+    <reference idRef="598"/>
+    <reference idRef="507"/>
+    <reference idRef="507"/>
+    <reference idRef="734"/>
+    <reference idRef="507"/>
+    <reference idRef="131"/>
+    <reference idRef="605"/>
+    <reference idRef="29"/>
+    <reference idRef="408"/>
+    <reference idRef="636"/>
+    <reference idRef="131"/>
+    <reference idRef="264"/>
+    <reference idRef="733"/>
+    <reference idRef="507"/>
+    <reference idRef="147"/>
+    <reference idRef="29"/>
+    <reference idRef="507"/>
+    <reference idRef="264"/>
+    <reference idRef="537"/>
+    <reference idRef="507"/>
+    <reference idRef="734"/>
+    <reference idRef="510"/>
+    <reference idRef="1"/>
+    <reference idRef="131"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>MenuBar</string>
+    <reference idRef="29"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">770</unsigned_int>
+</object>

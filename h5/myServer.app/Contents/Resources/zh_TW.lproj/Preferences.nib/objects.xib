@@ -1,0 +1,3123 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="333" name="allObjects">
+    <object class="IBCarbonCheckBox" id="1391">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">47</int>
+      <ostype name="command">GRPX</ostype>
+      <string name="title">執行</string>
+      <string name="viewFrame">292 59 46 18 </string>
+      <string name="bounds">292 351 310 397 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="1399">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">35</int>
+      <string name="title">密 碼</string>
+      <string name="viewFrame">197 103 31 16 </string>
+      <string name="bounds">107 187 123 218 </string>
+    </object>
+    <object class="IBCarbonRadioGroup" id="1359">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">79</int>
+      <string name="helpTagText">嘗試從停止的地方重新開始傳輸</string>
+      <array count="2" name="radioTitles">
+        <array count="1">
+          <string>如果可能，則續傳</string>
+        </array>
+        <array count="1">
+          <string>重新開始</string>
+        </array>
+      </array>
+      <string name="viewFrame">30 155 124 38 </string>
+      <string name="bounds">159 20 197 144 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="1497">
+      <string name="title">TextWrangler</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <object class="IBCarbonCheckBox" id="1280">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">108</int>
+      <string name="helpTagText">當選擇，日期將顯示以“今天”和“昨天”（適合時）</string>
+      <int name="initialState">2</int>
+      <string name="title">顯示相對日期</string>
+      <string name="viewFrame">275 415 98 18 </string>
+      <string name="bounds">419 265 437 363 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="1324">
+      <string name="title">無動作</string>
+      <boolean name="checked">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <string name="helpTagText">當檔案被雙擊時無任何動作</string>
+    </object>
+    <object class="IBCarbonCheckBox" id="907">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">95</int>
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <string name="helpTagText">當選擇，在連線空閒時，將定期向伺服器傳送 NOOP (無動作)命令。可以防止伺服器因連線空閒而斷開連線</string>
+      <string name="title">保持連線作用中</string>
+      <string name="viewFrame">282 254 111 18 </string>
+      <string name="bounds">258 272 276 383 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="1309">
+      <string name="title">編輯所選/進入檔案夾</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+      <string name="helpTagText">檔案將用外部的編輯器打開編輯，但如果單個檔案夾被選擇，它將變為當前目錄</string>
+    </object>
+    <object class="IBCarbonUserPane" id="1272">
+      <ostype name="controlSignature">TABS</ostype>
+      <int name="controlID">130</int>
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <int name="featureBits">2</int>
+      <string name="viewFrame">0 0 376 247 </string>
+      <string name="bounds">4 -10 251 366 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="1522">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">57</int>
+      <string name="helpTagText">為傳輸的檔案保持修改日期如同原始檔案</string>
+      <string name="title">為傳輸的檔案保持修改日期</string>
+      <string name="viewFrame">28 61 176 18 </string>
+      <string name="bounds">65 18 83 194 </string>
+    </object>
+    <object class="IBCarbonPopupButton" id="1048">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">128</int>
+      <int name="selectedItem">3</int>
+      <object name="menu" class="IBCarbonMenu" id="1049">
+        <string name="title">彈出</string>
+        <array count="6" name="items">
+          <object class="IBCarbonMenuItem" id="1050">
+            <string name="title">從不</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+          <object class="IBCarbonMenuItem" id="1054">
+            <boolean name="separator">TRUE</boolean>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+          <object class="IBCarbonMenuItem" id="1051">
+            <string name="title">啟動時</string>
+            <boolean name="checked">TRUE</boolean>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+          <object class="IBCarbonMenuItem" id="1071">
+            <string name="title">每天</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+          <object class="IBCarbonMenuItem" id="1052">
+            <string name="title">每週</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+          <object class="IBCarbonMenuItem" id="1053">
+            <string name="title">每月</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+        </array>
+      </object>
+      <string name="title">檢查更新:</string>
+      <int name="titleJustification">0</int>
+      <string name="viewFrame">117 49 139 20 </string>
+      <string name="bounds">53 107 73 246 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="1326">
+      <string name="title">-</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <object class="IBCarbonMenu" id="1231">
+      <string name="title">彈出:</string>
+      <array count="1" name="items">
+        <object class="IBCarbonMenuItem" id="1232">
+          <string name="title">無</string>
+          <boolean name="checked">TRUE</boolean>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+      </array>
+    </object>
+    <object class="IBCarbonPopupButton" id="1225">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">119</int>
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <ostype name="command">ULOE</ostype>
+      <string name="helpTagText">選擇播放聲音，當成功的完成遠端編輯上傳</string>
+      <object name="menu" class="IBCarbonMenu" id="1237">
+        <string name="title">彈出:</string>
+        <array count="1" name="items">
+          <object class="IBCarbonMenuItem" id="1238">
+            <string name="title">無</string>
+            <boolean name="checked">TRUE</boolean>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+        </array>
+      </object>
+      <string name="viewFrame">137 207 141 20 </string>
+      <string name="bounds">211 127 231 268 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="1209">
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <string name="title">如果本地已存在相同下載檔案...</string>
+      <string name="viewFrame">56 37 146 38 </string>
+      <string name="bounds">41 46 79 192 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="706">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">20</int>
+      <boolean name="enabled">FALSE</boolean>
+      <boolean name="hidden">TRUE</boolean>
+      <int name="controlSize">1</int>
+      <string name="helpTagText">在刪除專案前顯示警告</string>
+      <string name="title">刪除項前詢問</string>
+      <string name="viewFrame">16 43 90 14 </string>
+      <string name="bounds">542 838 556 928 </string>
+    </object>
+    <object class="IBCarbonPopupButton" id="1478">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">137</int>
+      <ostype name="command">DIFF</ostype>
+      <string name="helpTagText">選擇預配置的檢查程式</string>
+      <int name="selectedItem">8</int>
+      <object name="menu" class="IBCarbonMenu" id="1484">
+        <string name="title">Popup:</string>
+        <array count="8" name="items">
+          <object class="IBCarbonMenuItem" id="1492">
+            <string name="title">Araxis Merge</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+          <object class="IBCarbonMenuItem" id="1486">
+            <string name="title">Changes</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+          <object class="IBCarbonMenuItem" id="1485">
+            <string name="title">FileMerge</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+          <object class="IBCarbonMenuItem" id="1489">
+            <string name="title">BBEdit</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+          <object class="IBCarbonMenuItem" id="1487">
+            <string name="title">TextWrangler</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+          <object class="IBCarbonMenuItem" id="1490">
+            <string name="title">DeltaWalker</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+          <object class="IBCarbonMenuItem" id="1488">
+            <string name="title">DiffFork</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+          <object class="IBCarbonMenuItem" id="1491">
+            <string name="title">Kaleidoscope</string>
+            <boolean name="checked">TRUE</boolean>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+        </array>
+      </object>
+      <string name="viewFrame">101 188 129 20 </string>
+      <string name="bounds">192 91 212 220 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="1300">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">92</int>
+      <string name="helpTagText">控制列表文字的尺寸</string>
+      <string name="title">字體大小</string>
+      <string name="viewFrame">224 56 52 14 </string>
+      <string name="bounds">60 214 74 266 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="705">
+      <ostype name="controlSignature">PREF</ostype>
+      <int name="controlID">83</int>
+      <string name="helpTagText">當選擇，在啟動程式時，將顯示書簽視窗</string>
+      <string name="title">啟動時顯示書簽視窗</string>
+      <string name="viewFrame">28 334 137 18 </string>
+      <string name="bounds">338 18 356 155 </string>
+    </object>
+    <object class="IBCarbonWindow" id="228">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <int name="themeBrush">49</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">偏好設定</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="229">
+        <string name="viewFrame">0 0 897 804 </string>
+        <array count="2" name="subviews">
+          <object class="IBCarbonTab" id="237">
+            <ostype name="controlSignature">tabs</ostype>
+            <int name="controlID">128</int>
+            <int name="size">1</int>
+            <string name="viewFrame">-10 -24 689 703 </string>
+            <array count="8" name="subviews">
+              <object class="IBCarbonUserPane" id="239">
+                <ostype name="controlSignature">tabs</ostype>
+                <int name="controlID">130</int>
+                <int name="featureBits">2</int>
+                <string name="viewFrame">0 28 689 675 </string>
+                <array count="38" name="subviews">
+                  <object class="IBCarbonStaticText" id="1206">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">1000</int>
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <int name="fontStyle">-3</int>
+                    <int name="controlSize">1</int>
+                    <string name="title">下載選項</string>
+                    <string name="viewFrame">30 12 44 12 </string>
+                    <string name="bounds">16 20 28 64 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1207">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">1000</int>
+                    <int name="fontStyle">-3</int>
+                    <int name="controlSize">1</int>
+                    <string name="title">上傳設定</string>
+                    <string name="viewFrame">30 12 44 12 </string>
+                    <string name="bounds">16 20 28 64 </string>
+                  </object>
+                  <object class="IBCarbonSeparator" id="1208">
+                    <string name="viewFrame">0 25 644 5 </string>
+                    <string name="bounds">29 -10 34 634 </string>
+                  </object>
+                  <reference idRef="1209"/>
+                  <object class="IBCarbonRadioGroup" id="1210">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">13</int>
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <string name="helpTagExtendedText">When you are about to download a file and a file of the same name exists on your Mac, this setting allows you to choose what will happen:&#10;&#10;Ask what to do - 應用程序 will ask you&#10;&#10;Skip it - The file will be automatically ommited from the download&#10;&#10;Replace it - The file will be downloaded regardless, overwriting the file on your Mac&#10;&#10;Try to resume it - 應用程序 will attempt to resume the file as if it were partially downloaded before, but if this fails 應用程序 will simply start to download the file from the beginning</string>
+                    <string name="helpTagText">選擇當下載時，本地已存在同名檔案的處理方法&#10;&#10;&lt; ⌘ 更多 … &gt;</string>
+                    <int name="numCols">2</int>
+                    <int name="selectedRow">2</int>
+                    <array count="2" name="radioTitles">
+                      <array count="2">
+                        <string>詢問</string>
+                        <string>取代</string>
+                      </array>
+                      <array count="2">
+                        <string>跳過</string>
+                        <string>嘗試續傳</string>
+                      </array>
+                    </array>
+                    <string name="viewFrame">262 401 146 38 </string>
+                    <string name="bounds">405 252 443 398 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1211">
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <string name="title">如果伺服器已存在相同上傳檔案...</string>
+                    <string name="viewFrame">302 43 146 32 </string>
+                    <string name="bounds">47 292 79 438 </string>
+                  </object>
+                  <object class="IBCarbonRadioGroup" id="1212">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">15</int>
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <string name="helpTagExtendedText">When you are about to upload a file and a file of the same name exists on the server, this setting allows you to choose what will happen:&#10;&#10;Ask what to do - 應用程序 will ask you&#10;&#10;Skip it - The file will be automatically ommited from the upload&#10;&#10;Replace it - The file will be uploaded regardless, overwriting the file on the server&#10;&#10;Try to resume it - 應用程序 will attempt to resume the file as if it were partially uploaded before, but if this fails 應用程序 will simply start to upload the file from the beginning</string>
+                    <string name="helpTagText">選擇當上傳時伺服器已存在同名檔案的處理辦法&#10;&#10;&lt; ⌘ More … &gt;</string>
+                    <int name="numCols">2</int>
+                    <int name="selectedRow">2</int>
+                    <array count="2" name="radioTitles">
+                      <array count="2">
+                        <string>詢問</string>
+                        <string>取代</string>
+                      </array>
+                      <array count="2">
+                        <string>跳過</string>
+                        <string>嘗試續傳</string>
+                      </array>
+                    </array>
+                    <string name="viewFrame">438 410 146 38 </string>
+                    <string name="bounds">414 428 452 574 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1213">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">1000</int>
+                    <int name="fontStyle">-3</int>
+                    <int name="controlSize">1</int>
+                    <string name="title">傳輸完成聲音提示</string>
+                    <string name="viewFrame">30 100 88 12 </string>
+                    <string name="bounds">104 20 116 108 </string>
+                  </object>
+                  <object class="IBCarbonSeparator" id="1214">
+                    <string name="viewFrame">0 113 644 5 </string>
+                    <string name="bounds">117 -10 122 634 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1215">
+                    <int name="controlSize">1</int>
+                    <string name="title">失敗</string>
+                    <string name="viewFrame">263 124 22 12 </string>
+                    <string name="bounds">128 253 140 275 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1216">
+                    <int name="controlSize">1</int>
+                    <string name="title">成功</string>
+                    <string name="viewFrame">111 125 22 12 </string>
+                    <string name="bounds">129 101 141 123 </string>
+                  </object>
+                  <object class="IBCarbonSeparator" id="1217">
+                    <string name="viewFrame">103 137 41 4 </string>
+                    <string name="bounds">141 93 145 134 </string>
+                  </object>
+                  <object class="IBCarbonSeparator" id="1218">
+                    <string name="viewFrame">259 137 36 4 </string>
+                    <string name="bounds">141 249 145 285 </string>
+                  </object>
+                  <object class="IBCarbonPopupButton" id="1219">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">72</int>
+                    <ostype name="command">ULOK</ostype>
+                    <string name="helpTagText">選擇當完成上傳時播放的聲音</string>
+                    <object name="menu" class="IBCarbonMenu" id="1245">
+                      <string name="title">彈出:</string>
+                      <array count="1" name="items">
+                        <object class="IBCarbonMenuItem" id="1246">
+                          <string name="title">無</string>
+                          <boolean name="checked">TRUE</boolean>
+                        </object>
+                      </array>
+                    </object>
+                    <string name="viewFrame">62 147 141 20 </string>
+                    <string name="bounds">151 52 171 193 </string>
+                  </object>
+                  <object class="IBCarbonPopupButton" id="1220">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">73</int>
+                    <ostype name="command">ULNK</ostype>
+                    <string name="helpTagText">選擇當上傳失敗時播放的聲音</string>
+                    <object name="menu" class="IBCarbonMenu" id="1243">
+                      <string name="title">彈出:</string>
+                      <array count="1" name="items">
+                        <object class="IBCarbonMenuItem" id="1244">
+                          <string name="title">無</string>
+                          <boolean name="checked">TRUE</boolean>
+                        </object>
+                      </array>
+                    </object>
+                    <string name="viewFrame">211 147 141 20 </string>
+                    <string name="bounds">151 201 171 342 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1221">
+                    <string name="title">上傳</string>
+                    <string name="viewFrame">29 150 26 14 </string>
+                    <string name="bounds">154 19 168 45 </string>
+                  </object>
+                  <object class="IBCarbonPopupButton" id="1222">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">74</int>
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <ostype name="command">DLOK</ostype>
+                    <string name="helpTagText">選擇當完成下載時播放的聲音</string>
+                    <object name="menu" class="IBCarbonMenu" id="1241">
+                      <string name="title">彈出:</string>
+                      <array count="1" name="items">
+                        <object class="IBCarbonMenuItem" id="1242">
+                          <string name="title">無</string>
+                          <boolean name="checked">TRUE</boolean>
+                        </object>
+                      </array>
+                    </object>
+                    <string name="viewFrame">137 177 141 20 </string>
+                    <string name="bounds">181 127 201 268 </string>
+                  </object>
+                  <object class="IBCarbonPopupButton" id="1223">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">75</int>
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <ostype name="command">DLNK</ostype>
+                    <string name="helpTagText">選擇當下載失敗時播放的聲音</string>
+                    <object name="menu" class="IBCarbonMenu" id="1239">
+                      <string name="title">彈出:</string>
+                      <array count="1" name="items">
+                        <object class="IBCarbonMenuItem" id="1240">
+                          <string name="title">無</string>
+                          <boolean name="checked">TRUE</boolean>
+                        </object>
+                      </array>
+                    </object>
+                    <string name="viewFrame">286 177 141 20 </string>
+                    <string name="bounds">181 276 201 417 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1224">
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <string name="title">下載</string>
+                    <string name="viewFrame">104 180 26 14 </string>
+                    <string name="bounds">184 94 198 120 </string>
+                  </object>
+                  <reference idRef="1225"/>
+                  <object class="IBCarbonPopupButton" id="1226">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">120</int>
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <ostype name="command">ULNE</ostype>
+                    <string name="helpTagText">選擇播放聲音，當未能完成遠端編輯上傳</string>
+                    <object name="menu" class="IBCarbonMenu" id="1235">
+                      <string name="title">彈出:</string>
+                      <array count="1" name="items">
+                        <object class="IBCarbonMenuItem" id="1236">
+                          <string name="title">無</string>
+                          <boolean name="checked">TRUE</boolean>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                        </object>
+                      </array>
+                    </object>
+                    <string name="viewFrame">286 207 141 20 </string>
+                    <string name="bounds">211 276 231 417 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1227">
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <string name="title">編輯上傳</string>
+                    <string name="viewFrame">78 210 52 14 </string>
+                    <string name="bounds">214 68 228 120 </string>
+                  </object>
+                  <object class="IBCarbonPopupButton" id="1228">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">121</int>
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <ostype name="command">DLOE</ostype>
+                    <string name="helpTagText">選擇播放聲音，當成功完成遠端編輯下載</string>
+                    <object name="menu" class="IBCarbonMenu" id="1233">
+                      <string name="title">彈出:</string>
+                      <array count="1" name="items">
+                        <object class="IBCarbonMenuItem" id="1234">
+                          <string name="title">無</string>
+                          <boolean name="checked">TRUE</boolean>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                        </object>
+                      </array>
+                    </object>
+                    <string name="viewFrame">137 237 141 20 </string>
+                    <string name="bounds">241 127 261 268 </string>
+                  </object>
+                  <object class="IBCarbonPopupButton" id="1229">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">122</int>
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <ostype name="command">DLNE</ostype>
+                    <string name="helpTagText">選擇播放聲音，當未能完成遠端編輯下載</string>
+                    <reference name="menu" idRef="1231"/>
+                    <string name="viewFrame">286 237 141 20 </string>
+                    <string name="bounds">241 276 261 417 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1230">
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <string name="title">編輯下載</string>
+                    <string name="viewFrame">78 240 52 14 </string>
+                    <string name="bounds">244 68 258 120 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1247">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">1000</int>
+                    <int name="fontStyle">-3</int>
+                    <int name="controlSize">1</int>
+                    <string name="helpTagText">此選擇控制最大上傳或下載速度能達到的 kB/秒</string>
+                    <string name="title">帶寬控制</string>
+                    <string name="viewFrame">30 186 44 12 </string>
+                    <string name="bounds">190 20 202 64 </string>
+                  </object>
+                  <object class="IBCarbonSeparator" id="1248">
+                    <string name="viewFrame">0 199 644 5 </string>
+                    <string name="bounds">203 -10 208 634 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="1250">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">130</int>
+                    <string name="helpTagText">啟用此項，將限制上傳速度</string>
+                    <int name="initialState">1</int>
+                    <string name="title">限制上傳速度為:</string>
+                    <string name="viewFrame">28 212 116 18 </string>
+                    <string name="bounds">216 18 234 134 </string>
+                  </object>
+                  <object class="IBCarbonEditText" id="1252">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">131</int>
+                    <string name="helpTagText">輸入最大上傳速度，單位為 KB/秒</string>
+                    <boolean name="isUnicode">TRUE</boolean>
+                    <string name="title">21</string>
+                    <string name="viewFrame">156 213 55 16 </string>
+                    <string name="bounds">217 146 233 201 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="1251">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">132</int>
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <string name="helpTagText">啟用此項，將限制下載速度</string>
+                    <string name="title">限制下載速度為:</string>
+                    <string name="viewFrame">266 212 116 18 </string>
+                    <string name="bounds">216 256 234 372 </string>
+                  </object>
+                  <object class="IBCarbonEditText" id="1253">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">133</int>
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <string name="helpTagText">輸入最大下載速度，單位為 KB/秒</string>
+                    <boolean name="isUnicode">TRUE</boolean>
+                    <string name="title">50</string>
+                    <string name="viewFrame">393 213 55 16 </string>
+                    <string name="bounds">217 383 233 438 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1254">
+                    <string name="title">KB/秒</string>
+                    <string name="viewFrame">222 213 36 16 </string>
+                    <string name="bounds">217 212 233 248 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1255">
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <string name="title">KB/秒</string>
+                    <string name="viewFrame">456 213 36 16 </string>
+                    <string name="bounds">217 446 233 482 </string>
+                  </object>
+                  <reference idRef="1272"/>
+                  <object class="IBCarbonEditText" id="1562">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">1008</int>
+                    <boolean name="hidden">TRUE</boolean>
+                    <boolean name="isUnicode">TRUE</boolean>
+                    <string name="title">me@host.net</string>
+                    <string name="viewFrame">137 62 278 16 </string>
+                    <string name="bounds">66 127 82 405 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="1563">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">1007</int>
+                    <ostype name="command">EMAI</ostype>
+                    <string name="title">電子郵件通知</string>
+                    <string name="viewFrame">28 61 98 18 </string>
+                    <string name="bounds">65 18 83 116 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="1564">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">22</int>
+                    <string name="helpTagText">如果選擇，隱藏檔案將會被傳輸</string>
+                    <int name="initialState">2</int>
+                    <string name="title">傳輸包含隱藏項</string>
+                    <string name="viewFrame">28 36 111 18 </string>
+                    <string name="bounds">40 18 58 129 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="1565">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">67</int>
+                    <string name="helpTagText">當選擇，那些由 Finder 創建的隱藏檔案也將包含到上傳中</string>
+                    <string name="title">...包括 .DS_Store檔案</string>
+                    <string name="viewFrame">145 36 149 18 </string>
+                    <string name="bounds">40 135 58 284 </string>
+                  </object>
+                </array>
+                <string name="bounds">4 -10 679 679 </string>
+              </object>
+              <object class="IBCarbonUserPane" id="238">
+                <ostype name="controlSignature">tabs</ostype>
+                <int name="controlID">129</int>
+                <int name="featureBits">2</int>
+                <string name="viewFrame">0 28 689 675 </string>
+                <array count="33" name="subviews">
+                  <object class="IBCarbonEditText" id="1339">
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="useInlineInput">TRUE</boolean>
+                    <boolean name="isUnicode">TRUE</boolean>
+                    <boolean name="isSingleLine">TRUE</boolean>
+                    <string name="foreColor">0 0 0 </string>
+                    <string name="viewFrame">118 192 318 16 </string>
+                    <string name="bounds">196 108 212 426 </string>
+                  </object>
+                  <object class="IBCarbonUserPane" id="1273">
+                    <ostype name="controlSignature">TABS</ostype>
+                    <int name="controlID">129</int>
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <int name="featureBits">2</int>
+                    <string name="viewFrame">0 0 522 455 </string>
+                    <string name="bounds">4 -10 459 512 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1274">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">1000</int>
+                    <int name="fontStyle">-3</int>
+                    <int name="controlSize">1</int>
+                    <string name="title">流覽</string>
+                    <string name="viewFrame">30 12 22 12 </string>
+                    <string name="bounds">16 20 28 42 </string>
+                  </object>
+                  <object class="IBCarbonSeparator" id="1275">
+                    <string name="viewFrame">0 25 644 5 </string>
+                    <string name="bounds">29 -10 34 634 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1286">
+                    <int name="fontStyle">-3</int>
+                    <int name="controlSize">1</int>
+                    <string name="title">一般</string>
+                    <string name="viewFrame">30 309 22 12 </string>
+                    <string name="bounds">313 20 325 42 </string>
+                  </object>
+                  <object class="IBCarbonSeparator" id="1287">
+                    <string name="viewFrame">0 323 655 5 </string>
+                    <string name="bounds">327 -10 332 645 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1288">
+                    <int name="fontStyle">-3</int>
+                    <int name="controlSize">1</int>
+                    <string name="title">本地流覽</string>
+                    <string name="viewFrame">30 165 44 12 </string>
+                    <string name="bounds">169 20 181 64 </string>
+                  </object>
+                  <object class="IBCarbonSeparator" id="1289">
+                    <string name="viewFrame">0 178 656 5 </string>
+                    <string name="bounds">182 -10 187 646 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1290">
+                    <int name="fontStyle">-3</int>
+                    <string name="title">伺服器流覽</string>
+                    <string name="viewFrame">30 252 55 12 </string>
+                    <string name="bounds">256 20 268 75 </string>
+                  </object>
+                  <object class="IBCarbonSeparator" id="1291">
+                    <string name="viewFrame">0 265 655 5 </string>
+                    <string name="bounds">269 -10 274 645 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="1292">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">117</int>
+                    <string name="helpTagText">當選擇，列表中將檔案夾排列在檔案的頂部。如果不選擇，將同在 Finder 中一樣自然排列</string>
+                    <int name="initialState">2</int>
+                    <string name="title">排列檔案夾在前</string>
+                    <string name="viewFrame">28 36 111 18 </string>
+                    <string name="bounds">40 18 58 129 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="1001">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">111</int>
+                    <string name="helpTagText">當選擇，列表中每列均以垂直線間隔</string>
+                    <string name="title">列間隔</string>
+                    <string name="viewFrame">28 60 59 18 </string>
+                    <string name="bounds">64 18 82 77 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="1000">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">110</int>
+                    <string name="helpTagText">當選擇，列表用藍/白色間隔行</string>
+                    <string name="title">交替行顏色</string>
+                    <string name="viewFrame">28 84 85 18 </string>
+                    <string name="bounds">88 18 106 103 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="1027">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">123</int>
+                    <string name="helpTagText">當選擇，FTP 流覽器與統一工具條將使用相同的視窗背景</string>
+                    <string name="title">統一視窗</string>
+                    <string name="viewFrame">28 108 140 18 </string>
+                    <string name="bounds">112 18 130 158 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="906">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">94</int>
+                    <string name="helpTagText">當選擇，檔案列表的狀態條將以小尺寸顯示</string>
+                    <string name="title">小捲軸</string>
+                    <string name="viewFrame">28 132 59 18 </string>
+                    <string name="bounds">136 18 154 77 </string>
+                  </object>
+                  <object class="IBCarbonPopupButton" id="1299">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">93</int>
+                    <string name="helpTagText">控制列表文字的尺寸</string>
+                    <object name="menu" class="IBCarbonMenu" id="1325">
+                      <string name="title">彈出:</string>
+                      <array count="13" name="items">
+                        <reference idRef="1326"/>
+                        <object class="IBCarbonMenuItem" id="1335">
+                          <string name="title">6</string>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1336">
+                          <string name="title">8</string>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1327">
+                          <string name="title">9</string>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1332">
+                          <string name="title">10</string>
+                          <boolean name="checked">TRUE</boolean>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1337">
+                          <string name="title">11</string>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1330">
+                          <string name="title">12</string>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1334">
+                          <string name="title">14</string>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1338">
+                          <string name="title">16</string>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1329">
+                          <string name="title">18</string>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1333">
+                          <string name="title">24</string>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1331">
+                          <string name="title">36</string>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1328">
+                          <string name="title">48</string>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                        </object>
+                      </array>
+                    </object>
+                    <string name="viewFrame">283 53 57 20 </string>
+                    <string name="bounds">57 273 77 330 </string>
+                  </object>
+                  <reference idRef="1300"/>
+                  <object class="IBCarbonStaticText" id="1302">
+                    <string name="helpTagText">控制當您雙擊檔案時的情形</string>
+                    <string name="title">雙擊啟動</string>
+                    <string name="viewFrame">224 86 52 14 </string>
+                    <string name="bounds">90 214 104 266 </string>
+                  </object>
+                  <object class="IBCarbonPopupButton" id="1303">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">103</int>
+                    <string name="helpTagText">控制列表檢視中顯示哪些列</string>
+                    <object name="menu" class="IBCarbonMenu" id="1313">
+                      <string name="title">彈出:</string>
+                      <array count="6" name="items">
+                        <object class="IBCarbonMenuItem" id="1314">
+                          <string name="title">修改日期</string>
+                          <boolean name="checked">TRUE</boolean>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                          <ostype name="command">DATE</ostype>
+                          <string name="helpTagText">此列顯示檔案和檔案夾最後修改的時間</string>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1317">
+                          <string name="title">大小</string>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                          <ostype name="command">SIZE</ostype>
+                          <string name="helpTagText">此列顯示檔案大小</string>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1319">
+                          <string name="title">種類</string>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                          <ostype name="command">KIND</ostype>
+                          <string name="helpTagText">此列顯示專案的類型</string>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1316">
+                          <string name="title">所有權</string>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                          <ostype name="command">PERM</ostype>
+                          <string name="helpTagText">此段顯示能正確存取的檔案和檔案夾</string>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1315">
+                          <string name="title">聯結</string>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                          <ostype name="command">LINK</ostype>
+                          <string name="helpTagText">此列顯示連線到檔案和檔案夾的聯結數</string>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1318">
+                          <string name="title">所有者/群組</string>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                          <ostype name="command">OWGR</ostype>
+                          <string name="helpTagText">此列顯示檔案或檔案夾的所有者和群組</string>
+                        </object>
+                      </array>
+                    </object>
+                    <string name="viewFrame">495 53 25 20 </string>
+                    <string name="bounds">57 485 77 510 </string>
+                  </object>
+                  <object class="IBCarbonPopupButton" id="1301">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">8</int>
+                    <string name="helpTagText">控制當您雙擊檔案時的情形</string>
+                    <int name="selectedItem">4</int>
+                    <object name="menu" class="IBCarbonMenu" id="1320">
+                      <string name="title">彈出:</string>
+                      <array count="4" name="items">
+                        <object class="IBCarbonMenuItem" id="1321">
+                          <string name="title">傳輸</string>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                          <string name="helpTagText">當檔案被雙擊，上傳或下載將開始</string>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1323">
+                          <string name="title">編輯</string>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                          <string name="helpTagText">雙擊後，檔案將被附加編輯器打開編輯</string>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1322">
+                          <string name="title">打開網址</string>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                          <string name="helpTagText">檔案將以網址功能進行打開</string>
+                        </object>
+                        <reference idRef="1324"/>
+                      </array>
+                    </object>
+                    <string name="viewFrame">283 83 92 20 </string>
+                    <string name="bounds">87 273 107 365 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1304">
+                    <string name="helpTagText">控制列表檢視中顯示哪些列</string>
+                    <string name="title">顯示/隱藏列表檢視欄 :</string>
+                    <string name="viewFrame">354 55 133 16 </string>
+                    <string name="bounds">59 344 75 477 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1305">
+                    <string name="helpTagText">控制當按下回車鍵時的情況&#10;&#10;注: 此輸入鍵的系統缺省功能是改名某項</string>
+                    <string name="title">返回 KEY 動作 :</string>
+                    <string name="viewFrame">183 115 93 16 </string>
+                    <string name="bounds">119 173 135 266 </string>
+                  </object>
+                  <object class="IBCarbonPopupButton" id="1306">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">126</int>
+                    <string name="helpTagText">控制當按下回車鍵時的情況&#10;&#10;注: 此輸入鍵的系統缺省功能是改名某項</string>
+                    <int name="selectedItem">5</int>
+                    <object name="menu" class="IBCarbonMenu" id="1307">
+                      <string name="title">彈出:</string>
+                      <array count="5" name="items">
+                        <object class="IBCarbonMenuItem" id="1310">
+                          <string name="title">僅重命名 (系統默認)</string>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                          <string name="helpTagText">系統缺省是改名某項</string>
+                        </object>
+                        <reference idRef="1309"/>
+                        <object class="IBCarbonMenuItem" id="1308">
+                          <string name="title">僅編輯選擇</string>
+                          <boolean name="hidden">TRUE</boolean>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                          <string name="helpTagText">檔案將被附加編輯器打開編輯</string>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1312">
+                          <string name="title">傳輸所選/進入檔案夾</string>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                          <string name="helpTagText">所選項將被傳輸，但如果單個檔案夾被選擇，它將變為當前目錄</string>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1311">
+                          <string name="title">僅傳輸選擇</string>
+                          <boolean name="checked">TRUE</boolean>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                          <string name="helpTagText">所選項將被傳輸</string>
+                        </object>
+                      </array>
+                    </object>
+                    <string name="viewFrame">283 113 234 20 </string>
+                    <string name="bounds">117 273 137 507 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="1011">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">104</int>
+                    <string name="helpTagText">當選擇，刪除的檔案將移到本地的垃圾桶，而不是真的刪除。</string>
+                    <string name="title">刪除項移到垃圾桶</string>
+                    <string name="viewFrame">28 219 124 18 </string>
+                    <string name="bounds">223 18 241 142 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="894">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">6</int>
+                    <string name="helpTagText">在 Finder 不能正常顯示的項將在本地檢視中顯示</string>
+                    <string name="title">顯示隱藏項</string>
+                    <string name="viewFrame">186 219 85 18 </string>
+                    <string name="bounds">223 176 241 261 </string>
+                  </object>
+                  <object class="IBCarbonButton" id="898">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">5</int>
+                    <ostype name="command">MACH</ostype>
+                    <string name="helpTagText">選擇其他檔案夾</string>
+                    <string name="title">選擇</string>
+                    <string name="viewFrame">447 189 70 20 </string>
+                    <string name="bounds">193 437 213 507 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="897">
+                    <string name="title">默認主檔案夾</string>
+                    <string name="viewFrame">30 193 78 14 </string>
+                    <string name="bounds">197 20 211 98 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="899">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">4</int>
+                    <string name="helpTagText">默認顯示本地流覽的檔案夾路徑和默認下載位置</string>
+                    <string name="title">/Users/user/Desktop</string>
+                    <string name="viewFrame">121 192 306 16 </string>
+                    <string name="bounds">196 111 212 417 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="902">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">10</int>
+                    <string name="helpTagText">當選擇, 伺服器圖示可以標記出您擁有的許可權</string>
+                    <string name="title">圖示標識許可權</string>
+                    <string name="viewFrame">28 276 111 18 </string>
+                    <string name="bounds">280 18 298 129 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="905">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">55</int>
+                    <string name="helpTagText">伺服器的隱藏檔案通常以一個句號作為檔案名的開始。如此選項未選擇，這些檔案將不會顯示</string>
+                    <int name="initialState">2</int>
+                    <string name="title">顯示隱藏項</string>
+                    <string name="viewFrame">186 276 85 18 </string>
+                    <string name="bounds">280 176 298 261 </string>
+                  </object>
+                  <reference idRef="705"/>
+                  <object class="IBCarbonCheckBox" id="917">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">97</int>
+                    <string name="helpTagText">當選擇，啟動時將顯示新連線視窗</string>
+                    <string name="title">自動顯示新連線視窗</string>
+                    <string name="viewFrame">28 358 137 18 </string>
+                    <string name="bounds">362 18 380 155 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="1346">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">7</int>
+                    <string name="helpTagText">用鑰匙串保持密碼是安全的。當選擇，密碼將不保持在書簽中。</string>
+                    <string name="title">儲存密碼到鑰匙串</string>
+                    <string name="viewFrame">28 414 124 18 </string>
+                    <string name="bounds">418 18 436 142 </string>
+                  </object>
+                </array>
+                <string name="bounds">4 -10 679 679 </string>
+              </object>
+              <object class="IBCarbonUserPane" id="308">
+                <ostype name="controlSignature">tabs</ostype>
+                <int name="controlID">131</int>
+                <int name="featureBits">2</int>
+                <string name="viewFrame">0 28 689 675 </string>
+                <array count="24" name="subviews">
+                  <object class="IBCarbonUserPane" id="1347">
+                    <ostype name="controlSignature">TABS</ostype>
+                    <int name="controlID">131</int>
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <int name="featureBits">2</int>
+                    <string name="viewFrame">0 0 414 451 </string>
+                    <string name="bounds">4 -10 455 404 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1348">
+                    <int name="fontStyle">-3</int>
+                    <int name="controlSize">1</int>
+                    <string name="helpTagText">此選項輔助說明你處理伺服器忙或者不可連線的情形</string>
+                    <string name="title">自動重新連線</string>
+                    <string name="viewFrame">30 12 66 12 </string>
+                    <string name="bounds">16 20 28 86 </string>
+                  </object>
+                  <object class="IBCarbonSeparator" id="1349">
+                    <string name="viewFrame">0 26 655 5 </string>
+                    <string name="bounds">30 -10 35 645 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1350">
+                    <int name="fontStyle">-3</int>
+                    <int name="controlSize">1</int>
+                    <string name="helpTagText">此選項決定 應用程序 遇到錯誤時，自動重試或者跳過處理</string>
+                    <string name="title">錯誤</string>
+                    <string name="viewFrame">30 256 22 12 </string>
+                    <string name="bounds">260 20 272 42 </string>
+                  </object>
+                  <object class="IBCarbonSeparator" id="1351">
+                    <string name="viewFrame">0 270 655 5 </string>
+                    <string name="bounds">274 -10 279 645 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1352">
+                    <string name="title">反空閒時間</string>
+                    <string name="viewFrame">30 37 65 14 </string>
+                    <string name="bounds">41 20 55 85 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1353">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">113</int>
+                    <string name="title">120 秒</string>
+                    <string name="viewFrame">372 59 42 16 </string>
+                    <string name="bounds">63 362 79 404 </string>
+                  </object>
+                  <object class="IBCarbonSlider" id="1354">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">112</int>
+                    <ostype name="command">IDLE</ostype>
+                    <string name="helpTagText">改變因無活動，伺服器斷開連線的反空閒等待時間</string>
+                    <boolean name="isLive">TRUE</boolean>
+                    <int name="minimumValue">10</int>
+                    <int name="maximumValue">600</int>
+                    <string name="viewFrame">31 58 332 22 </string>
+                    <string name="bounds">62 21 84 353 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1355">
+                    <string name="title">重試等待時間</string>
+                    <string name="viewFrame">30 85 78 14 </string>
+                    <string name="bounds">89 20 103 98 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1356">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">78</int>
+                    <string name="title">120 秒</string>
+                    <string name="viewFrame">372 107 42 16 </string>
+                    <string name="bounds">111 362 127 404 </string>
+                  </object>
+                  <object class="IBCarbonSlider" id="1357">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">77</int>
+                    <ostype name="command">RCRT</ostype>
+                    <string name="helpTagText">在嘗試續傳/重新開始之前使用滑子更改延遲時間</string>
+                    <boolean name="isLive">TRUE</boolean>
+                    <int name="minimumValue">1</int>
+                    <int name="maximumValue">120</int>
+                    <string name="viewFrame">31 106 332 22 </string>
+                    <string name="bounds">110 21 132 353 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1358">
+                    <string name="title">重試處理</string>
+                    <string name="viewFrame">30 133 52 14 </string>
+                    <string name="bounds">137 20 151 72 </string>
+                  </object>
+                  <reference idRef="1359"/>
+                  <object class="IBCarbonStaticText" id="1360">
+                    <string name="title">如伺服器忙，重連線前等待延遲顯示時間</string>
+                    <string name="viewFrame">30 201 234 14 </string>
+                    <string name="bounds">205 20 219 254 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1361">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">81</int>
+                    <string name="title">120 秒</string>
+                    <string name="viewFrame">372 223 42 16 </string>
+                    <string name="bounds">227 362 243 404 </string>
+                  </object>
+                  <object class="IBCarbonSlider" id="1362">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">80</int>
+                    <ostype name="command">BSRT</ostype>
+                    <string name="helpTagText">在嘗試重新連線之前使用滑子更改延遲時間</string>
+                    <boolean name="isLive">TRUE</boolean>
+                    <int name="initialValue">9</int>
+                    <int name="minimumValue">9</int>
+                    <int name="maximumValue">120</int>
+                    <string name="viewFrame">31 222 332 22 </string>
+                    <string name="bounds">226 21 248 353 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1363">
+                    <string name="title">報告錯誤, 然後延遲顯示時間 :</string>
+                    <string name="viewFrame">30 281 173 16 </string>
+                    <string name="bounds">285 20 301 193 </string>
+                  </object>
+                  <object class="IBCarbonRadioGroup" id="1364">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">17</int>
+                    <string name="helpTagText">選擇錯誤發生時，自動採取的活動</string>
+                    <int name="numRows">4</int>
+                    <array count="4" name="radioTitles">
+                      <array count="1">
+                        <string>無作用</string>
+                      </array>
+                      <array count="1">
+                        <string>重試</string>
+                      </array>
+                      <array count="1">
+                        <string>跳過</string>
+                      </array>
+                      <array count="1">
+                        <string>中止</string>
+                      </array>
+                    </array>
+                    <string name="viewFrame">211 281 59 78 </string>
+                    <string name="bounds">285 201 363 260 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1365">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">59</int>
+                    <string name="title">延遲 :</string>
+                    <string name="viewFrame">30 340 35 16 </string>
+                    <string name="bounds">344 20 360 55 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1366">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">61</int>
+                    <string name="title">30 秒</string>
+                    <string name="viewFrame">69 340 122 16 </string>
+                    <string name="bounds">344 59 360 181 </string>
+                  </object>
+                  <object class="IBCarbonSlider" id="1367">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">60</int>
+                    <ostype name="command">DELA</ostype>
+                    <string name="helpTagText">由拖動滑子來調整重試/跳過之前的延遲</string>
+                    <boolean name="isLive">TRUE</boolean>
+                    <int name="initialValue">30</int>
+                    <int name="minimumValue">4</int>
+                    <int name="maximumValue">120</int>
+                    <string name="viewFrame">31 363 377 22 </string>
+                    <string name="bounds">367 21 389 398 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1368">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">58</int>
+                    <string name="title">最大恢復 :</string>
+                    <string name="viewFrame">30 390 61 16 </string>
+                    <string name="bounds">394 20 410 81 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1369">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">19</int>
+                    <string name="title">無限制</string>
+                    <string name="viewFrame">99 391 118 14 </string>
+                    <string name="bounds">395 89 409 207 </string>
+                  </object>
+                  <object class="IBCarbonSlider" id="1370">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">18</int>
+                    <ostype name="command">RETR</ostype>
+                    <string name="helpTagText">由拖動滑子來調整嘗試的次數。</string>
+                    <boolean name="isLive">TRUE</boolean>
+                    <int name="initialValue">10</int>
+                    <int name="minimumValue">1</int>
+                    <int name="maximumValue">101</int>
+                    <string name="viewFrame">31 413 377 22 </string>
+                    <string name="bounds">417 21 439 398 </string>
+                  </object>
+                </array>
+                <string name="bounds">4 -10 679 679 </string>
+              </object>
+              <object class="IBCarbonUserPane" id="309">
+                <ostype name="controlSignature">tabs</ostype>
+                <int name="controlID">132</int>
+                <int name="featureBits">2</int>
+                <string name="viewFrame">0 28 689 675 </string>
+                <array count="33" name="subviews">
+                  <object class="IBCarbonUserPane" id="1371">
+                    <ostype name="controlSignature">TABS</ostype>
+                    <int name="controlID">132</int>
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <int name="featureBits">2</int>
+                    <string name="viewFrame">0 0 511 305 </string>
+                    <string name="bounds">4 -10 309 501 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1372">
+                    <int name="fontStyle">-3</int>
+                    <int name="controlSize">1</int>
+                    <string name="title">代理</string>
+                    <string name="viewFrame">30 12 22 12 </string>
+                    <string name="bounds">16 20 28 42 </string>
+                  </object>
+                  <object class="IBCarbonSeparator" id="1373">
+                    <string name="viewFrame">0 26 655 5 </string>
+                    <string name="bounds">30 -10 35 645 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="1374">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">28</int>
+                    <string name="helpTagText">如果僅可以使用代理伺服器存取網路，請啟用此項</string>
+                    <int name="initialState">1</int>
+                    <string name="title">使用代理伺服器</string>
+                    <string name="viewFrame">28 38 111 18 </string>
+                    <string name="bounds">42 18 60 129 </string>
+                  </object>
+                  <object class="IBCarbonEditText" id="1392">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">30</int>
+                    <string name="helpTagText">輸入代理伺服器的 IP 位址或者名稱</string>
+                    <boolean name="isUnicode">TRUE</boolean>
+                    <string name="viewFrame">239 39 192 16 </string>
+                    <string name="bounds">43 229 59 421 </string>
+                  </object>
+                  <object class="IBCarbonEditText" id="1393">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">32</int>
+                    <string name="helpTagText">輸入伺服器使用的 TCP 埠數。SOCKS 伺服器默認使用 1080 埠</string>
+                    <boolean name="isUnicode">TRUE</boolean>
+                    <string name="viewFrame">464 39 39 16 </string>
+                    <string name="bounds">43 454 59 493 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1394">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">31</int>
+                    <string name="title">埠</string>
+                    <string name="viewFrame">442 40 13 14 </string>
+                    <string name="bounds">44 432 58 445 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1395">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">29</int>
+                    <string name="title">伺服器地址</string>
+                    <string name="viewFrame">163 40 65 14 </string>
+                    <string name="bounds">44 153 58 218 </string>
+                  </object>
+                  <object class="IBCarbonEditText" id="1396">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">34</int>
+                    <string name="helpTagText">輸入代理伺服器使用的用戶名</string>
+                    <boolean name="isUnicode">TRUE</boolean>
+                    <string name="viewFrame">239 71 264 16 </string>
+                    <string name="bounds">75 229 91 493 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1397">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">33</int>
+                    <string name="title">使用者</string>
+                    <string name="viewFrame">190 72 39 14 </string>
+                    <string name="bounds">76 180 90 219 </string>
+                  </object>
+                  <object class="IBCarbonEditText" id="1398">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">36</int>
+                    <string name="helpTagText">輸入代理伺服器的密碼</string>
+                    <boolean name="isPassword">TRUE</boolean>
+                    <boolean name="isUnicode">TRUE</boolean>
+                    <string name="viewFrame">239 103 264 16 </string>
+                    <string name="bounds">107 229 123 493 </string>
+                  </object>
+                  <reference idRef="1399"/>
+                  <object class="IBCarbonStaticText" id="1400">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">37</int>
+                    <string name="title">代理伺服器類型</string>
+                    <string name="viewFrame">30 133 91 14 </string>
+                    <string name="bounds">137 20 151 111 </string>
+                  </object>
+                  <object class="IBCarbonPopupButton" id="1401">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">38</int>
+                    <string name="helpTagText">選擇代理伺服器使用的記錄順序類型</string>
+                    <int name="selectedItem">8</int>
+                    <object name="menu" class="IBCarbonMenu" id="1402">
+                      <string name="title">彈出:</string>
+                      <array count="13" name="items">
+                        <object class="IBCarbonMenuItem" id="1410">
+                          <string name="title">登錄使用者</string>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1406">
+                          <string name="title">站點主機名</string>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1404">
+                          <string name="title">代理開啟</string>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1415">
+                          <string name="title">透明</string>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1405">
+                          <string name="title">未登錄使用者</string>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1407">
+                          <string name="title">使用者 proxyusername@hostname</string>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1414">
+                          <string name="title">使用者 hostusername@proxyusername@hostname</string>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1413">
+                          <string name="title">使用者 hostusername@hostname 代理伺服器用戶名</string>
+                          <boolean name="checked">TRUE</boolean>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1409">
+                          <string name="title">使用者 hostusername@hostname:埠數</string>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1403">
+                          <string name="title">使用者 hostusername@hostname 埠數</string>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1412">
+                          <string name="title">SOCKS 4</string>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1411">
+                          <string name="title">SOCKS 4a</string>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1408">
+                          <string name="title">SOCKS 5</string>
+                        </object>
+                      </array>
+                    </object>
+                    <string name="viewFrame">128 130 378 20 </string>
+                    <string name="bounds">134 118 154 496 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1416">
+                    <int name="fontStyle">-3</int>
+                    <int name="controlSize">1</int>
+                    <string name="title">更多方面</string>
+                    <string name="viewFrame">30 165 44 12 </string>
+                    <string name="bounds">169 20 181 64 </string>
+                  </object>
+                  <object class="IBCarbonSeparator" id="1417">
+                    <string name="viewFrame">0 179 655 5 </string>
+                    <string name="bounds">183 -10 188 645 </string>
+                  </object>
+                  <object class="IBCarbonPopupButton" id="820">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">88</int>
+                    <string name="helpTagText">大部分的伺服器都使用 UTF－8 編碼。如果你需要使用不同的編碼類型，請在此選擇。注：每個書簽都可以有單獨的設定。</string>
+                    <object name="menu" class="IBCarbonMenu" id="818">
+                      <string name="title">彈出:</string>
+                      <array count="1" name="items">
+                        <object class="IBCarbonMenuItem" id="817">
+                          <string name="title">UTF-8</string>
+                          <boolean name="checked">TRUE</boolean>
+                        </object>
+                      </array>
+                    </object>
+                    <string name="viewFrame">89 190 187 20 </string>
+                    <string name="bounds">194 79 214 266 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="815">
+                    <string name="title">默認編碼</string>
+                    <string name="viewFrame">30 193 52 14 </string>
+                    <string name="bounds">197 20 211 72 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="1005">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">114</int>
+                    <string name="title">UTF-8 标准表单C</string>
+                    <string name="viewFrame">282 191 139 18 </string>
+                    <string name="bounds">195 272 213 411 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="999">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">109</int>
+                    <string name="helpTagText">當選擇，軟體將自動選擇主動/被動模式</string>
+                    <string name="title">自動選擇主動/被動模式</string>
+                    <string name="viewFrame">28 230 157 18 </string>
+                    <string name="bounds">234 18 252 175 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="808">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">21</int>
+                    <string name="helpTagText">主動或被動 FTP 可能必需依賴您的網路配置。如果連線有問題，嘗試切換此設定。</string>
+                    <string name="title">默認用被動 FTP (PASV)</string>
+                    <string name="viewFrame">28 254 182 18 </string>
+                    <string name="bounds">258 18 276 200 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="1006">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">115</int>
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <string name="helpTagText">有些伺服器可能顯示列出專案的日期在未來的某個日期，但是實際上只是報告錯誤。啟用這個選項將驗證日期並將它們調整到設計的有效時間</string>
+                    <string name="title">驗證檔案可疑的日期標記</string>
+                    <string name="viewFrame">28 278 163 18 </string>
+                    <string name="bounds">282 18 300 181 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="941">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">100</int>
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <string name="helpTagText">當選擇，符號鏈是解決在檔案列表糾正期間，以使它可以指向目錄或檔案，並對於後者，還要檔案的大小。&#10;&#10;禁用這個選擇，如果目錄太長，因為伺服器有許多符號鏈</string>
+                    <string name="title">解決符號鏈</string>
+                    <string name="viewFrame">28 313 85 18 </string>
+                    <string name="bounds">317 18 335 103 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="1100">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">140</int>
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <string name="title">以正常項目處理符號鏈接</string>
+                    <string name="viewFrame">47 337 163 18 </string>
+                    <string name="bounds">341 37 359 200 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="1418">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">23</int>
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <string name="helpTagText">如選擇，將允許超過一個任務同時連線</string>
+                    <string name="title">允許多線程連線</string>
+                    <string name="viewFrame">28 373 111 18 </string>
+                    <string name="bounds">377 18 395 129 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="1343">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">56</int>
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <string name="helpTagText">要檢視有隱藏屬性的檔案，一些伺服器需要特殊的命令。選擇此項如果您不想看到隱藏檔案。</string>
+                    <int name="initialState">1</int>
+                    <string name="title">使用 &quot;LIST -la&quot; 命令</string>
+                    <string name="viewFrame">282 230 139 18 </string>
+                    <string name="bounds">234 272 252 411 </string>
+                  </object>
+                  <reference idRef="907"/>
+                  <object class="IBCarbonCheckBox" id="1009">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">118</int>
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <string name="helpTagText">當使用檔案選單中的複製為 URL 選項，此選項控制是否在 URL 中包含用戶名和密碼。出於安全考慮，可以僅包含用戶名</string>
+                    <string name="title">匯出密碼到 URL</string>
+                    <string name="viewFrame">282 278 114 18 </string>
+                    <string name="bounds">282 272 300 386 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="1007">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">116</int>
+                    <string name="helpTagText">某些ssh安裝要求密匙檔案位置被引用指定, 其他人不可用。如果報告不能找到您密匙檔案，請撤銷這個設定</string>
+                    <string name="title">引用 ssh 密匙檔案路徑</string>
+                    <string name="viewFrame">282 230 154 18 </string>
+                    <string name="bounds">234 272 252 426 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="1031">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">124</int>
+                    <ostype name="command">ACTI</ostype>
+                    <string name="helpTagText">啟用此選項，在使用主動模式的 FTP 時，允許您使用指定的 IP 位址。如選擇，將自動使用本地 IP</string>
+                    <string name="title">活動 IP 地址</string>
+                    <string name="viewFrame">282 269 92 18 </string>
+                    <string name="bounds">273 272 291 364 </string>
+                  </object>
+                  <object class="IBCarbonEditText" id="1032">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">125</int>
+                    <boolean name="isUnicode">TRUE</boolean>
+                    <string name="title">255.255.255.255</string>
+                    <string name="viewFrame">382 270 121 16 </string>
+                    <string name="bounds">274 372 290 493 </string>
+                  </object>
+                  <object class="IBCarbonEditText" id="1168">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">26</int>
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <string name="helpTagText">輸入伺服器的埠數</string>
+                    <boolean name="isUnicode">TRUE</boolean>
+                    <string name="title">21</string>
+                    <string name="viewFrame">404 374 27 16 </string>
+                    <string name="bounds">378 394 394 421 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1166">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">25</int>
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <string name="title">伺服器最大連線數:</string>
+                    <string name="viewFrame">285 374 109 16 </string>
+                    <string name="bounds">378 275 394 384 </string>
+                  </object>
+                </array>
+                <string name="bounds">4 -10 679 679 </string>
+              </object>
+              <object class="IBCarbonUserPane" id="1042">
+                <ostype name="controlSignature">tabs</ostype>
+                <int name="controlID">133</int>
+                <int name="featureBits">2</int>
+                <string name="viewFrame">0 28 689 675 </string>
+                <array count="8" name="subviews">
+                  <reference idRef="1048"/>
+                  <object class="IBCarbonCheckBox" id="1083">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">136</int>
+                    <string name="helpTagText">如啟用，將不再通知測試版的更新</string>
+                    <int name="initialState">1</int>
+                    <string name="title">忽略測試版本</string>
+                    <string name="viewFrame">176 77 98 18 </string>
+                    <string name="bounds">81 166 99 264 </string>
+                  </object>
+                  <object class="IBCarbonButton" id="1043">
+                    <ostype name="command">supd</ostype>
+                    <string name="title">現在檢查</string>
+                    <string name="viewFrame">178 104 76 20 </string>
+                    <string name="bounds">108 168 128 244 </string>
+                  </object>
+                  <object class="IBCarbonSeparator" id="1044">
+                    <string name="viewFrame">30 142 393 5 </string>
+                    <string name="bounds">146 20 151 413 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1045">
+                    <string name="title">最後檢查:</string>
+                    <string name="viewFrame">30 151 57 16 </string>
+                    <string name="bounds">155 20 171 77 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1046">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">127</int>
+                    <string name="title">為 應用程序 自動檢查新版本或升級版本，也可以手動檢查</string>
+                    <string name="viewFrame">30 12 379 28 </string>
+                    <string name="bounds">16 20 44 399 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1047">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">129</int>
+                    <string name="title">軟體更新未使用</string>
+                    <string name="viewFrame">93 151 330 41 </string>
+                    <string name="bounds">155 83 196 413 </string>
+                  </object>
+                  <object class="IBCarbonUserPane" id="1424">
+                    <ostype name="controlSignature">TABS</ostype>
+                    <int name="controlID">133</int>
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <int name="featureBits">2</int>
+                    <string name="viewFrame">0 0 414 208 </string>
+                    <string name="bounds">4 -10 212 404 </string>
+                  </object>
+                </array>
+                <string name="bounds">4 -10 679 679 </string>
+              </object>
+              <object class="IBCarbonUserPane" id="1156">
+                <ostype name="controlSignature">tabs</ostype>
+                <int name="controlID">134</int>
+                <int name="featureBits">2</int>
+                <string name="viewFrame">0 28 689 675 </string>
+                <array count="8" name="subviews">
+                  <object class="IBCarbonUserPane" id="1507">
+                    <ostype name="controlSignature">TABS</ostype>
+                    <int name="controlID">134</int>
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <int name="featureBits">2</int>
+                    <string name="viewFrame">0 0 607 165 </string>
+                    <string name="bounds">4 -10 169 597 </string>
+                  </object>
+                  <object class="IBCarbonButton" id="1508">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">1012</int>
+                    <ostype name="command">DR2P</ostype>
+                    <int name="iconPosition">0</int>
+                    <string name="title">選擇</string>
+                    <string name="viewFrame">530 13 70 20 </string>
+                    <string name="bounds">17 520 37 590 </string>
+                  </object>
+                  <object class="IBCarbonButton" id="1509">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">1011</int>
+                    <ostype name="command">DR1P</ostype>
+                    <int name="iconPosition">0</int>
+                    <string name="title">現在停用</string>
+                    <string name="viewFrame">281 104 76 20 </string>
+                    <string name="bounds">108 271 128 347 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1510">
+                    <string name="title">Dropbox的同步功能可以讓您所有的FTP設置，以自動複製到安裝了應用程序，所有的設備。請參閱下面的詳細信息的鏈接</string>
+                    <string name="viewFrame">29 51 579 31 </string>
+                    <string name="bounds">55 19 86 598 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1511">
+                    <string name="title">http://www.dropbox.com</string>
+                    <int name="justification">1</int>
+                    <string name="viewFrame">205 130 227 23 </string>
+                    <string name="bounds">134 195 157 422 </string>
+                  </object>
+                  <object class="IBCarbonEditText" id="1512">
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="useInlineInput">TRUE</boolean>
+                    <boolean name="isUnicode">TRUE</boolean>
+                    <boolean name="isSingleLine">TRUE</boolean>
+                    <string name="foreColor">0 0 0 </string>
+                    <string name="viewFrame">137 15 382 16 </string>
+                    <string name="bounds">19 127 35 509 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1513">
+                    <string name="title">Dropbox文件夾</string>
+                    <string name="viewFrame">29 16 95 16 </string>
+                    <string name="bounds">20 19 36 114 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1514">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">1010</int>
+                    <string name="title">Not installed</string>
+                    <int name="justification">-2</int>
+                    <string name="viewFrame">140 15 372 16 </string>
+                    <string name="bounds">19 130 35 502 </string>
+                  </object>
+                </array>
+                <string name="bounds">4 -10 679 679 </string>
+              </object>
+              <object class="IBCarbonUserPane" id="1158">
+                <ostype name="controlSignature">tabs</ostype>
+                <int name="controlID">135</int>
+                <int name="featureBits">2</int>
+                <string name="viewFrame">0 28 689 675 </string>
+                <array count="14" name="subviews">
+                  <object class="IBCarbonIcon" id="1470">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">70</int>
+                    <int name="contentType">132</int>
+                    <int name="contentResID">1095782476</int>
+                    <int name="creator">0</int>
+                    <string name="viewFrame">238 12 32 32 </string>
+                    <string name="bounds">16 228 48 260 </string>
+                  </object>
+                  <object class="IBCarbonPopupButton" id="1471">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">69</int>
+                    <ostype name="command">EDIR</ostype>
+                    <string name="helpTagText">選擇預配置編輯器程式或者選擇一個新的</string>
+                    <object name="menu" class="IBCarbonMenu" id="1493">
+                      <string name="title">彈出:</string>
+                      <array count="13" name="items">
+                        <object class="IBCarbonMenuItem" id="1505">
+                          <string name="title">BBEdit</string>
+                          <boolean name="checked">TRUE</boolean>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1500">
+                          <string name="title">BBEdit Lite</string>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                        </object>
+                        <reference idRef="1497"/>
+                        <object class="IBCarbonMenuItem" id="1494">
+                          <string name="title">SubEthaEdit</string>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1501">
+                          <string name="title">Page Spinner</string>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1495">
+                          <string name="title">TextMate</string>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1502">
+                          <string name="title">Pepper</string>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1496">
+                          <string name="title">skEdit</string>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1503">
+                          <string name="title">Espresso</string>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1498">
+                          <string name="title">Smultron</string>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1504">
+                          <string name="title">內建</string>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1499">
+                          <boolean name="separator">TRUE</boolean>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1506">
+                          <string name="title">其他...</string>
+                          <boolean name="updateSingleItem">TRUE</boolean>
+                        </object>
+                      </array>
+                    </object>
+                    <string name="viewFrame">101 17 129 20 </string>
+                    <string name="bounds">21 91 41 220 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1472">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">71</int>
+                    <string name="title">BBEdit</string>
+                    <string name="viewFrame">278 20 175 16 </string>
+                    <string name="bounds">24 268 40 443 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1473">
+                    <string name="title">默認編輯器</string>
+                    <string name="viewFrame">29 21 65 14 </string>
+                    <string name="bounds">25 19 39 84 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1474">
+                    <string name="title">上傳編輯檔案 :</string>
+                    <string name="viewFrame">29 59 87 16 </string>
+                    <string name="bounds">63 19 79 106 </string>
+                  </object>
+                  <object class="IBCarbonRadioGroup" id="1475">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">101</int>
+                    <string name="helpTagText">此設定給出了何時遠端修改的檔案將傳送回伺服器&#10;</string>
+                    <int name="numCols">2</int>
+                    <int name="selectedRow">2</int>
+                    <int name="selectedCol">2</int>
+                    <array count="2" name="radioTitles">
+                      <array count="2">
+                        <string>編輯前詢問</string>
+                        <string>關閉時</string>
+                      </array>
+                      <array count="2">
+                        <string>儲存時</string>
+                        <string>從不</string>
+                      </array>
+                    </array>
+                    <string name="viewFrame">124 59 172 38 </string>
+                    <string name="bounds">63 114 101 286 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="1482">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">1009</int>
+                    <string name="title">緩存文件</string>
+                    <string name="viewFrame">27 110 72 18 </string>
+                    <string name="bounds">114 17 132 89 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="1476">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">105</int>
+                    <string name="helpTagText">當選擇, 遠端編輯與開髮式資料庫適用的編輯器將不允許重複修改同一個檔案。而當上傳更新時，將檢查伺服器檔案是否已被修改。如果最近的檔案得到確認，將會合並到伺服器檔案中，除非您選擇了取消和取代&#10;&#10;您的書簽必須啟用自動檢測時差功能以使此選項可用</string>
+                    <string name="title">在上傳中檢查重複編輯並將最新續寫進檔案</string>
+                    <string name="viewFrame">27 134 267 18 </string>
+                    <string name="bounds">138 17 156 284 </string>
+                  </object>
+                  <object class="IBCarbonIcon" id="1477">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">138</int>
+                    <int name="contentType">132</int>
+                    <int name="contentResID">1095782476</int>
+                    <int name="creator">0</int>
+                    <string name="viewFrame">238 182 32 32 </string>
+                    <string name="bounds">186 228 218 260 </string>
+                  </object>
+                  <reference idRef="1478"/>
+                  <object class="IBCarbonStaticText" id="1479">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">139</int>
+                    <string name="title">BBEdit</string>
+                    <string name="viewFrame">278 190 175 16 </string>
+                    <string name="bounds">194 268 210 443 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1480">
+                    <string name="title">檢查用</string>
+                    <string name="viewFrame">55 191 39 14 </string>
+                    <string name="bounds">195 45 209 84 </string>
+                  </object>
+                  <object class="IBCarbonSeparator" id="1481">
+                    <string name="viewFrame">29 172 414 5 </string>
+                    <string name="bounds">176 19 181 433 </string>
+                  </object>
+                  <object class="IBCarbonUserPane" id="1483">
+                    <ostype name="controlSignature">TABS</ostype>
+                    <int name="controlID">135</int>
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <int name="featureBits">2</int>
+                    <string name="viewFrame">0 0 453 238 </string>
+                    <string name="bounds">4 -10 242 443 </string>
+                  </object>
+                </array>
+                <string name="bounds">4 -10 679 679 </string>
+              </object>
+              <object class="IBCarbonUserPane" id="1160">
+                <ostype name="controlSignature">tabs</ostype>
+                <int name="controlID">136</int>
+                <int name="featureBits">2</int>
+                <string name="viewFrame">0 28 689 675 </string>
+                <array count="28" name="subviews">
+                  <reference idRef="1522"/>
+                  <object class="IBCarbonCheckBox" id="1523">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">64</int>
+                    <string name="helpTagText">調整傳輸的檔案許可權符合原始。注意這只可用在 SFTP 連線</string>
+                    <string name="title">為傳輸檔案保持許可權 (僅支持 SFTP )</string>
+                    <string name="viewFrame">28 85 240 18 </string>
+                    <string name="bounds">89 18 107 258 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="1524">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">24</int>
+                    <string name="helpTagText">當選擇，檔案下載如同 ASCII (文本)將使用 LF 字元代替通常 CR 字元表示行結束</string>
+                    <string name="title">為本地檔案使用 UNIX 編碼 (LF) 替代 Mac (CR)</string>
+                    <string name="viewFrame">28 109 292 18 </string>
+                    <string name="bounds">113 18 131 310 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="1527">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">142</int>
+                    <string name="helpTagText">When selected, all AutoRoute - enabled Bookmarks wil be checked. When de-selected, processing will stop after the first matching Bookmark</string>
+                    <string name="title">允許遞歸自動轉帳</string>
+                    <string name="viewFrame">28 133 124 18 </string>
+                    <string name="bounds">137 18 155 142 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="1419">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">86</int>
+                    <string name="helpTagText">當選擇，每個多檔案傳輸將使用超過一個連線</string>
+                    <string name="title">分離處理</string>
+                    <string name="viewFrame">28 157 72 18 </string>
+                    <string name="bounds">161 18 179 90 </string>
+                  </object>
+                  <object class="IBCarbonButton" id="1550">
+                    <ostype name="command">SFIX</ostype>
+                    <string name="helpTagText">編輯尾碼映射表</string>
+                    <int name="iconPosition">0</int>
+                    <string name="title">尾碼映射</string>
+                    <string name="viewFrame">377 156 76 20 </string>
+                    <string name="bounds">160 367 180 443 </string>
+                  </object>
+                  <object class="IBCarbonPopupButton" id="1525">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">85</int>
+                    <string name="helpTagText">選擇經 SFTP 上傳文本時行結束的編碼</string>
+                    <int name="selectedItem">3</int>
+                    <object name="menu" class="IBCarbonMenu" id="1531">
+                      <string name="title">彈出:</string>
+                      <array count="3" name="items">
+                        <object class="IBCarbonMenuItem" id="1532">
+                          <string name="title">Unix (LF)</string>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1534">
+                          <string name="title">Mac (CR)</string>
+                        </object>
+                        <object class="IBCarbonMenuItem" id="1533">
+                          <string name="title">DOS (CRLF)</string>
+                          <boolean name="checked">TRUE</boolean>
+                        </object>
+                      </array>
+                    </object>
+                    <string name="viewFrame">171 189 111 20 </string>
+                    <string name="bounds">193 161 213 272 </string>
+                  </object>
+                  <object class="IBCarbonEditText" id="1528">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">1004</int>
+                    <boolean name="isUnicode">TRUE</boolean>
+                    <string name="title">30</string>
+                    <string name="viewFrame">399 192 30 16 </string>
+                    <string name="bounds">196 389 212 419 </string>
+                  </object>
+                  <object class="IBCarbonGroupBox" id="1375">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">39</int>
+                    <string name="helpTagText">如果選擇, 被上傳的檔案將有配置的許可權被設定在伺服器。不是所有伺服器支持這個功能。</string>
+                    <string name="title">為上傳檔案設定許可權</string>
+                    <boolean name="primary">FALSE</boolean>
+                    <int name="titleType">1</int>
+                    <string name="viewFrame">69 229 354 117 </string>
+                    <array count="16" name="subviews">
+                      <object class="IBCarbonStaticText" id="1381">
+                        <ostype name="controlSignature">PREF</ostype>
+                        <int name="controlID">40</int>
+                        <string name="title">使用者:</string>
+                        <string name="viewFrame">132 36 44 16 </string>
+                        <string name="bounds">269 191 285 235 </string>
+                      </object>
+                      <object class="IBCarbonCheckBox" id="1385">
+                        <ostype name="controlSignature">PREF</ostype>
+                        <int name="controlID">41</int>
+                        <ostype name="command">USRR</ostype>
+                        <string name="title">讀取</string>
+                        <string name="viewFrame">182 35 46 18 </string>
+                        <string name="bounds">268 241 286 287 </string>
+                      </object>
+                      <object class="IBCarbonCheckBox" id="1383">
+                        <ostype name="controlSignature">PREF</ostype>
+                        <int name="controlID">42</int>
+                        <ostype name="command">USRW</ostype>
+                        <string name="title">寫入</string>
+                        <string name="viewFrame">237 35 46 18 </string>
+                        <string name="bounds">268 296 286 342 </string>
+                      </object>
+                      <object class="IBCarbonCheckBox" id="1380">
+                        <ostype name="controlSignature">PREF</ostype>
+                        <int name="controlID">43</int>
+                        <ostype name="command">USRX</ostype>
+                        <string name="title">執行</string>
+                        <string name="viewFrame">292 35 46 18 </string>
+                        <string name="bounds">268 351 286 397 </string>
+                      </object>
+                      <object class="IBCarbonSeparator" id="1377">
+                        <string name="viewFrame">119 44 5 43 </string>
+                        <string name="bounds">277 178 320 183 </string>
+                      </object>
+                      <object class="IBCarbonEditText" id="1387">
+                        <ostype name="controlSignature">PREF</ostype>
+                        <int name="controlID">53</int>
+                        <string name="helpTagText">輸入八進制的數值</string>
+                        <boolean name="isUnicode">TRUE</boolean>
+                        <string name="title">777</string>
+                        <string name="viewFrame">70 53 30 16 </string>
+                        <string name="bounds">286 129 302 159 </string>
+                      </object>
+                      <object class="IBCarbonStaticText" id="1390">
+                        <ostype name="controlSignature">PREF</ostype>
+                        <int name="controlID">52</int>
+                        <string name="title">許可權:</string>
+                        <string name="viewFrame">16 53 44 16 </string>
+                        <string name="bounds">286 75 302 119 </string>
+                      </object>
+                      <object class="IBCarbonStaticText" id="1386">
+                        <ostype name="controlSignature">PREF</ostype>
+                        <int name="controlID">44</int>
+                        <string name="title">群組：</string>
+                        <string name="viewFrame">137 61 39 14 </string>
+                        <string name="bounds">294 196 308 235 </string>
+                      </object>
+                      <object class="IBCarbonCheckBox" id="1382">
+                        <ostype name="controlSignature">PREF</ostype>
+                        <int name="controlID">45</int>
+                        <ostype name="command">GRPR</ostype>
+                        <string name="title">讀取</string>
+                        <string name="viewFrame">182 59 46 18 </string>
+                        <string name="bounds">292 241 310 287 </string>
+                      </object>
+                      <object class="IBCarbonCheckBox" id="1376">
+                        <ostype name="controlSignature">PREF</ostype>
+                        <int name="controlID">46</int>
+                        <ostype name="command">GRPW</ostype>
+                        <string name="title">寫入</string>
+                        <string name="viewFrame">237 59 46 18 </string>
+                        <string name="bounds">292 296 310 342 </string>
+                      </object>
+                      <reference idRef="1391"/>
+                      <object class="IBCarbonStaticText" id="1378">
+                        <ostype name="controlSignature">PREF</ostype>
+                        <int name="controlID">48</int>
+                        <string name="title">其他:</string>
+                        <string name="viewFrame">145 84 31 16 </string>
+                        <string name="bounds">317 204 333 235 </string>
+                      </object>
+                      <object class="IBCarbonCheckBox" id="1379">
+                        <ostype name="controlSignature">PREF</ostype>
+                        <int name="controlID">49</int>
+                        <ostype name="command">OTHR</ostype>
+                        <string name="title">讀取</string>
+                        <string name="viewFrame">182 83 46 18 </string>
+                        <string name="bounds">316 241 334 287 </string>
+                      </object>
+                      <object class="IBCarbonCheckBox" id="1389">
+                        <ostype name="controlSignature">PREF</ostype>
+                        <int name="controlID">50</int>
+                        <ostype name="command">OTHW</ostype>
+                        <string name="title">寫入</string>
+                        <string name="viewFrame">237 83 46 18 </string>
+                        <string name="bounds">316 296 334 342 </string>
+                      </object>
+                      <object class="IBCarbonCheckBox" id="1384">
+                        <ostype name="controlSignature">PREF</ostype>
+                        <int name="controlID">51</int>
+                        <ostype name="command">OTHX</ostype>
+                        <string name="title">執行</string>
+                        <string name="viewFrame">292 83 46 18 </string>
+                        <string name="bounds">316 351 334 397 </string>
+                      </object>
+                      <object class="IBCarbonStaticText" id="1388">
+                        <ostype name="controlSignature">PREF</ostype>
+                        <int name="controlID">54</int>
+                        <string name="title">----------</string>
+                        <string name="viewFrame">25 77 76 16 </string>
+                        <string name="bounds">310 84 326 160 </string>
+                      </object>
+                    </array>
+                    <string name="bounds">233 59 350 413 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1276">
+                    <int name="fontStyle">-3</int>
+                    <int name="controlSize">1</int>
+                    <string name="title">FTP 流覽</string>
+                    <string name="viewFrame">277 388 47 13 </string>
+                    <string name="bounds">392 267 405 314 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1535">
+                    <int name="controlSize">1</int>
+                    <string name="title">一般</string>
+                    <string name="viewFrame">58 389 22 12 </string>
+                    <string name="bounds">393 48 405 70 </string>
+                  </object>
+                  <object class="IBCarbonSeparator" id="1277">
+                    <string name="viewFrame">277 403 47 4 </string>
+                    <string name="bounds">407 267 411 314 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="1293">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">82</int>
+                    <string name="helpTagText">當選擇，檔案列表中所選項將使用一個選擇矩形</string>
+                    <string name="title">選取框排列選擇</string>
+                    <string name="viewFrame">56 415 111 18 </string>
+                    <string name="bounds">419 46 437 157 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="1294">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">141</int>
+                    <int name="initialState">2</int>
+                    <string name="title">智能目標挑選</string>
+                    <string name="viewFrame">56 439 98 18 </string>
+                    <string name="bounds">443 46 461 144 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="1420">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">134</int>
+                    <string name="helpTagText">當選擇，傳輸佇列將自動裝滿等待項，如同一個檔案夾內容，當它們變得已知，以保證最大帶寬能被使用。</string>
+                    <int name="initialState">2</int>
+                    <string name="title">遞迴的批量傳輸</string>
+                    <string name="viewFrame">56 463 111 18 </string>
+                    <string name="bounds">467 46 485 157 </string>
+                  </object>
+                  <reference idRef="1280"/>
+                  <object class="IBCarbonCheckBox" id="1281">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">91</int>
+                    <string name="helpTagText">當選擇，每個FTP流覽視窗都會有自己的外觀設定，包括列表、工具列等等。&#10;如未選擇，所有的視窗都使用相同的設定。</string>
+                    <string name="title">獨立視窗設定</string>
+                    <string name="viewFrame">275 439 98 18 </string>
+                    <string name="bounds">443 265 461 363 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="1282">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">102</int>
+                    <string name="helpTagText">當選擇, 使用者、組和許可權被顯示數值在列表。如果選項是不可用的，仍使用文本表示</string>
+                    <string name="title">顯示所有者/群組數值許可權</string>
+                    <string name="viewFrame">275 463 183 18 </string>
+                    <string name="bounds">467 265 485 448 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="1283">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">68</int>
+                    <string name="helpTagText">當選擇，檔案大小將不以 K、KB 和 GB 顯示</string>
+                    <string name="title">顯示精確檔案大小(位元組)</string>
+                    <string name="viewFrame">275 487 172 18 </string>
+                    <string name="bounds">491 265 509 437 </string>
+                  </object>
+                  <object class="IBCarbonUserPane" id="1515">
+                    <ostype name="controlSignature">TABS</ostype>
+                    <int name="controlID">136</int>
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <int name="featureBits">2</int>
+                    <string name="viewFrame">0 0 458 520 </string>
+                    <string name="bounds">4 -10 524 448 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1516">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">1001</int>
+                    <int name="fontStyle">-3</int>
+                    <int name="controlSize">1</int>
+                    <string name="title">介面</string>
+                    <string name="viewFrame">30 358 22 12 </string>
+                    <string name="bounds">362 20 374 42 </string>
+                  </object>
+                  <object class="IBCarbonSeparator" id="1517">
+                    <string name="viewFrame">-2 374 682 4 </string>
+                    <string name="bounds">378 -12 382 670 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1518">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">1001</int>
+                    <int name="fontStyle">-3</int>
+                    <int name="controlSize">1</int>
+                    <string name="title">傳輸</string>
+                    <string name="viewFrame">30 12 22 12 </string>
+                    <string name="bounds">16 20 28 42 </string>
+                  </object>
+                  <object class="IBCarbonSeparator" id="1519">
+                    <string name="viewFrame">-2 26 682 4 </string>
+                    <string name="bounds">30 -12 34 670 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1526">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">84</int>
+                    <string name="title">SFTP 字元上傳模式</string>
+                    <string name="viewFrame">52 191 112 16 </string>
+                    <string name="bounds">195 42 211 154 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1529">
+                    <string name="title">保留日誌文件</string>
+                    <string name="viewFrame">310 193 78 14 </string>
+                    <string name="bounds">197 300 211 378 </string>
+                  </object>
+                  <object class="IBCarbonStaticText" id="1530">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">1005</int>
+                    <string name="title">天</string>
+                    <string name="viewFrame">440 193 13 14 </string>
+                    <string name="bounds">197 430 211 443 </string>
+                  </object>
+                  <object class="IBCarbonSeparator" id="1538">
+                    <string name="viewFrame">58 401 22 8 </string>
+                    <string name="bounds">405 48 413 70 </string>
+                  </object>
+                </array>
+                <string name="bounds">4 -10 679 679 </string>
+              </object>
+            </array>
+            <string name="bounds">-24 -10 679 679 </string>
+            <array count="8" name="tabItems">
+              <dictionary count="4">
+                <string>contentResID</string>
+                <string>0</string>
+                <string>tabEnabled</string>
+                <string>1</string>
+                <string>tabName</string>
+                <string>傳輸</string>
+                <string>userPane</string>
+                <reference idRef="239"/>
+              </dictionary>
+              <dictionary count="4">
+                <string>contentResID</string>
+                <string>0</string>
+                <string>tabEnabled</string>
+                <string>1</string>
+                <string>tabName</string>
+                <string>介面</string>
+                <string>userPane</string>
+                <reference idRef="238"/>
+              </dictionary>
+              <dictionary count="4">
+                <string>contentResID</string>
+                <string>0</string>
+                <string>tabEnabled</string>
+                <string>1</string>
+                <string>tabName</string>
+                <string>錯誤恢復</string>
+                <string>userPane</string>
+                <reference idRef="308"/>
+              </dictionary>
+              <dictionary count="4">
+                <string>contentResID</string>
+                <string>0</string>
+                <string>tabEnabled</string>
+                <string>1</string>
+                <string>tabName</string>
+                <string>伺服器設定</string>
+                <string>userPane</string>
+                <reference idRef="309"/>
+              </dictionary>
+              <dictionary count="4">
+                <string>contentResID</string>
+                <string>0</string>
+                <string>tabEnabled</string>
+                <string>1</string>
+                <string>tabName</string>
+                <string>軟體更新</string>
+                <string>userPane</string>
+                <reference idRef="1042"/>
+              </dictionary>
+              <dictionary count="4">
+                <string>contentResID</string>
+                <string>0</string>
+                <string>tabEnabled</string>
+                <string>1</string>
+                <string>tabName</string>
+                <string>Dropbox</string>
+                <string>userPane</string>
+                <reference idRef="1156"/>
+              </dictionary>
+              <dictionary count="4">
+                <string>contentResID</string>
+                <string>0</string>
+                <string>tabEnabled</string>
+                <string>1</string>
+                <string>tabName</string>
+                <string>Remote Editing</string>
+                <string>userPane</string>
+                <reference idRef="1158"/>
+              </dictionary>
+              <dictionary count="4">
+                <string>contentResID</string>
+                <string>0</string>
+                <string>tabEnabled</string>
+                <string>1</string>
+                <string>tabName</string>
+                <string>Obscure</string>
+                <string>userPane</string>
+                <reference idRef="1160"/>
+              </dictionary>
+            </array>
+            <int name="tabSelection">4</int>
+          </object>
+          <object class="IBCarbonGroupBox" id="1055">
+            <ostype name="controlSignature">PREF</ostype>
+            <boolean name="enabled">FALSE</boolean>
+            <boolean name="hidden">TRUE</boolean>
+            <int name="controlSize">1</int>
+            <string name="helpTagText">此選擇控制最大上傳或下載速度能達到的 kB/秒</string>
+            <string name="title">Unused</string>
+            <boolean name="primary">FALSE</boolean>
+            <string name="viewFrame">764 346 436 211 </string>
+            <array count="16" name="subviews">
+              <object class="IBCarbonStaticText" id="1249">
+                <ostype name="controlSignature">PREF</ostype>
+                <int name="controlID">62</int>
+                <boolean name="enabled">FALSE</boolean>
+                <boolean name="hidden">TRUE</boolean>
+                <int name="controlSize">1</int>
+                <string name="viewFrame">58 167 37 14 </string>
+                <string name="bounds">513 822 527 859 </string>
+              </object>
+              <object class="IBCarbonButton" id="232">
+                <ostype name="controlSignature">PREF</ostype>
+                <int name="controlID">1</int>
+                <boolean name="enabled">FALSE</boolean>
+                <boolean name="hidden">TRUE</boolean>
+                <ostype name="command">not!</ostype>
+                <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+                  <int name="bindingBottomKind">2</int>
+                  <int name="bindingRightKind">2</int>
+                </object>
+                <int name="buttonType">2</int>
+                <string name="title">取消</string>
+                <string name="viewFrame">-22 145 92 20 </string>
+                <string name="bounds">491 742 511 834 </string>
+              </object>
+              <object class="IBCarbonButton" id="233">
+                <ostype name="controlSignature">PREF</ostype>
+                <boolean name="enabled">FALSE</boolean>
+                <boolean name="hidden">TRUE</boolean>
+                <ostype name="command">ok  </ostype>
+                <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+                  <int name="bindingBottomKind">2</int>
+                  <int name="bindingRightKind">2</int>
+                </object>
+                <int name="buttonType">1</int>
+                <string name="title">儲存</string>
+                <string name="viewFrame">82 145 92 20 </string>
+                <string name="bounds">491 846 511 938 </string>
+              </object>
+              <object class="IBCarbonCheckBox" id="1295">
+                <ostype name="controlSignature">PREF</ostype>
+                <int name="controlID">11</int>
+                <boolean name="hidden">TRUE</boolean>
+                <int name="controlSize">1</int>
+                <string name="helpTagText">當選擇，書簽視窗和 FTP 流覽視窗將用金屬樣式顯示</string>
+                <string name="title">金屬視窗</string>
+                <string name="viewFrame">17 140 100 14 </string>
+                <string name="bounds">486 781 500 881 </string>
+              </object>
+              <object class="IBCarbonCheckBox" id="1296">
+                <ostype name="controlSignature">PREF</ostype>
+                <int name="controlID">135</int>
+                <boolean name="hidden">TRUE</boolean>
+                <int name="controlSize">1</int>
+                <string name="helpTagText">當啟用，窗口將淡入淡出</string>
+                <string name="title">淡出窗口</string>
+                <string name="viewFrame">-3 125 107 14 </string>
+                <string name="bounds">471 761 485 868 </string>
+              </object>
+              <object class="IBCarbonCheckBox" id="1298">
+                <ostype name="controlSignature">PREF</ostype>
+                <int name="controlID">98</int>
+                <boolean name="hidden">TRUE</boolean>
+                <int name="controlSize">1</int>
+                <string name="helpTagText">當選擇，將顯示垃圾桶圖示</string>
+                <string name="title">顯示垃圾桶</string>
+                <string name="viewFrame">12 144 110 14 </string>
+                <string name="bounds">490 776 504 886 </string>
+              </object>
+              <object class="IBCarbonCheckBox" id="891">
+                <ostype name="controlSignature">PREF</ostype>
+                <int name="controlID">65</int>
+                <boolean name="enabled">FALSE</boolean>
+                <boolean name="hidden">TRUE</boolean>
+                <int name="controlSize">1</int>
+                <string name="helpTagText">當選擇，顯示過的檔案列表將緩存到記憶體，以便下次存取。</string>
+                <string name="title">使用目錄緩存</string>
+                <string name="viewFrame">15 167 136 14 </string>
+                <string name="bounds">513 779 527 915 </string>
+              </object>
+              <object class="IBCarbonCheckBox" id="904">
+                <ostype name="controlSignature">PREF</ostype>
+                <int name="controlID">66</int>
+                <boolean name="enabled">FALSE</boolean>
+                <boolean name="hidden">TRUE</boolean>
+                <int name="controlSize">1</int>
+                <string name="helpTagText">當選擇，顯示過的檔案列表將緩存到記憶體，以便下次存取。</string>
+                <string name="title">使用目錄緩存</string>
+                <string name="viewFrame">37 160 137 14 </string>
+                <string name="bounds">506 801 520 938 </string>
+              </object>
+              <object class="IBCarbonCheckBox" id="707">
+                <ostype name="controlSignature">PREF</ostype>
+                <int name="controlID">27</int>
+                <boolean name="hidden">TRUE</boolean>
+                <int name="controlSize">1</int>
+                <string name="helpTagText">當選擇，顯示或隱藏佇列屜</string>
+                <string name="title">自動打開/關閉佇列屜</string>
+                <string name="viewFrame">12 164 252 14 </string>
+                <string name="bounds">510 776 524 1028 </string>
+              </object>
+              <object class="IBCarbonGroupBox" id="704">
+                <ostype name="controlSignature">PREF</ostype>
+                <int name="controlID">1001</int>
+                <boolean name="enabled">FALSE</boolean>
+                <boolean name="hidden">TRUE</boolean>
+                <int name="controlSize">1</int>
+                <string name="title">更多方面</string>
+                <boolean name="primary">FALSE</boolean>
+                <string name="viewFrame">58 153 419 98 </string>
+                <array count="5" name="subviews">
+                  <object class="IBCarbonCheckBox" id="968">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">107</int>
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <int name="controlSize">1</int>
+                    <string name="helpTagText">當選擇，在關閉 FTP 流覽視窗或者结束執行的和有未完成的突出任務的 應用程序 時, 將會被警告</string>
+                    <string name="title">關閉執行的 FTP 會話前詢問</string>
+                    <string name="viewFrame">15 21 155 16 </string>
+                    <string name="bounds">520 837 536 992 </string>
+                  </object>
+                  <reference idRef="706"/>
+                  <object class="IBCarbonCheckBox" id="814">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">87</int>
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <int name="controlSize">1</int>
+                    <string name="helpTagText">當選擇，你用如同一個書簽的新連線視窗儲存已建立的連線時將會被警告</string>
+                    <string name="title">關閉未儲存前詢問</string>
+                    <string name="viewFrame">16 71 114 16 </string>
+                    <string name="bounds">570 838 586 952 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="1108">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">1006</int>
+                    <boolean name="enabled">FALSE</boolean>
+                    <boolean name="hidden">TRUE</boolean>
+                    <int name="controlSize">1</int>
+                    <string name="helpTagText">選中時，獅子的自動恢復功能支持</string>
+                    <string name="title">啟用自動恢復窗口</string>
+                    <string name="viewFrame">16 102 177 16 </string>
+                    <string name="bounds">601 838 617 1015 </string>
+                  </object>
+                  <object class="IBCarbonCheckBox" id="1297">
+                    <ostype name="controlSignature">PREF</ostype>
+                    <int name="controlID">96</int>
+                    <boolean name="hidden">TRUE</boolean>
+                    <int name="controlSize">1</int>
+                    <string name="helpTagText">當選擇，每個視窗中按鈕的狀態欄域將縮小尺寸</string>
+                    <string name="title">小 FTP 狀態欄</string>
+                    <string name="viewFrame">-31 6 136 14 </string>
+                    <string name="bounds">505 791 519 927 </string>
+                  </object>
+                </array>
+                <string name="bounds">499 822 597 1241 </string>
+              </object>
+              <object class="IBCarbonCheckBox" id="1284">
+                <ostype name="controlSignature">PREF</ostype>
+                <int name="controlID">99</int>
+                <boolean name="hidden">TRUE</boolean>
+                <int name="controlSize">1</int>
+                <string name="helpTagText">當選擇，在終端屜中將以小字體顯示</string>
+                <string name="title">小終端字體</string>
+                <string name="viewFrame">-2 187 137 14 </string>
+                <string name="bounds">533 762 547 899 </string>
+              </object>
+              <object class="IBCarbonStaticText" id="1421">
+                <ostype name="controlSignature">PREF</ostype>
+                <int name="controlID">63</int>
+                <boolean name="enabled">FALSE</boolean>
+                <boolean name="hidden">TRUE</boolean>
+                <int name="controlSize">1</int>
+                <string name="viewFrame">139 59 19 14 </string>
+                <string name="bounds">405 903 419 922 </string>
+              </object>
+              <object class="IBCarbonCheckBox" id="1422">
+                <ostype name="controlSignature">PREF</ostype>
+                <int name="controlID">106</int>
+                <boolean name="enabled">FALSE</boolean>
+                <boolean name="hidden">TRUE</boolean>
+                <int name="controlSize">1</int>
+                <string name="helpTagText">當選擇，終端將記錄所有連線活動</string>
+                <string name="title">記錄所有連線</string>
+                <string name="viewFrame">-51 53 99 14 </string>
+                <string name="bounds">399 713 413 812 </string>
+              </object>
+              <object class="IBCarbonStaticText" id="1423">
+                <ostype name="controlSignature">PREF</ostype>
+                <int name="controlID">62</int>
+                <boolean name="enabled">FALSE</boolean>
+                <boolean name="hidden">TRUE</boolean>
+                <int name="controlSize">1</int>
+                <string name="viewFrame">139 91 37 14 </string>
+                <string name="bounds">437 903 451 940 </string>
+              </object>
+              <object class="IBCarbonCheckBox" id="1278">
+                <ostype name="controlSignature">PREF</ostype>
+                <int name="controlID">90</int>
+                <boolean name="hidden">TRUE</boolean>
+                <string name="helpTagText">當選擇，將動態顯示傳輸進度</string>
+                <string name="title">活化前進條</string>
+                <string name="viewFrame">24 75 85 18 </string>
+                <string name="bounds">421 788 439 873 </string>
+              </object>
+              <object class="IBCarbonCheckBox" id="1279">
+                <ostype name="controlSignature">PREF</ostype>
+                <int name="controlID">89</int>
+                <boolean name="hidden">TRUE</boolean>
+                <string name="helpTagText">當點擊，FTP 流覽視窗，在打開時將會縮放，關閉時將會淡出 &#10;&#10;禁用此選擇能節約 CPU 使用</string>
+                <string name="title">活化窗口</string>
+                <string name="viewFrame">14 99 72 18 </string>
+                <string name="bounds">445 778 463 850 </string>
+              </object>
+            </array>
+            <string name="bounds">346 764 557 1200 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 804 897 </string>
+      </object>
+      <string name="windowRect">94 225 898 1122 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="1475"/>
+    <reference idRef="891"/>
+    <reference idRef="1383"/>
+    <reference idRef="1515"/>
+    <reference idRef="1052"/>
+    <reference idRef="1513"/>
+    <reference idRef="1043"/>
+    <reference idRef="1317"/>
+    <reference idRef="1403"/>
+    <reference idRef="1423"/>
+    <reference idRef="1279"/>
+    <reference idRef="1218"/>
+    <reference idRef="1362"/>
+    <reference idRef="1234"/>
+    <reference idRef="1208"/>
+    <reference idRef="1511"/>
+    <reference idRef="1523"/>
+    <reference idRef="1415"/>
+    <reference idRef="1550"/>
+    <reference idRef="1374"/>
+    <reference idRef="1348"/>
+    <reference idRef="1375"/>
+    <reference idRef="229"/>
+    <reference idRef="1502"/>
+    <reference idRef="1320"/>
+    <reference idRef="1379"/>
+    <reference idRef="1228"/>
+    <reference idRef="1407"/>
+    <reference idRef="1333"/>
+    <reference idRef="1503"/>
+    <reference idRef="1254"/>
+    <reference idRef="1240"/>
+    <reference idRef="1353"/>
+    <reference idRef="1330"/>
+    <reference idRef="1050"/>
+    <reference idRef="1312"/>
+    <reference idRef="1246"/>
+    <reference idRef="1214"/>
+    <reference idRef="1565"/>
+    <reference idRef="1053"/>
+    <reference idRef="817"/>
+    <reference idRef="1471"/>
+    <reference idRef="1206"/>
+    <reference idRef="1527"/>
+    <reference idRef="1282"/>
+    <reference idRef="1517"/>
+    <reference idRef="1331"/>
+    <reference idRef="1221"/>
+    <reference idRef="1027"/>
+    <reference idRef="1273"/>
+    <reference idRef="1409"/>
+    <reference idRef="1387"/>
+    <reference idRef="1413"/>
+    <reference idRef="1291"/>
+    <reference idRef="1325"/>
+    <reference idRef="1494"/>
+    <reference idRef="1230"/>
+    <reference idRef="233"/>
+    <reference idRef="1406"/>
+    <reference idRef="1504"/>
+    <reference idRef="1238"/>
+    <reference idRef="815"/>
+    <reference idRef="1363"/>
+    <reference idRef="899"/>
+    <reference idRef="1479"/>
+    <reference idRef="1531"/>
+    <reference idRef="1489"/>
+    <reference idRef="707"/>
+    <reference idRef="1518"/>
+    <reference idRef="1400"/>
+    <reference idRef="1563"/>
+    <reference idRef="1347"/>
+    <reference idRef="1490"/>
+    <reference idRef="1245"/>
+    <reference idRef="1314"/>
+    <reference idRef="1247"/>
+    <reference idRef="1000"/>
+    <reference idRef="1365"/>
+    <reference idRef="1332"/>
+    <reference idRef="1372"/>
+    <reference idRef="1215"/>
+    <reference idRef="1241"/>
+    <reference idRef="1476"/>
+    <reference idRef="1253"/>
+    <reference idRef="1236"/>
+    <reference idRef="1373"/>
+    <reference idRef="1402"/>
+    <reference idRef="1354"/>
+    <reference idRef="1252"/>
+    <reference idRef="1396"/>
+    <reference idRef="1071"/>
+    <reference idRef="1416"/>
+    <reference idRef="1044"/>
+    <reference idRef="1054"/>
+    <reference idRef="1223"/>
+    <reference idRef="1371"/>
+    <reference idRef="1386"/>
+    <reference idRef="1352"/>
+    <reference idRef="1290"/>
+    <reference idRef="1356"/>
+    <reference idRef="1229"/>
+    <reference idRef="1533"/>
+    <reference idRef="1168"/>
+    <reference idRef="1295"/>
+    <reference idRef="906"/>
+    <reference idRef="1281"/>
+    <reference idRef="1318"/>
+    <reference idRef="1500"/>
+    <reference idRef="1472"/>
+    <reference idRef="1284"/>
+    <reference idRef="968"/>
+    <reference idRef="1213"/>
+    <reference idRef="1046"/>
+    <reference idRef="1308"/>
+    <reference idRef="1160"/>
+    <reference idRef="1535"/>
+    <reference idRef="1346"/>
+    <reference idRef="1384"/>
+    <reference idRef="917"/>
+    <reference idRef="1473"/>
+    <reference idRef="1220"/>
+    <reference idRef="905"/>
+    <reference idRef="1307"/>
+    <reference idRef="1226"/>
+    <reference idRef="1482"/>
+    <reference idRef="1108"/>
+    <reference idRef="1334"/>
+    <reference idRef="1156"/>
+    <reference idRef="1083"/>
+    <reference idRef="1392"/>
+    <reference idRef="1397"/>
+    <reference idRef="1360"/>
+    <reference idRef="1424"/>
+    <reference idRef="1006"/>
+    <reference idRef="1100"/>
+    <reference idRef="1484"/>
+    <reference idRef="1357"/>
+    <reference idRef="1336"/>
+    <reference idRef="1001"/>
+    <reference idRef="1385"/>
+    <reference idRef="1288"/>
+    <reference idRef="1562"/>
+    <reference idRef="1011"/>
+    <reference idRef="1498"/>
+    <reference idRef="1248"/>
+    <reference idRef="1005"/>
+    <reference idRef="1278"/>
+    <reference idRef="1032"/>
+    <reference idRef="1207"/>
+    <reference idRef="1237"/>
+    <reference idRef="238"/>
+    <reference idRef="1311"/>
+    <reference idRef="1276"/>
+    <reference idRef="1411"/>
+    <reference idRef="897"/>
+    <reference idRef="1232"/>
+    <reference idRef="1007"/>
+    <reference idRef="1337"/>
+    <reference idRef="1235"/>
+    <reference idRef="1378"/>
+    <reference idRef="1364"/>
+    <reference idRef="1298"/>
+    <reference idRef="1410"/>
+    <reference idRef="1297"/>
+    <reference idRef="1243"/>
+    <reference idRef="1306"/>
+    <reference idRef="1422"/>
+    <reference idRef="1250"/>
+    <reference idRef="1393"/>
+    <reference idRef="1047"/>
+    <reference idRef="1009"/>
+    <reference idRef="941"/>
+    <reference idRef="1486"/>
+    <reference idRef="1293"/>
+    <reference idRef="1507"/>
+    <reference idRef="1211"/>
+    <reference idRef="1349"/>
+    <reference idRef="1401"/>
+    <reference idRef="1404"/>
+    <reference idRef="308"/>
+    <reference idRef="1051"/>
+    <reference idRef="1470"/>
+    <reference idRef="1380"/>
+    <reference idRef="1343"/>
+    <reference idRef="704"/>
+    <reference idRef="1219"/>
+    <reference idRef="1488"/>
+    <reference idRef="1338"/>
+    <reference idRef="1512"/>
+    <reference idRef="1414"/>
+    <reference idRef="1249"/>
+    <reference idRef="1289"/>
+    <reference idRef="1242"/>
+    <reference idRef="1495"/>
+    <reference idRef="1244"/>
+    <reference idRef="1534"/>
+    <reference idRef="1408"/>
+    <reference idRef="1417"/>
+    <reference idRef="1313"/>
+    <reference idRef="1538"/>
+    <reference idRef="894"/>
+    <reference idRef="1510"/>
+    <reference idRef="1301"/>
+    <reference idRef="1419"/>
+    <reference idRef="1485"/>
+    <reference idRef="1299"/>
+    <reference idRef="1366"/>
+    <reference idRef="1361"/>
+    <reference idRef="902"/>
+    <reference idRef="1526"/>
+    <reference idRef="1528"/>
+    <reference idRef="1239"/>
+    <reference idRef="1524"/>
+    <reference idRef="1329"/>
+    <reference idRef="1327"/>
+    <reference idRef="1286"/>
+    <reference idRef="1491"/>
+    <reference idRef="1389"/>
+    <reference idRef="1350"/>
+    <reference idRef="1368"/>
+    <reference idRef="1499"/>
+    <reference idRef="1292"/>
+    <reference idRef="1564"/>
+    <reference idRef="1158"/>
+    <reference idRef="1405"/>
+    <reference idRef="1339"/>
+    <reference idRef="1251"/>
+    <reference idRef="1525"/>
+    <reference idRef="1474"/>
+    <reference idRef="239"/>
+    <reference idRef="1049"/>
+    <reference idRef="1335"/>
+    <reference idRef="1487"/>
+    <reference idRef="1529"/>
+    <reference idRef="1277"/>
+    <reference idRef="1516"/>
+    <reference idRef="1227"/>
+    <reference idRef="309"/>
+    <reference idRef="1216"/>
+    <reference idRef="1328"/>
+    <reference idRef="1369"/>
+    <reference idRef="1530"/>
+    <reference idRef="1390"/>
+    <reference idRef="1376"/>
+    <reference idRef="1398"/>
+    <reference idRef="1506"/>
+    <reference idRef="814"/>
+    <reference idRef="1319"/>
+    <reference idRef="1505"/>
+    <reference idRef="1394"/>
+    <reference idRef="820"/>
+    <reference idRef="1055"/>
+    <reference idRef="818"/>
+    <reference idRef="1477"/>
+    <reference idRef="1321"/>
+    <reference idRef="1310"/>
+    <reference idRef="1483"/>
+    <reference idRef="1210"/>
+    <reference idRef="1303"/>
+    <reference idRef="808"/>
+    <reference idRef="1296"/>
+    <reference idRef="1294"/>
+    <reference idRef="1275"/>
+    <reference idRef="1395"/>
+    <reference idRef="999"/>
+    <reference idRef="1031"/>
+    <reference idRef="237"/>
+    <reference idRef="1315"/>
+    <reference idRef="1283"/>
+    <reference idRef="1519"/>
+    <reference idRef="1217"/>
+    <reference idRef="1412"/>
+    <reference idRef="1274"/>
+    <reference idRef="1224"/>
+    <reference idRef="1501"/>
+    <reference idRef="1323"/>
+    <reference idRef="1233"/>
+    <reference idRef="1255"/>
+    <reference idRef="1222"/>
+    <reference idRef="1370"/>
+    <reference idRef="1166"/>
+    <reference idRef="1302"/>
+    <reference idRef="898"/>
+    <reference idRef="1382"/>
+    <reference idRef="1358"/>
+    <reference idRef="1418"/>
+    <reference idRef="1493"/>
+    <reference idRef="1381"/>
+    <reference idRef="904"/>
+    <reference idRef="1420"/>
+    <reference idRef="1355"/>
+    <reference idRef="1304"/>
+    <reference idRef="1212"/>
+    <reference idRef="232"/>
+    <reference idRef="1351"/>
+    <reference idRef="1322"/>
+    <reference idRef="1509"/>
+    <reference idRef="1508"/>
+    <reference idRef="1481"/>
+    <reference idRef="1532"/>
+    <reference idRef="1287"/>
+    <reference idRef="1514"/>
+    <reference idRef="1480"/>
+    <reference idRef="1492"/>
+    <reference idRef="1045"/>
+    <reference idRef="1421"/>
+    <reference idRef="1042"/>
+    <reference idRef="1367"/>
+    <reference idRef="1305"/>
+    <reference idRef="1316"/>
+    <reference idRef="1388"/>
+    <reference idRef="1496"/>
+    <reference idRef="1377"/>
+  </array>
+  <array count="333" name="allParents">
+    <reference idRef="1375"/>
+    <reference idRef="309"/>
+    <reference idRef="308"/>
+    <reference idRef="1493"/>
+    <reference idRef="1160"/>
+    <reference idRef="1320"/>
+    <reference idRef="309"/>
+    <reference idRef="1307"/>
+    <reference idRef="239"/>
+    <reference idRef="1160"/>
+    <reference idRef="1042"/>
+    <reference idRef="1325"/>
+    <reference idRef="1229"/>
+    <reference idRef="239"/>
+    <reference idRef="239"/>
+    <reference idRef="704"/>
+    <reference idRef="1158"/>
+    <reference idRef="238"/>
+    <reference idRef="238"/>
+    <reference idRef="1"/>
+    <reference idRef="1158"/>
+    <reference idRef="1055"/>
+    <reference idRef="1375"/>
+    <reference idRef="1160"/>
+    <reference idRef="1049"/>
+    <reference idRef="1156"/>
+    <reference idRef="1042"/>
+    <reference idRef="1313"/>
+    <reference idRef="1402"/>
+    <reference idRef="1055"/>
+    <reference idRef="1055"/>
+    <reference idRef="239"/>
+    <reference idRef="308"/>
+    <reference idRef="1233"/>
+    <reference idRef="239"/>
+    <reference idRef="1156"/>
+    <reference idRef="1160"/>
+    <reference idRef="1402"/>
+    <reference idRef="1160"/>
+    <reference idRef="309"/>
+    <reference idRef="308"/>
+    <reference idRef="1160"/>
+    <reference idRef="228"/>
+    <reference idRef="1493"/>
+    <reference idRef="1301"/>
+    <reference idRef="1375"/>
+    <reference idRef="239"/>
+    <reference idRef="1402"/>
+    <reference idRef="1325"/>
+    <reference idRef="1493"/>
+    <reference idRef="239"/>
+    <reference idRef="1239"/>
+    <reference idRef="308"/>
+    <reference idRef="1325"/>
+    <reference idRef="1049"/>
+    <reference idRef="1307"/>
+    <reference idRef="1245"/>
+    <reference idRef="239"/>
+    <reference idRef="239"/>
+    <reference idRef="1049"/>
+    <reference idRef="818"/>
+    <reference idRef="1158"/>
+    <reference idRef="239"/>
+    <reference idRef="1160"/>
+    <reference idRef="1160"/>
+    <reference idRef="1160"/>
+    <reference idRef="1325"/>
+    <reference idRef="239"/>
+    <reference idRef="238"/>
+    <reference idRef="238"/>
+    <reference idRef="1402"/>
+    <reference idRef="1375"/>
+    <reference idRef="1402"/>
+    <reference idRef="238"/>
+    <reference idRef="1299"/>
+    <reference idRef="1493"/>
+    <reference idRef="239"/>
+    <reference idRef="1055"/>
+    <reference idRef="1402"/>
+    <reference idRef="1493"/>
+    <reference idRef="1237"/>
+    <reference idRef="309"/>
+    <reference idRef="308"/>
+    <reference idRef="238"/>
+    <reference idRef="1158"/>
+    <reference idRef="1525"/>
+    <reference idRef="1484"/>
+    <reference idRef="1055"/>
+    <reference idRef="1160"/>
+    <reference idRef="309"/>
+    <reference idRef="239"/>
+    <reference idRef="308"/>
+    <reference idRef="1484"/>
+    <reference idRef="1219"/>
+    <reference idRef="1313"/>
+    <reference idRef="239"/>
+    <reference idRef="238"/>
+    <reference idRef="308"/>
+    <reference idRef="1325"/>
+    <reference idRef="309"/>
+    <reference idRef="239"/>
+    <reference idRef="1222"/>
+    <reference idRef="1158"/>
+    <reference idRef="239"/>
+    <reference idRef="1235"/>
+    <reference idRef="309"/>
+    <reference idRef="1401"/>
+    <reference idRef="308"/>
+    <reference idRef="239"/>
+    <reference idRef="309"/>
+    <reference idRef="1049"/>
+    <reference idRef="309"/>
+    <reference idRef="1042"/>
+    <reference idRef="1049"/>
+    <reference idRef="239"/>
+    <reference idRef="309"/>
+    <reference idRef="1375"/>
+    <reference idRef="308"/>
+    <reference idRef="238"/>
+    <reference idRef="308"/>
+    <reference idRef="239"/>
+    <reference idRef="1531"/>
+    <reference idRef="309"/>
+    <reference idRef="1055"/>
+    <reference idRef="238"/>
+    <reference idRef="1160"/>
+    <reference idRef="1313"/>
+    <reference idRef="1493"/>
+    <reference idRef="1158"/>
+    <reference idRef="1055"/>
+    <reference idRef="704"/>
+    <reference idRef="239"/>
+    <reference idRef="1042"/>
+    <reference idRef="1307"/>
+    <reference idRef="237"/>
+    <reference idRef="1160"/>
+    <reference idRef="238"/>
+    <reference idRef="1375"/>
+    <reference idRef="238"/>
+    <reference idRef="1158"/>
+    <reference idRef="239"/>
+    <reference idRef="238"/>
+    <reference idRef="1306"/>
+    <reference idRef="239"/>
+    <reference idRef="1158"/>
+    <reference idRef="704"/>
+    <reference idRef="1325"/>
+    <reference idRef="237"/>
+    <reference idRef="1042"/>
+    <reference idRef="309"/>
+    <reference idRef="309"/>
+    <reference idRef="308"/>
+    <reference idRef="1042"/>
+    <reference idRef="309"/>
+    <reference idRef="309"/>
+    <reference idRef="1478"/>
+    <reference idRef="308"/>
+    <reference idRef="1325"/>
+    <reference idRef="238"/>
+    <reference idRef="1375"/>
+    <reference idRef="238"/>
+    <reference idRef="239"/>
+    <reference idRef="238"/>
+    <reference idRef="1493"/>
+    <reference idRef="239"/>
+    <reference idRef="309"/>
+    <reference idRef="1055"/>
+    <reference idRef="309"/>
+    <reference idRef="239"/>
+    <reference idRef="1225"/>
+    <reference idRef="237"/>
+    <reference idRef="1307"/>
+    <reference idRef="1160"/>
+    <reference idRef="1402"/>
+    <reference idRef="238"/>
+    <reference idRef="1231"/>
+    <reference idRef="309"/>
+    <reference idRef="1325"/>
+    <reference idRef="1226"/>
+    <reference idRef="1375"/>
+    <reference idRef="308"/>
+    <reference idRef="1055"/>
+    <reference idRef="1402"/>
+    <reference idRef="704"/>
+    <reference idRef="1220"/>
+    <reference idRef="238"/>
+    <reference idRef="1055"/>
+    <reference idRef="239"/>
+    <reference idRef="309"/>
+    <reference idRef="1042"/>
+    <reference idRef="309"/>
+    <reference idRef="309"/>
+    <reference idRef="1484"/>
+    <reference idRef="1160"/>
+    <reference idRef="1156"/>
+    <reference idRef="239"/>
+    <reference idRef="308"/>
+    <reference idRef="309"/>
+    <reference idRef="1402"/>
+    <reference idRef="237"/>
+    <reference idRef="1049"/>
+    <reference idRef="1158"/>
+    <reference idRef="1375"/>
+    <reference idRef="309"/>
+    <reference idRef="1055"/>
+    <reference idRef="239"/>
+    <reference idRef="1484"/>
+    <reference idRef="1325"/>
+    <reference idRef="1156"/>
+    <reference idRef="1402"/>
+    <reference idRef="1055"/>
+    <reference idRef="238"/>
+    <reference idRef="1241"/>
+    <reference idRef="1493"/>
+    <reference idRef="1243"/>
+    <reference idRef="1531"/>
+    <reference idRef="1402"/>
+    <reference idRef="309"/>
+    <reference idRef="1303"/>
+    <reference idRef="1160"/>
+    <reference idRef="238"/>
+    <reference idRef="1156"/>
+    <reference idRef="238"/>
+    <reference idRef="1160"/>
+    <reference idRef="1484"/>
+    <reference idRef="238"/>
+    <reference idRef="308"/>
+    <reference idRef="308"/>
+    <reference idRef="238"/>
+    <reference idRef="1160"/>
+    <reference idRef="1160"/>
+    <reference idRef="1223"/>
+    <reference idRef="1160"/>
+    <reference idRef="1325"/>
+    <reference idRef="1325"/>
+    <reference idRef="238"/>
+    <reference idRef="1484"/>
+    <reference idRef="1375"/>
+    <reference idRef="308"/>
+    <reference idRef="308"/>
+    <reference idRef="1493"/>
+    <reference idRef="238"/>
+    <reference idRef="239"/>
+    <reference idRef="237"/>
+    <reference idRef="1402"/>
+    <reference idRef="238"/>
+    <reference idRef="239"/>
+    <reference idRef="1160"/>
+    <reference idRef="1158"/>
+    <reference idRef="237"/>
+    <reference idRef="1048"/>
+    <reference idRef="1325"/>
+    <reference idRef="1484"/>
+    <reference idRef="1160"/>
+    <reference idRef="1160"/>
+    <reference idRef="1160"/>
+    <reference idRef="239"/>
+    <reference idRef="237"/>
+    <reference idRef="239"/>
+    <reference idRef="1325"/>
+    <reference idRef="308"/>
+    <reference idRef="1160"/>
+    <reference idRef="1375"/>
+    <reference idRef="1375"/>
+    <reference idRef="309"/>
+    <reference idRef="1493"/>
+    <reference idRef="704"/>
+    <reference idRef="1313"/>
+    <reference idRef="1493"/>
+    <reference idRef="309"/>
+    <reference idRef="309"/>
+    <reference idRef="229"/>
+    <reference idRef="820"/>
+    <reference idRef="1158"/>
+    <reference idRef="1320"/>
+    <reference idRef="1307"/>
+    <reference idRef="1158"/>
+    <reference idRef="239"/>
+    <reference idRef="238"/>
+    <reference idRef="309"/>
+    <reference idRef="1055"/>
+    <reference idRef="1160"/>
+    <reference idRef="238"/>
+    <reference idRef="309"/>
+    <reference idRef="309"/>
+    <reference idRef="309"/>
+    <reference idRef="229"/>
+    <reference idRef="1313"/>
+    <reference idRef="1160"/>
+    <reference idRef="1160"/>
+    <reference idRef="239"/>
+    <reference idRef="1402"/>
+    <reference idRef="238"/>
+    <reference idRef="239"/>
+    <reference idRef="1493"/>
+    <reference idRef="1320"/>
+    <reference idRef="1228"/>
+    <reference idRef="239"/>
+    <reference idRef="239"/>
+    <reference idRef="308"/>
+    <reference idRef="309"/>
+    <reference idRef="238"/>
+    <reference idRef="238"/>
+    <reference idRef="1375"/>
+    <reference idRef="308"/>
+    <reference idRef="309"/>
+    <reference idRef="1471"/>
+    <reference idRef="1375"/>
+    <reference idRef="1055"/>
+    <reference idRef="1160"/>
+    <reference idRef="308"/>
+    <reference idRef="238"/>
+    <reference idRef="239"/>
+    <reference idRef="1055"/>
+    <reference idRef="308"/>
+    <reference idRef="1320"/>
+    <reference idRef="1156"/>
+    <reference idRef="1156"/>
+    <reference idRef="1158"/>
+    <reference idRef="1531"/>
+    <reference idRef="238"/>
+    <reference idRef="1156"/>
+    <reference idRef="1158"/>
+    <reference idRef="1484"/>
+    <reference idRef="1042"/>
+    <reference idRef="1055"/>
+    <reference idRef="237"/>
+    <reference idRef="308"/>
+    <reference idRef="238"/>
+    <reference idRef="1313"/>
+    <reference idRef="1375"/>
+    <reference idRef="1493"/>
+    <reference idRef="1375"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>Preferences</string>
+    <reference idRef="228"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">1568</unsigned_int>
+</object>
