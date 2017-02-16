@@ -75,7 +75,7 @@
             mui.toast('用户名为空', {duration: 'long', type: 'div'})
             return;
         }
-        if (!isChina(username)) {
+        if (isChina(username)) {
             mui.toast('用户名不合法', {duration: 'long', type: 'div'})
             return;
         }
@@ -83,10 +83,13 @@
             mui.toast('密码为空', {duration: 'long', type: 'div'})
             return;
         }
-        if (!isChina(password)) {
+        if (isChina(password)) {
             mui.toast('密码不合法', {duration: 'long', type: 'div'})
             return;
         }
+        mui.openWindow({
+            url:'main.html'
+        })
 
     });
     //注册事件监听
@@ -98,7 +101,7 @@
             mui.toast('用户名为空', {duration: 'long', type: 'div'})
             return;
         }
-        if (!isChina(username)) {
+        if (isChina(username)) {
             mui.toast('用户名不合法', {duration: 'long', type: 'div'})
             return;
         }
@@ -106,7 +109,7 @@
             mui.toast('密码为空', {duration: 'long', type: 'div'})
             return;
         }
-        if (!isChina(password)) {
+        if (isChina(password)) {
             mui.toast('密码不合法', {duration: 'long', type: 'div'})
             return;
         }
